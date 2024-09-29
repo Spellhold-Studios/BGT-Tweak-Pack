@@ -1,0 +1,148 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Mensajes de Instalación
+////////////////////////////////////////////////////////////////////
+
+@-1000= "El mod %TP2_FILE_NAME% tiene"
+@-1001= "distintos componentes opcionales.
+Para ahorrar tiempo, puedes decidir que hacer con ellos desde un primer momento
+en vez de tener que elegirlos por separado.
+"
+@-1002= "¿Qué debería hacer con todos los componentes AÚN NO instalados
+[I]nstalarlos, [S]altarlos, [A] preguntar por cada uno? "
+@-1003= "¿Qué se debe hacer con todos los componentes que YA ESTÁN instalados.
+[R]einstalarlos, [U] Desinstalarlos, [S]altarlos, [A] Preguntar por cada uno? "
+
+@-1004= "POR FAVOR escribe los contenidos del archivo "
+@-1005= "en"
+
+@-1006= "Instalar Componente ["
+@-1007= "]?
+[R]einstalar, [N]o cambiar o  [U] Desinstalar [Q] Salir? "
+@-1008= "]?
+[I]nstalar, o [N]o Instalar o [Q] Salir? "
+
+@-1009= "Insertar parte del nombre del modulo: "
+
+@-1010= "Reinstalando ["
+@-1011= "] componente "
+@-1012= "Reinstalando usando idioma "
+
+@-1013= "Eliminando instalación anterior de  ["
+@-1014= "] primero..."
+@-1015= "INSTALACIÓN ANTERIOR ELIMINADA CON ÉXITO"
+
+@-1016= "Instalando"
+@-1017= "ERROR al Instalar ["
+@-1018= "],  volviendo al estado anterior"
+@-1019= "INSTALADO SATISFACTORIAMENTE     "
+@-1020= "Saltando"
+@-1021= "Eliminando ["
+@-1022= "] (componente #"
+@-1023= ")"
+@-1024= "ELIMINADO CON ÉXITO["
+
+@-1025= "]?
+[R]einstalar, [N]o Cambiar, [U] Desinstalar, [Q] Salir o elija uno:"
+@-1026= "]?
+[N]o, [Q] Salir o elija uno:"
+@-1027= " (Ya instalado)"
+
+@-1028= "¿Quiere ver los componentes de ["
+@-1029= "]?
+[Y] Sí, [N]o? "
+
+@-1030= "]?
+elija uno:"
+@-1031= "]?
+[R]einstalar, [N]o Cambiar, [Q] Salir o elija uno:"
+@-1032= "NO INSTALADO DEBIDO A ERRORES"
+@-1033= "INSTALADO CON ALGUNOS FALLOS    "
+@-1034= "¿Quiere leer el archivo léame? [Y] Sí [N]o"
+@-1035= "Usando el idioma "
+  
+@-1036= "Saltando GRUPO ["
+@-1037= "] porque falla sus requerimientos."
+  
+@-1038= "[A] Preguntar por cada componente, [S]altarlos todos, o elegir una seleccion pre-definida:"
+@-1039= "[A] Preguntar por cada componente, [R]einstalar la configuracion actual, [U] Desinstalarlos todos, [S]altarlos todos, o elegir una seleccion pre-definida:"
+
+
+////////
+//Errors
+////////
+@1 = ~Baldur's Gate Trilogy-WeiDU no puede ser detectado.~
+@2 = ~El componente de BG1 NPC Project "BG1 NPC Project para BGT-Weidu: Instalación del núcleo" causa un conflicto con este componente.~
+@3 = ~El componente de BG1 NPC Project "BG1 NPC Project para BGT-Weidu: Parte II (Búsquedas e Interacciones)" causa un conflicto con este componente.~
+@4 = ~El componente de Ease-of-Use "Feliz: NPCs no se pelearan entre ellos o se marcharan del grupo" causa un conflicto con este componente.~
+@5 = ~El componente de BG1 NPC Project "BG1 NPC Project para BGT-Weidu: Parte I (Conversaciones)" causa un conflicto con este componente.~
+@6 = ~El componente de BG1 Unfinished Business "Correcciones a las criaturas" está en conflicto con este componente.~
+@7 = ~El componente de BGT Tweak "Eliminar fragmentación de objetos" está en conflicto con este componente.~
+@8 = ~Este componente requiere Dark Side of the Sword Coast.~
+@9 = ~Este componente requiere Northern Tales of the Sword Coast.~
+@10 = ~Este componente requiere Baldur's Gate Trilogy-WeiDU version 1.07 o superior.~
+@11 = ~El mod BP-BGT Worldmap está en conflicto con este componente.~
+@12 = ~La modificación BGSpawn causa un conflicto con este componente.~
+
+/////////////////
+//Nombre de los Componentes
+/////////////////
+@100 = ~Eldoth recuerda el rescate de Skie~
+@200 = ~Angelo se da cuenta de Shar-teel~
+@300 = ~Búsqueda de la caravana de Kagain con final~
+@400 = ~Agregar la Capa de Semaj y Anillo de protección de Koveras mejorado~
+@500 = ~Grandes lugares revelados~
+@600 = ~Osos responden a los Druidas/Exploradores en BG1~
+@700 = ~Parche feliz: Los NPCs no pueden dejar el grupo~
+@701 = ~Los NPCs no pueden elegir abandonar del grupo~
+@702 = ~Sólo NPCs buenos o malos abandonan el grupo~
+@800 = ~Importar más objetos a Shadows of Amn
+(CUIDADO: Puede considerarse un truco)~
+@900 = ~Trampas aleatorias activadas en la cueva pirata~
+@901 = ~Aleatoriedad por instalación nueva~
+@902 = ~Aleatoriedad por juego nuevo~
+@1000 = ~Bolsas en la Costa de las Espadas~
+@1100 = ~Reapariciones alteradas~
+@1101 = ~Reapariciones al estilo Tutu~
+@1102 = ~Desactivar engendros de BGT-WeiDU: los engendros nunca aparecen~
+//@1103 = ~Engendros al estilo EasyTutu~
+@1104 = ~Desactivar engendros de BGT-WeiDU: los engendros aparecen una sola vez~
+@1200 = ~Arkion reacciona a la reputación del jugador~
+@1300 = ~Coran responde a la muerte de un draco~
+@1400 = ~Más cabelleras de bandido~
+@1500 = ~Rompimiento de objetos alterado~
+@1501 = ~No utilizar rompimiento de objetos~
+@1502 = ~Hacer que las armaduras y escudos se rompan~
+@1600 = ~Magos encapuchados desarmados~
+@1700 = ~Correcciones de Salk de las reglas de Lápiz y papel~
+@1800 = ~Importar más NPCs a Shadows of Amn: Alora~
+@1801 = ~Importar más NPCs a Shadows of Amn: Branwen~
+@1802 = ~Importar más NPCs a Shadows of Amn: Eldoth~
+@1803 = ~Importar más NPCs a Shadows of Amn: Kagain~
+@1804 = ~Importar más NPCs a Shadows of Amn: Kivan~
+@1805 = ~Importar más NPCs a Shadows of Amn: Sharteel~
+@1806 = ~Importar más NPCs a Shadows of Amn: Skie~
+@1807 = ~Importar más NPCs a Shadows of Amn: Xan~
+@1808 = ~Importar más NPCs a Shadows of Amn: Yeslick~
+@1809 = ~Importar más NPCs a Shadows of Amn: Bub Snikt~
+@1810 = ~Importar más NPCs a Shadows of Amn: Conchobhair Strongblade~
+@1811 = ~Importar más NPCs a Shadows of Amn: Ferthgil Trollslayer~
+@1812 = ~Importar más NPCs a Shadows of Amn: Jet'laya~
+@1813 = ~Importar más NPCs a Shadows of Amn: Keiria Silverstring~
+@1814 = ~Importar más NPCs a Shadows of Amn: Skeezer Lumpkin VI~
+@1815 = ~Importar más NPCs a Shadows of Amn: Will Scarlet O'Hara~
+@1900 = ~Restaurando bonificación BG2 XP para trampas, cerraduras y pergaminos~
+@2000 = ~Modificaciones de la biografía del protagonista~
+@2001 = ~No colocar biografía para los personajes importados de BG1~
+@2002 = ~Colocar la biografía de BG2 en la transición a Shadows of Amn~
+@2100 = ~Armas exóticas para Taerom~
+@2200 = ~Objetos estilo BG1: Cambio de precios~
+@2201 = ~Objetos estilo BG1: Apilación reducida de 40 a 20~
+@2202 = ~Objetos estilo BG1: Cambios de lore~
+@2203 = ~Objetos estilo BG1: Cambios del nivel de lanzamiento de hechizos~
+@2204 = ~Objetos estilo BG1: Cambios en el comportamiento de los objetos~
+@2300 = ~Desactivar reacción hostil luego de hechizar~
+@2400 = ~Fragmentación de objetos de los enemigos~
+@2500 = ~Acceder a la Barba de Ulgoth sólo por el oeste del Cruce del Wyrm~
+@2600 = ~Evitar el acceso a la torre de Durlag desde áreas adyacentes~
+@2700 = ~Colocar la espada del caos +2 en el inventario de Sarevok~
+@2800 = ~La reputación se resetea al comienzo de BG2~

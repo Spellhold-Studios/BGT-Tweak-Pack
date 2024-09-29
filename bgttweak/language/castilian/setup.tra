@@ -11,13 +11,14 @@
 @401 = ~Capa de mago~
 @402 = ~Capa de Semaj~
 @403 = ~Esta es la capa mágica que habéis encontrado en el cuerpo del mago de Sarevok, Semaj. Se desconocen los poderes que posee.~
-@404 = ~La capa que encontrásteis en el cuerpo del mago de Sarevok, Semaj, es una maravilla con todo lo que tiene. Hace borroso al portador y lo provée de una ligera resistencia mágica.
+@404 = ~La capa que encontrasteis en el cuerpo del mago de Sarevok, Semaj, es una maravilla con todo lo que tiene. Hace borroso al portador y lo provee de una ligera resistencia mágica.
 
 CARACTERÍSTICAS:
 
 Borrosidad cuando se lleva equipada
 Resistencia mágica: 10
 Peso: 2 lbs
+
 No permitido a:
  Personajes legales
  Guerreros
@@ -50,7 +51,7 @@ Resistencia mágica: +5%~
 ////////////////////
 
 //@16297
-@2301 =  ~La flecha de vuelo, como su propio nombre indica, está concebida para la larga distancia. Son flechas ligeras que se suelen utilizar para cazar. La mayoría de estas flechas se hacen con madera de fresno o de abedul y tienen una longitud de unos 75 a 100 centímetros. 
+@2301 = ~La flecha de vuelo, como su propio nombre indica, está concebida para la larga distancia. Son flechas ligeras que se suelen utilizar para cazar. La mayoría de estas flechas se hacen con madera de fresno o de abedul y tienen una longitud de unos 75 a 100 centímetros. 
 
 CARACTERÍSTICAS:
 
@@ -58,6 +59,7 @@ Daño: 1D6 +1
 Tipo de daño: Proyectil (perforante)
 Peso: 0 lbs
 Lanzador: Arco
+
 No permitido a:
  Clérigo
  Druida
@@ -74,6 +76,7 @@ Tipo de daño: Proyectil (perforante)
 Especial: 2D6 de daño de ácido
 Peso: 0 lbs
 Lanzador: Arco
+
 No permitido a:
  Clérigo
  Druida
@@ -89,6 +92,7 @@ Tipo de daño: Proyectil (perforante)
 Especial: 1D6 de daño de fuego (ninguno con protección contra conjuros)
 Peso: 0 lbs
 Lanzador: Arco
+
 No permitido a:
  Clérigo
  Druida
@@ -104,6 +108,7 @@ Tipo de daño: Proyectil (perforante)
 Especial: 1D6 de daño de frío (sin protección)
 Peso: 0 lbs
 Lanzador: Arco
+
 No permitido a:
  Clérigo
  Druida
@@ -119,6 +124,7 @@ THAC0: Bonificador +2
 Tipo de daño: Proyectil (perforante)
 Peso: 0 lbs
 Lanzador: Arco
+
 No permitido a:
  Clérigo
  Druida
@@ -155,6 +161,7 @@ CARACTERÍSTICAS:
 
 Sigilo: +35% Bonus
 Peso: 4 lbs
+
 No permitido a:
  Guerrero
  Mago
@@ -172,6 +179,7 @@ Peso: 10 lbs
 Factor de velocidad: 7
 Talento marcial: Arco largo
 Tipo: A dos manos
+
 No permitido a:
  Druida
  Clérigo
@@ -190,6 +198,7 @@ Peso: 9 lbs
 Factor de velocidad: 6
 Talento marcial: Arco largo
 Tipo: A dos manos
+
 No permitido a:
  Druida
  Clérigo 
@@ -208,6 +217,7 @@ Peso: 3 lbs
 Factor de velocidad: 6
 Talento marcial: Arco largo
 Tipo: A dos manos
+
 No permitido a:
  Druida
  Clérigo
@@ -222,6 +232,7 @@ CARACTERÍSTICAS:
 Clase de armadura: 4
 Peso: 20 lbs
 Requiere: Fuerza 8
+
 No permitido a:
  Druida
  Mago
@@ -237,6 +248,7 @@ CARACTERÍSTICAS:
 Clase de armadura: 3
 Peso: 10 lbs
 Requiere: Fuerza 7
+
 No permitido a:
  Druida
  Mago
@@ -250,6 +262,7 @@ CARACTERÍSTICAS:
 Clase de armadura: 3
 Peso: 20 lbs
 Requiere: Fuerza 8
+
 No permitido a:
  Bardo
  Druida
@@ -264,6 +277,7 @@ CARACTERÍSTICAS:
 Clase de armadura: 1
 Peso: 7 lbs
 Requiere: Fuerza 5
+
 No permitido a:
  Druida 
  Mago
@@ -279,6 +293,7 @@ CARACTERÍSTICAS:
 Clase de armadura: 2
 Peso: 9 lbs
 Requiere: Fuerza 6
+
 No permitido a:
  Druida
  Mago
@@ -303,6 +318,7 @@ Clase de armadura: Sin bonificador
 Especial: Protege contra golpes críticos
 Especial: Protege contra todas las formas de pánico y estimula la moral
 Peso: 2 lbs
+
 No permitido a:
  Bardo
  Mago
@@ -316,6 +332,7 @@ CARACTERÍSTICAS:
 Clase de armadura: 7
 Peso: 10 lbs
 Requiere: Fuerza 4
+
 No permitido a:
  Mago~
 
@@ -329,6 +346,7 @@ CARACTERÍSTICAS:
 Clase de armadura: 2
 Peso: 20 lbs
 Requiere: Fuerza 11
+
 No permitido a:
  Bardo
  Druida
@@ -345,6 +363,7 @@ CARACTERÍSTICAS:
 Clase de armadura: 0
 Peso: 35 lbs
 Requiere: Fuerza 14
+
 No permitido a:
  Bardo
  Druida
@@ -359,6 +378,7 @@ CARACTERÍSTICAS:
 Clase de armadura: 1
 Peso: 25 lbs
 Requiere: Fuerza 8
+
 No permitido a:
  Bardo
  Druida
@@ -374,6 +394,7 @@ Bonificador de Clase de armadura: 2
 Especial: Bonificador +1 contra proyectiles.
 Peso: 12 lbs
 Requiere: Fuerza 14
+
 No permitido a:
  Bardo
  Druida
@@ -390,6 +411,7 @@ CARACTERÍSTICAS:
 Clase de armadura: Bonificador +2, +5 contra proyectiles
 Peso: 12 lbs
 Requiere: Fuerza 13
+
 No permitido a:
  Bardo
  Druida
@@ -412,7 +434,7 @@ Talento marcial: Honda
 Tipo: A una mano~
 
 //@22020 - Blunt Weapons -> Quarterstaff, add Type:  2-handed, add Required: 3 Strength
-@2326 = ~Los bastones de golpear son fabricados por los elfos dorados de Drelagara, en Eterniôn. Estos bastones tienen vida propia y saltan de las manos de sus portadores para atacar. Los artesanos elfos rara vez los venden a otras razas, pero estas poderosas armas de combate cuerpo a cuerpo aparecen ocasionalmente por la superficie de Faerun. De todas formas, cada ataque del bastón utiliza una carga, provocando que se reduzca a cenizas cuando no le queda ninguna.
+@2326 = ~Los bastones de golpear son fabricados por los elfos dorados de Drelagara, en Eterniôn. Estos bastones tienen vida propia y saltan de las manos de sus portadores para atacar. Los artesanos elfos rara vez los venden a otras razas, pero estas poderosas armas de combate cuerpo a cuerpo aparecen ocasionalmente por la superficie de Faerûn. De todas formas, cada ataque del bastón utiliza una carga, provocando que se reduzca a cenizas cuando no le queda ninguna.
 
 CARACTERÍSTICAS:
 
@@ -446,7 +468,7 @@ Tipo: A dos manos~
 //@7347 - Small Sword -> Short Sword, add Required: 4 Strength
 @2329 = ~Espada corta +2: "La Espada Silbante"
 
-En medio de las llanuras del Shaar oriental, vivía un pequeño herrero humano cuya estatura casi idéntica a la de los enanos no hacía justicia a su alma. Aunque era un herrero hábil para construir armas, su verdadero don consistía en su talento para silbar una canción desde lo hondo de su corazón que podía hacer llorar a un hombre hecho y derecho como si fuera un recién nacido. Unicamente un mago solitario compartía su tiempo y disfrutaba de la compañía del hombre diminuto. Sin embargo, los demás sólo veían en su pequeña estatura una fuente de diversión. Sordos a la canción del herrero por sus propios prejuicios, su mofa se tornó poco a poco en un tormento cruel que finalmente obligó al bondadoso hombre a abandonar su hogar para siempre. Antes de partir, forjó este instrumento para regalárselo a su único amigo, el mago, que lo hechizó durante su elaboración. Así pues, la espada entona su dulce canto cada vez que se desenvaina. Poco tiempo después, el mago, asqueado, también abandonó el pueblo llevando consigo la espada en sus viajes.
+En medio de las llanuras del Shaar oriental, vivía un pequeño herrero humano cuya estatura casi idéntica a la de los enanos no hacía justicia a su alma. Aunque era un herrero hábil para construir armas, su verdadero don consistía en su talento para silbar una canción desde lo hondo de su corazón que podía hacer llorar a un hombre hecho y derecho como si fuera un recién nacido. Únicamente un mago solitario compartía su tiempo y disfrutaba de la compañía del hombre diminuto. Sin embargo, los demás sólo veían en su pequeña estatura una fuente de diversión. Sordos a la canción del herrero por sus propios prejuicios, su mofa se tornó poco a poco en un tormento cruel que finalmente obligó al bondadoso hombre a abandonar su hogar para siempre. Antes de partir, forjó este instrumento para regalárselo a su único amigo, el mago, que lo hechizó durante su elaboración. Así pues, la espada entona su dulce canto cada vez que se desenvaina. Poco tiempo después, el mago, asqueado, también abandonó el pueblo llevando consigo la espada en sus viajes.
 
 CARACTERÍSTICAS:
 
@@ -458,6 +480,7 @@ Requiere: Fuerza 4
 Factor de velocidad: 1
 Talento marcial: Espada corta
 Tipo: A una mano
+
 No permitido a:
  Druida
  Clérigo
@@ -476,6 +499,7 @@ Peso: 3 lbs
 Requiere: Fuerza 5
 Talento marcial: Espada corta
 Tipo: A una mano
+
 No permitido a:
  Druida
  Clérigo 
@@ -501,6 +525,7 @@ Factor de velocidad: 3
 Tipo de talento: Espada larga
 Tipo: A una mano
 Requiere: Fuerza 6
+
 No permitido a:
  Druida
  Clérigo
@@ -515,6 +540,7 @@ Efecto: Rayo relampagueante
 Daño: 6D6 (la mitad con protección contra las varitas mágicas)
 Alcance: 40 m.
 Área: Ruta del rayo
+
 No permitido a:
  Guerrero
  Druida
@@ -530,6 +556,7 @@ Efectos: El objetivo se convierte en ardilla a menos que se proteja contra la va
 Alcance: 40 m.
 Área: 1 criatura
 Duración: Permanente hasta que se disipe
+
 No permitido a:
  Guerrero
  Druida

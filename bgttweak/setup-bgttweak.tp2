@@ -6,7 +6,7 @@ BACKUP ~bgttweak/backup~
 
 AUTHOR ~http://forums.spellholdstudios.net/index.php?showforum=261~
 
-VERSION ~10 (8 Jan 12)~
+VERSION ~11 (5 Feb 12)~
 
 README ~bgttweak/language/%LANGUAGE%/readme.htm~
 
@@ -237,7 +237,7 @@ LANGUAGE ~English~
          ~bgttweak/language/english/setup.tra~
 LANGUAGE ~Castellano (Castilian/Spanish)~
          ~castilian~
-         ~bgttweak/language/castilian/prompts.tra~
+         ~bgttweak/language/castilian/prompts-%WEIDU_OS%.tra~
          ~bgttweak/language/castilian/setup.tra~
 LANGUAGE ~Francais (French)~
          ~french~
@@ -259,9 +259,9 @@ LANGUAGE ~Polski (Polish)~
          ~polish~
          ~bgttweak/language/polish/prompts-%WEIDU_OS%.tra~
          ~bgttweak/language/polish/setup.tra~
-LANGUAGE ~ê„··™®© (Russian)~
+LANGUAGE ~Russian (Russian)~
          ~russian~
-         ~bgttweak/language/russian/prompts-%WEIDU_OS%.tra~
+         ~bgttweak/language/russian/prompts.tra~
          ~bgttweak/language/russian/setup.tra~
 LANGUAGE ~ºÚÃÂ÷–Œƒ (Simplified Chinese)~
          ~schinese~
@@ -1245,14 +1245,7 @@ REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1700
 
 COPY_EXISTING ~skillrac.2da~ ~override/skillrac.2da~
-  SET_2DA_ENTRY 2 4 8 ~15~ // Elf Move Silently correction
-  SET_2DA_ENTRY 4 4 8 ~10~ // Half-Elf Move Silently correction
-  SET_2DA_ENTRY 5 4 8 ~20~ // Halfling Move Silently correction
   SET_2DA_ENTRY 6 3 8 ~10~ // Half-Orc Find Traps correction
-BUT_ONLY_IF_IT_CHANGES
-
-COPY_EXISTING ~skillrng.2da~ ~override/skillrng.2da~
-  SET_2DA_ENTRY 1 1 2 ~21~
 BUT_ONLY_IF_IT_CHANGES
 //////////////////////////////////////////////////////////////
 
@@ -5032,8 +5025,70 @@ COPY ~bgttweak/24/creexcl.txt~ ~bgttweak/24/creexcl.txt~
   END
 BUT_ONLY_IF_IT_CHANGES
 
-PRINT ~Clearing duplicate scripts...~
+PRINT ~Pre-processing creatures...~
 COPY_EXISTING_REGEXP GLOB ~^.+\.CRE$~ ~override~
+  READ_SHORT 0x28 anim_id
+  PATCH_IF (NOT VARIABLE_IS_SET $excludeCRElist(EVALUATE_BUFFER "%SOURCE_RES%") AND
+             (anim_id < 0x1000 OR
+              anim_id = 0x1000 OR //Infinity Animations may use other 0x10XX anims
+              anim_id = 0x1100 OR //Infinity Animations may use other 0x11XX anims
+              (anim_id >= 0x1200 AND anim_id < 0x1300) OR
+              anim_id = 0x1300 OR //Infinity Animations may use other 0x13xx anims
+              anim_id = 0x2000 OR //Infinity Animations may use other 0x20XX anims
+              anim_id = 0x3000 OR //Infinity Animations may use other 0x30XX anims
+              (anim_id >= 0x4000 AND anim_id < 0x5000) OR //statics
+              (anim_id >= 0x7100 AND anim_id < 0x7500) OR
+              (anim_id >= 0x7600 AND anim_id < 0x7800) OR
+              (anim_id >= 0x7900 AND anim_id < 0x7C00) OR
+              (anim_id >= 0x7D00 AND anim_id < 0x7F05) OR
+              anim_id = 0x7F07 OR
+              anim_id = 0x7F08 OR
+              anim_id = 0x7F0A OR
+              anim_id = 0x7F0B OR
+              anim_id = 0x7F0D OR
+              anim_id = 0x7F0E OR
+              anim_id = 0x7F0F OR
+              anim_id = 0x7F11 OR
+              anim_id = 0x7F12 OR
+              anim_id = 0x7F13 OR
+              anim_id = 0x7F15 OR
+              anim_id = 0x7F16 OR
+              anim_id = 0x7F17 OR
+              anim_id = 0x7F18 OR
+              anim_id = 0x7F19 OR
+              anim_id = 0x7F20 OR
+              anim_id = 0x7F21 OR
+              anim_id = 0x7F22 OR
+              anim_id = 0x7F2B OR
+              anim_id = 0x7F2D OR
+              anim_id = 0x7F2E OR
+              anim_id = 0x7F2F OR
+              anim_id = 0x7F32 OR
+              anim_id = 0x7F33 OR
+              anim_id = 0x7F34 OR
+              anim_id = 0x7F35 OR
+              anim_id = 0x7F38 OR
+              anim_id = 0x7F39 OR
+              anim_id = 0x7F3E OR
+              anim_id = 0xA000 OR //Infinity Animations may use other 0xA0XX anims
+              anim_id = 0xA100 OR //Infinity Animations may use other 0xA1XX anims
+              (anim_id >= 0xB000 AND anim_id < 0xC600) OR
+              (anim_id >= 0xD000 AND anim_id < 0xE000) OR
+              (anim_id >= 0xE010 AND anim_id < 0xE090) OR
+              anim_id = 0xE0B0 OR
+              anim_id = 0xE0E0 OR
+              anim_id = 0xE0F0 OR
+              anim_id = 0xE0F1 OR
+              anim_id = 0xE0F2 OR
+              anim_id = 0xE600 OR
+              anim_id = 0xE610 OR
+              anim_id = 0xEA00
+             )
+            ) BEGIN
+    TO_UPPER %CRE%
+    SET $excludeCRElist(EVALUATE_BUFFER "%CRE%") = 1
+  END
+
   PATCH_IF NOT VARIABLE_IS_SET $excludeCRElist(EVALUATE_BUFFER "%SOURCE_RES%") BEGIN
     LAUNCH_PATCH_MACRO ~__24__readCRE~
 

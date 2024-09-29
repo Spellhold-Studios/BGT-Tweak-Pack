@@ -29,7 +29,7 @@ Not Usable By:
  Gnome
  Half-Orc~
 @405 = ~Koveras' Ring of Protection +2
-This ring was given to <CHARNAME> by "Koveras", during their mutal visit to Candlekeep during the Iron Throne crisis.  It was used to frame <CHARNAME> in a plot of murder, given in the guise of one of Gorion's posessions.  This ring was kept out of sentimental value, but was found amongst few of <CHARNAME>'s remaining posessions in Irenicus' dungeon, more powerful than before.  There is no logical reason that the mage would not have sold it at the first opportunity, much less boost its power...
+This ring was given to <CHARNAME> by "Koveras", during their mutal visit to Candlekeep during the Iron Throne crisis.  It was used to frame <CHARNAME> in a plot of murder, given in the guise of one of Gorion's possessions.  This ring was kept out of sentimental value, but was found amongst few of <CHARNAME>'s remaining posessions in Irenicus' dungeon, more powerful than before.  There is no logical reason that the mage would not have sold it at the first opportunity, much less boost its power...
 
 STATISTICS:
 
@@ -55,7 +55,7 @@ Saving Throws:  +2 bonus
 STATISTICS:
 
 Damage:  1D6 + 1
-THACO:  +1 bonus
+THAC0:  +1 bonus
 Damage Type:  missile (piercing)
 Weight: 0
 Launcher:  Bow
@@ -70,7 +70,7 @@ Not Usable By:
 STATISTICS:
 
 Damage:  1D6 + 1
-THACO:  +1
+THAC0:  +1
 Damage type:  missile (piercing)
 Special:  2D6 acid damage
 Weight: 0
@@ -116,7 +116,7 @@ Not usable by:
 STATISTICS:
 
 Damage:  1D6 + 2
-THACO:  +2
+THAC0:  +2
 Damage type:  missile (piercing)
 Weight: 0
 Launcher:  Bow
@@ -131,7 +131,7 @@ Not usable by:
 STATISTICS:
 
 Damage:  1D8 +1
-THACO:  +1
+THAC0:  +1
 Damage type:  missile (piercing)
 Weight:  0
 Launcher:  Crossbow~
@@ -142,7 +142,7 @@ Launcher:  Crossbow~
 STATISTICS:
 
 Damage:  1D8 +2
-THACO:  +2
+THAC0:  +2
 Damage type:  missile (piercing)
 Weight:  0
 Launcher:  Crossbow~
@@ -184,7 +184,7 @@ Not Usable By:
 
 STATISTICS:
 
-THACO:  +2
+THAC0:  +2
 Damage:  +3
 Weight: 9
 Speed Factor: 6
@@ -202,7 +202,7 @@ Not Usable By:
 
 STATISTICS:
 
-THACO: +2
+THAC0: +2
 Damage:  +1
 Weight: 3
 Speed Factor: 6
@@ -256,7 +256,7 @@ Not Usable By:
  Thief~
 
 //@11059 - add Required: 5 Strength
-@2315 = ~Mithril Chain mail +4.  This is the personal armor of Drizzt, the famous dark elf ranger.  It was forged for him by his friend Bruenor.
+@2315 = ~Mithral Chain mail +4.  This is the personal armor of Drizzt, the famous dark elf ranger.  It was forged for him by his friend Bruenor.
 
 
 STATISTICS:
@@ -401,7 +401,7 @@ None know better than Halflings the value of a well-placed stone when confrontin
 STATISTICS:
 
 Damage:  +3 (missile damage)
-THACO:  +3
+THAC0:  +3
 Weight: 0
 Speed Factor: 3
 Proficiency Type: Sling
@@ -415,7 +415,7 @@ Not Usable By:~
 STATISTICS:
 
 Damage:  1D6 + 9
-THACO:  +3 bonus
+THAC0:  +3 bonus
 Damage type:  crushing
 Weight: 4
 Speed Factor: 1
@@ -434,7 +434,7 @@ This finely crafted stave was among the spoils taken from the invaders of Durlag
 STATISTICS:
 
 Damage:  1D6 + 3
-THACO:  +3
+THAC0:  +3
 Damage type:  crushing
 Weight: 3
 Speed Factor: 1
@@ -450,7 +450,7 @@ Amidst the plains of the Eastern Shaar there lived a small human blacksmith, who
 STATISTICS:
 
 Damage:  1D6 +2
-THACO:  +2 bonus
+THAC0:  +2 bonus
 Damage type:  piercing
 Weight: 2
 Speed Factor: 1
@@ -468,7 +468,7 @@ Not Usable By:
 STATISTICS:
 
 Damage:  1D6 +1
-THACO:  +1 bonus
+THAC0:  +1 bonus
 Damage type:  piercing
 Speed Factor: 2
 Weight:  3
@@ -487,7 +487,7 @@ There was a time before Neverwinter was warm and before the great Anauroch was d
 STATISTICS:
 
 Damage:  1D8 +1
-THACO:  +1 bonus
+THAC0:  +1 bonus
 Special:
    +2 vs. Regenerating Creatures
    +3 vs. Cold-Using Creatures

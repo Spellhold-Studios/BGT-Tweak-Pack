@@ -1,0 +1,601 @@
+IF
+  RandomNum(1,1)
+  Global("RandomSet46723136_0","AR7100",0)
+  Global("RandomBeenSet46723136","AR7100",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet46723136_0","AR7100",1)
+    SetGlobal("RandomBeenSet46723136","AR7100",1)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  Global("SpawnReset46723136","AR7100",0)
+  Global("RandomSet46723136_0","AR7100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset46723136","AR7100",1)
+  GlobalTimerExpired("320046723136","AR7100")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",0)
+    SetGlobal("RandomBeenSet46723136","AR7100",0)
+    SetGlobal("RandomSet46723136_0","AR7100",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset46723136","AR7100",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset46723136","AR7100",1)
+    CreateCreature("SKELETS",[4672.3136],0)  // ~Skeleton~
+    SetGlobalTimer("320046723136","AR7100",2400)
+END
+

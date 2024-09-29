@@ -1,0 +1,188 @@
+IF
+  PartyHasItem("AMUL17")  // Greenstone Amulet
+  Global("IHaveGreenstone","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveGreenstone","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("WAND11")  // Wand of the Heavens
+  Global("IHaveHeavens","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveHeavens","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("RING07")  // Ring of Protection +2
+  Global("IHaveRingProtect","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveRingProtect","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("CLCK02")  // Cloak of Protection +2
+  Global("IHaveCloakProtect","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveCloakProtect","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("BRAC10")  // Gauntlets of Weapon Expertise
+  Global("IHaveGauntlets","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveGauntlets","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("BOW08")  // Eagle Bow
+  Global("IHaveEagle","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveEagle","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("LEAT08")  // Shadow Armour
+  Global("IHaveShadow","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveShadow","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("BOOT02")  // Boots of Stealth
+  Global("IHaveStealth","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveStealth","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("BRAC04")  // Bracers of Archery
+  Global("IHaveArchery","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveArchery","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("BRAC07")  // Gauntlets of Dexterity
+  Global("IHaveDexterity","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveDexterity","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("XBOW06")  // Light Crossbow of Speed
+  Global("IHaveCrossbow","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveCrossbow","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("PLAT06")  // Ankheg Plate Mail
+  Global("IHaveAnkheg","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveAnkheg","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("CLCK06")  // Cloak of Non-detection
+  Global("IHaveNondetect","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveNondetect","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("%RingOfWizardry%")  // Ring of Wizardry
+  Global("IHaveWizardry","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveWizardry","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("PLAT05")  // Full Plate Mail +1
+  Global("IHaveFull","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveFull","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("BRAC06")  // Gauntlets of Ogre Power
+  Global("IHaveOgre","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveOgre","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("RING22")  // Ring of Holiness
+  Global("IHaveHoliness","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveHoliness","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("CLCK05")  // Cloak of Balduran
+  Global("IHaveBalduran","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveBalduran","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("RING02")  // Ring of Fire Resistance
+  Global("IHaveFire","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveFire","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("RING09")  // Ring of Free Action
+  Global("IHaveFree","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveFree","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("MISC47")  // Golden Pantaloons
+  Global("IHavePants","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHavePants","GLOBAL",1)
+    Continue()
+END

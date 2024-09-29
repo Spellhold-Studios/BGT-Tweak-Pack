@@ -1,0 +1,13 @@
+IF
+  Global("KillPC","GLOBAL",8)
+  InParty("Sharteel")
+THEN
+  RESPONSE #100
+    Wait(5)
+    ActionOverride("Angelo",DestroySelf())
+    Wait(5)
+    CreateCreature("Angelo",[1214.551],0)
+    Wait(1)
+    ActionOverride("Angelo",Dialogue("Sharteel"))
+    SetGlobal("KillPC","GLOBAL",9)
+END

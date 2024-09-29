@@ -1,0 +1,113 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Installation Prompts
+////////////////////////////////////////////////////////////////////
+
+@-1000 = "Este mod tiene"
+@-1001 = "distintos componentes opcionales.
+Para salvar tiempo, puedes elegir que hacer con ellos desde un primer momento en vez de preguntarte por cada uno."
+@-1002 = "¨Que debo hacer con todos los componentes que NO ESTEN TODAVIA instalados?
+¨[I]nstalarlos, [S]altartelos, [A] preguntar por cada uno? "
+@-1003 = "¨Que debo hacer con todos los componentes que YA ESTAN instalados?
+¨[R]einstalarlos, [U]ninstalarlos, [S]altartelos, [A] preguntar por cada uno? "
+@-1004 = "POR FAVOR manda un mensaje del archivo"
+@-1005 = "a"
+
+@-1006 = "Instalar componente ["
+@-1007 = "]
+[R]einstalar, [N]o cambiar o [U]desinstalar o [Q]uitar? "
+@-1008 = "]
+[Y]es o [N]o o [Q]uitar? "
+@-1009 = "Insertar parte del nombre del modulo: "
+@-1011 = "] componente "
+@-1013 = "Eliminando vieja instalacion de ["
+@-1014 = "] primero ..."
+@-1015 = "VIEJA INSTALACIoN ELIMINADA SATISFACTORIAMENTE"
+
+@-1016 = "Instalando"
+@-1017 = "ERROR al instalar ["
+@-1018 = "], volviendo al estado anterior"
+@-1019 = "INSTALADO SATISFACTORIAMENTE"
+@-1020 = "Saltando"
+@-1021 = "Eliminando ["
+@-1022 = "] (componente #"
+@-1023 = ")"
+@-1024 = "ELIMINADO SATISFACTORIAMENTE ["
+
+////////
+//Errors
+////////
+@1 = ~Baldur's Gate Trilogy-WeiDU no puede ser detectado.~
+@2 = ~El componente de BG1 NPC Project "BG1 NPC Project para BGT-Weidu: Instalacion del nucleo" causa un conflicto con este componente.~
+@3 = ~El componente de BG1 NPC Project "BG1 NPC Project para BGT-Weidu: Parte II (Busquedas e Interacciones)" causa cun conflicto con este componente.~
+@4 = ~El componente de Ease-of-Use "Feliz: NPCs no se pelearan entre ellos o se marcharan del grupo" causa un conflicto con este componente.~
+@5 = ~El componente de BG1 NPC Project "BG1 NPC Project para BGT-Weidu: Parte I (Conversaciones)" causa un conflicto con este componente.~
+@6 = ~El componente de BG1 Unfinished Business "Correcciones a las criaturas" esta en conflicto con este componente.~
+@7 = ~El componente de BGT Tweak "Eliminar fragmentacion de objetos" esta en conflicto con este componente.~
+@8 = ~Este componente requiere Dark Side of the Sword Coast.~
+@9 = ~Este componente requiere Northern Tales of the Sword Coast.~
+@10 = ~Este componente requiere Baldur's Gate Trilogy-WeiDU version 1.07 o superior.~
+@11 = ~El mod BP-BGT Worldmap esta en conflicto con este componente.~
+@12 = ~La modificacion BGSpawn causa un conflicto con este componente.~
+
+/////////////////
+//Component names
+/////////////////
+@100 = ~Eldoth recuerda el rescate de Skie~
+@200 = ~Angelo se da cuenta de Shar-teel~
+@300 = ~Busqueda de la caravana de Kagain con final~
+@400 = ~Agrgar la Capa de Semaj y Anillo de protección de Koveras mejorado~
+@500 = ~Grandes lugares revelados~
+@600 = ~Osos responden a los Druidas/Exploradores en BG1~
+@700 = ~Parche feliz: Los NPCs no pueden dejar el grupo~
+@701 = ~Los NPCs no pueden elegir abandonar del grupo~
+@702 = ~Solo NPCs buenos o malos abandonan el grupo~
+@800 = ~Importar mas objetos a Shadows of Amn
+(WARNING: Puede considerarse un truco)~
+@900 = ~Trampas aleatorias activadas en la cueva pirata~
+@901 = ~Aleatoriedad por instalacion nueva~
+@902 = ~Aleatoriedad por juego nuevo~
+@1000 = ~Bolsas en la Costa de las Espadas~
+@1100 = ~Reapariciones alteradas~
+@1101 = ~Reapariciones al estilo Tutu~
+@1102 = ~Desactivar engendros de BGT-WeiDU: los engendros nunca aparecen~
+@1103 = ~Engendros al estilo EasyTutu~
+@1104 = ~Desactivar engendros de BGT-WeiDU: los engendros aparecen una sola vez~
+@1200 = ~Arkion reacciona a la reputacion del jugador~
+@1300 = ~Coran responde a la muerte de un draco~
+@1400 = ~Mas cabelleras de bandido~
+@1500 = ~Rompimiento de objetos alterado~
+@1501 = ~No utilizar rompimiento de objetos~
+@1502 = ~Hacer que las armaduras y escudos se rompan~
+@1600 = ~Encapuchados desarmados para magos y ladrones~
+@1700 = ~Correciones de Salk de las reglas de Lapiz y papel~
+@1800 = ~Importar mas NPCs a Shadows of Amn: Alora~
+@1801 = ~Importar mas NPCs a Shadows of Amn: Branwen~
+@1802 = ~Importar mas NPCs a Shadows of Amn: Eldoth~
+@1803 = ~Importar mas NPCs a Shadows of Amn: Kagain~
+@1804 = ~Importar mas NPCs a Shadows of Amn: Kivan~
+@1805 = ~Importar mas NPCs a Shadows of Amn: Sharteel~
+@1806 = ~Importar mas NPCs a Shadows of Amn: Skie~
+@1807 = ~Importar mas NPCs a Shadows of Amn: Xan~
+@1808 = ~Importar mas NPCs a Shadows of Amn: Yeslick~
+@1809 = ~Importar mas NPCs a Shadows of Amn: Bub Snikt~
+@1810 = ~Importar mas NPCs a Shadows of Amn: Conchobhair Strongblade~
+@1811 = ~Importar mas NPCs a Shadows of Amn: Ferthgil Trollslayer~
+@1812 = ~Importar mas NPCs a Shadows of Amn: Jet'laya~
+@1813 = ~Importar mas NPCs a Shadows of Amn: Keiria Silverstring~
+@1814 = ~Importar mas NPCs a Shadows of Amn: Skeezer Lumpkin VI~
+@1815 = ~Importar mas NPCs a Shadows of Amn: Will Scarlet O'Hara~
+@1900 = ~Restaurando bonificacion BG2 XP para trampas, cerraduras y pergaminos~
+@2000 = ~Protagonist's biography modifications~
+@2001 = ~Do not set BG1 biography for imported characters~
+@2002 = ~Set BG2 biography upon Shadows of Amn transition~
+@2100 = ~Exotic Weapons For Taerom~
+@2200 = ~Objetos estilo BG1: Cambio de precios~
+@2201 = ~Objetos estilo BG1: Apilacion reducida de 40 a 20~
+@2202 = ~Objetos estilo BG1: Cambios de lore~
+@2203 = ~Objetos estilo BG1: Cambios del nivel de lanzamiento de hechizos~
+@2204 = ~Objetos estilo BG1: Cambios en el comportamiento de los objetos~
+@2300 = ~Disable hostile reaction after charm~
+@2400 = ~Fragmentacion de objetos de los enemigos~
+@2500 = ~Acceder a la Barba de Ulgoth solo por el oeste del Cruce del Wyrm~
+@2600 = ~Evitar el acceso a la torre de Durlag desde áreas adyacentes~
+@2700 = ~Colocar la espada del caos +2 en el inventario de Sarevok~

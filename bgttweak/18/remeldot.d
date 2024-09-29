@@ -1,0 +1,4 @@
+REPLACE_TRIGGER_TEXT ~ELDOTP~ ~GlobalLT("ENDOFBG1","GLOBAL",2)~ ~~
+
+REPLACE_TRIGGER_TEXT ~ELDOTJ~ ~HappinessLT(Myself,0)
+GlobalLT("ENDOFBG1","GLOBAL",2)~ ~HappinessLT(Myself,0)~

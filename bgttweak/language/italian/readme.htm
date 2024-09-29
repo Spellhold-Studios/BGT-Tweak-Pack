@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background: #e3e3db url('http://spellholdstudios.net/images/sh_bg_main.jpg');
+      }
+      
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+      
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #781808;
+        border-top: 5px solid #781808;
+        border-bottom: 5px solid #781808;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+      
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+      
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #781808;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #781808;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+      
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+      
+      h2::first-letter {
+        color: #781808;
+        background-color: transparent;
+      }
+      
+      #maindiv p {
+	font-size: 100%;
+	font-style: normal;
+	line-height: 150%;
+	padding: 0px;
+	margin: 10px auto;
+	width: 90%;
+	display: block;
+	text-align: justify;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+      
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+      
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #781808;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+      
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+      
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+	margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+      
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+	list-style-type: square;
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      #maindiv ol li {
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+      
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+      
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+      
+      a:link,
+      a:visited {
+        color: #781808;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+    </style>
+    <title>SPELLHOLD STUDIOS - BGT Tweak Pack</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+  <body>
+    <a name="top" id="top"></a>
+    <div id="wrap">
+      <div id="header">
+        <h1>Baldur's Gate Trilogy Tweak Pack (BGTTweak)</h1>
+        <strong>A Spellhold Studios mod for Baldur's Gate Trilogy-WeiDU (BGT-WeiDU)</strong>
+        <p class="about">Author: Ascension64</p>
+        <p class="about">Translation: al17, Gemini82, melkor_morgoth75, <u>Salk</u></p>
+        <p class="about">
+          <a href="http://www.spellholdstudios.net/">Mod Website</a> &#8226;
+          <a href="http://www.shsforums.net/index.php?showforum=261">Mod Forum</a> &#8226;
+          Versione: 9
+        </p>
+		<br />
+        <p class="menu">
+          <a href="#intro">Descrizione</a> &middot;
+          <a href="#installation">Installazione</a> &middot;
+          <a href="#legalese">Copyright</a>
+        </p>
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== I n t r o d u c t i o n ================== -->
+        <a name="intro" id="intro"></a>
+        <div class="content">
+          <h2>Descrizione</h2>
+          <p>Questa modifica discende dalle patch esistenti nelle versioni pre-ZETA di Baldur’s Gate Trilogy-WeiDU 0.99.  E’ stato deciso che questi tweaks dovessero essere separati dai fix in modo da mantenere BGT-WeiDU più fedele all’originale Baldur’s Gate and Tales of the Sword Coast.  Dunque, questo pacchetto è nato per risolvere le questioni nelle quali l’originale Baldur’s Gate and Tales of the Sword Coast si pensava carente.</p>
+		  <p>Componenti:</p>
+		  <br />
+		<ol>
+			<li><strong>Eldoth ricorda il riscatto per Skie:</strong> Eldoth ricorda periodicamente il giocatore quando raccogliere il denaro del riscatto per Skie, in modo da evitare di dimenticare di raccogliere il denaro.</li>
+			<li><strong>DEPRECATI – Angelo riconosce Shar-teel:</strong>  La parentela padre e figlia ti salva quando il gruppo è catturato dal Pugno Fiammante.</li>
+			<li><strong>DEPRECATI – Quest della carovana di Kagain completabile:</strong> La ricerca del figlio del Duca Entar Silvershield non è più una ricerca vana a meno che il giocatore non aspetti troppo a lungo...</li>
+			<li><strong>Aggiungi il Mantello di Semaj e l'Anello di Protezione Potenziato di Koveras:</strong> Questo componente introduce il Mantello di Semaj, un oggetto che era solitamente parte della modifica classica Baldur's Gate Trilogy. Il mantello viene importato in Shadow of Amn se il gruppo ne è in possesso al momento della transizione. Inoltre, l'Anello di Protezione di Koveras riceve un potenziamento quando viene importato in Shadow of Amn.</li>
+			<li><strong>Locazioni principali già esplorate quando visitate per la prima volta:</strong> Baldur’s Gate, Beregost, Candlekeep, Nashkel, e Ulgoth’s Beard diventano zone già completamente esplorate.</li>
+			<li><strong>Orsi sensibili ai Druidi/Ranger in BG1:</strong> Così come in Shadows of Amn, gli orsi incontrati nella Costa della Spada non fanno altro che divenire ostili se un Druido e/o Ranger è vicino.</li>
+			<li><strong>Happy patch:</strong> Aiuta gli NPCs a trovare la loro serenità interiore e l'armonia con il gruppo... assicurandoti che non si irritino mai per la reputazione del gruppo! Ci sono due possibili opzioni per questo componente:</li>
+			<br />
+			<ul>
+				<li>Gli NPCs non possono decidere di lasciare il gruppo: gli NPCs non lasceranno mai il party a prescindere dalla loro repulsione verso il tuo ingiustificabile comportamento.</li>
+				<li>Solo NPCs buoni o malvagi lasciano il party: NPCs buoni e malvagi lasceranno il party, ma non quelli neutrali.</li>
+			</ul>
+			<li><strong>Importa più oggetti in Shadows of Amn:</strong> Questo tweak permette di importare i seguenti oggetti da Baldur’s Gate and Tales of the Sword Coast in Shadows of Amn – Amuleto dell'influenza di metaincantesimo, Bacchetta dei Cieli, Anello della Protezione +2, Mantello della Protezione +2, Guanti della specializzazione, Arco ad aquila, Corazza dell’Ombra, Stivali per Muoversi silenziosamente, Bracciali dell’Arciere, Guanti della Destrezza, Balestra leggera di Velocità, Corazza di Piastre di Ankheg, Mantello anti-individuazione, Anello della Stregoneria, Corazza di Piastre Completa +1, Guanti del Potere Orchesco, Anello di Santità, Mantello di Balduran, Anello di Resistenza al Fuoco, e Anello della Libertà di Movimento.  Prego notare che importare questi oggetti RENDERA’ Shadows of Amn molto più facile del previsto, e l’installazione di questo componente può essere considerata un trucco.</li>
+			<li><strong>Attivazione casuale delle trappole nella grotta del pirata:</strong> Hai mai pensato che andarsene in giro nella grotta del pirata sorvegliata da Sil e le sue sirene fosse troppo facile? Questo componente attiva le trappole esistenti prima inattive così che non sapra mai dove aspettartele, a meno che il tuo stupido ladro non le disattivi tutte! Nota che questo componente non avrà alcun effetto se carichi una partita dove sei già stato nella cava del pirata in precedenza. Ci sono due opzioni per questo componente:</li>
+			<br />
+			<ul>
+				<li>Generazione casuale via installazione: Diverse trappole sono innescate ogni volta che reinstalli questo componente.</li>
+				<li>Generazione casuale via gioco: Diverse trappole sono innescate ogni volta che entri la caverna del pirata.</li>
+			</ul>
+			<li><strong>Borse della Costa della Spada:</strong> No, niente borseggi, ma contenitori. Questo componente ti rende più facile portarti dietro le tue gemme senza prezzo, le pergamene, le munizioni, le pozioni, e quant'altro ti pare al prezzo di una sola casella dell'inventario. Ma prima, dovrai trovarle.</li>
+			<li><strong>Spawns alternativi:</strong> Questo componente è adatto per coloro a cui non piace il fatto che BGT-WeiDU generi la stessa sequenza di mostri casuali. Ci sono diverse opzioni per questo componente:</li>
+			<br />
+			<ul>
+				<li>Spawns livellati in stile TuTu: Mostri casuali sono generati con riguardo al livello del giocatore. Questo componente è simile agli spawns usati in TuTu V6 beta (permesso da Ghreyfain).</li>
+				<li>Disattiva BGT-WeiDU spawns (gli spawns non sono mai attivi): Questo rimuove del tutto dalle aree principali i mostri casuali. Specifici incontri casuali in certe aree attraversate quando in viaggio saranno possibili.</li>
+				<li>Disattiva BGT-WeiDU spanws (gli spawns sono attivi una volta sola): Questo rimuove dalle aree principali il respawn di mostri casuali, facendoli apparire una volta sola. Specifici incontri casuali in certe aree attraversate quando in viaggio saranno possibili.</li>
+			</ul>
+			<li><strong>Arkion reagisce alla reputazione del giocatore:</strong> Questa leggera modifica non fa altro che impedire ad Arkion di commissionare il lavoro ad un personaggio con alta reputazione.</li>
+			<li><strong>Coran risponde alla morte di una viverna:</strong> Questo componente ripristina un dialogo originale inutilizzato con cui si ricorda al giocatore di riportare la testa della viverna al Tempio di Lathander per ricevere una ricompensa.</li>
+			<li><strong>Piu scalpi di banditi:</strong> Per piacere signore, posso averne ancora? ANCORA?!?!? Lo sai, quei sporchi pezzetti di pelle che crescono sulla parte superiore della testa? Un maggior numero di banditi ne saranno in possesso quando installi questo componente.</li>
+			<li><strong>Frantumazione alternativa degli oggetti:</strong> Questo componente modifica i tipi di oggetti che si frantumano. Ci sono due opzioni:</li>
+			<br />
+			<ul>
+				<li>Rimuovi la frantumazione degli oggetti: Per quelli che odiano vedere i propri oggetti in frantumi come se fossero fatti di talco, questo componente impedisce la frantumazione di tutti gli oggetti.</li>
+				<li>Rendi armatura e scudi frantumabili (per BGT-WeiDU v1.05b o successivo): Anche l'armatura e gli scudi si frantumano, alla stregua di quanto accade con BGT-WeiDU v1.05a o precedente.</li>
+			</ul>
+			<li><strong>Cappuccio per maghi e ladri senza armatura:</strong> lo speciale di Salk (un membro del forum) decreta che maghi e ladri non devono sembrare dei teschi nudi, e dovrebbero indossare un cappuccio per farli assomigliare all'Imperatore di Guerre Stellari. Si, anche le donne! Beh, eureka, eccolo qui!</li>
+			<li><strong>Correzioni delle regole carta-e-penna di Salk:</strong> Ancora una specialità di Salk; questa volta abbiamo la correzione dei modificatori del ladro per razze, e il modificatore del ranger per l'abilità 'muoversi silenziosamente'</li>
+			<li><strong>Importa altri NPCs in Shadow of Amn:</strong> I seguenti NPCs possono essere importati in Shadows of Amn a condizione che essi siano parte del gruppo e che non siano morti: Alora, Branwen, Eldoth, Kagain, Kivan, Shar-teel, Skie, Xan, Yeslick, NPCs arruolabili da Dark Side of the Sword Coast (se installato) e Northern Tales of the Sword Coast (se installato). Semplice, no? Però alcuni di loro li dovrai cercare... (questo componente è incompatibile con The Darkest Day, Tortured Souls, a Never Ending Journey).</li>
+			<li><strong>Ripristino dei bonus di XP per trappole, serrature e pergamene (per BGT-WeiDU v1.05):</strong> Questo componente ripristina il valore originale dei punti esperienza guadagnati per serrature scassinate, trappole disattivate e pergamene trascritte e che è stato ridotto in BGT-WeiDU v1.05. L'uso di questo componente in versioni antecedenti alla v1.05 non darà alcun beneficio. E' consigliata la sua installazione al momento della transizione a Shadows of Amn.</li>
+			<li><strong>Modifiche alla biografia del protagonista:</strong> Questo componente fornisce due opzioni che cambiano leggermente il modo in cui BGT-WeiDU assegna la biografia del protagonista:</li>
+			<br />
+			<ul>
+				<li>Non assegnare la biografia di BG1 per personaggi importati: Se inizi un nuovo gioco in Candlekeep con un personaggio importato, la biografia di Baldur's Gate I non sarà assegnata. Usa questa opzione se il tuo personaggio importato ha una biografia personalizzata che desideri venga conservata e utilizzata.</li>
+				<li>Assegna la biografia di BG2 quando si passa a Shadows of Amn: Se vuoi che la biografia del tuo personaggio sia cambiata con quella di Shadow of Amn al momento dell'arrivo nella prigione sotterranea di Irenicus, questo è il componente giusto. Tieni però presente che le biografie personalizzate andranno in questo modo perse.</li>
+			</ul>
+			<li><strong>Armi esotiche per Taerom:</strong> Taerom ha importato qualche Katana, Wazikashi e Ninja-to per i fanatici delle spade orientali.</li>
+			<li><strong>BG1-ificazione degli oggetti:</strong> Questo componente converte alcuni oggetti così che il loro profilo sia più simile a quello visto in Baldur's Gate. I cambiamenti includono requisiti di conoscenza, prezzi, requisiti di forza, danno procurato, gittata, potenza, accumulabilità e bonus vari.</li>
+			<li><strong>Disabilita la reazione ostile dopo un incantesimo di fascinazione:</strong> Incantesimi e abilità che ammaliano le creature non comportano una reazione ostile da parte di queste ultime dopo che l'effetto ha perso efficacia. Funziona al meglio quando abbinato al patch 'Abilita il dialogo con creature ammaliate/dominate'.</li>
+			<li><strong>Gli oggetti dei nemici si frantumano:</strong> Dai ai tuoi avversari un assaggio della penuria del ferro dando loro una chance di vedere le loro stesse armi in ferro andare in frantumi quando vengono usate. Se hai installato l'opzione 'Rendi armatura e scudi frantumabili' del componente "Frantumazione alternativa degli oggetti", allora questa chance si estenderà anche ai loro scudi e armature in ferro nel momento in cui vengono colpiti.</li>
+			<li><strong>Accedi a Ulgoth's Beard solo ad ovest di Wyrm's Crossing:</strong> Ulgoth's Beard si trova ad ovest di Baldur's Gate secondo le fonti ufficiali di Forgotten Realms, ma in Baldur's Gate: Tales of the Sword Coast, Ulgoth's Beard è situato a nord-est. Questo componente rimedia all'inesattezza permettendo l'accesso ad Ulgoth's Beard ad ovest di Wyrm's Crossing. Questo significa che Ulgoth's Beard non sarà accessibile fino a quando Baldur's Gate non lo diventa.</li>
+			<li><strong>Impedisci l'accesso alla Torre di Durlag dalle aree adiacenti:</strong> Questo componente toglie la possibilità al giocatore di imbattersi nella Torre di Durlag semplicemente passando attraverso il luogo in cui è situata. Se questo componente è installato, l'unico modo di trovare la Torre di Durlag è attraverso le informazioni raccolte a Ulgoth's Beard.</li>
+            <li><strong>Metti la Spada del Caos +2 nell'inventario di Sarevok:</strong> Se il numero di spade super non ti dovessero sembrare abbastanza, la tua avidità sarà magari soddisfata andando in giro con la spada di Sarevok. Questo componente ti permette di raccogliere la Spada del Caos +2 di Sarevok dopo averlo sconfitto.</li>
+		</ol>
+          <address>
+            <span class="footer">BGT Tweak Pack &gt; Descrizione</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== I n s t a l l a t i o n ================== -->
+        <a name="installation" id="installation"></a>
+        <div class="content">
+          <h2>Installazione</h2>
+		  <h3>Requirements</h3>
+		  <p>E’ richiesta  l’installazione di BGT-WeiDU versione 1.01 o superiore per BGT-WeiDU Tweakpack.</p>
+		<hr />
+		
+		<h3>Compatibilità</h3>
+		<p>Controlli di compatibilità sono inclusi per le modifiche Ease-of-Use, BGSpawn, BG1 NPC Project, e BG1 Unfinished Business. Per rendere questi controlli effettivi, assicurati che questa modifica sia installata dopo quelle elencate.</p>
+		<hr />
+
+		<h3>Installazione</h3>
+		<ol>
+		  <li>Estrai BGTTweak_v9.rar nella tua cartella di installazione di BGT-WeiDU</li>
+		  <li>Esegui Setup-BGTTweak.exe e segui le indicazioni sullo schermo</li>
+		  <li>Se una versione precedente di BGT-WeiDU Tweak pack è installata, semplicemente reinstalla il componente.  La reinstallazione non invaliderà alcun salvataggio del gioco esistente</li>
+		</ol>
+		<hr />
+
+		<h3>Disinstallazione</h3>
+		<p>Esegui Setup-BGTTweak.exe e segui le indicazioni sullo schermo</p>
+          <address>
+            <span class="footer">BGT Tweak Pack &gt; Installazione</span> <a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+        <!-- ================== L e g a l e s e ================== -->
+        <a name="legalese" id="legalese"></a>
+        <div class="content">
+          <h2>Copyright</h2>
+		  <p>BALDUR’S GATE, BALDUR'S GATE: TALES OF THE SWORD COAST: © 1999 BioWare Corp. Tutti i diritti riservati. Baldur's Gate e Baldur's Gate Tales of the Sword Coast sono marchi TSR, Inc., una consociata di Wizards of the Coast, Inc., e sono usati dall’Interplay sotto licenza. L’Infinity Engine della BioWare è un marchio registrato della BioWare Corp.</p>
+		  <p>BALDUR'S GATE II: SHADOWS OF AMN, BALDUR’S GATE II: THRONE OF BHAAL: © 2000, 2001 BioWare Corp. Tutti i diritti riservati. Baldur's Gate, Throne of Bhaal, e Shadows of Amn sono marchi registrati della Wizards of the Coast, Inc. e sono usati dall’Interplay sotto licenza. Tutti i diritti riservati. L’Infinity Engine della BioWare è un marchio registrato della BioWare Corp. Tutti i diritti riservati.</p>
+		  <p><strong>USE THIS MODIFICATION AT YOUR OWN RISK. Baldur’s Gate Trilogy non è sviluppato, supportato, o appoggiato dalla BioWare Corp., Interplay, o Black Isle. Tutte le immagini e i contenuti di questo mod sono © BioWare Corp., Interplay, Black Isle o Wizards of the Coast, Inc.</strong></p>
+		  <p>This is a community modification, created as a hobby for free. You can distribute among your peers as much as you like. However, please display good faith and credit the authors of the modification if you intend to modify the package in any way or use any part of this modification as a template to create part/all of a modification/fixpack/tweak that you intend to release to the community.</p>
+          <address>
+            <span class="footer">BGT Tweak Pack &gt; Copyright</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    <!--
+      function toggle(id) {
+        element = document.getElementById(id);
+        if ( element.style.display == 'none' ) {
+          element.style.display = '';
+          if ( document.all ) {
+            document.getElementById('vhistoryaddress').style.display = 'none'; // IE hack
+          }
+        } else {
+          element.style.display = 'none';
+          if ( document.all ) {
+            document.getElementById('vhistoryaddress').style.display = ''; // IE hack
+          }
+        }
+      }
+
+      elements = document.getElementsByTagName('*');
+      for ( var i = 0; i < elements.length; i++ ) {
+        if ( elements[i].className == 'vlisthide' ) {
+          elements[i].style.display = 'none';
+        }
+      }
+    //-->
+    </script>
+	
+</body>
+</html>

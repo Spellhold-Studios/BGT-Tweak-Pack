@@ -1,0 +1,537 @@
+/////////////////////////////////
+//Eldoth reminds of Skie's ransom
+/////////////////////////////////
+
+@101 = ~Debemos ir y buscar a Elkart en la Cuchilla y la Estrella ahora. Han pasado dos días según mis cálculos.~
+
+///////////////////////////
+//Tougher Sarevok and Semaj
+///////////////////////////
+
+@401 = ~Capa de mago~
+@402 = ~Capa de Semaj~
+@403 = ~Esta es la capa mágica que habéis encontrado en el cuerpo del mago de Sarevok, Semaj. Se desconocen los poderes que posee.~
+@404 = ~La capa que encontrásteis en el cuerpo del mago de Sarevok, Semaj, es una maravilla con todo lo que tiene. Hace borroso al portador y lo provée de una ligera resistencia mágica.
+
+CARACTERÍSTICAS:
+
+Borrosidad cuando se lleva equipada
+Resistencia mágica: 10
+Peso: 2 lbs
+No permitido a:
+ Personajes legales
+ Guerreros
+ Ladrones
+ Exploradores
+ Monjes
+ Guerreros/Ladrones
+ Enanos
+ Gnomos
+ Semiorcos~
+@405 = ~Anillo de protección +2 de Koveras
+<CHARNAME> recibió este anillo de "Koveras" cuando ambos estuvieron en Candelero durante la crisis del Trono de Hierro. Su objetivo era inculpar a <CHARNAME> de varios asesinatos. Lo aceptó al pensar que era una de las posesiones de Gorion. Este anillo no tiene ningún valor sentimental, pero estaba entre las pocas posesiones que quedaban de <CHARNAME> en la mazmorra de Irenicus, y es más poderoso que antes. No hay una razón lógica por la que el mago no lo haya vendido en cuanto tuvo oportunidad, y mucho menos para que haya incrementado su poder...
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 2
+Tiradas de salvación: Bonificador +2
+Resistencia mágica: +5%~
+
+////////////////////////////////
+//Make armor and shields shatter
+////////////////////////////////
+
+@1503 = ~¡Mi armadura se ha roto!~
+@1504 = ~¡Mi escudo se ha roto!~
+@1505 = ~¡Mi arma se ha roto!~
+
+////////////////////
+//Item BG1-ification
+////////////////////
+
+//@16297
+@2301 =  ~La flecha de vuelo, como su propio nombre indica, está concebida para la larga distancia. Son flechas ligeras que se suelen utilizar para cazar. La mayoría de estas flechas se hacen con madera de fresno o de abedul y tienen una longitud de unos 75 a 100 centímetros. 
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +1
+Tipo de daño: Proyectil (perforante)
+Peso: 0 lbs
+Lanzador: Arco
+No permitido a:
+ Clérigo
+ Druida
+ Mago~ 
+
+//@17536
+@2302 = ~Esta flecha está impregnada en ácido para que, al alcanzar al enemigo, no sólo perfore su carne, sino que también corroa la herida, aumentando y profundizando su gravedad.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +1
+THAC0: Bonificador +1
+Tipo de daño: Proyectil (perforante)
+Especial: 2D6 de daño de ácido
+Peso: 0 lbs
+Lanzador: Arco
+No permitido a:
+ Clérigo
+ Druida
+ Mago~ 
+
+//@17540
+@2303 =  ~La flecha de fuego es una flecha mágica que estalla en llamas cuando se lanza a un enemigo. El efecto es parecido al de una flecha impregnada en aceite y prendida.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6
+Tipo de daño: Proyectil (perforante)
+Especial: 1D6 de daño de fuego (ninguno con protección contra conjuros)
+Peso: 0 lbs
+Lanzador: Arco
+No permitido a:
+ Clérigo
+ Druida
+ Mago~
+
+//@17542
+@2304 = ~La flecha de hielo está mejorada mágicamente para convertirse en una bola rodante de hielo y frío al lanzarse. Cuando la flecha alcanza a su víctima, un golpe de frío recorre su cuerpo, quemándole y paralizándole hasta los tuétanos.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6
+Tipo de daño: Proyectil (perforante)
+Especial: 1D6 de daño de frío (sin protección)
+Peso: 0 lbs
+Lanzador: Arco
+No permitido a:
+ Clérigo
+ Druida
+ Mago~
+
+//@17534
+@2305 = ~Estas flechas se mejoraron por medios mágicos al crearse. Parecen ligeramente más rectas que la flecha media, y casi vivas cuando dejan el arco sin esfuerzo y avanzan en línea recta hacia el objetivo con una precisión mortal.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +2
+THAC0: Bonificador +2
+Tipo de daño: Proyectil (perforante)
+Peso: 0 lbs
+Lanzador: Arco
+No permitido a:
+ Clérigo
+ Druida
+ Mago~
+
+//@19353
+@2306 = ~Los cuadrillos o virotes son la munición que se lanza con una ballesta, independientemente del tamaño del arma. Sin embargo, este virote está imbuido con una pequeña cantidad de propiedades mágicas que aumentan su rendimiento en el vuelo, como si el virote fuera guiado hacia su objetivo.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 +1
+THAC0: Bonificador +1
+Tipo de daño: Proyectil (perforante)
+Peso: 0 lbs
+Lanzador: Ballesta~ 
+
+//@19358
+@2307 = ~Los cuadrillos o virotes son la munición que se lanza con una ballesta, independientemente del tamaño del arma. No obstante, este virote ha sido imbuido con propiedades mágicas que aumentan su rendimiento en el vuelo, como si el virote fuera guiado hacia su objetivo.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 +2
+THAC0: Bonificador +2
+Tipo de daño: Proyectil (perforante)
+Peso: 0 lbs
+Lanzador: Ballesta~
+
+//@7376
+@2308 = ~Botas de Sigilo: "Débiles Susurros"
+
+Antaño, un rey llamado Rhigaerd adquirió renombre por los espías que trabajaban a su servicio. Eran tan hábiles que no había detalle alguno que escapara de sus avizores ojos y poseían mapas de castillos y poblaciones enteras. Finalmente, un espía de su mismo círculo los traicionó y se dispersaron todas sus herramientas de trabajo para asegurar que nadie volviera a formar un grupo semejante.
+
+CARACTERÍSTICAS:
+
+Sigilo: +35% Bonus
+Peso: 4 lbs
+No permitido a:
+ Guerrero
+ Mago
+ Clérigo
+ Druida~
+
+//@6858 - Bow Weapons -> Long Bow
+@2309 = ~Los arcos compuestos son arcos largos o cortos cuyas varas están hechas de más de un tipo de material. Con esto se consigue mayor flexibilidad y mayor alcance. Se desarrollaron después del arco largo normal.
+
+CARACTERÍSTICAS:
+
+Daño: +2
+THAC0: Bonificador +1
+Peso: 10 lbs
+Factor de velocidad: 7
+Talento marcial: Arco largo
+Tipo: A dos manos
+No permitido a:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón
+ Bardo~
+
+//@16288 - Bow Weapons -> Long Bow
+@2310 = ~Los arcos compuestos son arcos largos o cortos cuyas varas están hechas de más de un tipo de material. Con esto se consigue mayor flexibilidad y mayor alcance. Se desarrollaron después del arco largo normal.
+
+CARACTERÍSTICAS:
+
+Daño: +3
+THAC0: Bonificador +2
+Peso: 9 lbs
+Factor de velocidad: 6
+Talento marcial: Arco largo
+Tipo: A dos manos
+No permitido a:
+ Druida
+ Clérigo 
+ Mago
+ Ladrón
+ Bardo~ 
+
+//@17643 - Bow Weapons -> Long Bow
+@2311 = ~El arco largo es parecido al corto, salvo en que la vara es de la misma altura que el arquero, de 180 a 190 centímetros. Aunque el arco largo es ligeramente más lento que el arco corto, tiene mayor alcance y precisión. Este arco se ha mejorado con propiedades mágicas, proporcionándole un aire de perfección.
+
+CARACTERÍSTICAS:
+
+Daño: +1
+THAC0: Bonificador +2
+Peso: 3 lbs
+Factor de velocidad: 6
+Talento marcial: Arco largo
+Tipo: A dos manos
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~ 
+
+//@16272 - add Required: 8 Strength
+@2312 = ~La cota de malla está formada por anillos de metal entrelazados. Siempre está sobre una capa de tela acolchada o de cuero suave para evitar los roces y disminuir el impacto de los golpes.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 4
+Peso: 20 lbs
+Requiere: Fuerza 8
+No permitido a:
+ Druida
+ Mago
+ Ladrón~ 
+
+//@6676 - add Required: 7 Strength
+@2313 = ~Armadura de cota de malla +2: "Malla de la Muerte"
+
+Un mago puede llegar a crear un asesino extremadamente eficaz, tal como demostró Vorusta hace más de 400 años. Éste creaba guerreros-esqueleto equipados con esta armadura encantada y una poderosa espada y los entregaba a su víctima como ofrenda de amistad. Cuando esta máquina de matar había hecho su trabajo, Vorusta volvía a recuperar su equipo y el proceso comenzaba de nuevo.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 3
+Peso: 10 lbs
+Requiere: Fuerza 7
+No permitido a:
+ Druida
+ Mago
+ Ladrón~ 
+
+//@16273 - add Required: 8 Strength
+@2314 = ~La armadura laminada es una variante de la malla de correas en la que las bandas de metal se aplican verticalmente a la parte posterior de la cota, cuero o tejido en lugar de horizontalmente como en la malla con bandas. Como el cuerpo humano no se flexiona en el medio torso como se flexiona de atrás hacia delante, el uso de la armadura laminada es más restrictivo en el combate.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 3
+Peso: 20 lbs
+Requiere: Fuerza 8
+No permitido a:
+ Bardo
+ Druida
+ Mago
+ Ladrón~ 
+
+//@11059 - add Required: 5 Strength
+@2315 = ~Cota de malla de mithril +4. Se trata de la armadura personal de Drizzt, el famoso elfo oscuro explorador. La forjó para él su amigo Bruenor.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 1
+Peso: 7 lbs
+Requiere: Fuerza 5
+No permitido a:
+ Druida 
+ Mago
+ Ladrón~
+
+//@21303 - add Required: 6 Strength
+@2316 = ~Cota de malla +3:
+
+Esta cota de malla de perfecta artesanía es la armadura habitual de los luchadores de élite duergar. Está fabricada con una aleación de mithril y sólo los atacantes más decididos evitarán su protección.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 2
+Peso: 9 lbs
+Requiere: Fuerza 6
+No permitido a:
+ Druida
+ Mago
+ Ladrón~
+
+//@17243
+@2317 = ~El fabuloso manto de ninfa es muy conocido por su poder de incrementar el Carisma de incluso el enano más hosco. Una noble de Cormyr que esperaba hacer su matrimonio de conveniencia más apetecible aparentemente, pagó un alto precio para obtener uno para sí misma y otro para su esposo.
+
+CARACTERÍSTICAS:
+
+Carisma: Bonificador +2
+Peso: 3 lbs
+No permitido a:~ 
+
+//@21408
+@2318 = ~Este es el casco de Kiel, el Asesino de Legiones, hijo primogénito de Durlag Matatrolls y Príncipe del clan de la funesta torre de su padre. 
+Se dice que cualquiera que lo lleve es inmune a todas las formas de miedo o pánico, tanto naturales como mágicas.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: Sin bonificador
+Especial: Protege contra golpes críticos
+Especial: Protege contra todas las formas de pánico y estimula la moral
+Peso: 2 lbs
+No permitido a:
+ Bardo
+ Mago
+ Ladrón~
+
+//@16269 - add Required: 4 Strength
+@2319 = ~La armadura de cuero, a pesar de la falsa creencia extendida, no es suave y fina como el cuero que se utiliza para las botas de los exploradores o para las túnicas de los druidas. Este tipo de cuero no ofrece una protección mejor que la vestimenta habitual.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 7
+Peso: 10 lbs
+Requiere: Fuerza 4
+No permitido a:
+ Mago~
+
+//@6682 - add Required: 11 Strength
+@2320 = ~Armadura de Placas +1: "Armadura de Fallorain"
+
+El capitán Fallorain, jefe de la duodécima brigada de caballería de Calimshan, vistió por última vez su armadura encantada durante la Batalla de la Ciénaga de la Araña. Ahí él y su ejército perdieron la vida en un intento de destruir un mal sin precedentes en esa región.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 2
+Peso: 20 lbs
+Requiere: Fuerza 11
+No permitido a:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
+
+//@6685 - add Required: 14 Strength
+@2321 = ~Armadura de Placas Completa +1: "Armadura de la Oscuridad"
+
+El Señor de la Oscuridad Hertious, Señor de la Guerra muerto viviente de Bane, llevó esta armadura durante más de 500 años. Durante este tiempo se rumoreó que habitaba en un castillo en algún lugar de las montañas de Tierra Veloz. Se desconoce cómo se desplazó su armadura a otras tierras sin él, aunque la separación fue sin duda desagradable.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 0
+Peso: 35 lbs
+Requiere: Fuerza 14
+No permitido a:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
+
+//@17489 - add Required: 8 Strength
+@2322 = ~Taerom Fuiruim de Beregost ha construido esta armadura de placas artesanalmente. Cubierta por las escamas quitinosas del ankheg, proporciona un mayor grado de protección que la armadura de placas tradicional y no se oxida. No obstante, como os diría cualquier experimentado aventurero, el aspecto más apreciado de la armadura de ankheg es su ligero peso y poco estorbo. Los monstruos vienen y van, pero la fatiga es un enemigo constante.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 1
+Peso: 25 lbs
+Requiere: Fuerza 8
+No permitido a:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
+
+//@17659 - add Required: 14 Strength
+@2323 = ~El escudo corporal, también conocido como escudo de torre o cometa, es un escudo inmenso de metal o de madera que va de la barbilla a los pies. Debe asegurarse firmemente al antebrazo y la mano del escudo debe empuñarlo fuertemente en todo momento. Naturalmente, esto impide que la mano del escudo pueda hacer nada más que mantener el escudo corporal en su sitio. 
+
+CARACTERÍSTICAS:
+
+Bonificador de Clase de armadura: 2
+Especial: Bonificador +1 contra proyectiles.
+Peso: 12 lbs
+Requiere: Fuerza 14
+No permitido a:
+ Bardo
+ Druida
+ Mago
+ Ladrón~ 
+
+//@7358 - Required: 13 Strength
+@2324 = ~Escudo grande +1, +4 contra proyectiles: "Escudo de las Estrellas Fugaces"
+
+El mismo Ilmater hechizó este escudo al observar cómo un joven escudero estuvo dispuesto a sufrir una agonía indecible para salvaguardar su montura. Durante una feroz batalla entre una división de caballería de humanos y una horda de grandes trasgos, mandaron al joven en busca de refuerzos. Una cascada de flechas que casi no dejaba pasar los rayos del sol le asaltó y supo que, aunque esquivara las flechas, si su caballo llegaba a caerse estaría perdido. Utilizó su escudo y su cuerpo para aguantar la mayor parte del violento ataque y resultó mortalmente herido. Su caballo salió ileso y así lograron escapar. Su cuerpo fue llevado al pueblo más cercano, donde resucitó de la muerte.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: Bonificador +2, +5 contra proyectiles
+Peso: 12 lbs
+Requiere: Fuerza 13
+No permitido a:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
+
+//@23963 - Missile Weapons -> Sling, add Required: 3 Strength
+@2325 = ~Honda +3: "Daño de dragón de Arla"
+
+Nadie conoce mejor que los medianos el valor de una piedra bien colocada cuando se enfrentan a un enemigo grande. Esta arma en concreto pertenecía a una joven llamada Arla Piefirme, una de las pocas de entre la gente pequeña que se sentía impulsada a salir de aventuras. Las leyendas hablan de que la pequeña Arla utilizó su honda para colocar una piedra afilada en el cráneo de un dragón verde mientras volaba, aunque el mismo relato en otra taberna coloca la piedra en los cuartos traseros de la criatura, con efectos más humorísticos que letales. Parece que los medianos prefieren la diversión a la exactitud en sus historias.
+
+CARACTERÍSTICAS:
+
+Daño: +3 (Proyectil)
+THAC0: Bonificador +3
+Peso: 0 lbs
+Requiere: Fuerza 3
+Factor de velocidad: 3
+Talento marcial: Honda
+Tipo: A una mano~
+
+//@22020 - Blunt Weapons -> Quarterstaff, add Type:  2-handed, add Required: 3 Strength
+@2326 = ~Los bastones de golpear son fabricados por los elfos dorados de Drelagara, en Eterniôn. Estos bastones tienen vida propia y saltan de las manos de sus portadores para atacar. Los artesanos elfos rara vez los venden a otras razas, pero estas poderosas armas de combate cuerpo a cuerpo aparecen ocasionalmente por la superficie de Faerun. De todas formas, cada ataque del bastón utiliza una carga, provocando que se reduzca a cenizas cuando no le queda ninguna.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +9
+THAC0: Bonificador +3
+Peso: 4 lbs
+Requiere: Fuerza 3
+Factor de velocidad: 1
+Talento marcial: Bastón
+Tipo: A dos manos~
+
+//@23977
+@2327 = ~Bastón +3~
+
+//@23978 - Blunt Weapons -> Quarterstaff, add Required: 5 Strength
+@2328 = ~Bastón +3: "Bastón de Aule"
+
+Este bastón finamente creado estaba entre los despojos de los invasores de la Torre de Durlag. Es mortal en combate, y parece haber sido propiedad de un mago que prefería estar en primera línea de combate. Parece tener un núcleo de hierro, y sin embargo su peso es comparable al de un bastón común. Parte del encantamiento parece venir de la piel que fortalece el agarre; cuero de alguna criatura, sin duda. Con los gustos e inclinaciones de los atacantes de la Torre, la piel podría ser de cualquier cosa... o de cualquiera.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 + 3
+THAC0: Bonificador +3
+Tipo de daño: Contundente
+Peso: 3 lbs
+Requiere: Fuerza 5
+Factor de velocidad: 1
+Talento marcial: Bastón
+Tipo: A dos manos~
+
+//@7347 - Small Sword -> Short Sword, add Required: 4 Strength
+@2329 = ~Espada corta +2: "La Espada Silbante"
+
+En medio de las llanuras del Shaar oriental, vivía un pequeño herrero humano cuya estatura casi idéntica a la de los enanos no hacía justicia a su alma. Aunque era un herrero hábil para construir armas, su verdadero don consistía en su talento para silbar una canción desde lo hondo de su corazón que podía hacer llorar a un hombre hecho y derecho como si fuera un recién nacido. Unicamente un mago solitario compartía su tiempo y disfrutaba de la compañía del hombre diminuto. Sin embargo, los demás sólo veían en su pequeña estatura una fuente de diversión. Sordos a la canción del herrero por sus propios prejuicios, su mofa se tornó poco a poco en un tormento cruel que finalmente obligó al bondadoso hombre a abandonar su hogar para siempre. Antes de partir, forjó este instrumento para regalárselo a su único amigo, el mago, que lo hechizó durante su elaboración. Así pues, la espada entona su dulce canto cada vez que se desenvaina. Poco tiempo después, el mago, asqueado, también abandonó el pueblo llevando consigo la espada en sus viajes.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +2
+THAC0: Bonificador +2
+Tipo de daño: Perforante
+Peso: 2 lbs
+Requiere: Fuerza 4
+Factor de velocidad: 1
+Talento marcial: Espada corta
+Tipo: A una mano
+No permitido a:
+ Druida
+ Clérigo
+ Mago~ 
+
+//@18976 - Small Sword -> Short Sword, add Required: 5 Strength
+@2330 = ~La espada corta fue el primer tipo de espada utilizada y se podría describir como una especie de daga de hoja tan larga que ya deja de ser una daga. En la clasificación de espadas no se incluye el término espada corta. Sin embargo, la utilización de este vocablo se ha generalizado para describir una hoja de doble filo de aproximadamente 60 cm. De longitud. La punta de la espada suele ser afilada, perfecta para apuñalar.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 +1
+THAC0: Bonificador +1
+Tipo de daño: Perforante
+Factor de velocidad: 2
+Peso: 3 lbs
+Requiere: Fuerza 5
+Talento marcial: Espada corta
+Tipo: A una mano
+No permitido a:
+ Druida
+ Clérigo 
+ Mago~
+
+//@23970 - Large Sword -> Long Sword, add Required: 5 Strength
+@2331 = ~Lengua de Fuego: "La Tierra Ardiente"
+
+Se dice que existió una época anterior a los primeros días cálidos de Noyvern, y mucho antes de que el gran Anauroch se secara... Quedan muy pocas reliquias que demuestren que tal era existió, y todavía menos cuya finalidad pueda ser identificada. "Tierra Ardiente" parece un arma sencilla: quema a las víctimas con fuego mágico, y una runa críptica parece sugerir que su poder proviene de la mismísima tierra; sin embargo, la identidad de su fabricante sigue siendo un misterio. Parece un arma perfecta, pero hay algo en su equilibrio o en la empuñadura que... está mal. Provoca que el antebrazo se canse rápidamente y no termina de encajar bien en la mano. Aparte de la sensación de que el arma no está hecha para los humanoides, el portador no siente ninguna otra molestia al utilizarla.
+
+CARACTERÍSTICAS:
+
+Daño: 1D8 +1
+THAC0: Bonificador +1
+Especial:
+   +2 contra criaturas que se regeneran
+   +3 contra criaturas que dañan por frío
+   +4 contra muertos vivientes
+Tipo de daño: Cortante
+Peso: 4 lbs
+Requiere: Fuerza 5
+Factor de velocidad: 3
+Tipo de talento: Espada larga
+Tipo: A una mano
+Requiere: Fuerza 6
+No permitido a:
+ Druida
+ Clérigo
+ Mago~
+
+//@17656
+@2332 = ~El poseedor de la varita mágica puede descargar un rayo relampagueante. Cuando atraviesa una criatura, ocasiona 6d6 puntos de daño (contabilizando los 1 como 2), la mitad con protección contra las varitas mágicas. El rayo continuará atravesando el objetivo y "rebotará" hasta agotarse.
+
+CARACTERÍSTICAS:
+
+Efecto: Rayo relampagueante
+Daño: 6D6 (la mitad con protección contra las varitas mágicas)
+Alcance: 40 m.
+Área: Ruta del rayo
+No permitido a:
+ Guerrero
+ Druida
+ Clérigo
+ Ladrón~
+
+//@17658
+@2333 = ~Esta varita mágica emite un fino rayo verde que alcanza una distancia máxima de 23 m. Cualquier criatura tocada por este rayo debe protegerse contra las varitas mágicas o se convertirá en una ardilla.
+
+CARACTERÍSTICAS:
+
+Efectos: El objetivo se convierte en ardilla a menos que se proteja contra la varitas mágicas
+Alcance: 40 m.
+Área: 1 criatura
+Duración: Permanente hasta que se disipe
+No permitido a:
+ Guerrero
+ Druida
+ Clérigo
+ Ladrón~

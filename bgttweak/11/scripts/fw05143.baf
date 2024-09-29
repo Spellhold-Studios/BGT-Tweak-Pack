@@ -1,0 +1,1309 @@
+IF
+  RandomNum(1,1)
+  Global("RandomSet13551943_0","ARD014",0)
+  Global("RandomBeenSet13551943","ARD014",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet13551943_0","ARD014",1)
+    SetGlobal("RandomBeenSet13551943","ARD014",1)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(23)
+  LevelPartyLT(25)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(24)
+  LevelPartyLT(26)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(25)
+  LevelPartyLT(27)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(26)
+  LevelPartyLT(28)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(27)
+  LevelPartyLT(29)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(28)
+  LevelPartyLT(30)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(29)
+  LevelPartyLT(31)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(30)
+  LevelPartyLT(32)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(31)
+  LevelPartyLT(33)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(32)
+  LevelPartyLT(34)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(33)
+  LevelPartyLT(35)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(34)
+  LevelPartyLT(36)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(35)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(17)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(11)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(8)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(7)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(5)
+  Global("SpawnReset13551943","ARD014",0)
+  Global("RandomSet13551943_0","ARD014",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset13551943","ARD014",1)
+  GlobalTimerExpired("051413551943","ARD014")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",0)
+    SetGlobal("RandomBeenSet13551943","ARD014",0)
+    SetGlobal("RandomSet13551943_0","ARD014",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset13551943","ARD014",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset13551943","ARD014",1)
+    CreateCreature("GHOULLOR",[1355.1943],0)  // ~Greater Ghoul~
+    SetGlobalTimer("051413551943","ARD014",2400)
+END
+

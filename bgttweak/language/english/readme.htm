@@ -1,0 +1,598 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background: #e3e3db url('http://spellholdstudios.net/images/sh_bg_main.jpg');
+      }
+      
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+      
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #781808;
+        border-top: 5px solid #781808;
+        border-bottom: 5px solid #781808;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+      
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+      
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #781808;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #781808;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+      
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+      
+      h2::first-letter {
+        color: #781808;
+        background-color: transparent;
+      }
+      
+      #maindiv p {
+	font-size: 100%;
+	font-style: normal;
+	line-height: 150%;
+	padding: 0px;
+	margin: 10px auto;
+	width: 90%;
+	display: block;
+	text-align: justify;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+      
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+      
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #781808;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+      
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+      
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+	margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+      
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+	list-style-type: square;
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      #maindiv ol li {
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+      
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+      
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+      
+      a:link,
+      a:visited {
+        color: #781808;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+    </style>
+    <title>SPELLHOLD STUDIOS - BGT Tweak Pack</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+  <body>
+    <a name="top" id="top"></a>
+    <div id="wrap">
+      <div id="header">
+        <h1>Baldur's Gate Trilogy Tweak Pack (BGTTweak)</h1>
+        <strong>A Spellhold Studios mod for Baldur's Gate Trilogy-WeiDU (BGT-WeiDU)</strong>
+        <p class="about">
+          Project Lead: Ascension64</p>
+        <p class="about">
+          <a href="http://www.spellholdstudios.net/">Mod Website</a> &#8226;
+          <a href="http://www.shsforums.net/index.php?showforum=261">Mod Forum</a> &#8226;
+          Version: 9
+        </p>
+		<br />
+        <p class="menu">
+          <a href="#intro">Introduction</a> &middot;
+          <a href="#installation">Installation</a> &middot;
+          <a href="#translating">Translating</a> &middot;
+          <a href="#credits">Credits</a> &middot;
+          <a href="#legalese">Legalese</a> &middot;
+          <a href="#version">Version History</a>
+        </p>
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== I n t r o d u c t i o n ================== -->
+        <a name="intro" id="intro"></a>
+        <div class="content">
+          <h2>Introduction</h2>
+          <p>This modification is the offspring of existing patches in pre-ZETA versions of Baldur’s Gate Trilogy-WeiDU 0.99.  It was decided that tweaks should be separated from fixes in order to keep BGT-WeiDU more faithful to the original Baldur’s Gate and Tales of the Sword Coast.  Therefore, this package was borne to address the issues in the original Baldur’s Gate and Tales of the Sword Coast that were thought to be lacking.</p>
+		  <p>The components of this modification are:</p>
+		  <br />
+		<ol>
+			<li><strong>Eldoth reminds of Skie’s ransom:</strong> Eldoth periodically reminds the player when to collect the ransom money for Skie, to save you forgetting to collect your money.</li>
+			<li><strong>DEPRECATED – Angelo notices Shar-teel:</strong> Father and daughter relationship saves the day when the party is captured by the Flaming Fist.</li>
+			<li><strong>DEPRECATED – Finishable Kagain caravan quest:</strong> Finding the son of Duke Entar Silvershield is not a futile wander unless the player waits too long...</li>
+			<li><strong>Add Semaj's Cloak and Upgraded Koveras' Ring of Protection:</strong> This component introduces Semaj’s Cloak, an item that used to be part of the classic Baldur’s Gate Trilogy modification. The cloak is imported into Shadows of Amn if the party has it upon transition. Also, Koveras’ Ring of Protection gets an upgrade when it is imported into Shadows of Amn.</li>
+			<li><strong>Major locations explored upon visit:</strong> Baldur’s Gate, Beregost, Candlekeep, Nashkel, and Ulgoth’s Beard begin fully explored.</li>
+			<li><strong>Druid/Ranger-responsive bears in BG1:</strong> Just like in Shadows of Amn, bears encountered in the Sword Coast will do no more than growl if a Druid and/or Ranger is nearby.</li>
+			<li><strong>Happy patch:</strong> Help NPCs find their inner happiness and party harmony... by making sure they never get annoyed by the party’s reputation! Two options are possible with this component:</li>
+			<br />
+			<ul>
+				<li>NPCs cannot choose to leave the party: the NPCs will never leave the party no matter how much they are repulsed by your inappropriate behaviour</li>
+				<li>Only good and evil NPCs leave the party: good and evil NPCs will leave the party, but not other alignments</li>
+			</ul>
+			<li><strong>Import more items into Shadows of Amn:</strong> This tweak allows the importation of the following items from Baldur’s Gate and Tales of the Sword Coast to Shadows of Amn - Greenstone Amulet, Wand of the Heavens, Ring of Protection +2, Cloak of Protection +2, Gauntlets of Weapon Expertise, Eagle Bow, Shadow Armor, Boots of Stealth, Bracers of Archery, Gauntlets of Dexterity, Light Crossbow of Speed, Ankheg Plate Mail, Cloak of Non-Detection, Ring of Wizardry, Full Plate Mail +1, Gauntlets of Ogre Power, Ring of Holiness, Cloak of Balduran, Ring of Fire Resistance, and Ring of Freedom.  Please note that importation of these items WILL VERY LIKELY make Shadows of Amn much easier than usual, and as such installation of this component can be considered a cheat.</li>
+			<li><strong>Random activated traps in the pirate cave:</strong> Ever thought that tromping around in the cave guarded by Sil’s and her sirines was too easy?  This component randomly activates existing inactive traps so that you will never know what to expect each time you re-install this component, unless your stupid thief disarms them all!  Note that this component will have no effect if you load a save game where you had already visited the pirate cave before.  There are two options for this component:</li>
+			<br />
+			<ul>
+				<li>Install-time randomisation: Different traps are set every time you re-install this component.</li>
+				<li>Game-time randomisation: Different traps are set every time you first enter the pirate cave in your game.</li>
+			</ul>
+			<li><strong>Bags of the Sword Coast:</strong> No, not scum, but containers.  This component makes it easier for you to carry around your priceless gems, scrolls, ammo, potions, and whatever-you-wants with the space of just one inventory slot.  But first, you will have to find them.</li>
+			<li><strong>Altered spawns:</strong> This component is suitable for those who do not like the current BGT-WeiDU method of fixed random monsters.  There are several options for this component:</li>
+			<br />
+			<ul>
+				<li>TuTu-style levelled spawns: Random monsters appear depending on the level of the player.  This component is similar to the spawns used by TuTu v6 beta (permission from Ghreyfain).</li>
+				<li>Deactivate BGT-WeiDU spawns (spawns never appear): This removes random monsters in main areas altogether.  However, random encounters in discrete areas still occur when travelling.</li>
+				<li>Deactivate BGT-WeiDU spawns (spawns appear once): This removes respawning of random monsters in main areas, making them only appear once. Random encounters in discrete areas still occur when travelling.</li>
+			</ul>
+			<li><strong>Arkion reacts to player’s reputation:</strong> This minor tweak simply prevents Arkion from asking a high reputation character to fetch a corpse for him from the sewers.</li>
+			<li><strong>Coran responds to the death of a wyvern:</strong> This component restores original unused dialogue reminding the player to return the wyvern head to the Temple of Lathander for a reward.</li>
+			<li><strong>More bandit scalps:</strong> Please sir, can I have some more?  MORE?!?!?  You know, those dirty bits of skin that form the upper part of the head?  More bandits shall have them when you install this component.</li>
+			<li><strong>Altered item shattering:</strong> This component modifies the kinds of items that shatter. There are two options for this component:</li>
+			<br />
+			<ul>
+				<li>Remove item shattering: For those people who just hate it when their items shatter as if they were made of talc, this component prevents shattering of all items.</li>
+				<li>Make armor and shields shatter (for BGT-WeiDU v1.05b or above): Armor and shields also shatter, identical to the item shattering behaviour of BGT-WeiDU v1.05a or below.</li>
+			</ul>
+			<li><strong>Hooded unarmoured mages and thieves:</strong> The Salk special (a forum member) decrees the mages and thieves must not look like bare skulls, and should wear hoods to make them look like the Emperor from Star Wars.  Yes, females too!  Well, eureka, here it is!</li>
+			<li><strong>Salk’s Pen-and-Paper ruleset corrections:</strong> Yet another Salk special; this time in the correction of thieving modifiers by race, and ranger modifier to the Move Silently skill.</li>
+			<li><strong>Import more NPCs into Shadow of Amn:</strong> From your choice of Alora, Branwen, Eldoth, Kagain, Kivan, Shar-teel, Skie, Xan, Yeslick, Dark Side of the Sword Coast joinable NPCs (if installed), and Northern Tales of the Sword Coast joinable NPCs (if installed), if the NPC is in the party and is not dead, then they will be imported into Shadows of Amn. Simple as that. However, some of them you will have to find... (this component is incompatible with The Darkest Day, Tortured Souls, and Never Ending Journey).</li>
+			<li><strong>Restore BG2 XP bonus for traps, locks, and scrolls (for BGT-WeiDU v1.05 and above):</strong> This component restores the original amount of experience gained from picking locks, disarming traps, and scribing scrolls, which was reduced since BGT-WeiDU v1.05. Using this component on version of BGT-WeiDU prior to v1.05 will produce no effect. It is recommended that you install this when you transition to Shadows of Amn.</li>
+			<li><strong>Protagonist’s biography modifications:</strong> This component provides two options that slightly modifies the behaviour of how BGT-WeiDU sets the protagonist’s biography:</li>
+			<br />
+			<ul>
+				<li>Do not set BG1 biography for imported characters: If you import a character into a new game starting in Candlekeep, the Baldur’s Gate I biography will not be set. Use this if your imported character has a custom biography that you wish to keep and use on the character.</li>
+				<li>Set BG2 biography upon Shadows of Amn transition: If you would like the biography of your character to change to the Shadows of Amn version upon transition into Irenicus’ dungeon, this component will do this for you. However, note that custom biographies will be lost when this occurs.</li>
+			</ul>
+			<li><strong>Exotic weapons for Taerom:</strong> Taerom has imported some Katanas, Wazikashis, and Ninja-Tos for the oriental sword-wielding enthusiasts.</li>
+			<li><strong>Item BG1-ification:</strong> This component converts some of the items to behave more like the Baldur’s Gate I version. Changes are separated into sub-components that include prices, stack sizes, lore requirements, scroll casting level, and item behaviours (strength requirements, damage, range, power, and various bonuses).</li>
+			<li><strong>Disable hostile reaction after charm:</strong> Spells and abilities that charm creatures no longer result in the target becoming hostile after the effects wear off. Works best when installed with the ‘Enable conversations with charmed/dominated creatures’ patch.</li>
+			<li><strong>Enemy items shatter:</strong> Give your opponents a dose of the iron shortage by giving them a chance for their iron weapons to shatter when used. If you have installed the 'Make armor and shields shatter' option of the "Altered item shattering" component, then they also have a chance for their iron shields and armor shatter upon being hit.</li>
+			<li><strong>Access Ulgoth's Beard west of Wyrm's Crossing only:</strong> Ulgoth's Beard lies to the west of Baldur's Gate according to Forgotten Realms Lore, but in Baldur's Gate: Tales of the Sword Coast, Ulgoth's Beard is placed to the north-east. This component corrects this inconsistency by only allowing access to Ulgoth's Beard on the west side of Wyrm's Crossing. However, this also means that Ulgoth's Beard will not be accessible until Baldur's Gate city is also accessible.</li>
+			<li><strong>Prevent access to Durlag's Tower from adjacent areas:</strong> This component stops the player from discovering Durlag's Tower just by walking to its location. If this component is installed, the only way to discover Durlag's Tower is through informants at Ulgoth's Beard.</li>
+            <li><strong>Put Sword of Chaos +2 in Sarevok's inventory:</strong> If you can't get anoough of kick-ass swords, then running around with Sarevok's sword ain't a bad way to satisfy your greed. This component allows you to pick up Sarevok's Sword of Chaos +2 after he is slain.</li>
+		</ol>
+          <address>
+            <span class="footer">BGT Tweak Pack &gt; Introduction</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== I n s t a l l a t i o n ================== -->
+        <a name="installation" id="installation"></a>
+        <div class="content">
+          <h2>Installation</h2>
+		  <h3>Requirements</h3>
+		  <p>BGT-WeiDU version 1.01 or above is required for BGT-WeiDU Tweakpack to be installed.</p>
+		<hr />
+		
+		<h3>Compatibility</h3>
+		<p>Compatibility checks are implemented for the modifications ‘Ease-of-Use’, ‘BGSpawn’, ‘BG1 NPC Project’, and ‘BG1 Unfinished Business’.  For these checks to be active, ensure that this modification is installed after those mentioned.</p>
+		<hr />
+
+		<h3>Installation</h3>
+		<ol>
+		  <li>Extract BGTTweak_v9.rar to your BGT-WeiDU installation directory</li>
+		  <li>Run Setup-BGTTweak.exe and follow the on-screen prompts</li>
+		  <li>If a previous version of BGT-WeiDU Tweak pack is installed, simply re-install the component.  Re-installation will not invalidate any existing save games</li>
+		</ol>
+		<hr />
+
+		<h3>Uninstallation</h3>
+		<p>Run Setup-BGTTweak.exe and follow the on-screen prompts</p>
+          <address>
+            <span class="footer">BGT Tweak Pack &gt; Installation</span> <a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== T r a n s l a t i n g ================== -->
+        <a name="translating" id="translating"></a>
+		<div class="content">
+          <h2>Notes for Translators</h2>
+		  <p>To translate BGT-WeiDU Tweak pack into a different language, follow the steps listed below:</p>
+		  <ul>
+		  	<li>Go to your Baldur’s Gate II Shadows of Amn installation directory, and switch to the BGTTweak\Language directory</li>
+			<li>Create a copy of the English directory and rename it to the language you wish to translate to, e.g. English -> Espanol</li>
+			<li>Enter your renamed directory and open up setup.tra</li>
+			<li>For every line starting with the @ symbol followed by a number then an =, translate all text in between the two ~ or " symbols, e.g. @1001 = ~English~ -> @1001 = ~Espanol~ or @-1001 = "English" -> @-1001 = "Espanol"</li>
+			<li>You may translate this readme.htm file also if you wish, but you do not need to translate this particular section</li>
+			<li>Package your renamed directory and readme file, then either post the file on the <a href="http://forums.spellholdstudios.net">Spellhold Studios forums</a>, or send a private message (PM) to Ascension64 at the Spellhold Studios forums, who will give you an e-mail address to send to</li>
+			<li>Expect the language to be included for the next release</li>
+		  </ul>
+          <address>
+            <span class="footer">BGT Tweak Pack &gt; Translating</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+        <!-- ================== C r e d i t s ================== -->
+        <a name="credits" id="credits"></a>
+        <div class="content">
+          <h2>Credits</h2>
+          <p><strong>Ascension64:</strong> author</p>
+		  <h3>Translations</h3>
+          <p><strong>Castilian/Spanish (<a href="http://www.clandlan.net">http://www.clandlan.net</a>):</strong> Ghildrean, Immortality, Memnoch, Saemon</p>
+          <p><strong>French:</strong> <u>Anomaly</u>, Isaya</p>
+          <p><strong>German:</strong> RubberDuck, <u>weigo</u></p>
+          <p><strong>Italian:</strong> al17, Gemini82, melkor_morgoth75, <u>Salk</u></p>
+          <p><strong>Korean:</strong> Inesius, web2air, Whiteraven</p>
+          <p><strong>Polish:</strong> Folmi, <u>Promilus</u>, yarpen</p>
+          <p><strong>Russian:</strong> iopden, <u>King Diamond</u></p>
+          <p><strong>Simplified/Traditional Chinese (<a href="http://trow.cn/forum/">http://trow.cn/forum/</a>):</strong> fc666, <u>good0593</u>, Kinkairy, moon_cloud, roclord, 猫猫伸懒腰</p>
+          <address>
+            <span class="footer">BGT Tweak Pack &gt; Credits</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+        <!-- ================== L e g a l e s e ================== -->
+        <a name="legalese" id="legalese"></a>
+        <div class="content">
+          <h2>Legalese</h2>
+		  <p>BALDUR’S GATE, BALDUR'S GATE: TALES OF THE SWORD COAST: © 1999 BioWare Corp. All Rights Reserved. Baldur's Gate and Baldur's Gate Tales of the Sword Coast are trademarks of TSR, Inc., a subsidiary of Wizards of the Coast, Inc., and are used by Interplay under license. The BioWare Infinity Engine is a trademark of BioWare Corp.</p>
+		  <p>BALDUR'S GATE II: SHADOWS OF AMN, BALDUR’S GATE II: THRONE OF BHAAL: © 2000, 2001 BioWare Corp. All Rights Reserved. Baldur's Gate, Throne of Bhaal, and Shadows of Amn are trademarks owned by Wizards of the Coast, Inc. and are used by Interplay under license. All Rights Reserved. The BioWare Infinity Engine is a trademark of BioWare Corp. All Rights Reserved.</p>
+		  <p><strong>USE THIS MODIFICATION AT YOUR OWN RISK. This modification is not developed, supported, or endorsed by BioWare Corp., Interplay, or Black Isle. All images and contents of this mod are © BioWare Corp., Interplay, Black Isle or Wizards of the Coast, Inc.</strong></p>
+		  <p>This is a community modification, created as a hobby for free. You can distribute among your peers as much as you like. However, please display good faith and credit the authors of the modification if you intend to modify the package in any way or use any part of this modification as a template to create part/all of a modification/fixpack/tweak that you intend to release to the community.</p>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Legalese</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+        <!-- ================== V e r s i o n   H i s t o r y ================== -->
+        <a name="version" id="version"></a>
+        <div class="content">
+          <h2>Version history</h2>
+		  <h6>Version 9 Updates (14 Oct 09; 31 Oct 09; 25 Nov 09; 19 Dec 09; 31 Dec 09)</h6>
+		  <ul>
+		    <li><strong>Updated translations: </strong> German (091231), Korean (091219), Russian (091014), Simplified Chinese (091031), Traditional Chinese (091031)</li>
+            <li><strong>Enemy items shatter: </strong> Reversed order of duplicate script removal so NPCs with duplicate banter trigger script will not have override script removed (091125)</li>
+            <li><strong>Import more items into Shadows of Amn: </strong> Fixed bug where Greenstone Ring and Wand of Heavens were imported with zero charges (091231)</li>
+            <li><strong>Import more NPCs into Shadows of Amn: </strong> EXTEND_BOTTOM instead of EXTEND_TOP, fixed issue with Xan's importation (091219)</li>
+		  </ul>
+          <h6>Version 9 (10 Oct 09)</h6>
+		  <ul>
+			<li><strong>New component</strong>: Put Sword of Chaos +2 in Sarevok's inventory</li>
+		    <li><strong>Add Semaj's Cloak and Upgraded Koveras' Ring of Protection: </strong> Semaj's Cloak is now sellable</li>
+            <li><strong>Deactivate BGT-WeiDU spawns: spawns apear once (subcomponent): </strong> fixed bug where spawn points would not always deactivate (please note that saving as soon as you enter a new area can prevent any spawns from occurring in that area)</li>
+			<li><strong>Import more NPCs into Shadows of Amn</strong>: fixed bug where NPCs won't say anything if you drop them in SoA</li>
+		    <li><strong>Updated translations: </strong> Simplified Chinese, Traditional Chinese</li>
+            <li>Updated to BiggDU v211</li>
+		  </ul>
+		  <h6>Version 8 (29 Jan 09)</h6>
+		  <ul>
+			<li><strong>New components: </strong> Access Ulgoth's Beard west of Wyrm's Crossing only, Deactivate BGT-WeiDU spawns: spawns appear once (subcomponent), Enemy items shatter, Only good and evil NPCs leave the party (subcomponent), Prevent access to Durlag's Tower from adjacent areas</li>
+		    <li><strong>New translations: </strong> Traditional Chinese</li>
+			<li><strong>Coran responds to the death of a wyvern:</strong> Added compatibility for BG1NPC v17 and above, and BGT-WeiDU v1.07</li>
+			<li><strong>Disable BGT-WeiDU spawns: </strong> Renamed to 'Disable BGT-WeiDU spawns: spawns never appear'</li>
+			<li><strong>Disable hostile reaction after charm: </strong> No longer affects the statues that assist in fighting the wyverns in Durlag's Tower, and fixed an issue with this component trying to patch non-EFF files and causing installation to fail</li>
+			<li><strong>Import all NPCs into Shadows of Amn: </strong> Separated into components for each NPC that can be modified, and renamed component to 'Import more NPCs into Shadows of Amn'</li>
+			<li><strong>Item BG1-ification: </strong> Separated into sub-components - Price changes, Lore changes, Reduce stack size from 40 to 20, Scroll casting level changes, and Item behaviour changes</li>
+			<li><strong>Remove item shattering: </strong> Fixed an installation error</li>
+			<li><strong>Salk’s Pen-and-paper ruleset corrections: </strong> Corrected thieving racial skill adjustments</li>
+			<li>Added version flag and readme prompt</li>
+			<li>Designated static values for each component</li>
+			<li>Readme updated to use the Spellhold Studios template</li>
+			<li>Updated to BiggDU v209</li>
+		  </ul>
+		  <h6>Version 7 (29 Dec 07)</h6>
+		  <ul>
+			<li><strong>New components: </strong> Disable hostile reaction after charm, Exotic weapons for Taerom, Item BG1-ification, Make armor and shields shatter (subcomponent), Protagonist's biography modifications, Restore BG2 XP bonus for traps, locks, and scrolls</li>
+			<li><strong>Deprecated components: </strong> Angelo notices Shar-teel, Finishable Kagain quest</li>
+		    <li><strong>Druid/Ranger-responsive bears in BG1: </strong> Now checks for BG1 Unfinished Business installation</li>
+			<li><strong>Finishable Kagain Quest: </strong> Slightly altered Kagain’s behaviour when he finds the Duke’s son (but deprecated)</li>
+			<li><strong>Tougher Sarevok and Semaj: </strong> renamed component to Add Semaj's Cloak and Upgraded Koveras' Ring of Protection</li>
+			<li>Readme no longer displays after installation</li>
+			<li>Updated to BiggDU v202</li>
+		  </ul>
+		  <h6>Version 6 (17 Feb 07)</h6>
+		  <ul>
+			<li><strong>New translations: </strong> Castilian/Spanish</li>
+		    <li>Corrected checks for the BG1NPC Project</li>
+			<li>Updated to BiggDU v198</li>
+		  </ul>
+		  <h6>Version 5 (25 Dec 06)</h6>
+		  <ul>
+		    <li><strong>New components: </strong> Import all NPCs into Shadows of Amn, Salk's Pen-and-Paper ruleset corrections</li>
+			<li><strong>New translations: </strong> Korean, Polish, Simplified Chinese</li>
+			<li>Updated to BiggDU v197</li>
+		  </ul>
+		  <h6>Version 4 (8 Jul 06)</h6>
+		  <ul>
+		    <li><strong>Coran responds to the death of a wyvern: </strong> Added compatibility check</li>
+			<li><strong>Hooded unarmoured thieves: </strong> Fixed a major bug with the component not working</li>
+			<li><strong>Import more items into Shadows of Amn: </strong> Fixed a bug where the Ring of Wizardry ‘Evermemory’ was not imported correctly</li>
+			<li><strong>Remove item shattering: </strong> Fixed a major bug with the component</li>
+			<li>Corrected typo in the author name 'melkor_morgoth75' in readme</li>
+		  </ul>
+		  <h6>Version 3 (16 Mar 06)</h6>
+		  <ul>
+		    <li><strong>New components:</strong> Altered spawns, Arkion reacts to player's reputation, Bags of the Sword Coast, Coran responds to the death of a wyvern, Give Vax and Zal bandit scalps, Hooded unarmoured mages and thieves, Random activated traps in the pirate cave, Remove item shattering</li>
+			<li><strong>New translations:</strong> French, Italian, Russian</li>
+			<li><strong>Angelo notices Shar-teel:</strong> Fixed a bug where Angelo would appear in the prison even if Shar-teel was not in the party</li>
+			<li><strong>Tougher Sarevok and Semaj:</strong> Now allows importation of Semaj's cloak into Shadows of Amn</li>
+			<li>Added compatibility checks for various components</li>
+			<li>Updated to WeiDU (BiggDU) v190</li>
+		  </ul>
+		  <h6>Version 2 (5 Jan 06)</h6>
+		  <ul>
+		    <li><strong>New components:</strong> Druid/Ranger-responsive bears in BG1, Happy patch, Import more items into Shadows of Amn</li>
+			<li><strong>Finishable Kagain caravan quest:</strong> Fixed a bug where Kagain shows erratic behaviour when the party finds the caravan</li>
+			<li><strong>Tougher Sarevok and Semaj:</strong> Installation made more dynamic
+			<li>Corrected umlaut display problems during installation</li>
+			<li>Corrected WeiDU display messages regarding re-installation</li>
+		  </ul>
+		  <h6>Version 1 (10 Dec 05)</h6>
+		  <ul>
+		    <li>First release</li>
+		  </ul>
+          <address>
+            <span class="footer">BGT Tweak Pack &gt; Version History</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    <!--
+      function toggle(id) {
+        element = document.getElementById(id);
+        if ( element.style.display == 'none' ) {
+          element.style.display = '';
+          if ( document.all ) {
+            document.getElementById('vhistoryaddress').style.display = 'none'; // IE hack
+          }
+        } else {
+          element.style.display = 'none';
+          if ( document.all ) {
+            document.getElementById('vhistoryaddress').style.display = ''; // IE hack
+          }
+        }
+      }
+
+      elements = document.getElementsByTagName('*');
+      for ( var i = 0; i < elements.length; i++ ) {
+        if ( elements[i].className == 'vlisthide' ) {
+          elements[i].style.display = 'none';
+        }
+      }
+    //-->
+    </script>
+	
+</body>
+</html>

@@ -1,0 +1,715 @@
+IF
+  RandomNum(1,1)
+  Global("RandomSet40961024_0","AR9500",0)
+  Global("RandomBeenSet40961024","AR9500",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet40961024_0","AR9500",1)
+    SetGlobal("RandomBeenSet40961024","AR9500",1)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(17)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(8)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(5)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(4)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(3)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  Global("SpawnReset40961024","AR9500",0)
+  Global("RandomSet40961024_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset40961024","AR9500",1)
+  GlobalTimerExpired("360040961024","AR9500")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",0)
+    SetGlobal("RandomBeenSet40961024","AR9500",0)
+    SetGlobal("RandomSet40961024_0","AR9500",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset40961024","AR9500",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset40961024","AR9500",1)
+    CreateCreature("HOBGOB_D",[4096.1024],0)  // ~Hobgoblin~
+    SetGlobalTimer("360040961024","AR9500",2400)
+END
+

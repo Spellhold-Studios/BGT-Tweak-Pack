@@ -1,0 +1,114 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Installation Prompts
+////////////////////////////////////////////////////////////////////
+
+@-1000 = "This mod has"
+@-1001 = "distinct optional components.
+To save time, you can choose what to do with them at a high level rather
+than being asked about each one."
+@-1002 = "What should be done with all components that are NOT YET installed?
+[I]nstall them, [S]kip them, [A]sk about each one? "
+@-1003 = "What should be done with all components that are ALREADY installed?
+[R]e-install them, [U]ninstall them, [S]kip them, [A]sk about each one? "
+@-1004 = "PLEASE email the file"
+@-1005 = "to"
+
+@-1006 = "Install Component ["
+@-1007 = "]
+[R]e-Install, [N]o Change or [U]ninstall or [Q]uit? "
+@-1008 = "]
+[Y]es or [N]o or [Q]uit? "
+@-1009 = "Enter part of a module name: "
+@-1011 = "] component "
+@-1013 = "Removing old installation of ["
+@-1014 = "] first ..."
+@-1015 = "SUCCESSFULLY REMOVED OLD"
+
+@-1016 = "Installing"
+@-1017 = "ERROR Installing ["
+@-1018 = "], rolling back to previous state"
+@-1019 = "SUCCESSFULLY INSTALLED"
+@-1020 = "Skipping"
+@-1021 = "Removing ["
+@-1022 = "] (component #"
+@-1023 = ")"
+@-1024 = "SUCCESSFULLY REMOVED ["
+
+////////
+//Errors
+////////
+@1 = ~Nie moæna odnale´Ü Baldur's Gate Trilogy-WeiDU.~
+@2 = ~Komponent moda BG1 NPC Project "The BG1 NPC Project for BGT: Core Install" stwarza problemy z wybranym komponentem.~
+@3 = ~Komponent moda BG1 NPC Project "The BG1 NPC Project for BGT-Weidu: Phase II (Quests and Interjections)" stwarza problemy z wybranym komponentem.~
+@4 = ~Komponent Ease-of-Use "Szcz©òcie: Postacie nie b©d• walczyÜ ze sob• i nie opuszcz• grupy" stwarza problemy z wybranym komponentem.~
+@5 = ~Komponent moda BG1 NPC Project "The BG1 NPC Project for BGT-Weidu: Phase I (Banters)" stwarza problemy z wybranym komponentem.~
+@6 = ~Komponent BG1 Unfinished Business "Poprawki stworze‰" stwarza problemy z wybranym komponentem.~
+@7 = ~Komponent modyfikacji BGTTweak o nazwie 'Usuni©cie niszczenia przedmiot¢w' powoduje problemy z wybranym komponentem.~
+@8 = ~Ten komponent wymaga Dark Side of the Sword Coast.~
+@9 = ~Ten komponent wymaga Northern Tales of the Sword Coast.~
+@10 = ~Ten komponent wymaga Baldur's Gate Trilogy - WeiDU w wersji 1.07 lub wyæszej.~
+@11 = ~Modyfikacja BP-BGT Worldmap stwarza problemy z wybranym komponentem.~
+@12 = ~Modyfikacja BGSPawn powoduje konflikt z tym komponentem.~
+
+/////////////////
+//Component names
+/////////////////
+@100 = ~Eldoth przypomina Skie o okupie~
+@200 = ~Angelo rozpoznaje Shar-teel~
+@300 = ~Zako‰czenie questu Kagaina z karawan•~
+@400 = ~Silniejszy Sarevok i Semaj~
+@500 = ~Odkrycie waæniejszych lokacji podczas wizyty~
+@600 = ~Druid/ùowca-przyjazne nied´wiedzie w BG1~
+@700 = ~Szcz©òliwy patch~
+@701 = ~NPC nie mog• wybraÜ opuszczenia druæyny~
+@702 = ~Jedynie Dobrzy oraz çli NPC mog• opuòciÜ druæyn©~
+@800 = ~Importowanie wi©kszej iloòci przedmiot¢w do SoA
+(UWAGA: Moæe byÜ postrzegany jako cheat)~
+@900 = ~Losowo aktywowane puàapki w jaskini pirat¢w~
+@901 = ~Randomizacja czasu instalacji~
+@902 = ~Randomizacja czasu gry~
+@1000 = ~Pojemniki Wybrzeæa Mieczy~
+@1100 = ~Zmienione spawny potwor¢w~
+@1101 = ~Poziomowe spawny jak w TuTu~
+@1102 = ~Wyà•czenie losowych potwor¢w BGT-WeiDU: Losowe potwory nigdy si© nie pojawiaj•~
+@1103 = ~Losowe potwory w stylu EasyTutu~
+@1104 = ~Wyà•czenie losowych potwor¢w BGT-WeiDU: Losowe potwory pojawiaj• si© tylko raz~
+@1200 = ~Arkion zwraca uwag© na reputacj© gracza~
+@1300 = ~Coran reaguje na òmierÜ wywerny~
+@1400 = ~Wi©cej skalp¢w bandyt¢w~
+@1500 = ~Wyà•czenie niszczenia si© przedmiot¢w~
+@1501 = ~Usuni©cie niszczenia si© przedmiot¢w~
+@1502 = ~Zbroje i tarcze mog• si© niszczyc~
+@1600 = ~Zakapturzeni nieuzbrojeni magowie i zàodzieje~
+@1700 = ~Poprawki zasad gry przez Salka~
+@1800 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Alora~
+@1801 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Branwen~
+@1802 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Eldoth~
+@1803 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Kagain~
+@1804 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Kivan~
+@1805 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Sharteel~
+@1806 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Skie~
+@1807 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Xan~
+@1808 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Yeslick~
+@1809 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Bub Snikt~
+@1810 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Conchobhair Strongblade~
+@1811 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Ferthgil Trollslayer~
+@1812 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Jet'laya~
+@1813 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Keiria Silverstring~
+@1814 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Skeezer Lumpkin VI~
+@1815 = ~Importowanie wi©kszej iloòci NPC do Cieni Amn: Will Scarlet O'Hara~
+@1900 = ~Przywr¢cenie premi doòwiadczenia za rozbrajanie puàapek, otwieranie zam¢w i nauk© czar¢w z BG2~
+@2000 = ~Modyfikacje biografii postaci gà¢wnej~
+@2001 = ~Nie ustawiaj biografii BG1 dla importowanych postaci~
+@2002 = ~Ustaw biografi© BG2 podczas przejòcia do Cieni Amn~
+@2100 = ~Egzotyczne bronie dla Taeroma~
+@2200 = ~Zmiana przedmiot¢w na styl BG1: Zmiana Cen~
+@2201 = ~Zmiana przedmiot¢w na styl BG1: Zredukowane stosy pocisk¢w z 40 do 20~
+@2202 = ~Zmiana przedmiot¢w na styl BG1: Zmiany WIEDZY~
+@2203 = ~Zmiana przedmiot¢w na styl BG1: Zmiany poziom¢w zwoj¢w czar¢w~
+@2204 = ~Zmiana przedmiot¢w na styl BG1: Zmiany w zachowaniu przedmiot¢w~
+@2300 = ~Wyà•cz nieprzyjazne reakcje po zauroczeniu~
+@2400 = ~Przedmioty wrog¢w mog• ulec zniszczeniu~
+@2500 = ~Dost©p do Brody Ulgotha jedynie na zach¢d od Ωmijowego skrzyæowania.~
+@2600 = ~Uniemoæliwienie dost©pu do Wieæy Durlaga z pobliskich obszar¢w~
+@2700 = ~UmieòÜ Miecz Chaosu+2 w ekwipunku Sarevoka~

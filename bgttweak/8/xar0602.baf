@@ -1,0 +1,189 @@
+IF
+  Global("IHaveGreenstone","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveGreenstone","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("AMUL17",10,0,0)) // Greenstone Amulet
+    Continue()
+END
+
+IF
+  Global("IHaveHeavens","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveHeavens","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("WAND11",10,0,0)) // Wand of the Heavens
+    Continue()
+END
+
+IF
+  Global("IHaveRingProtect","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveRingProtect","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("RING07",0,0,0)) // Ring of Protection +2
+    Continue()
+END
+
+IF
+  Global("IHaveCloakProtect","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveCloakProtect","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("CLCK02",0,0,0)) // Cloak of Protection +2
+    Continue()
+END
+
+IF
+  Global("IHaveGauntlets","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveGauntlets","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("BRAC10",0,0,0)) // Gauntlets of Weapon Expertise
+    Continue()
+END
+
+IF
+  Global("IHaveEagle","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveEagle","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("BOW08",0,0,0)) // Eagle Bow
+    Continue()
+END
+
+IF
+  Global("IHaveShadow","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveShadow","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("LEAT08",0,0,0)) // Shadow Armour
+    Continue()
+END
+
+IF
+  Global("IHaveStealth","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveStealth","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("BOOT02",0,0,0)) // Boots of Stealth
+    Continue()
+END
+
+IF
+  Global("IHaveArchery","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveArchery","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("BRAC04",0,0,0)) // Bracers of Archery
+    Continue()
+END
+
+IF
+  Global("IHaveDexterity","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveDexterity","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("BRAC07",0,0,0)) // Gauntlets of Dexterity
+    Continue()
+END
+
+IF
+  Global("IHaveCrossbow","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveCrossbow","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("XBOW06",0,0,0)) // Light Crossbow of Speed
+    Continue()
+END
+
+IF
+  Global("IHaveAnkheg","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveAnkheg","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("PLAT06",0,0,0)) // Ankheg Plate Mail
+    Continue()
+END
+
+IF
+  Global("IHaveNondetect","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveNondetect","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("CLCK06",0,0,0)) // Cloak of Non-detection
+    Continue()
+END
+
+IF
+  Global("IHaveWizardry","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveWizardry","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("%RingOfWizardry%",0,0,0)) // Ring of Wizardry
+    Continue()
+END
+
+IF
+  Global("IHaveFull","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveFull","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("PLAT05",0,0,0)) // Full Plate Mail +1
+    Continue()
+END
+
+IF
+  Global("IHaveOgre","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveOgre","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("BRAC06",0,0,0)) // Gauntlets of Ogre Power
+    Continue()
+END
+
+IF
+  Global("IHaveHoliness","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveHoliness","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("RING22",0,0,0)) // Ring of Holiness
+    Continue()
+END
+
+IF
+  Global("IHaveBalduran","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveBalduran","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("CLCK05",0,0,0)) // Cloak of Balduran
+    Continue()
+END
+
+IF
+  Global("IHaveFire","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveFire","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("RING02",0,0,0)) // Ring of Fire Resistance
+    Continue()
+END
+
+IF
+  Global("IHaveFree","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveFree","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("RING09",0,0,0)) // Ring of Free Action
+    Continue()
+END
+
+IF
+  Global("IHavePants","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHavePants","GLOBAL",2)
+    SetGlobal("BG1Pantaloons","GLOBAL",1)
+    ActionOverride("Picture1",CreateItem("MISC47",0,0,0)) // Golden Pantaloons
+    Continue()
+END

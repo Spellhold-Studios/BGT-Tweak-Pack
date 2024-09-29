@@ -1,0 +1,540 @@
+/////////////////////////////////
+//Eldoth przypomina Skie o okupie
+/////////////////////////////////
+
+@101 = ~Powinniœmy ju¿ iœæ i spotkaæ siê z Elkartem w Ostrzu i Gwiazdach. Wed³ug moich obliczeñ minê³y ju¿ 2 dni.~
+
+///////////////////////////
+//Silniejszy Sarevok i Semaj
+///////////////////////////
+
+@401 = ~P³aszcz Maga~
+@402 = ~P³aszcz Semaja~
+@403 = ~Jest to p³aszcz, który niegdyœ nosi³ mag Sarevoka, Semaj. Nie wiadomo jakie moce posiada ten magiczny przedmiot.~
+@404 = ~Jest to p³aszcz, który niegdyœ nosi³ mag Sarevoka, Semaj. Rozmywa posiadacza i zapewnia mu niewielk¹ ochronê przed magi¹.
+
+PARAMETRY:
+
+Posiadacz pod wp³ywem rozmycia
+Odpornoœæ na magiê: +10%
+Waga: 2
+Nie mo¿e u¿ywaæ:
+ Postacie praworz¹dne
+ Wojownik
+ Z³odziej
+ £owca
+ Mnich
+ Wojownik/Z³odziej
+ Krasnolud
+ Gnom
+ Pó³-Ork~
+@405 = ~Pierœcieñ ochrony Koverasa +2
+
+<CHARNAME> otrzyma³ ten pierœcieñ od 'Koverasa' podczas ich wzajemnego spotkania w Candlekeep w czasie ¯elaznego Kryzysu.  Zosta³ u¿yty w celu wrobienia <CHARNAME> w morderstwo, przekazany pod pozorem w³asnoœci Goriona.  Ten pierscieñ nie ma ¿adnej specjalnej wartoœci sentymentalnej, ale zosta³ znaleziony wœród niewielu rzeczy od <CHARNAME>  pozosta³ych w lochach Irenicusa, bardziej potê¿ny ni¿ kiedykolwiek przedtem.  Nie ma ¿adnego logicznego wyjaœnienia czemu z³y mag nie sprzeda³ tego pierœcienia razem z innymi przedmiotami,ani tym bardziej sk¹d nag³y wzrost mocy pierœcienia...
+Statystyki:
+Klasa Pancerza:  +2
+Rzuty obronne:  +2
+5% Odpornoœci na magiê~
+~Pierœcieñ ochrony Koverasa +2
+
+<CHARNAME> otrzyma³a ten pierœcieñ od 'Koverasa' podczas ich wzajemnego spotkania w Candlekeep w czasie ¯elaznego Kryzysu.  Zosta³ u¿yty w celu wrobienia <CHARNAME> w morderstwo, przekazany pod pozorem w³asnoœci Goriona.  Ten pierscieñ nie ma ¿adnej specjalnej wartoœci sentymentalnej, ale zosta³ znaleziony wœród niewielu rzeczy od <CHARNAME>  pozosta³ych w lochach Irenicusa, bardziej potê¿ny ni¿ kiedykolwiek przedtem.  Nie ma ¿adnego logicznego wyjaœnienia czemu z³y mag nie sprzeda³ tego pierœcienia razem z innymi przedmiotami,ani tym bardziej sk¹d nag³y wzrost mocy pierœcienia...
+Statystyki:
+Klasa Pancerza:  +2
+Rzuty obronne:  +2
+5% Odpornoœci na magiê~
+
+////////////////////////////////
+//Make armor and shields shatter
+////////////////////////////////
+
+@1503 = ~Moja zbroja siê zniszczy³a!~
+@1504 = ~Moja tarcza siê zniszczy³a!~
+@1505 = ~Moja broñ siê zniszczy³a!~
+
+////////////////////
+//Item BG1-ification
+////////////////////
+
+//@16297
+@2301 = ~The flight arrow, as its name implies, is built for distance.  These are lightweight arrows and are often used for hunting.  Most of these arrows are made of ash or birch and are 30 to 40 inches long. 
+
+STATISTICS:
+
+Damage:  1D6 + 1
+THACO:  +1 bonus
+Damage Type:  missile (piercing)
+Weight: 0
+Launcher:  Bow
+Not Usable By:
+ Cleric
+ Druid
+ Mage~
+
+//@17536
+@2302 = ~This arrow is coated in acid so that when it strikes an enemy, it will not only pierce its flesh but also begin to eat away at the wound, enlarging and deepening its severity.
+
+STATISTICS:
+
+Damage:  1D6 + 1
+THACO:  +1
+Damage type:  missile (piercing)
+Special:  2D6 acid damage
+Weight: 0
+Launcher:  Bow
+Not usable by:
+ Cleric
+ Druid
+ Mage~
+
+//@17540
+@2303 = ~The arrow of fire is a magical arrow that will burst into flames as it is fired at an enemy.  The effect is similar to an arrow doused in oil and set to flame.
+
+STATISTICS:
+
+Damage:  1D6
+Damage type:  missile (piercing)
+Special:  1D6 fire damage (save vs. spell for none)
+Weight: 0
+Launcher:  Bow
+Not usable by:
+ Cleric
+ Druid
+ Mage~
+
+//@17542
+@2304 = ~The arrow of ice is magically enhanced so as to burst into a rolling ball of ice and cold when fired.  When the arrow strikes its victim, a shock of cold will travel through its body, both burning and numbing to the very core.
+
+STATISTICS:
+
+Damage:  1D6
+Damage type:  missile (piercing)
+Special:  1D6 cold damage (no save)
+Weight: 0
+Launcher:  Bow
+Not usable by:
+ Cleric
+ Druid
+ Mage~
+
+//@17534
+@2305 = ~These arrows were enhanced through magical means when they were created.  They appear slightly straighter then the average arrow, almost alive as they effortlessly leave your bow and streak towards their target with deadly accuracy.
+
+STATISTICS:
+
+Damage:  1D6 + 2
+THACO:  +2
+Damage type:  missile (piercing)
+Weight: 0
+Launcher:  Bow
+Not usable by:
+ Cleric
+ Druid
+ Mage~
+
+//@19353
+@2306 = ~Quarrels or bolts are the ammunition fired by crossbows regardless of the weapon's size.  However this bolt has been imbued with a small amount of magical properties which enhances performance in flight, almost as if the bolt was guided towards its target.
+
+STATISTICS:
+
+Damage:  1D8 +1
+THACO:  +1
+Damage type:  missile (piercing)
+Weight:  0
+Launcher:  Crossbow~
+
+//@19358
+@2307 = ~Quarrels or bolts are the ammunition fired by crossbows regardless of the weapon's size.  However this bolt has been imbued with magical properties which enhances performance in flight, almost as if the bolt was guided towards its target.
+
+STATISTICS:
+
+Damage:  1D8 +2
+THACO:  +2
+Damage type:  missile (piercing)
+Weight:  0
+Launcher:  Crossbow~
+
+//@7376
+@2308 = ~Boots of stealth:  'Worn Whispers'
+In ages past, a king named Rhigaerd was renowned for the spies he kept.  So skillfull were they, that no nook or cranny escaped their eyes and maps were held for entire castles and towns.  Eventually betrayed from within, the tools of their trade were taken and dispersed, ensuring that none could amass such a band again.  
+
+STATISTICS:
+
+Stealth bonus:  +35%
+Weight:  4
+Not usable by:
+ Fighter
+ Mage
+ Cleric 
+ Druid~
+
+//@6858 - Bow Weapons -> Long Bow
+@2309 = ~Composite bows are long bows or short bows whose staves are made from more than one type of material.  This gives greater flexibility, and thus better range.  These were developed after the normal long bow.  
+
+STATISTICS:
+
+Damage:  +2
+To Hit Bonus:  +1
+Weight: 10
+Speed Factor: 7
+Proficiency Type: Long Bow
+Type:  2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief
+ Bard~
+
+//@16288 - Bow Weapons -> Long Bow
+@2310 = ~Composite bows are long bows or short bows whose staves are made from more than one type of material.  This gives greater flexibility, and thus better range.  These were developed after the normal long bow.  
+
+STATISTICS:
+
+THACO:  +2
+Damage:  +3
+Weight: 9
+Speed Factor: 6
+Proficiency Type: Long Bow
+Type:  2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief
+ Bard~
+
+//@17643 - Bow Weapons -> Long Bow
+@2311 = ~The long bow is similar to the short bow, except that the staff is about as high as the archer is, usually 6 to 6.5 feet.  Even though the longbow is slightly slower then the short bow, it has more range and is more accurate.  This one has been enhanced with magical properties, giving it an air of perfection.
+
+STATISTICS:
+
+THACO: +2
+Damage:  +1
+Weight: 3
+Speed Factor: 6
+Proficiency Type: Long Bow
+Type:  2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+
+//@16272 - add Required: 8 Strength
+@2312 = ~Chain mail is made of interlocking metal rings.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.  
+
+STATISTICS:
+
+Armor Class: 4
+Weight: 20
+Required: 8 Strength
+Not Usable By:
+ Druid 
+ Mage 
+ Thief~
+
+//@6676 - add Required: 7 Strength
+@2313 = ~Chain mail +2:  'Mail of the Dead'
+A mage can make an extremely effective assassin, as Vorusta illustrated over 400 years ago.  He would create skeleton warriors equipped with this enchanted armor and a powerful blade, and give their circlet of power to the target as a friendly gift.  When the killing machine was through with its work, Vorusta retrieved the equipment and started the entire process over.  
+
+STATISTICS:
+
+Armor Class: 3
+Weight: 10
+Required: 7 Strength
+Not Usable By:
+ Druid 
+ Mage 
+ Thief~
+
+//@16273 - add Required: 8 Strength
+@2314 = ~Splint Mail is a variant of banded mail in which the metal strips are applied vertically to the backing of chain, leather, or cloth rather than horizontally as in banded mail.  Since the human body does not swivel in mid-torso as much as it flexes back to front, splint mail is more restrictive in battle. 
+
+STATISTICS:
+
+Armor Class: 3
+Weight: 20
+Required: 8 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
+
+//@11059 - add Required: 5 Strength
+@2315 = ~Mithril Chain mail +4.  This is the personal armor of Drizzt, the famous dark elf ranger.  It was forged for him by his friend Bruenor.
+
+
+STATISTICS:
+
+Armor Class: 1
+Weight: 7
+Required: 5 Strength
+Not Usable By:
+ Druid 
+ Mage 
+ Thief~
+
+//@21303 - add Required: 6 Strength
+@2316 = ~Chain Mail +3:
+This perfectly crafted chain mail is the standard armor of deep dwarf elite fighters. It is comprised of a mithral alloy and offers protection from all but the most determined attackers.
+
+STATISTICS:
+
+Armor Class: 2
+Weight: 9
+Required: 6 Strength
+Not Usable By:
+ Druid 
+ Mage 
+ Thief~
+
+//@17243
+@2317 = ~The fabled Nymph Cloak is renowned for its ability to increase the Charisma of even the most surly dwarf. A Cormyrean noble hoping to make her politically convenient marriage more palatable apparently went to great expense to obtain one for herself and another for her husband. 
+
+STATISTICS:
+
+Charisma:  +2 bonus
+Weight:  3
+Not usable by:~
+
+//@21408
+@2318 = ~Kiel's Helmet:
+This is the helmet worn by Kiel the Legion-Killer, first-born son of Durlag Trollkiller and Clan-prince of his father's ill-fated tower. It is said that anyone who wears it is granted immunity to all forms of fear and panic, be their origins natural or magical.
+
+STATISTICS:
+
+Armor Class Bonus:  None
+Special:  Protects Against Critical Hits
+Special:  Protects Against all forms of panic and boosts morale
+Weight: 2
+Not Usable By:
+Mage
+Bard
+Thief~
+
+//@16269 - add Required: 4 Strength
+@2319 = ~Leather armor, despite the popular misconception, is not soft and supple like the leather used to make a ranger's boots or a druid's robe.  That kind of leather offers no better protection than common clothing.  
+
+STATISTICS:
+
+Armor Class: 7
+Weight: 10
+Required: 4 Strength
+Not usable by:
+ Mage~
+
+//@6682 - add Required: 11 Strength
+@2320 = ~Plate mail +1 : 'Fallorain's Plate'
+Captain Fallorain, leader of Calimshan's 12th cavalry brigade, wore this enchanted armor for the last time during the Battle of the Spider Swamp.  There he lost his life and army trying to rid an unrecorded evil from the area.  
+
+STATISTICS:
+
+Armor Class: 2
+Weight: 20
+Required: 11 Strength
+Not Usable By:
+ Bard 
+ Druid
+ Mage
+ Thief~
+
+//@6685 - add Required: 14 Strength
+@2321 = ~Full plate armor +1 :  'Plate of the Dark'
+
+Dark Lord Hertious, undead Warlord of Bane, wore this piece of armor for over 500 years.  During this time he was rumored to dwell in a castle somewhere within the Earthfast Mountains.  How his armor moved to other lands without him is not certain, though the separation of the two was surely unpleasant.  
+
+STATISTICS:
+
+Armor Class: 0
+Weight: 35
+Required: 14 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
+
+//@17489 - add Required: 8 Strength
+@2322 = ~This plate mail has been expertly crafted for you by Taerom Fuiruim of Beregost. Sheathed in the chitinous scales of the ankheg, it provides a greater degree of protection than traditional plate mail and is not succeptible to rust. As any world-weary adventurer will tell you, however, the best appreciated aspect of ankheg mail is its light weight and low encumbrance. Monsters come and go but fatigue is a constant enemy.
+
+STATISTICS:
+
+Armor Class: 1
+Weight: 25
+Required: 8 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage 
+ Thief~
+
+//@17659 - add Required: 14 Strength
+@2323 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user.  It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times.  Naturally, this precludes use of the shield hand for anything but holding the body shield in place. 
+
+STATISTICS:
+
+Armor Class Bonus: 2
+Special:  +1 vs. Missile Weapons
+Weight: 12
+Required: 14 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
+
+//@7358 - Required: 13 Strength
+@2324 = ~Large shield +1, +4 vs. missiles:  'Shield of the Falling Stars'
+
+Ilmater himself enchanted this shield upon seeing a young squire's willingness to endure untold agony for the wellbeing of his mount.  During a fierce battle between a human cavalry division and a hobgoblin horde, the young man was sent for reinforcements.  He was beset by a cascade of arrows that nearly blocked out the sun, and he knew that even if he avoided the arrows himself, should his horse fall he would surely be doomed.  With his shield and body he positioned himself to take the brunt of the onslaught, and was mortally wounded for it.  His horse remained unscathed allowing for their escape, and his body was carried back to the nearest town, where he was resurrected from death. 
+
+STATISTICS:
+
+Armor Class: +2 bonus, +5 vs. Missile Weapons
+Weight: 12
+Required: 13 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
+
+//@23963 - Missile Weapons -> Sling, add Required: 3 Strength
+@2325 = ~Sling +3 : 'Arla's Dragonbane'
+None know better than Halflings the value of a well-placed stone when confronting a larger foe. This particular weapon was the property of a young woman named Arla Surestep, one of the few small-folk that leave the hearth to seek adventure. Legend speaks of the diminutive Arla using this sling to place a well-sharpened pebble through the skull of a green dragon in mid-flight, though the same tale in another tavern places the stone squarely in the creature's hindquarters for more humorous than lethal effect. It would seem that Halflings prefer entertainment over accuracy when it comes to their history.
+
+STATISTICS:
+
+Damage:  +3 (missile damage)
+THACO:  +3
+Weight: 0
+Speed Factor: 3
+Proficiency Type: Sling
+Type:  1-handed
+Required: 3 Strength
+Not Usable By:~
+
+//@22020 - Blunt Weapons -> Quarterstaff, add Type:  2-handed, add Required: 3 Strength
+@2326 = ~Staffs of Striking are made by the Gold Elves of Drelagara on Evermeet. The staffs have a life of their own and jump to attack in their bearer's hands. The elven craftsmen rarely sell them to other races but these powerful melee weapons do surface occasionally in Faerun.  However, each attack made with the staff uses a charge, hence causing it to consume itself when no charges remain.
+
+STATISTICS:
+
+Damage:  1D6 + 9
+THACO:  +3 bonus
+Damage type:  crushing
+Weight: 4
+Speed Factor: 1
+Proficiency Type: Quarterstaff
+Type:  2-handed
+Required: 3 Strength
+Not Usable By:~
+
+//@23977
+@2327 = ~Quarter Staff +3~
+
+//@23978 - Blunt Weapons -> Quarterstaff, add Required: 5 Strength
+@2328 = ~Staff +3 : 'Aule's Staff'
+This finely crafted stave was among the spoils taken from the invaders of Durlag's Tower. It is very deadly in combat, and was apparently the property of a spellcaster that enjoyed standing on the frontlines. It appears to have a core of iron, yet it is comparable in weight to a normal weapon of its type. Part of the enchantment seems to come from the hide that strengthens the grip; leather no doubt made from a battle-ready creature of some sort. With the tastes and inclinations of the attackers of the Tower well documented, the hide could be almost anything...or anyone.
+
+STATISTICS:
+
+Damage:  1D6 + 3
+THACO:  +3
+Damage type:  crushing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Quarterstaff
+Type:  2-handed
+Required: 5 Strength
+Not Usable By:~
+
+//@7347 - Small Sword -> Short Sword, add Required: 4 Strength
+@2329 = ~Short sword +2:  'The Whistling Sword'
+Amidst the plains of the Eastern Shaar there lived a small human blacksmith, whose nearly dwarven height did not do his soul justice.  Though a skilled weaponsmith, his true gift was his ability to whistle a heartfelt song that could cause a grown man to cry like a newborn.  Only a reclusive mage shared and enjoyed time with the diminutive man, however, as others could only see his small size as a source of amusement.  Deaf to the smith's song because of their own prejudices, their ridicule slowly grew into cruel torment which eventually persuaded the light-hearted man to leave his home forever.  Before he left he forged this weapon as a gift for his one friend, who also enchanted it during the making.  Thus the blade sweetly whistles to its wielder when unsheathed.  It was not long after that the mage also deserted the small town in disgust, taking the sword with him on his journeys.
+
+STATISTICS:
+
+Damage:  1D6 +2
+THACO:  +2 bonus
+Damage type:  piercing
+Weight: 2
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type:  1-handed
+Required: 4 Strength
+Not Usable By:
+ Druid
+ Cleric 
+ Mage~
+
+//@18976 - Small Sword -> Short Sword, add Required: 5 Strength
+@2330 = ~The short sword is the first type of sword to come into existence.  In the simplest of terms, a short sword can be considered a dagger with a blade so long that it can no longer be called a dagger.  The term short sword does not exist in sword classifications.  However, it has come to be used to describe a double-edged blade about two feet in length.  The sword tip is usually pointed, ideal for thrusting.  
+
+STATISTICS:
+
+Damage:  1D6 +1
+THACO:  +1 bonus
+Damage type:  piercing
+Speed Factor: 2
+Weight:  3
+Proficiency Type: Short Sword
+Type:  1-handed
+Required: 5 Strength
+Not Usable By:
+ Druid
+ Cleric 
+ Mage~
+
+//@23970 - Large Sword -> Long Sword, add Required: 5 Strength
+@2331 = ~Flame Tongue Sword : 'The Burning Earth'
+There was a time before Neverwinter was warm and before the great Anauroch was dry...or so it is said. Few relics remain to prove such an age existed, and fewer still have an identifiable purpose. "The Burning Earth" seems straightforward enough -it burns a victim with magical fire, and a cryptic rune seems to suggest that the power comes from the ground itself- but whomever constructed it remains a mystery. It looks a perfectly serviceable weapon, but something in the balance or grip is...wrong. It strains the forearm a touch, and does not fit the hand just right. It doesn't seem to hurt a warrior's performance, aside from the nagging doubt that the blade was not made for him...or any other humanoid.
+
+STATISTICS:
+
+Damage:  1D8 +1
+THACO:  +1 bonus
+Special:
+   +2 vs. Regenerating Creatures
+   +3 vs. Cold-Using Creatures
+   +4 vs. Undead
+Damage type:  slashing
+Weight: 4
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type:  1-handed
+Required: 5 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+
+//@17656
+@2332 = ~The possessor of the wand can discharge a bolt of lightning.  As it passes through a creature, it does 6d6 points of damage (treating 1s rolled as 2s), with a save vs. wand for half damage.  The bolt will continue through the target and proceed  to 'rebound' until expended.
+
+STATISTICS:
+
+Effect:  Lightning bolt
+Damage:  6D6 (save vs. wands for half)
+Range:  100ft
+Area:  Path of bolt
+Not usable by:
+Fighter
+Cleric
+Druid
+Thief~
+
+//@17658
+@2333 = ~This wand emits a thin, green beam that darts forth to a maximum distance of 60'.  Any creature touched by this beam must make a save vs. wands or be polymorphed into a squirrel.
+
+STATISTICS:
+
+Effects:  Polymorph target into squirrel unless save vs. wands
+Range:  100 ft
+Area:  1 creature
+Duration:  permanent until dispelled
+Not usable by:
+Fighter
+Cleric
+Druid
+Thief~

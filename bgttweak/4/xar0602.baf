@@ -1,0 +1,18 @@
+IF
+  Global("IHaveSemaj","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveSemaj","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("CLCK33",0,0,0)) // Semaj's Cloak
+    Continue()
+END
+
+IF
+  Global("IHavePants","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHavePants","GLOBAL",2)
+    SetGlobal("BG1Pantaloons","GLOBAL",1)
+    ActionOverride("Picture1",CreateItem("MISC47",0,0,0)) // Golden Pantaloons
+    Continue()
+END

@@ -1,0 +1,121 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Installation Prompts
+////////////////////////////////////////////////////////////////////
+
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+////////
+//Errors
+////////
+@1 = ~Baldur's Gate Trilogy-WeiDU est introuvable.~
+@2 = ~Le composant principal du mod BG1 NPC Project est incompatible avec ce composant.~
+@3 = ~Le composant "Phase II (Quetes et Interjections)" du mod BG1 NPC Project est incompatible avec ce composant.~
+@4 = ~Le composant "Happy: NPCs won't fight with each other or leave the group" du mod Ease-of-Use est incompatible avec ce composant.~
+@5 = ~Le composant "Phase I (Banters)" du mod BG1 NPC Project est incompatible avec ce composant.~
+@6 = ~Le composant "Corrections de creatures" de BG1 Unfinished Business est incompatible avec ce composant.~
+@7 = ~Le composant "Desactiver la destruction des objets" de BGT Tweak est incompatible avec ce composant.~
+@8 = ~Ce composant requiert Dark Side of the Sword Coast.~
+@9 = ~Ce composant requiert Northern Tales of the Sword Coast.~
+@10 = ~Ce composant requiert Baldur's Gate Trilogy-WeiDU version 1.07 ou une version plus recente.~
+@11 = ~Le mod "BP-BGT Worldmap" est incompatible avec ce composant.~
+@12 = ~Le mod "BGSpawn" est incompatible avec ce composant.~
+
+/////////////////
+//Component names
+/////////////////
+@100 = ~Eldoth rappelle d'aller recuperer la rancon de Skie~
+@200 = ~Angelo remarque la presence de Shar-Teel~
+@300 = ~Quete de la caravane de Kagain terminable~
+@400 = ~Ajout de la cape de Semaj et anneau de proection de Korevas ameliore~
+@500 = ~Exploration automatique des villes~
+@600 = ~Reaction amicale des ours envers druides/rodeurs dans BG1~
+@700 = ~Patch du bonheur~
+@701 = ~Les PNJs ne peuvent pas choisir de quitter le groupe~
+@702 = ~Seuls les PNJs bons et mauvais quittent le groupe~
+@800 = ~Importer davantage d'objets dans Shadows of Amn
+(ATTENTION : Ceci est de la triche)~
+@900 = ~Pieges aleatoires dans la caverne des pirates~
+@901 = ~Attribution faite pendant l'installation~
+@902 = ~Attribution faite en cours de jeu~
+@1000 = ~Sacs sur la Cote des Epees~
+@1100 = ~Modifier la creation d'ennemis aleatoires~
+@1101 = ~Creer des ennemis aleatoires en fonction du niveau (style Tutu)~
+@1102 = ~Desactiver la creation d'ennemis aleatoires BGT-WeiDU : les ennemis n'apparaissent jamais~
+@1103 = ~Creer les ennemis aleatoires style EasyTutu~
+@1104 = ~Desactiver la creation d'ennemis aleatoires BGT-WeiDU : les ennemis n'apparaissent qu'une fois~
+@1200 = ~Arkion reagit en fonction de la reputation du PJ~
+@1300 = ~Coran reagit a la mort d'une wyverne~
+@1400 = ~Davantage de scalps de bandits~
+@1500 = ~Modifier les effets de la penurie de fer~
+@1501 = ~Desactiver la destruction des objets~
+@1502 = ~Les armures et boucliers peuvent se briser~
+@1600 = ~Capuches pour les mages et voleurs sans armure~
+@1700 = ~Corrections P&P de Salk~
+@1800 = ~Importer plus de PNJs dans Shadows of Amn : Alora~
+@1801 = ~Importer plus de PNJs dans Shadows of Amn : Branwen~
+@1802 = ~Importer plus de PNJs dans Shadows of Amn : Eldoth~
+@1803 = ~Importer plus de PNJs dans Shadows of Amn : Kagain~
+@1804 = ~Importer plus de PNJs dans Shadows of Amn : Kivan~
+@1805 = ~Importer plus de PNJs dans Shadows of Amn : Sharteel~
+@1806 = ~Importer plus de PNJs dans Shadows of Amn : Skie~
+@1807 = ~Importer plus de PNJs dans Shadows of Amn : Xan~
+@1808 = ~Importer plus de PNJs dans Shadows of Amn : Yeslick~
+@1809 = ~Importer plus de PNJs dans Shadows of Amn : Bub Snikt~
+@1810 = ~Importer plus de PNJs dans Shadows of Amn : Conchobhair Strongblade~
+@1811 = ~Importer plus de PNJs dans Shadows of Amn : Ferthgil Trollslayer~
+@1812 = ~Importer plus de PNJs dans Shadows of Amn : Jet'laya~
+@1813 = ~Importer plus de PNJs dans Shadows of Amn : Keiria Silverstring~
+@1814 = ~Importer plus de PNJs dans Shadows of Amn : Skeezer Lumpkin VI~
+@1815 = ~Importer plus de PNJs dans Shadows of Amn : Will Scarlet O'Hara~
+@1900 = ~Restauration de l'XP de BG2 pour les pieges, serrures et parchemins~
+@2000 = ~Modification de la biographie du protagoniste~
+@2001 = ~Ne pas affecter la biographie BG1 pour les personnages importes~
+@2002 = ~Affecter la biographie BG2 lors de la transition vers Shadows of Amn~
+@2100 = ~Armes exotiques pour Taerom~
+@2200 = ~Objets style BG1 : Changer les prix~
+@2201 = ~Objets style BG1 : Changer les tailles d'empilements de 40 a 20~
+@2202 = ~Objets style BG1 : Changer la connaissance requise~
+@2203 = ~Objets style BG1 : Changer les niveaux d'incantation des parchemins~
+@2204 = ~Objets style BG1 : Changer le comportement des objets~
+@2300 = ~Desactiver la reaction hostile apres un charme~
+@2400 = ~Les objets des ennemis peuvent se briser~
+@2500 = ~Acces a Barbe d'Ulgoth uniquement par l'ouest du Travers du Ver~
+@2600 = ~Empecher l'acces a la Tour de Durlag par les zones adjacentes~
+@2700 = ~Mettre l'Epee du chaos +2 dans l'inventaire de Sarevok~

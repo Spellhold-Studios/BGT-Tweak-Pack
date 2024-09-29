@@ -1,0 +1,31 @@
+IF
+  RandomNum(1,1)
+  Global("RandomSet2028443_0","ARD011",0)
+  Global("RandomBeenSet2028443","ARD011",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet2028443_0","ARD011",1)
+    SetGlobal("RandomBeenSet2028443","ARD011",1)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset2028443","ARD011",1)
+  GlobalTimerExpired("05112028443","ARD011")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset2028443","ARD011",0)
+    SetGlobal("RandomBeenSet2028443","ARD011",0)
+    SetGlobal("RandomSet2028443_0","ARD011",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset2028443","ARD011",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset2028443","ARD011",1)
+    CreateCreature("BATTHO",[2028.443],0)  // ~Battle Horror~
+    SetGlobalTimer("05112028443","ARD011",2400)
+END
+

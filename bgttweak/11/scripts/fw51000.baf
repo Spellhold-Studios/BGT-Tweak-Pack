@@ -1,0 +1,994 @@
+IF
+  RandomNum(2,1)
+  Global("RandomSet771230_1","AR4100",0)
+  Global("RandomBeenSet771230","AR4100",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet771230_1","AR4100",1)
+    SetGlobal("RandomBeenSet771230","AR4100",1)
+END
+
+IF
+  RandomNum(2,2)
+  Global("RandomSet771230_0","AR4100",0)
+  Global("RandomBeenSet771230","AR4100",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet771230_0","AR4100",1)
+    SetGlobal("RandomBeenSet771230","AR4100",1)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_B",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  Global("SpawnReset771230","AR4100",0)
+  Global("RandomSet771230_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset771230","AR4100",1)
+  GlobalTimerExpired("5100771230","AR4100")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",0)
+    SetGlobal("RandomBeenSet771230","AR4100",0)
+    SetGlobal("RandomSet771230_1","AR4100",0)
+    SetGlobal("RandomSet771230_0","AR4100",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset771230","AR4100",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset771230","AR4100",1)
+    CreateCreature("XVART_A",[771.230],0)  // ~Xvart~
+    SetGlobalTimer("5100771230","AR4100",2400)
+END
+

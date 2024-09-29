@@ -1,0 +1,1785 @@
+IF
+  RandomNum(3,1)
+  Global("RandomSet3904723_2","AR3900",0)
+  Global("RandomBeenSet3904723","AR3900",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet3904723_2","AR3900",1)
+    SetGlobal("RandomBeenSet3904723","AR3900",1)
+END
+
+IF
+  RandomNum(3,2)
+  Global("RandomSet3904723_1","AR3900",0)
+  Global("RandomBeenSet3904723","AR3900",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet3904723_1","AR3900",1)
+    SetGlobal("RandomBeenSet3904723","AR3900",1)
+END
+
+IF
+  RandomNum(3,3)
+  Global("RandomSet3904723_0","AR3900",0)
+  Global("RandomBeenSet3904723","AR3900",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet3904723_0","AR3900",1)
+    SetGlobal("RandomBeenSet3904723","AR3900",1)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_2","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(23)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(11)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(7)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(5)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(4)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_1","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    CreateCreature("DOGWA",[3904.723],0)  // ~War Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  Global("SpawnReset3904723","AR3900",0)
+  Global("RandomSet3904723_0","AR3900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    CreateCreature("DOGWI",[3904.723],0)  // ~Wild Dog~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset3904723","AR3900",1)
+  GlobalTimerExpired("50003904723","AR3900")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",0)
+    SetGlobal("RandomBeenSet3904723","AR3900",0)
+    SetGlobal("RandomSet3904723_2","AR3900",0)
+    SetGlobal("RandomSet3904723_1","AR3900",0)
+    SetGlobal("RandomSet3904723_0","AR3900",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset3904723","AR3900",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset3904723","AR3900",1)
+    CreateCreature("KOBOLD_E",[3904.723],0)  // ~Kobold~
+    SetGlobalTimer("50003904723","AR3900",2400)
+END
+

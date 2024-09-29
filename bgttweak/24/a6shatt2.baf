@@ -1,0 +1,550 @@
+//Armors
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterChain","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("chan01",Myself) // Chain Mail Armor
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterChain","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterChain","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC58","chan01",Myself)
+    SetGlobal("ShatterChain","LOCALS",0)
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterChain","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterSplint","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("chan04",Myself) // Splint Mail
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterSplint","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterSplint","LOCALS",1)
+THEN
+  RESPONSE #50
+
+    TakeItemReplace("MISC58","chan04",Myself)
+    SetGlobal("ShatterSplint","LOCALS",0)
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterSplint","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterPlate","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("PLAT01",Myself) // Plate Mail Armor
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterPlate","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterPlate","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC58","PLAT01",Myself)
+    SetGlobal("ShatterPlate","LOCALS",0)
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterPlate","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterFullPlate","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("PLAT04",Myself) // Full Plate Mail
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterFullPlate","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterFullPlate","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC58","PLAT04",Myself)
+    SetGlobal("ShatterFullPlate","LOCALS",0)
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterFullPlate","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterPlate2","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("PLAT07",Myself) // Plate Mail Armor
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterPlate2","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterPlate2","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC58","PLAT07",Myself)
+    SetGlobal("ShatterPlate2","LOCALS",0)
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterPlate2","LOCALS",0)
+    Continue()
+END
+
+//Shields
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterSmallS","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("shld01",Myself) // Small Shield
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterSmallS","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterSmallS","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC57","shld01",Myself)
+    SetGlobal("ShatterSmallS","LOCALS",0)
+    DropItem("MISC57",[-1.-1])
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterSmallS","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterMediumS","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("shld03",Myself) // Medium Shield
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterMediumS","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterMediumS","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC57","shld03",Myself)
+    SetGlobal("ShatterMediumS","LOCALS",0)
+    DropItem("MISC57",[-1.-1])
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterMediumS","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterLargeS","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("shld05",Myself) // Large Shield
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterLargeS","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterLargeS","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC57","shld05",Myself)
+    SetGlobal("ShatterLargeS","LOCALS",0)
+    DropItem("MISC57",[-1.-1])
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterLargeS","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterBuckler","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("shld08",Myself) // Buckler
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterBuckler","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterBuckler","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC57","shld08",Myself)
+    SetGlobal("ShatterBuckler","LOCALS",0)
+    DropItem("MISC57",[-1.-1])
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterBuckler","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterBuckler2","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("shld09",Myself) // Buckler
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterBuckler2","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterBuckler2","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC57","shld09",Myself)
+    SetGlobal("ShatterBuckler2","LOCALS",0)
+    DropItem("MISC57",[-1.-1])
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterBuckler2","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterBuckler3","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("shld10",Myself) // Buckler
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterBuckler3","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterBuckler3","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC57","shld10",Myself)
+    SetGlobal("ShatterBuckler3","LOCALS",0)
+    DropItem("MISC57",[-1.-1])
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterBuckler3","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterSmallS2","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("shld11",Myself) // Small Shield
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterSmallS2","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterSmallS2","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC57","shld11",Myself)
+    SetGlobal("ShatterSmallS2","LOCALS",0)
+    DropItem("MISC57",[-1.-1])
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterSmallS2","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterSmallS3","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("shld12",Myself) // Small Shield
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterSmallS3","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterSmallS3","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC57","shld12",Myself)
+    SetGlobal("ShatterSmallS3","LOCALS",0)
+    DropItem("MISC57",[-1.-1])
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterSmallS3","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterMediumS2","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("shld13",Myself) // Medium Shield
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterMediumS2","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterMediumS2","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC57","shld13",Myself)
+    SetGlobal("ShatterMediumS2","LOCALS",0)
+    DropItem("MISC57",[-1.-1])
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterMediumS2","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterMediumS3","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("shld14",Myself) // Medium Shield
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterMediumS3","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterMediumS3","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC57","shld14",Myself)
+    SetGlobal("ShatterMediumS3","LOCALS",0)
+    DropItem("MISC57",[-1.-1])
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterMediumS3","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterLargeS2","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("shld15",Myself) // Large Shield
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterLargeS2","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterLargeS2","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC57","shld15",Myself)
+    SetGlobal("ShatterLargeS2","LOCALS",0)
+    DropItem("MISC57",[-1.-1])
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterLargeS2","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterLargeS3","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("shld16",Myself) // Large Shield
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterLargeS3","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterLargeS3","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC57","shld16",Myself)
+    SetGlobal("ShatterLargeS3","LOCALS",0)
+    DropItem("MISC57",[-1.-1])
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterLargeS3","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterLargeS4","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("shld18",Myself) // Large Shield
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterLargeS4","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterLargeS4","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC57","shld18",Myself)
+    SetGlobal("ShatterLargeS4","LOCALS",0)
+    DropItem("MISC57",[-1.-1])
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterLargeS4","LOCALS",0)
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("ShatterSmallS4","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  !HitBy([ANYONE],POISON)
+  HasItemEquiped("shld99",Myself) // Small Shield
+THEN
+  RESPONSE #1
+    SetGlobal("ShatterSmallS4","LOCALS",1)
+    Continue()
+  RESPONSE #99
+    Continue()
+END
+
+IF
+  !InParty(Myself)
+  Global("ShatterSmallS4","LOCALS",1)
+THEN
+  RESPONSE #50
+    TakeItemReplace("MISC57","shld99",Myself)
+    SetGlobal("ShatterSmallS4","LOCALS",0)
+    DropItem("MISC57",[-1.-1])
+    Continue()
+  RESPONSE #50
+    SetGlobal("ShatterSmallS4","LOCALS",0)
+    Continue()
+END

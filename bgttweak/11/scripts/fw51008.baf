@@ -1,0 +1,2764 @@
+IF
+  RandomNum(4,1)
+  Global("RandomSet27403088_3","AR4100",0)
+  Global("RandomBeenSet27403088","AR4100",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet27403088_3","AR4100",1)
+    SetGlobal("RandomBeenSet27403088","AR4100",1)
+END
+
+IF
+  RandomNum(4,2)
+  Global("RandomSet27403088_2","AR4100",0)
+  Global("RandomBeenSet27403088","AR4100",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet27403088_2","AR4100",1)
+    SetGlobal("RandomBeenSet27403088","AR4100",1)
+END
+
+IF
+  RandomNum(4,3)
+  Global("RandomSet27403088_1","AR4100",0)
+  Global("RandomBeenSet27403088","AR4100",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet27403088_1","AR4100",1)
+    SetGlobal("RandomBeenSet27403088","AR4100",1)
+END
+
+IF
+  RandomNum(4,4)
+  Global("RandomSet27403088_0","AR4100",0)
+  Global("RandomBeenSet27403088","AR4100",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet27403088_0","AR4100",1)
+    SetGlobal("RandomBeenSet27403088","AR4100",1)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(23)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(11)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(7)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_3","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    CreateCreature("GNOLL_A",[2740.3088],0)  // ~Gnoll Elite~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(23)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(11)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(7)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_2","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    CreateCreature("GNOLL",[2740.3088],0)  // ~Gnoll~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_1","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_B",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  Global("SpawnReset27403088","AR4100",0)
+  Global("RandomSet27403088_0","AR4100",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset27403088","AR4100",1)
+  GlobalTimerExpired("510027403088","AR4100")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",0)
+    SetGlobal("RandomBeenSet27403088","AR4100",0)
+    SetGlobal("RandomSet27403088_3","AR4100",0)
+    SetGlobal("RandomSet27403088_2","AR4100",0)
+    SetGlobal("RandomSet27403088_1","AR4100",0)
+    SetGlobal("RandomSet27403088_0","AR4100",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset27403088","AR4100",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset27403088","AR4100",1)
+    CreateCreature("XVART_A",[2740.3088],0)  // ~Xvart~
+    SetGlobalTimer("510027403088","AR4100",2400)
+END
+

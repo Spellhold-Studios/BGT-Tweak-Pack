@@ -1,0 +1,29 @@
+IF
+  Global("A6Spawn","AR7325",0)
+THEN
+  RESPONSE #100
+    SpawnPtActivate("Spawn Point 1")
+    SpawnPtActivate("Spawn Point 2")
+    SpawnPtActivate("Spawn Point 3")
+    SetGlobal("A6Spawn","AR7325",1)
+END
+
+IF
+  Global("A6Spawn","AR7325",1)
+THEN
+  RESPONSE #100
+    SpawnPtSpawn("Spawn Point 1")
+    SpawnPtSpawn("Spawn Point 2")
+    SpawnPtSpawn("Spawn Point 3")
+     SetGlobal("A6Spawn","AR7325",2)
+END
+
+IF
+  Global("A6Spawn","AR7325",2)
+THEN
+  RESPONSE #100
+    SpawnPtDeactivate("Spawn Point 1")
+    SpawnPtDeactivate("Spawn Point 2")
+    SpawnPtDeactivate("Spawn Point 3")
+    SetGlobal("A6Spawn","AR7325",3)
+END

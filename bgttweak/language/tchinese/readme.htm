@@ -1,0 +1,466 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background: #e3e3db url('http://spellholdstudios.net/images/sh_bg_main.jpg');
+      }
+      
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+      
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #781808;
+        border-top: 5px solid #781808;
+        border-bottom: 5px solid #781808;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+      
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+      
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #781808;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #781808;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+      
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+      
+      h2::first-letter {
+        color: #781808;
+        background-color: transparent;
+      }
+      
+      #maindiv p {
+	font-size: 100%;
+	font-style: normal;
+	line-height: 150%;
+	padding: 0px;
+	margin: 10px auto;
+	width: 90%;
+	display: block;
+	text-align: justify;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+      
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+      
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #781808;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+      
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+      
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+	margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+      
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+	list-style-type: square;
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      #maindiv ol li {
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+      
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+      
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+      
+      a:link,
+      a:visited {
+        color: #781808;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+    </style>
+    <title>SPELLHOLD STUDIOS - BGT Tweak Pack</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+  <body>
+    <a name="top" id="top"></a>
+    <div id="wrap">
+      <div id="header">
+        <h1>Baldur's Gate Trilogy Tweak Pack (BGTTweak)</h1>
+        <strong>A Spellhold Studios mod for Baldur's Gate Trilogy-WeiDU (BGT-WeiDU)</strong>
+        <p class="about">作者： Ascension64</p>
+        <p class="about">翻譯： RocLord, <u>good0593</u>, barkingdog, distance20 (<a href="http://trow.cn/forum">http://trow.cn/forum</a>)</p>
+        <p class="about">
+          <a href="http://www.spellholdstudios.net/">Mod Website</a> •
+          <a href="http://www.shsforums.net/index.php?showforum=261">Mod Forum</a> •
+          第9版
+        </p>
+		<br />
+        <p class="menu">
+          <a href="#intro">描述</a> &middot;
+          <a href="#installation">安裝</a> &middot;
+          <a href="#legalese">宣告</a>
+        </p>
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== I n t r o d u c t i o n ================== -->
+        <a name="intro" id="intro"></a>
+        <div class="content">
+          <h2>描述</h2>
+          <p>這個MOD是BGT-weidu0.99ZETA版本之前已有patch的一個補充。為了要讓這個調整包區別於FIX以保證BGT-weidu更忠實於柏德之門和劍灣傳奇原版，因此，這個調整包針對柏德之門和劍灣傳奇中不足的地方予以改進。</p>
+		  <p>組件：</p>
+		  <br />
+		<ol>
+			<li><strong>亞多士提醒領取史姬的贖金：</strong>當玩家可以開始領取史姬的勒索贖金後，亞多士會定時提醒玩家不要忘記去取錢。</li>
+			<li><strong>不推薦 - 安其羅注意到莎兒-蒂爾：</strong>父女關係挽救了在隊伍被焰拳逮捕的那天。</li>
+			<li><strong>不推薦 - 凱根的商隊任務可完成：</strong>尋找公爵安塔銀盾的兒子不再是無用的徘徊，除非玩家等得太久。</li>
+			<li><strong>新增瑟瑪吉的斗篷和升級過的克佛洛沙的防護戒指：</strong>這個組件包括了瑟瑪吉的斗篷，一件新增到BGT中的物品。如果隊伍擁有這件斗篷的話，可以匯入到SOA中。同時，克佛洛沙的防護戒指在匯入到SOA時將會獲得升級。</li>
+			<li><strong>主要區域在到達後已探索：</strong>柏德之門，貝爾苟斯特，燭堡，那西凱和烏葛斯鬍渣已完全探索（打開了地圖黑幕）。</li>
+			<li><strong>德魯伊/遊俠在BG1中對熊作出響應：</strong>就像在安姆疑雲，在劍灣遭遇熊時如果有德魯伊或遊俠在隊伍中那麼熊就只是咆哮（而不上去拍你）。</li>
+			<li><strong>快樂補丁：</strong>幫助NPC們找到他們心裏的快樂並團隊融洽……讓他們永遠不會因為隊伍的聲譽而苦惱。這個組件有兩個選項：</li>
+			<br />
+			<ul>
+				<li>NPC無法選擇離開隊伍：NPC將無法離開隊伍，不論他們如何討厭你不適當的行為。</li>
+				<li>只有善良和邪惡NPC離開隊伍：善良和邪惡NPC將會離開隊伍，但其他陣營的NPC不會。</li>
+			</ul>
+			<li><strong>輸出更多物品到安姆疑雲：</strong>這個調整允許從柏德之門和劍灣傳奇進口以下物品到安姆疑雲 - 綠石護身符，天空之杖，保護戒指+2，防禦斗篷+2，武器專家手套，鷹弓，影之甲，潛行之靴，箭術護腕，敏捷手套，輕型快速十字弓，掘地蟲鎧甲，無法偵測斗篷，巫術之戒，全身鎧甲+1，食人魔之力手套，聖力之戒，柏德安斗篷，火焰抵抗之戒，自由之戒。請注意：引入這些物品很有可能使安姆疑雲比平常更簡單，因此安裝這一個組件可以認為是作弊。</li>
+			<li><strong>在海盜洞穴隨機設置陷阱：</strong>想過蹂躪守衛海盜洞穴的西爾和她的海妖女太過簡單嗎？這個組件會隨機放置陷阱因此當你每次Re-install這個組件時都無法預期陷阱位置，除非你的傻冒盜賊把陷阱全部拆除。注意這個組件不會影響到你載入一個之前已探索過海盜洞穴的存檔。這個組件有兩個選項：</li>
+			<br />
+			<ul>
+				<li>隨機於安裝時間：當你每次Re-install這個組件時設置不同的陷阱。</li>
+				<li>隨機於遊戲時間：當你每次在遊戲中第一次進入海盜洞穴時設置不同的陷阱。</li>
+			</ul>
+			<li><strong>劍灣寶袋：</strong>不，不是垃圾，是容器。這個組件會讓你易於攜帶你搜集的貴重寶石，卷軸，軍火，藥劑和任何你想要的道具，而且只佔物品欄一格。但是首先你要找到它們。</li>
+			<li><strong>改變隨機生物：</strong>這個組件適於那些不喜歡當前BGT-weidu產生固定等級怪物的玩家，這個組件有兩個選項：</li>
+			<br />
+			<ul>
+				<li>TuTu風格-隨等級提升的怪物重生：依據玩家等級產生隨機怪物。這個組件與TuTu v6 beta版使用的隨機怪物重生系統類似（Ghreyfain許可使用）。</li>
+				<li>取消BGT-weidu的怪物重生(怪物不會重生)：總之是在主要區域移除了隨機怪物重生，當然，在不同地圖間旅行時還是會有隨機遭遇戰。</li>
+				<li>取消BGT-weidu的怪物重生(怪物只會重生一次)：總之是在主要區域移除隨機怪物的不斷重生，使它們只會重生一次。在不同地圖間旅行時還是會有隨機遭遇戰。</li>
+			</ul>
+			<li><strong>阿肯恩對玩家聲望的反應：</strong>這個簡單的小調整防止阿肯恩需要人物具有高聲望才要求玩家從下水道弄具屍體來。</li>
+			<li><strong>科朗對殺掉翼龍作出回應：</strong>這個組件恢復原版未使用的對話，來提醒玩家帶翼龍頭骨回洛山達神殿領取賞金。(V8 增加了與BG1 NPC或更高版本和BGT-Weidu的兼容性)</li>
+			<li><strong>更多強盜頭皮：</strong>求求你，先生，能再多一點嗎？再多一點？！你知道那些骯髒的皮是在腦殼上的？當你安裝這個組件後會有更多的強盜頭皮。</li>
+			<li><strong>改變物品破碎的可能性：</strong>這個組件可以修改道具破碎的可能性。這個組件有兩個選項：</li>
+			<br />
+			<ul>
+				<li>移除物品破碎的可能性：為了那些憎恨劣質鐵礦製造的物品會破碎的玩家，這個組件會防止所有物品破碎。</li>
+				<li>讓盔甲和盾牌有可能破碎(BGT-WeiDU_v1.05b或之後的版本)：盔甲和盾牌也會破碎了，使道具會像BGT-WeiDU_v1.05a或之前的版本一樣破碎。</li>
+			</ul>
+			<li><strong>給未穿戴護甲的法師和盜賊帶上兜帽：</strong>Salk special（一個論壇成員）認定法師和盜賊不能看起來像赤裸的骷髏而應該帶上兜帽使之看上去像星球大戰中的銀河皇帝。是的，女性也是，嗯，找到了，就是這個。</li>
+			<li><strong>Salk的PnP規則修改：</strong>另一個Salk special組件；這次修改種族對盜賊技能的調整，以及遊俠對無聲移動技能的調整。</li>
+			<li><strong>匯入更多NPC到安姆疑雲：</strong>讓你可以選擇阿羅拉，布朗溫，亞多士，凱根，齊馮，莎兒-蒂爾，史姬，撒恩，亞斯力克，黑暗劍灣可加入的NPC(如果有安裝的話)，和北部劍灣可加入的NPC(如果有安裝的話)，如果NPC在隊伍中而且沒有死亡，那麼他們將可以匯入到安姆疑雲。就這麼簡單。然而，其中一些人的位置你要自己找找。(這個組件與TDD，TS，NEJ不兼容)</li>
+			<li><strong>恢復BG2陷阱、開鎖和卷軸的經驗值獎勵(for BGT-WeiDU_v1.05和之後的版本)：</strong>這個組件恢復了在BGT-WeiDU_v1.05中透過開鎖，解除陷阱以及抄錄卷軸所給予的經驗值減少設定。在BGT-WeiDU_v1.05或之前的版本使用這個組件將會無法產生作用。建議你在傳送至安姆疑雲時安裝這個組件。</li>
+			<li><strong>主角傳記修改：</strong>這個組件提供兩個稍微不同的選項可以改變BGT-weidu所設置的主角傳記：</li>
+			<br />
+			<ul>
+				<li>匯入角色時不設置BG1的傳記：如果你匯入一個角色到新遊戲裡燭堡的起始地點，BG1的傳記將不會產生。假如你匯入的角色有自創的傳記而且想繼續使用的話，使用這個選項。</li>
+				<li>在傳送到安姆疑雲之後設置BG2的傳記：如果你想要在傳送到艾瑞尼卡斯的地牢之後，讓你的角色擁有安姆疑雲版本的自傳的話，這個組件將可以為你做到這點。但要注意，自創的傳記將會在這項改變之後消失。</li>
+			</ul>
+			<li><strong>泰龍的特殊武器：</strong>泰龍進口了一些武士刀，腰刀，以及忍者刀給喜好使用東方寶劍的狂熱者。</li>
+			<li><strong>BG1物品修改：</strong>這個組件調整了一些物品使其更符合BG1的版本。這些改變包括了價格，堆疊數量，鑒定所需的鄉野傳奇點數，卷軸施法等級，和物品能力(力量需求，傷害力，射程，威力，以及各種獎勵加成)。</li>
+			<li><strong>取消魅惑後的敵對反應：</strong>法術與特殊能力所魅惑的生物在效果消失後將會對目標產生敵意。最好安裝這個『可以與被魅惑/被控制的生物對話』的補丁再這麼作。</li>
+			<li><strong>敵人物品破碎的可能性：</strong>使你的敵人一樣擁有鐵礦災害的困擾，給予他們的鐵製武器當使用時有機會破碎。如果你安裝了『改變物品破碎的可能性』組件中的『讓護甲和盾牌有可能破碎』，那麼他們的護甲和盾牌在被擊中時同樣也有機會破碎。</li>
+			<li><strong>只能由巨龍橋口西方通往烏葛斯鬍渣：</strong>在被遺忘國度的傳說中，烏葛斯鬍渣是位於柏德之門的西方，但在BG1：劍灣傳奇中，烏葛斯鬍渣是位於東北方。這個組件修正了這種不一致的情況：只能從巨龍橋口西方通往烏葛斯鬍渣。然而
+，這也表示在柏德之門未開放進入之前無法進入烏葛斯鬍渣。</li>
+			<li><strong>防止鄰近地區可以通往杜拉格之塔：</strong>這個組件阻止了玩家只是走到杜拉格之塔的位置就發現了杜拉格之塔。如果安裝了這個組件，那麼只能在烏葛斯鬍渣得到訊息之後才能發現杜拉格之塔。</li>
+			<li><strong>將混亂之劍+2加入到沙洛佛克的掉落物中：</strong>如果你無法得到很棒的寶劍，那麼帶著沙洛佛克的劍旅行是滿足你虛榮感的好方法。這個組件使你可以在殺死沙洛佛克之後可以拾取混亂之劍+2。</li>
+		</ol>
+          <address>
+            <span class="footer">BGT Tweak Pack &gt; 描述</span> •<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== I n s t a l l a t i o n ================== -->
+        <a name="installation" id="installation"></a>
+        <div class="content">
+          <h2>安裝</h2>
+		  <h3>要求</h3>
+		  <p>BGT - weidu Tweak pack 需要安裝在BGT-weidu1.01或更高版本上。</p>
+		<hr />
+		
+		<h3>兼容性</h3>
+		<p>兼容性測試於以下的MOD『Ease-of-Use』, 『BGSpawn』, 『BG1 NPC Project』, 和 『BG1 Unfinished Business』。為了確保MOD可以運作，請在那些MOD之後安裝這個MOD。</p>
+		<hr />
+
+		<h3>安裝</h3>
+		<ol>
+		  <li>解壓縮BGTTweak-v9.rar到你的BGT-WeiDU安裝文件夾。</li>
+		  <li>運行Setup-BGTTweak.exe並遵循屏幕提示。</li>
+		  <li>如果安裝過BGT-WeiDU Tweakpack 的老版本，簡單的re-install組件即可，Re-installation不會損壞現有的存檔。</li>
+		</ol>
+		<hr />
+
+		<h3>移除安裝</h3>
+		<p>運行Setup-BGTTweak.exe並遵循屏幕提示。</p>
+          <address>
+            <span class="footer">BGT Tweak Pack &gt; 安裝</span> <a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+        <!-- ================== L e g a l e s e ================== -->
+        <a name="legalese" id="legalese"></a>
+        <div class="content">
+          <h2>宣告</h2>
+		  <p>BALDUR’S GATE, BALDUR'S GATE: TALES OF THE SWORD COAST: @ 1999 BioWare Corp. All Rights Reserved. Baldur's Gate and Baldur's Gate Tales of the Sword Coast are trademarks of TSR, Inc., a subsidiary of Wizards of the Coast, Inc., and are used by Interplay under license. The BioWare Infinity Engine is a trademark of BioWare Corp.</p>
+		  <p>BALDUR'S GATE II: SHADOWS OF AMN, BALDUR’S GATE II: THRONE OF BHAAL: @ 2000, 2001 BioWare Corp. All Rights Reserved. Baldur's Gate, Throne of Bhaal, and Shadows of Amn are trademarks owned by Wizards of the Coast, Inc. and are used by Interplay under license. All Rights Reserved. The BioWare Infinity Engine is a trademark of BioWare Corp. All Rights Reserved.</p>
+		  <p><strong>USE THIS MODIFICATION AT YOUR OWN RISK. This modification is not developed, supported, or endorsed by BioWare Corp., Interplay, or Black Isle. All images and contents of this mod are @ BioWare Corp., Interplay, Black Isle or Wizards of the Coast, Inc.</strong></p>
+		  <p>This is a community modification, created as a hobby for free. You can distribute among your peers as much as you like. However, please display good faith and credit the authors of the modification if you intend to modify the package in any way or use any part of this modification as a template to create part/all of a modification/fixpack/tweak that you intend to release to the community.</p>
+          <address>
+            <span class="footer">BGT Tweak Pack &gt; 宣告</span> •<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    <!--
+      function toggle(id) {
+        element = document.getElementById(id);
+        if ( element.style.display == 'none' ) {
+          element.style.display = '';
+          if ( document.all ) {
+            document.getElementById('vhistoryaddress').style.display = 'none'; // IE hack
+          }
+        } else {
+          element.style.display = 'none';
+          if ( document.all ) {
+            document.getElementById('vhistoryaddress').style.display = ''; // IE hack
+          }
+        }
+      }
+
+      elements = document.getElementsByTagName('*');
+      for ( var i = 0; i < elements.length; i++ ) {
+        if ( elements[i].className == 'vlisthide' ) {
+          elements[i].style.display = 'none';
+        }
+      }
+    //-->
+    </script>
+	
+</body>
+</html>

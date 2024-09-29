@@ -1,0 +1,7 @@
+IF
+  Global("LostChild","AR6900",0)
+THEN
+  RESPONSE #100
+    CreateCreature("DLOSTKAG",[3849.2581],10)
+    SetGlobal("LostChild","AR6900",1)
+END

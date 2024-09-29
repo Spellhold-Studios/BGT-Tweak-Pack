@@ -1,0 +1,54 @@
+IF
+  Global("HelpThalantyr","GLOBAL",1)
+  Global("A6Spawn","AR7100",0)
+THEN
+  RESPONSE #100
+    SpawnPtActivate("Spawn Point 1")
+    SpawnPtActivate("Spawn Point 2")
+    SpawnPtActivate("Spawn Point 3")
+    SpawnPtActivate("Spawn Point 4")
+    SpawnPtActivate("Spawn Point 5")
+    SpawnPtActivate("Spawn Point 6")
+    SpawnPtActivate("Spawn Point 7")
+    SpawnPtActivate("Spawn Point 8")
+    SpawnPtActivate("Spawn Point 9")
+    SpawnPtActivate("Spawn Point 10")
+    SpawnPtActivate("Spawn Point 11")
+    SetGlobal("A6Spawn","AR7100",1)
+END
+
+IF
+  Global("A6Spawn","AR7100",1)
+THEN
+  RESPONSE #100
+    SpawnPtSpawn("Spawn Point 1")
+    SpawnPtSpawn("Spawn Point 2")
+    SpawnPtSpawn("Spawn Point 3")
+    SpawnPtSpawn("Spawn Point 4")
+    SpawnPtSpawn("Spawn Point 5")
+    SpawnPtSpawn("Spawn Point 6")
+    SpawnPtSpawn("Spawn Point 7")
+    SpawnPtSpawn("Spawn Point 8")
+    SpawnPtSpawn("Spawn Point 9")
+    SpawnPtSpawn("Spawn Point 10")
+    SpawnPtSpawn("Spawn Point 11")
+    SetGlobal("A6Spawn","AR7100",2)
+END
+
+IF
+  Global("A6Spawn","AR7100",2)
+THEN
+  RESPONSE #100
+    SpawnPtDeactivate("Spawn Point 1")
+    SpawnPtDeactivate("Spawn Point 2")
+    SpawnPtDeactivate("Spawn Point 3")
+    SpawnPtDeactivate("Spawn Point 4")
+    SpawnPtDeactivate("Spawn Point 5")
+    SpawnPtDeactivate("Spawn Point 6")
+    SpawnPtDeactivate("Spawn Point 7")
+    SpawnPtDeactivate("Spawn Point 8")
+    SpawnPtDeactivate("Spawn Point 9")
+    SpawnPtDeactivate("Spawn Point 10")
+    SpawnPtDeactivate("Spawn Point 11")
+    SetGlobal("A6Spawn","AR7100",3)
+END

@@ -1,0 +1,6297 @@
+IF
+  RandomNum(5,1)
+  Global("RandomSet8962560_4","AR3300",0)
+  Global("RandomBeenSet8962560","AR3300",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet8962560_4","AR3300",1)
+    SetGlobal("RandomBeenSet8962560","AR3300",1)
+END
+
+IF
+  RandomNum(5,2)
+  Global("RandomSet8962560_3","AR3300",0)
+  Global("RandomBeenSet8962560","AR3300",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet8962560_3","AR3300",1)
+    SetGlobal("RandomBeenSet8962560","AR3300",1)
+END
+
+IF
+  RandomNum(5,3)
+  Global("RandomSet8962560_2","AR3300",0)
+  Global("RandomBeenSet8962560","AR3300",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet8962560_2","AR3300",1)
+    SetGlobal("RandomBeenSet8962560","AR3300",1)
+END
+
+IF
+  RandomNum(5,4)
+  Global("RandomSet8962560_1","AR3300",0)
+  Global("RandomBeenSet8962560","AR3300",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet8962560_1","AR3300",1)
+    SetGlobal("RandomBeenSet8962560","AR3300",1)
+END
+
+IF
+  RandomNum(5,5)
+  Global("RandomSet8962560_0","AR3300",0)
+  Global("RandomBeenSet8962560","AR3300",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet8962560_0","AR3300",1)
+    SetGlobal("RandomBeenSet8962560","AR3300",1)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(23)
+  LevelPartyLT(25)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(24)
+  LevelPartyLT(26)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(25)
+  LevelPartyLT(27)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(26)
+  LevelPartyLT(28)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(27)
+  LevelPartyLT(29)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(28)
+  LevelPartyLT(30)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(29)
+  LevelPartyLT(31)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(30)
+  LevelPartyLT(32)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(31)
+  LevelPartyLT(33)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(32)
+  LevelPartyLT(34)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(33)
+  LevelPartyLT(35)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(34)
+  LevelPartyLT(36)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(35)
+  LevelPartyLT(37)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(36)
+  LevelPartyLT(38)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(37)
+  LevelPartyLT(39)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(38)
+  LevelPartyLT(40)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(39)
+  LevelPartyLT(41)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(40)
+  LevelPartyLT(42)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(41)
+  LevelPartyLT(43)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(42)
+  LevelPartyLT(44)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(43)
+  LevelPartyLT(45)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(44)
+  LevelPartyLT(46)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(45)
+  LevelPartyLT(47)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(46)
+  LevelPartyLT(48)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(47)
+  LevelPartyLT(49)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(48)
+  LevelPartyLT(50)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(49)
+  LevelPartyLT(51)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(50)
+  LevelPartyLT(52)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(51)
+  LevelPartyLT(53)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(52)
+  LevelPartyLT(54)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(53)
+  LevelPartyLT(55)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(54)
+  LevelPartyLT(56)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(55)
+  LevelPartyLT(57)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(56)
+  LevelPartyLT(58)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(57)
+  LevelPartyLT(59)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(58)
+  LevelPartyLT(60)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(59)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(23)
+  LevelPartyLT(25)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(24)
+  LevelPartyLT(26)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(25)
+  LevelPartyLT(27)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(26)
+  LevelPartyLT(28)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(27)
+  LevelPartyLT(29)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(28)
+  LevelPartyLT(30)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(29)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(19)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(14)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_4","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    CreateCreature("OGREBERZ",[896.2560],0)  // ~Ogre Berserker~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(23)
+  LevelPartyLT(25)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(24)
+  LevelPartyLT(26)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(25)
+  LevelPartyLT(27)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(26)
+  LevelPartyLT(28)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(27)
+  LevelPartyLT(29)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(28)
+  LevelPartyLT(30)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(29)
+  LevelPartyLT(31)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(30)
+  LevelPartyLT(32)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(31)
+  LevelPartyLT(33)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(32)
+  LevelPartyLT(34)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(33)
+  LevelPartyLT(35)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(34)
+  LevelPartyLT(36)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(35)
+  LevelPartyLT(37)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(36)
+  LevelPartyLT(38)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(37)
+  LevelPartyLT(39)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(38)
+  LevelPartyLT(40)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(39)
+  LevelPartyLT(41)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(40)
+  LevelPartyLT(42)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(41)
+  LevelPartyLT(43)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(42)
+  LevelPartyLT(44)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(43)
+  LevelPartyLT(45)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(44)
+  LevelPartyLT(46)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(45)
+  LevelPartyLT(47)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(46)
+  LevelPartyLT(48)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(47)
+  LevelPartyLT(49)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(48)
+  LevelPartyLT(50)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(49)
+  LevelPartyLT(51)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(50)
+  LevelPartyLT(52)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(51)
+  LevelPartyLT(53)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(52)
+  LevelPartyLT(54)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(53)
+  LevelPartyLT(55)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(54)
+  LevelPartyLT(56)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(55)
+  LevelPartyLT(57)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(56)
+  LevelPartyLT(58)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(57)
+  LevelPartyLT(59)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(58)
+  LevelPartyLT(60)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(59)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(23)
+  LevelPartyLT(25)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(24)
+  LevelPartyLT(26)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(25)
+  LevelPartyLT(27)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(26)
+  LevelPartyLT(28)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(27)
+  LevelPartyLT(29)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(28)
+  LevelPartyLT(30)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(29)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(19)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(14)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_3","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    CreateCreature("OGRE",[896.2560],0)  // ~Ogre~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(23)
+  LevelPartyLT(25)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(24)
+  LevelPartyLT(26)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(25)
+  LevelPartyLT(27)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(26)
+  LevelPartyLT(28)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(27)
+  LevelPartyLT(29)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(28)
+  LevelPartyLT(30)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(29)
+  LevelPartyLT(31)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(30)
+  LevelPartyLT(32)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(31)
+  LevelPartyLT(33)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(32)
+  LevelPartyLT(34)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(33)
+  LevelPartyLT(35)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(34)
+  LevelPartyLT(36)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(35)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(17)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_2","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    CreateCreature("OGREGR",[896.2560],0)  // ~Ogrillon~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_1","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  Global("SpawnReset8962560","AR3300",0)
+  Global("RandomSet8962560_0","AR3300",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    CreateCreature("XVART",[896.2560],0)  // ~Xvart~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset8962560","AR3300",1)
+  GlobalTimerExpired("44008962560","AR3300")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",0)
+    SetGlobal("RandomBeenSet8962560","AR3300",0)
+    SetGlobal("RandomSet8962560_4","AR3300",0)
+    SetGlobal("RandomSet8962560_3","AR3300",0)
+    SetGlobal("RandomSet8962560_2","AR3300",0)
+    SetGlobal("RandomSet8962560_1","AR3300",0)
+    SetGlobal("RandomSet8962560_0","AR3300",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset8962560","AR3300",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset8962560","AR3300",1)
+    CreateCreature("KOBOLD_D",[896.2560],0)  // ~Kobold~
+    SetGlobalTimer("44008962560","AR3300",2400)
+END
+

@@ -1,0 +1,33 @@
+IF
+  InParty(Myself)
+  GlobalTimerExpired("Kagain","GLOBAL")
+  Global("KagainCaravan","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Kagain","GLOBAL",ONE_DAY)
+    SetGlobal("KagainCaravan","GLOBAL",2)
+END
+
+IF
+  InParty(Myself)
+  GlobalTimerExpired("Kagain","GLOBAL")
+  Global("KagainCaravan","GLOBAL",2)
+THEN
+  RESPONSE #100
+    Dialogue([PC])
+END
+
+IF
+  CombatCounter(0)
+  AreaCheck("AR6900")
+  See("DLOSTKAG")
+  GlobalLT("KagainLostChildQuest","GLOBAL",4)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    MoveToPoint([3845.2590])
+    Wait(1)
+    SetInterrupt(TRUE)
+    SetGlobal("KagainLostChildQuest","GLOBAL",1)
+    StartDialogNoSet([PC])
+END

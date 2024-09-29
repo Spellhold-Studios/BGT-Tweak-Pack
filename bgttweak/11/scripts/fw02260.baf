@@ -1,0 +1,139 @@
+IF
+  RandomNum(1,1)
+  Global("RandomSet14351632_0","AR7326",0)
+  Global("RandomBeenSet14351632","AR7326",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet14351632_0","AR7326",1)
+    SetGlobal("RandomBeenSet14351632","AR7326",1)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(0)
+  Global("SpawnReset14351632","AR7326",0)
+  Global("RandomSet14351632_0","AR7326",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset14351632","AR7326",1)
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    SetGlobalTimer("022614351632","AR7326",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(0)
+  Global("SpawnReset14351632","AR7326",0)
+  Global("RandomSet14351632_0","AR7326",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset14351632","AR7326",1)
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    SetGlobalTimer("022614351632","AR7326",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  Global("SpawnReset14351632","AR7326",0)
+  Global("RandomSet14351632_0","AR7326",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset14351632","AR7326",1)
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    SetGlobalTimer("022614351632","AR7326",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  Global("SpawnReset14351632","AR7326",0)
+  Global("RandomSet14351632_0","AR7326",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset14351632","AR7326",1)
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    SetGlobalTimer("022614351632","AR7326",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  Global("SpawnReset14351632","AR7326",0)
+  Global("RandomSet14351632_0","AR7326",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset14351632","AR7326",1)
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    SetGlobalTimer("022614351632","AR7326",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  Global("SpawnReset14351632","AR7326",0)
+  Global("RandomSet14351632_0","AR7326",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset14351632","AR7326",1)
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    SetGlobalTimer("022614351632","AR7326",2400)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset14351632","AR7326",1)
+  GlobalTimerExpired("022614351632","AR7326")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset14351632","AR7326",0)
+    SetGlobal("RandomBeenSet14351632","AR7326",0)
+    SetGlobal("RandomSet14351632_0","AR7326",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset14351632","AR7326",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset14351632","AR7326",1)
+    CreateCreature("CARRIO",[1435.1632],0)  // ~Carrion Crawler~
+    SetGlobalTimer("022614351632","AR7326",2400)
+END
+

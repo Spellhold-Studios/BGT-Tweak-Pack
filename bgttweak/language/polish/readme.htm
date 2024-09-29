@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background: #e3e3db url('http://spellholdstudios.net/images/sh_bg_main.jpg');
+      }
+      
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+      
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #781808;
+        border-top: 5px solid #781808;
+        border-bottom: 5px solid #781808;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+      
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+      
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #781808;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #781808;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+      
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+      
+      h2::first-letter {
+        color: #781808;
+        background-color: transparent;
+      }
+      
+      #maindiv p {
+	font-size: 100%;
+	font-style: normal;
+	line-height: 150%;
+	padding: 0px;
+	margin: 10px auto;
+	width: 90%;
+	display: block;
+	text-align: justify;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+      
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+      
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #781808;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+      
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+      
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+	margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+      
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+	list-style-type: square;
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      #maindiv ol li {
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+      
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+      
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+      
+      a:link,
+      a:visited {
+        color: #781808;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+    </style>
+    <title>SPELLHOLD STUDIOS - BGT Tweak Pack</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+  <body>
+    <a name="top" id="top"></a>
+    <div id="wrap">
+      <div id="header">
+        <h1>Baldur's Gate Trilogy Tweak Pack (BGTTweak)</h1>
+        <strong>A Spellhold Studios mod for Baldur's Gate Trilogy-WeiDU (BGT-WeiDU)</strong>
+        <p class="about">Twórcy: Ascension64</p>
+        <p class="about">Translation: Folmi, <u>Promilus</u>, yarpen</p>
+        <p class="about">
+          <a href="http://www.spellholdstudios.net/">Mod Website</a> &#8226;
+          <a href="http://www.shsforums.net/index.php?showforum=261">Mod Forum</a> &#8226;
+          Wersja: 9
+        </p>
+		<br />
+        <p class="menu">
+          <a href="#intro">Opis</a> &middot;
+          <a href="#installation">Instalacja</a> &middot;
+          <a href="#legalese">Prawa Autorskie</a>
+        </p>
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== I n t r o d u c t i o n ================== -->
+        <a name="intro" id="intro"></a>
+        <div class="content">
+          <h2>Opis</h2>
+          <p>Mod ten jest kontynuacją istniejącego już w wersji pre-ZETA patcha do BGT-WeiDU 0.99. Postanowiono, aby tweaki i poprawki wydane zostały osobno, aby zachować wierność BGT-WeiDU z oryginalnym BG:OzWM. Dlatego też, pakiet ten utworzony został, aby usunąć braki w oryginalnej grze BG.</p>
+		  <p>Komponenty:</p>
+		  <br />
+		<ol>
+			<li><strong>Eldoth przypomina Skie o okupie:</strong> Eldoth, co jakiś czas przypomina nam o pobraniu okupu od Elkarta z Ostrza i Gwiazd.</li>
+			<li><strong>DEPRECATED – Angelo rozpoznaje Shar-teel:</strong> eraz, posiadanie Shar-teel w drużynie, ustrzeże nas przed pochwyceniem przez Płomienną Pięść.</li>
+			<li><strong>DEPRECATED – Zakończenie questu Kagaina z karawaną:</strong> Poszukiwanie syna Księcia Entara Srebrnej Tarczy nie jest już bezcelową wędrówką...</li>
+			<li><strong>Silniejszy Sarevok i Semaj:</strong> Finałowa walka jest teraz o wiele trudniejsza, z powodu nowych przedmiotów, które zostały dodane przeciwnikom.</li>
+			<li><strong>Odkrycie ważniejszych lokacji podczas wizyty:</strong> Wrota Baldura, Beregost, Candlekeep, Nashkel i Broda Ulgotha zostają w całości odkryte.</li>
+			<li><strong>DDruid/Łowca-przyjazne niedźwiedzie w BG1:</strong> Tak jak w SoA, napotkane niedźwiedzie nie będą już nas atakować, jeśli posiadamy w drużynie Druida i/lub Łowcę.</li>
+			<li><strong>Poprawka Zadowolenia:</strong> Pozwala NPC znaleźć ich wewnętrzną radość i harmonię...poprzez upewnienie się, że nigdy nie będą niezadowoleni z reputacji drużyny! Następujące opcje możliwe są dla tego komponentu:</li>
+			<br />
+			<ul>
+				<li>NPC nie mogą wybrać opuszczenia drużyny: NPC nigdy nie opuszczą drużyny niezależnie jak bardzo odrzuca ich Twoje niepoprane zachowanie.</li>
+				<li>Jedynie Dobrzy oraz Źli NPC mogą opuścić drużynę: dobrzy i źli NPC mogą opuszczać drużynę, ale nie ci z pozostałymi charakterami.</li>
+			</ul>
+			<li><strong>Importowanie większej ilości przedmiotów do SoA:</strong> Ta poprawka pozwala na importowanie następujących przedmiotów z BG:OzWM do BG2:SoA: Amulet z Nefrytem, Różdżka Niebios, Pierścień ochrony +2, Płaszcz ochrony +2, Rękawice mistrzostwa, Łuk Orłów, Pancerz Cienia, Buty Ukrycia, Bransolety Łucznictwa, Rękawice Zręczności, Lekka Kusza Szybkości, Zbroja płytowa z Ankhega, Płaszcz niewykrywalności, Pierścień 'Wieczna Pamięć', Pełna Zbroja Płytowa +1, Rękawice Siły Ogra, Pierścień Świętości, Płaszcz Baldurana, Pierścień ochrony przed ogniem, Pierścień Wolności. Proszę zauważyć, że importowanie tych przedmiotów może prawdopodobnie bardzo ułatwić grę, toteż mod ten może być postrzegany jako cheat.</li>
+			<li><strong>Losowo aktywowane pułapki w jaskini piratów:</strong> Nie sądziłeś nigdy, że ograbianie jaskini strzeżonej przez Sil i jej syrenki było zbyt łatwe? Ten komponent losowo uaktywnia istniejące, nieaktywne dotąd pułapki, więc nigdy nie będziesz wiedział czego się spodziewać! Zauważ, że ten komponent nie będzie działał, jeśli wczytasz grę, w której odwiedziłeś już jaskinię. Są do wyboru dwie opcje komponentu:</li>
+			<br />
+			<ul>
+				<li>Randomizacja czasu instalacji: Różne pułapki są ustawiane za każdym razem, kiedy instalujesz ten komponent.</li>
+				<li>Randomizacja czasu gry: Różne pułapki są ustawiane, za każdym razem kiedy pierwszy raz odwiedzasz jaskini.</li>
+			</ul>
+			<li><strong>Pojemniki Wybrzeża Mieczy:</strong> Ten komponent ułatwia noszenie tych wszystkich skarbów poprzez dodanie specjalnych pojemników. Jednak najpierw, musisz je znaleźć.</li>
+			<li><strong>Zmienione losowe potwory:</strong> Ten komponent powinien odpowiadać wszystkim tym, którym nie podoba się obecna metoda BGT-WeiDU ustawiania losowych potworów. Jest kilka opcji dla tego komponentu:</li>
+			<br />
+			<ul>
+				<li>Losowe potwory w stylu BG1Tutu: Random monsters appear depending on the level of the player. This component is similar to the spawns used by TuTu v6 beta (permission from Ghreyfain).</li>
+				<li>Wyłączenie losowych potworów BGT-WeiDU (Losowe potwory nigdy się nie pojawiają): Usuwa losowe potwory z głównych lokacji. Jednakże, losowe spotkania nadal mogą mieć miejsce w pomniejszych lokacjach podczas podróżowania.</li>
+				<li>Wyłączenie losowych potworów BGT-WeiDU (Losowe potwory pojawiają się tylko raz): Usuwa odradzanie losowych potworów w głównych lokacjach, pozwalając im pojawić się wyłącznie raz. Losowe spotkania między lokacjami nadal występują.</li>
+			</ul>
+			<li><strong>Arkion zwraca uwagę na reputację gracza:</strong> Ten niewielki tweak powstrzymuje Arkiona od proszenia nas, abyśmy przynieśli mu ciało z kanałów.</li>
+			<li><strong>Coran reaguje na śmierć wywerny:</strong> Ten komponent odnawia oryginalny, nieużywany dialog, przypominający graczowi o oddaniu głowy wywerny do Świątyni Lathandera.</li>
+			<li><strong>Więcej skalpów bandytów:</strong> Więcej bandytów będzie je posiadać jeśli zainstalujesz ten komponent.</li>
+			<li><strong>Zmienione niszczenie przedmiotów:</strong> Ten komponent modyfikuje rodzaje przedmiotów, które mogą ulegać zniszczeniu. Do wyboru są następujące opcje:</li>
+			<br />
+			<ul>
+				<li>Usunięcie niszczenia przedmiotów: Dla tych ludzi którzy po prostu nienawidzą gdy ich przedmioty rozpadają się jakby były zrobione z talku. Ten komponent usuwa niszczenie wszystkich przedmiotów.</li>
+				<li>Zniszczalna zbroja i tarcza (dla BGT-WeiDU v1.05b lub wyższych): Zbroje i tarcze także ulegają zniszczeniu, identycznie jak w przypadku niszczenia przedmiotów w BGT-WeiDU 1.05a lub niższych.</li>
+			</ul>
+			<li><strong>Zakapturzeni nieuzbrojeni magowie i złodzieje:</strong> Zmienia wygląd nieuzbrojonych magów i złodziei na nieco bardziej 'klimatyczny'. Pomysłodawcą komponentu jest członek forum, Salk.</li>
+			<li><strong>Poprawki zasad gry przez Salka:</strong> Kolejny specjal od Salka; tym razem poprawki zdolności złodziejskich w zależności od rasy, a także modyfikator zdolności Ciche chodzenie dla łowców.</li>
+			<li><strong>Importowanie większej ilości NPC do Cieni Amn:</strong> Do wyboru Alora, Branwen, Eldoth, Kagain, Kivan, Shar-teel, Skie, Xan, Yeslick, przyłączalni NPC z Dark Side of the Sword Coast (jeśli zainstalowane), a także przyłączalni NPC z Northern Tales of the Sword Coast (jeśli zainstalowane), jeśli NPC jest w drużynie i nie jest martwy, wtedy będzie importowany do Cieni Amn. Jednakże część z nich trzeba będzie znaleźć...(ten komponent jest niekompatybilny z The Darkest Day, Tortured Souls i Neverending Journey).</li>
+			<li><strong>Przywrócenie premi doświadczenia za rozbrajanie pułapek, otwieranie zamków i naukę czarów z BG2 (dla BGT-WeiDU v1.05):</strong> Komponent ten przywraca oryginalne wartości doświadczenia uzyskiwane z otwierania zamków, rozbrajania pułapek czy nauki czarów ze zwojów, które to zostały zredukowane w BGT-WeiDU v.1.05. Używanie tego komponendu z wersją wcześniejszą niż 1.05 nie przyniesie żadnego efektu. Zalecane jest zainstalowanie tego komponentu podczas przejścia do fabuły BG2:Cienie Amn.</li>
+			<li><strong>Modyfikacje biografii postaci głównej:</strong> Ten komponent pozwala na zaiera dwie opcje które w drobny sposób modyfikują to w jaki sposób BGT-WeiDU ustawia biografię postraci głównej:</li>
+			<br />
+			<ul>
+				<li>Nie ustawiaj biografii BG1 dla importowanych postaci: Jeśli zaimportujesz postać do nowej gry zaczynając w Candlekeep, biografia BG1 nie będzie ustawiona. Użyj tego komponentu jeśli importowane postacie mają własne biografie i właśnie je chcesz zachować.</li>
+				<li>Ustaw biografię BG2 podczas przejścia do Cieni Amn: Jeśli chcesz by biografia Twojej postaci zmieniła się na wersję z Cieni Amn podczas przejścia z BG1 do lochów Irenicusa ten komponent zrobi to dla Ciebie. Należy jednak pamiętać, że własne biografie będą utracone gdy to się stanie.</li>
+			</ul>
+			<li><strong>Egzotyczne bronie u Taeroma:</strong> Taerom zaimportował Katany, Wakizashi, Ninja-To dla miłośników orientalnych mieczy.</li>
+			<li><strong>Zmiana przedmiotów na styl BG1:</strong> Ten komponent konwertuje część przedmiotów tak by zachowywały się bardziej jak w Baldur's Gate I. Zmiany są rozdzielone między pod-komponenty, które zawierają zmiany cen, rozmiaru stosów, wymagań wiedzy, poziomów zwoi zaklęć oraz zachowania przedmiotów (wymagania siły, obrażenia, zasięg, moc oraz różnorodne premie).</li>
+			<li><strong>Wyłączenie wrogich reakcji po zauroczeniu:</strong> Zaklęcia i zdolności które zauroczają stworzenia nie powodują już wrogiej reakcji po zniknięciu efektu. Działa najlepiej jeśli zainstalowane z poprawką 'Umożliw rozmowy z zauroczonymi/zdominowanymi stworzeniami'.</li>
+			<li><strong>Przedmioty wroga ulegają zniszczeniu:</strong> Daje twoim przeciwnikom posmakować kryzysu żelaza poprzez umożliwienie zniszczenia ich broni. Jeśli zainstalowane zostanie 'Zniszczalna zbroja i tarcza' z komponentu 'Zmienione niszczenie przedmiotów', także i te przedmioty wroga będą miały szanse na zniszczenie w wypadku ciosu.</li>
+			<li><strong>Dostęp do Brody Ulgotha jedynie na zachód od Żmijowego skrzyżowania:</strong> Broda Ulgotha leży na zachód od Wrót Baldura zgodnie z ifnormacjami o Zapomnianych Krainach, natomiast w Baldur's Gate: Opowieści z Wybrzeża Mieczy Broda Ulgotha jest ulokowana na północnym-wschodzie. Ten komponent poprawia tą niespójność poprzez ograniczenie dostępu do Brody Ulgotha jedynie z zachodniej części Żmijowego skrzyżowania. Jednakże to oznacza także, że Broa Ulgotha będzie niedostępna dopóki Wrota Baldura staną się dostępne.</li>
+			<li><strong>Uniemożliwienie dostępu do Wieży Durlaga z pobliskich obszarów:</strong> Ten komponent powstrzymuje gracza przed odnalezieniem Wieży Durlaga poprzez pójście w obszar jej lokalizacji. Jeśli komponent zostanie zainstalowany, jedyną drogą jaką można uzyskać dostęp do Wieży Durlaga jest zdobycie informacji w Brodzie Ulgotha.</li>
+            <li><strong>Umieść Miecz Chaosu+2 w ekwipunku Sarevoka:</strong> Jeśli nie masz dość nieco przegiętych mieczyków to latanie dookoła z mieczem Sarevoka nie jest złym pomysłem na zaspokojenie twojej chciwości. Ten komponent pozwala na podniesienie Miecza Chaosu+2 Sarevoka po jego ukatrupieniu.</li>
+		</ol>
+          <address>
+            <span class="footer">BGT Tweak Pack &gt; Opis</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== I n s t a l l a t i o n ================== -->
+        <a name="installation" id="installation"></a>
+        <div class="content">
+          <h2>Instalacja</h2>
+		  <h3>Wymagania</h3>
+		  <p>BGT-WeiDU w wersji co najmniej 1.01 lub nowszej.</p>
+		<hr />
+		
+		<h3>Kompatybilność</h3>
+		<p>Sprawdzanie kompatybilności zostało zaimplementowane dla modyfikacji 'Ease of Use', 'BGSpawn', 'BG1 NPC Project' oraz 'BG1 Unfinished Business'. By to sprawdzanie zostało uaktywnione należy upewnić się, że ta modyfikacja zostanie zainstalowana po tych wyżej wymienionych.</p>
+		<hr />
+
+		<h3>Instalacja</h3>
+		<ol>
+		  <li>Wypakuj BGTTweak_v9.rar do folderu, gdzie zainstalowałeś BGT-WeiDU. </li>
+		  <li>Uruchom Setup-BGTTweak.exe i postępuj zgodnie ze wskazówkami.</li>
+		  <li>Przeinstaluj BGT-WeiDU Tweak pack, jeśli była już instalowana poprzednia wersja.</li>
+		</ol>
+		<hr />
+
+		<h3>Dezinstalacja</h3>
+		<p>Uruchom Setup-BGTTweak.exe i postępuj zgodnie ze wskazówkami.</p>
+          <address>
+            <span class="footer">BGT Tweak Pack &gt; Instalacja</span> <a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+        <!-- ================== L e g a l e s e ================== -->
+        <a name="legalese" id="legalese"></a>
+        <div class="content">
+          <h2>Prawa Autorskie</h2>
+		  <p>BALDUR’S GATE, BALDUR'S GATE: OPOWIEŚCI Z WYBRZEŻA MIECZY: © 1999 BioWare Corp. Wszelkie prawa zastrzeżone. Baldur's Gate I Opowieści z Wybrzeża Mieczy są znakami towarowymi TSR, Inc., Wizards of the Coast, Inc., i są używane przez Interplay pod licencją. BioWare Infinity Engine jest znakiem towarowym BioWare Corp.</p>
+		  <p>BALDUR'S GATE II: CIENIE AMN, BALDUR’S GATE II: TRON BHAALA: © 2000, 2001 BioWare Corp. Wszelkie prawa zastrzeżone. Baldur's Gate, Tron Bhaala i Cienie Amn są znakami towarowymi Wizards of the Coast, Inc. i są używane przez Interplay pod licencją. Wszelkie prawa zastrzeżone. BioWare Infinity Engine jest znakiem towarowym BioWare Corp. Wszelkie prawa zastrzeżone.</p>
+		  <p><strong>USE THIS MODIFICATION AT YOUR OWN RISK. This modification is not developed, supported, or endorsed by BioWare Corp., Interplay, or Black Isle. All images and contents of this mod are © BioWare Corp., Interplay, Black Isle or Wizards of the Coast, Inc.</strong></p>
+		  <p>This is a community modification, created as a hobby for free. You can distribute among your peers as much as you like. However, please display good faith and credit the authors of the modification if you intend to modify the package in any way or use any part of this modification as a template to create part/all of a modification/fixpack/tweak that you intend to release to the community.</p>
+          <address>
+            <span class="footer">BGT Tweak Pack &gt; Prawa Autorskie</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    <!--
+      function toggle(id) {
+        element = document.getElementById(id);
+        if ( element.style.display == 'none' ) {
+          element.style.display = '';
+          if ( document.all ) {
+            document.getElementById('vhistoryaddress').style.display = 'none'; // IE hack
+          }
+        } else {
+          element.style.display = 'none';
+          if ( document.all ) {
+            document.getElementById('vhistoryaddress').style.display = ''; // IE hack
+          }
+        }
+      }
+
+      elements = document.getElementsByTagName('*');
+      for ( var i = 0; i < elements.length; i++ ) {
+        if ( elements[i].className == 'vlisthide' ) {
+          elements[i].style.display = 'none';
+        }
+      }
+    //-->
+    </script>
+	
+</body>
+</html>

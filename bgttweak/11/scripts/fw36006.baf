@@ -1,0 +1,1410 @@
+IF
+  RandomNum(2,1)
+  Global("RandomSet29311944_1","AR9500",0)
+  Global("RandomBeenSet29311944","AR9500",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet29311944_1","AR9500",1)
+    SetGlobal("RandomBeenSet29311944","AR9500",1)
+END
+
+IF
+  RandomNum(2,2)
+  Global("RandomSet29311944_0","AR9500",0)
+  Global("RandomBeenSet29311944","AR9500",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet29311944_0","AR9500",1)
+    SetGlobal("RandomBeenSet29311944","AR9500",1)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(17)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(8)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(5)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(4)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(3)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_1","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_E",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(17)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(8)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(5)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(4)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(3)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  Global("SpawnReset29311944","AR9500",0)
+  Global("RandomSet29311944_0","AR9500",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset29311944","AR9500",1)
+  GlobalTimerExpired("360029311944","AR9500")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",0)
+    SetGlobal("RandomBeenSet29311944","AR9500",0)
+    SetGlobal("RandomSet29311944_1","AR9500",0)
+    SetGlobal("RandomSet29311944_0","AR9500",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset29311944","AR9500",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset29311944","AR9500",1)
+    CreateCreature("HOBGOA_C",[2931.1944],0)  // ~Hobgoblin~
+    SetGlobalTimer("360029311944","AR9500",2400)
+END
+

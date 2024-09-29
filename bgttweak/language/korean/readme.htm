@@ -1,0 +1,460 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background: #e3e3db url('http://spellholdstudios.net/images/sh_bg_main.jpg');
+      }
+      
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+      
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #781808;
+        border-top: 5px solid #781808;
+        border-bottom: 5px solid #781808;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+      
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+      
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #781808;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #781808;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+      
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+      
+      h2::first-letter {
+        color: #781808;
+        background-color: transparent;
+      }
+      
+      #maindiv p {
+	font-size: 100%;
+	font-style: normal;
+	line-height: 150%;
+	padding: 0px;
+	margin: 10px auto;
+	width: 90%;
+	display: block;
+	text-align: justify;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+      
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+      
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #781808;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+      
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+      
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+	margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+      
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+	list-style-type: square;
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      #maindiv ol li {
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+      
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+      
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+      
+      a:link,
+      a:visited {
+        color: #781808;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+    </style>
+    <title>SPELLHOLD STUDIOS - BGT Tweak Pack</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+  <body>
+    <a name="top" id="top"></a>
+    <div id="wrap">
+      <div id="header">
+        <h1>발더스 게이트 트릴로지 트윅팩 (BGTTweak)</h1>
+        <strong>A Spellhold Studios mod for Baldur's Gate Trilogy-WeiDU (BGT-WeiDU)</strong>
+        <p class="about">제작자: Ascension64</p>
+        <p class="about">Translation: longbiatch, web2air, <u>Whiteraven</u></p>
+        <p class="about">
+          <a href="http://www.spellholdstudios.net/">Mod Website</a> &#8226;
+          <a href="http://www.shsforums.net/index.php?showforum=261">Mod Forum</a> &#8226;
+          버전: 9
+        </p>
+		<br />
+        <p class="menu">
+          <a href="#intro">설명</a> &middot;
+          <a href="#installation">설치</a> &middot;
+          <a href="#legalese">저작권/거부권</a>
+        </p>
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== I n t r o d u c t i o n ================== -->
+        <a name="intro" id="intro"></a>
+        <div class="content">
+          <h2>설명</h2>
+          <p>이 수정팩은 발더스 게이트 트릴로지 0.99 ZETA 이전버전의 패치들을 종합한 것입니다. BGT-WeiDU를 원작 발더스 게이트와 가장 근접하게 유지하기 위해서, 이 트윅팩은 버그 픽스팩으로 부터 분리되었습니다. 따라서, 이 패키지는 원작 발더스 게이트와 테일스 오브 소드 코스트에서 부족한 부분들을 수정하기 위해서 만들어 졌습니다.</p>
+		  <p>구성요소:</p>
+		  <br />
+		<ol>
+			<li><strong>엘도스가 스키의 몸값에 대해서 알려줌:</strong> 엘도스는 정기적으로 플레이어에게 스키의 몸값을 회수하라는 충고를 해 줄 것입니다.</li>
+			<li><strong>DEPRECATED – 안젤로가 샤-틸을 알아봄:</strong> 이들 부녀간의 관계는 파티가 플래이밍 피스트에게 잡혔을 때 빠져나가기 위한 도움이 될 것입니다.</li>
+			<li><strong>DEPRECATED – 완료할 수 있는 카게인의 캐러밴 퀘스트</strong> 아주 오래 기다리지만 않는다면, 엔타 실버쉴드의 아들을 찾는 퀘스트에 대한 해결책을 찾을 수 있을 것입니다...</li>
+			<li><strong>더욱 강력해진 사레복과 세마즈:</strong> 사레복과의 마지막 대결은 더욱 어려워 질 것입니다. 사레복과 세마즈는 새로운 커스텀 아이템을 가지고 있게 될 것입니다.  따라서 마지막 대결에 대한 준비를 더욱 철저히 하십시요!</li>
+			<li><strong>주요 장소들이 지도상에 나타남:</strong> 발더스 게이트, 베레고스트, 캔들킵, 내쉬켈, 그리고 울고스 비어드는 처음부터 지도상에 나타나게 됩니다.</li>
+			<li><strong>드루이드/레인저-BG1에서 곰들과의 반응:</strong> 앰의 그림자에서 처럼, 소드 코스트에서 나타나는 곰들은 근처의 드루이드 또는 레인저에게 친근하게 반응하게 됩니다.</li>
+			<li><strong>해피 패치:</strong> NPC들은 더 이상 명성 때문에 파티에 불화를 일으키지 않습니다! 이 구성요소는 다음의 2가지를 선택해서 설치할 수 있습니다:</li>
+			<br />
+			<ul>
+				<li>NPC들은 파티를 떠날 수 없음: NPC들은 당신의 행동에 관계없이 절대로 파티를 떠나지 않을 것입니다.</li>
+				<li>선 또는 악 성향 NPC들만 파티를 스스로 떠날 수 있음: 선 또는 악 성향을 가진 NPC들은 파티를 떠나지만, 다른 가치관은 그렇지 않습니다.</li>
+			</ul>
+			<li><strong>더 많은 아이템을 앰의 그림자로 이동:</strong> 몇가지 아이템들이 발더스 게이트에서 앰의 그림자로 파티와 함께 이동하게 됩니다 - 그린스톤 애뮬릿, 완드 오브 더 헤븐, 링 오브 프로텍션 +2, 클록 오브 프로텍션 +2, 건틀릿 오브 웨폰 익스퍼타이즈, 이글 보우, 섀도우 아머, 부츠 오브 스텔스, 브레이서 오브 아쳐리, 건틀릿 오브 덱스터리티, 라이트 크로스보우 오브 스피드, 앙크헤그 플레이트 메일, 클록 오브 논-디텍션, 링 오브 위자드리, 풀 플레이트 메일 +1, 건틀릿 오브 오우거 파워, 링 오브 홀리니스, 클록 오브 발더란, 링 오브 파이어 레지스턴스, 링 오브 프리덤.  이 트윅은 앰의 그림자의 난이도를 지나치게 낮추는 결과를 내게 될 수도 있습니다. 그리고 이 트윅팩은 일종의 치트로 여겨집니다.</li>
+			<li><strong>해적 동굴에서 랜덤으로 생성되는 함정:</strong> 실과 사이렌들이 지키는 해적의 동굴이 너무 쉽다고 여겨지나요?  이 구성요소는 해적 동굴의 함정을 랜덤으로 생성하기 때문에, 플레이어는 함정이 어디에 있는지에 대해서 알 수 없게 됩니다. 새로운 설치시 마다 함정의 위치는 바뀌게 됩니다. 따라서, 당신의 도둑 캐릭터를 잘 사용하세요! 하지만 이 구성요소는 해적 동굴을 탐험한 후에 저장된 게임에 대해선 영향을 끼치지 않습니다.  이 구성요소는 두가지 선택사항이 있습니다:</li>
+			<br />
+			<ul>
+				<li>설치에 따른 랜덤화: 당신이 이 구성요소를 재설치할 때마다 함정의 위치가 바뀌게 됩니다.</li>
+				<li>게임에 따른 랜덤화: 당신이 해적 동굴을 처음 방문할 때마다 함정의 위치가 바뀌게 됩니다.</li>
+			</ul>
+			<li><strong>소드 코스트에 가방:</strong> 아이템들을 쉽게 저장할 수 있는 가방들이 소드코스트 지역에 생기게 됩니다. 보석 가방, 스크롤통, 화살통, 포션통, 그리고 아무것이나 담을 수 있는 마법의 가방까지.  하지만 먼저 이 가방들이 어디 있는지 찾아 보세요.</li>
+			<li><strong>대체된 몬스터 재생성:</strong> 이 구성요소는 기존의 BGT 방식 몬스터 재생성을 원치 않는 이들을 위한 것입니다. 이 구성요소에는 다음과 같은 세부 선택사항이 있습니다.</li>
+			<br />
+			<ul>
+				<li>TuTu 방식의 레벨에 따른 재생성: 무작위의 몬스터들이 플레이어의 레벨에 따라 생성됩니다. 이 구성요소는 TuTu v6에 사용된 것과 비슷한 방식으로 작동합니다.(Ghreyfain의 허락을 받음)</li>
+				<li>BGT 방식 몬스터 재생성 해제 (몬스터가 재생성되지 않음): BG1 지역에서 생성되는 무작위 몬스터를 전부 제거합니다. 그러나 지역이동 도중의 인카운터는 여전히 작동합니다.</li>
+				<li>BGT 방식 몬스터 재생성 해제 (몬스터는 단 한 번만 재생성됨): BG1 지역에서 생성되는 무작위 몬스터는 단 한 번만 등장합니다. 지역이동 도중의 인카운터는 여전히 작동합니다.</li>
+			</ul>
+			<li><strong>아르키온이 명성치에 반응:</strong> 아르키온은 명성치가 높은 플레이어에게 하수구에서 시체를 가져다 달라는 부탁을 하지 않게 됩니다.</li>
+			<li><strong>코란이 와이번의 죽음에 반응:</strong> 원래 사용되지 않던 코란의 대사가 복구되어 코란은 와이번을 잡게 되었을 때 신전에 가져가서 상금을 받자고 얘기할 것입니다.</li>
+			<li><strong>더 많은 도적 머릿가죽:</strong> 더 많은 수의 도적들에게서 머릿가죽 벗겨! 낼 수 있게 됩니다.</li>
+			<li><strong>대체된 아이템 파괴:</strong> 이 구성요소는 망가지는 아이템의 종류를 조정합니다. 2가지 옵션중 하나를 선택할 수 있습니다.</li>
+			<br />
+			<ul>
+				<li>아이템은 파괴되지 않음: 아이템이 망가지는 것을 싫어하는 이들을 위한 옵션입니다. 이 구성요소는 모든 아이템이 망가지는 것을 방지합니다.</li>
+				<li>갑옷과 방패에도 아이템 파괴 적용 (BGT 1.05b 또는 상위 버전 필요): BGT 1.05a 까지의 방식을 적용해서 갑옷과 방패 또한 파괴됩니다.</li>
+			</ul>
+			<li><strong>후드를 쓴 메이지와 도둑:</strong> Salk 의 특별한 (포럼 회원) 이 구성요소는 아무것도 착용하지 않은 메이지와 도적이 후드를 착용한 도둑처럼 보이게 해줍니다.</li>
+			<li><strong>Salk의 펜-페이퍼 룰셋 수정:</strong> Salk의 또다른 특별모드; 레이스에 따른 도둑 능력치 수정, 레인저의 조용히 걷기 기술 수정.</li>
+			<li><strong>더 많은 NPC를 섀도우 오브 앰으로 데려감:</strong> 알로라, 브란웬, 엘도스, 카게인, 키반, 샤틸, 스키, 잔, 예슬릭, Dark Side of the Sword Coast, Nothern Tales of the Sword Coast의 추가 NPC들(만약 설치되었다면) 중 당신이 선택한 이들이 죽지 않은 상태로 파티에 소속되어 있다면, 그들을 섀도우 오브 앰으로 데려갈 수 있습니다. 그러나 일부 NPC들은 아스카틀라에서 따로 찾아서 재영입해야합니다. (이 구성요소는 The Darkest Day, Tortured Souls, and Never Ending Journey와 호환되지 않습니다.)</li>
+			<li><strong>BG2의 함정, 자물쇠, 스크롤 경험치 복원 (BGT v1.05 이상의 버전):</strong> 이 구성요소는 BGT v1.05부터 감소되었던 함정 해제, 자물쇠 따기, 스크롤을 통한 주문 습득으로 얻는 경험치를 원래대로 복원시켜줍니다. 이 구성요소는 1.05 이전 버전의 BGT에는 아무런 영향도 주지 않습니다. 섀도우 오브 앰으로 이동한 뒤에 이 구성요소를 설치하는 것을 추천합니다.</li>
+			<li><strong>주인공의 전기 변경:</strong> 이 구성요소는 발더스게이트 트릴로지 - 웨이두에서 주인공의 전기를 설정하는 두 가지 방식을 제공합니다. 기본적으로 발더스게이트 및 테일즈 오브 더 소드 코스트를 플레이하고 있는 모든 캐릭터들은 발더스게이트1의 전기를 갖게 됩니다. 그리고, "임포트한 캐릭터에게 BG1 전기를 설정하지 않음" 옵션을 선택할 경우에는 임포트한 캐릭터에게는 적용되지 않으며, "섀도우 오브 앰으로 넘어갈 때 BG2 전기를 설정함" 선택시 캐릭터가 섀도우 오브 앰으로 넘어갈 때 자동적으로 전기를 발더스게이트2의 전기로 바꾸어 줍니다.</li>
+			<li><strong>태롬 퓨이루임이 카라-투어의 무기(카타나, 닌자도, 와키자시)를 판매함:</strong> 태롬 퓨이루임이 카타나, 와키자시, 닌자도를 판매합니다.</li>
+			<li><strong>BG1 방식 아이템:</strong> 이 구성요소는 몇 가지 아이템을 BG1에 가까운 방식으로 작동하게 변환합니다. 변동사항은 가격, 겹쳐지는 숫자, 식별에 필요한 전승지식, 스크롤의 시전레벨, 아이템 능력(힘 제한, 데미지, 사거리, 파워 기타 여러가지 보너스들)이며 각각 다른 하위 구성요소로 분류되어 있습니다.</li>
+			<li><strong>현혹이 해제된 이후의 적대적 반응을 제거:</strong> 현혹 능력을 가진 주문과 아이템은 더 이상 효과가 종료되거나 해제되어도 대상을 적대적으로 만들지 않습니다. Enable conversations with charmed/dominated creatures(ECCC) 패치와 같이 설치하는 것을 추천합니다.</li>
+			<li><strong>적의 아이템도 파괴:</strong> 적들도 철 위기의 영향을 받아 그들이 철제 무기를 사용할 경우 일정 확률로 파괴됩니다. 만약 당신이 "대체된 아이템 파괴"를 '갑옷과 방패에도 아이템 파괴 적용' 옵션을 선택하여 설치했다면, 그들의 철제 방패와 갑옷 또한 공격을 받을 경우 일정 확률로 파괴됩니다.</li>
+			<li><strong>울고스 비어드를 웜즈 크로싱의 서쪽을 통해서만 방문 가능:</strong> 포가튼 렐름 설정에 따르면 울고스 비어드는 발더스 게이트의 서쪽에 위치합니다. 그러나 TotSC에서는 울고스 비어드가 북동쪽에 위치하고 있습니다. 이 구성요소는 웜즈 크로싱의 서쪽을 통해서만 울고스 비어드에 갈 수 있게 만들어서 이러한 불일치를 수정합니다. 그러나 이것은 발더스 게이트에 입성 가능할때까지 울고스 비어드에 갈 수 없다는 뜻도 됩니다.</li>
+			<li><strong>울고스 비어드를 거치지 않고 인접지역을 통해 둘락의 탑에 직접 들어가는 것을 방지: 이 구성요소는 인접지역을 통해 둘락의 탑을</strong> 발견하는 것을 방지합니다. 이 구성요소가 설치된다면, 울고스 비어드에서 정보를 입수하지 않을 경우 둘락의 탑을 발견할 수 없습니다.</li>
+            <li><strong>사레복의 소지품에 카오스 소드 +2를 추가합니다:</strong> 강력한 검들을 더 가지고 싶다면, 사레복의 검을 가지고 다니는 것도 욕심을 채우는 방편이 될 수 있습니다. 이 구성요소는 사레복이 죽은 다음 그의 카오스 소드 +2를 입수할 수 있게 합니다.</li>
+		</ol>
+          <address>
+            <span class="footer">발더스 게이트 트릴로지 트윅팩 &gt; 설명</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== I n s t a l l a t i o n ================== -->
+        <a name="installation" id="installation"></a>
+        <div class="content">
+          <h2>설치</h2>
+		  <h3>요구사항</h3>
+		  <p>이 트윅팩의 설치를 위해선 BGT-WeiDU 버전 1.01 또는 상위 버전이 필요합니다.</p>
+		<hr />
+		
+		<h3>호환성</h3>
+		<p>'이지 오브 유즈'. 'BG1 NPC 프로젝트', 'BG1 Unfinished Business' MOD와의 호환 여부는 아직 검사되지 않았습니다. 만약 이들과의 호환 여부를 검사하고 싶다면, 이 모드를 전술된 모드들보다 나중에 설치해야 합니다.</p>
+		<hr />
+
+		<h3>설치</h3>
+		<ol>
+		  <li>BGTTweak_v9.rar 파일을 BGT-WeiDU 가 설치된 디렉토리에 압축해제하십시요.</li>
+		  <li>Setup-BGTTweak.exe 파일을 실행하시고 화면에 나타나는 지시를 따르십시요.</li>
+		  <li>만약 이전 버전의 BGT-WeiDU 트윅 팩이 설치되어 있다면, 간단히 이 트윅팩 다시 설치하시면 됩니다. 이 트윅팩의 재설치는 당신의 세이브파일에 아무런 해를 끼치지 않을 것입니다.</li>
+		</ol>
+		<hr />
+
+		<h3>설치 제거</h3>
+		<p>Setup-BGTTweak.exe 파일을 실행하시고 화면에 나타나는 지시를 따르십시요.</p>
+          <address>
+            <span class="footer">발더스 게이트 트릴로지 트윅팩 &gt; 설치</span> <a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+        <!-- ================== L e g a l e s e ================== -->
+        <a name="legalese" id="legalese"></a>
+        <div class="content">
+          <h2>저작권/거부권</h2>
+		  <p>BALDUR’S GATE, BALDUR'S GATE: TALES OF THE SWORD COAST: © 1999 BioWare Corp. All Rights Reserved. Baldur's Gate and Baldur's Gate Tales of the Sword Coast are trademarks of TSR, Inc., a subsidiary of Wizards of the Coast, Inc., and are used by Interplay under license. The BioWare Infinity Engine is a trademark of BioWare Corp.</p>
+		  <p>BALDUR'S GATE II: SHADOWS OF AMN, BALDUR’S GATE II: THRONE OF BHAAL: © 2000, 2001 BioWare Corp. All Rights Reserved. Baldur's Gate, Throne of Bhaal, and Shadows of Amn are trademarks owned by Wizards of the Coast, Inc. and are used by Interplay under license. All Rights Reserved. The BioWare Infinity Engine is a trademark of BioWare Corp. All Rights Reserved.</p>
+		  <p><strong>USE THIS MODIFICATION AT YOUR OWN RISK. This modification is not developed, supported, or endorsed by BioWare Corp., Interplay, or Black Isle. All images and contents of this mod are © BioWare Corp., Interplay, Black Isle or Wizards of the Coast, Inc.</strong></p>
+		  <p>This is a community modification, created as a hobby for free. You can distribute among your peers as much as you like. However, please display good faith and credit the authors of the modification if you intend to modify the package in any way or use any part of this modification as a template to create part/all of a modification/fixpack/tweak that you intend to release to the community.</p>
+          <address>
+            <span class="footer">발더스 게이트 트릴로지 트윅팩 &gt; 저작권/거부권</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    <!--
+      function toggle(id) {
+        element = document.getElementById(id);
+        if ( element.style.display == 'none' ) {
+          element.style.display = '';
+          if ( document.all ) {
+            document.getElementById('vhistoryaddress').style.display = 'none'; // IE hack
+          }
+        } else {
+          element.style.display = 'none';
+          if ( document.all ) {
+            document.getElementById('vhistoryaddress').style.display = ''; // IE hack
+          }
+        }
+      }
+
+      elements = document.getElementsByTagName('*');
+      for ( var i = 0; i < elements.length; i++ ) {
+        if ( elements[i].className == 'vlisthide' ) {
+          elements[i].style.display = 'none';
+        }
+      }
+    //-->
+    </script>
+	
+</body>
+</html>

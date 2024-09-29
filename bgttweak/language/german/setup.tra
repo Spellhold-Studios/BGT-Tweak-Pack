@@ -1,0 +1,585 @@
+/////////////////////////////////
+//Eldoth reminds of Skie's ransom
+/////////////////////////////////
+
+@101  = ~Wir sollten uns auf den Weg zu Elkart im Gasthaus "Zur Funkelnden Klinge" machen. Nach meiner Zählung sind zwei Tage vergangen.~ 
+
+///////////////////////////
+//Tougher Sarevok and Semaj
+///////////////////////////
+
+@401  = ~Magier Umhang~
+@402  = ~Semajs Umhang~ 
+@403  = ~Dies ist der magische Umhang, den Ihr beim Leichnam von Sarevoks Magier Semaj gefunden habt. Es ist nicht bekannt, welche Macht dieser Umhang besitzt.~
+@404  = ~Der Umhang, den Ihr beim Leichnam von Sarevoks Magier Semaj gefunden habt, ist ein Wunder für sich selbst. Er lässt den Träger 'verschwimmen' und gibt ihm einen geringfügigen magischen Schutz.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt Verschwimmen.
+Magiewiderstand: +10%
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+- Rechtschaffenen Wesen
+- Gnomen, Halborks oder Zwergen
+- Dieben
+- Kämpfern
+- Waldläufern
+- Mönchen~ 
+
+@405  = ~Koveras Schutzring
+
+Diesen Ring bekam <CHARNAME> während der Eisenthron-Krise von "Koveras" bei ihrem Treffen in Kerzenburg. Er wurde dazu benutzt, <CHARNAME> einen Mord anzuhängen, indem er eines von Gorions Besitztümer hat. Der Ring wurde zwischen den wenigen Habseligkeiten von <CHARNAME> in Irenicus Verlies gefunden, mächtiger als jemals zuvor. Er wurde wohl aus sentimentalen Gründen aufbewahrt. Es gibt jedenfalls keinen vernünftigen Grund, warum ihn der Magier nicht bei der ersten Gelegenheit verkauft hat. Auch für die Erhöhung der Kräfte scheint es keine Erklärung zu geben.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -2
+RW-Bonus: -2
+Magiewiderstand: 5%~
+
+////////////////////////////////
+//Make armor and shields shatter
+////////////////////////////////
+
+@1503 = ~Meine Rüstung ist zerbrochen!~
+@1504 = ~Mein Schild ist zerbrochen!~ 
+@1505 = ~Meine Waffe ist zerbrochen!~
+
+////////////////////
+//Item BG1-ification
+////////////////////
+
+//@16297
+@2301 = ~Wie schon sein Name andeutet, ist der Flugpfeil für den Fernkampf vorgesehen. Diese Pfeile haben ein geringes Gewicht und werden oft zum Jagen eingesetzt. Sie bestehen meist aus Eschen- oder Birkenholz und sind 70 cm bis 1 m lang.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Geschoss)
+ETW0-Bonus: -1
+Gewicht: 0
+Schusswaffe: Bogen
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern
+- Mönchen~ 
+
+//@17536
+@2302 = ~Dieser Pfeil ist mit Säure benetzt. Wenn ein Feind damit getroffen wird, durchbohrt der Pfeil nicht nur dessen Fleisch, sondern verätzt auch die Wunde, die dadurch immer größer und schlimmer wird.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Geschoss)
+Schadensbonus: +2W6 (Säure)
+ETW0-Bonus: -1
+Gewicht: 0
+Schusswaffe: Bogen
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern
+- Mönchen~
+
+//@17540
+@2303 = ~Der Feuerpfeil ist ein magischer Pfeil, der in Flammen aufgeht, wenn er auf einen Feind abgeschossen wird. Die Wirkung ist so ähnlich, als ob man einen mit Öl übergossenen Pfeil anzündet.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 (Geschoss)
+Schadensbonus: +1W6 (Feuer)
+ (Rettungswurf gg. Zauber)
+ETW0-Bonus: -2
+Gewicht: 0
+Schusswaffe: Bogen
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern
+- Mönchen~
+
+//@17542
+@2304 = ~Der Eispfeil wurde mit magischen Kräften versehen, die bewirken, dass er sich in eine Kugel aus Eis und Kälte verwandelt, sobald er abgeschossen wird. Beim Auftreffen versetzt der Pfeil seinem Opfer einen Kälteschock, der dessen Körper bis auf die Knochen gefrieren lässt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Geschoss)
+Schadensbonus: +1W6 (Kälte)
+Gewicht: 0
+Schusswaffe: Bogen
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern
+- Mönchen~ 
+
+//@17534
+@2305 = ~Diese Pfeile wurden bei ihrer Herstellung mit Zauberkräften versehen. Sie wirken etwas gerader als durchschnittliche Pfeile und fast lebendig, wenn sie mühelos von der Sehne schnellen und mit tödlicher Genauigkeit auf ihr Ziel zufliegen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 (Geschoss)
+ETW0-Bonus: -2
+Gewicht: 0
+Schusswaffe: Bogen
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern
+- Mönchen~
+
+//@19353
+@2306 = ~Bolzen sind die Munition für Armbrüste, wobei die Größe der Waffe keine Rolle spielt. Dieser spezielle Bolzen wurde mit einer kleinen Menge magischer Eigenschaften versehen, die seine Flugfähigkeit verbessern.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +1 (Geschoss)
+ETW0-Bonus: -1
+Gewicht: 0
+Schusswaffe: Armbrust
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern
+- Mönchen~ 
+
+//@19358
+@2307 = ~Bolzen sind die Munition für Armbrüste, wobei die Größe der Waffe keine Rolle spielt. Dieser spezielle Bolzen wurde mit magischen Eigenschaften versehen, die seine Flugfähigkeit verbessern.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +2 (Geschoss)
+ETW0-Bonus: -2
+Gewicht: 0
+Schusswaffe: Armbrust
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern
+- Mönchen~
+
+//@7376
+@2308 = ~Leises Flüstern
+
+In früheren Zeiten war ein König namens Rhigaerd für seine ausgezeichneten Spione bekannt. Diese beherrschten ihr Handwerk so gut, dass ihnen auch nicht der kleinste Winkel verborgen blieb und der König über Pläne ganzer Burgen und Städte verfügte. Nach Verrat aus den eigenen Reihen wurden den Spionen ihre Werkzeuge abgenommen und in alle Winde verstreut, damit keine solche Gruppe mehr gebildet werden konnte.
+
+EIGENSCHAFTEN:
+
+List: +35%
+Gewicht: 4
+
+Kann nicht verwendet werden von:
+- Druiden
+- Kämpfern
+- Klerikern
+- Magiern~
+
+//@6858 - Bow Weapons -> Long Bow
+@2309 = ~Zu den Komposit-Bögen zählen Lang- und Kurzbögen, die aus mehreren unterschiedlichen Materialien bestehen. Dadurch wird der Bogen flexibler und hat eine größere Reichweite. Dieser Bogen ist eine Weiterentwicklung des einfachen Langbogens.
+
+EIGENSCHAFTEN:
+
+Schadensbonus: +2 (Geschoss)
+ETW0-Bonus: -1
+Gewicht: 10
+Initiativefaktor: 7
+Mindeststärke: 18
+Fertigkeit: Langbogen
+Typ: 2-händig
+
+Kann nur verwendet werden von:
+- Barbaren
+- Kämpfern
+- Paladinen
+- Waldläufern~
+
+//@16288 - Bow Weapons -> Long Bow
+@2310 = ~Zu den Komposit-Bögen zählen Lang- und Kurzbögen, die aus mehreren unterschiedlichen Materialien bestehen. Dadurch wird der Bogen flexibler und hat eine größere Reichweite. Dieser spezielle Bogen ist eine magische Weiterentwicklung des einfachen Langbogens.
+
+EIGENSCHAFTEN:
+
+Schadensbonus: +3 (Geschoss)
+ETW0-Bonus: -2
+Gewicht: 9
+Initiativefaktor: 6
+Mindeststärke: 8
+Fertigkeit: Langbogen
+Typ: 2-händig
+
+Kann nur verwendet werden von:
+- Barbaren
+- Kämpfern
+- Paladinen
+- Waldläufern~ 
+
+//@17643 - Bow Weapons -> Long Bow
+@2311 = ~Der Langbogen ist dem Kurzbogen sehr ähnlich. Der einzige Unterschied besteht darin, dass der Bogen fast so groß wie der Bogenschütze ist, normalerweise etwa 1,80 bis 2 m. Obwohl der Langbogen im Einsatz etwas langsamer ist als der Kurzbogen, hat er eine größere Reichweite und eine höhere Treffsicherheit. Dieser Langbogen wurde mit magischen Eigenschaften versehen, die ihm einen Hauch von Perfektion verleihen.
+
+EIGENSCHAFTEN:
+
+Schadensbonus: +1 (Geschoss)
+ETW0-Bonus: -2
+Gewicht: 3
+Initiativefaktor: 6
+Mindeststärke: 6
+Fertigkeit: Langbogen
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Klerikern
+- Magiern
+- Mönchen~
+
+//@16272 - add Required: 8 Strength
+@2312 = ~Ein Kettenhemd besteht aus miteinander verbundenen Metallringen. Es wird immer über einem wattierten Rock oder einem leichten Ledergewand getragen, um schmerzhafte Scheuerstellen zu vermeiden und die Wucht von Schlägen zu dämpfen. Magische Verzauberungen haben die Schutzwirkung dieser Rüstung erhöht.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 4
+Gewicht: 20
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Magiern
+- Mönchen~ 
+
+//@6676 - add Required: 7 Strength
+@2313 = ~Kettenhemd des Todes
+
+Ein Magier kann sich als äußerst effektiver Meuchelmörder erweisen, wie Vorusta bereits vor 400 Jahren bewiesen hat. Er erschuf Kriegerskelette, die er mit dieser verzauberten Rüstung und einer mächtigen Klinge ausstattete. Dann gab er diesen Reif der Macht dem Ziel als ein wohlwollendes Geschenk. Nachdem die Tötungsmaschine ihre Arbeit erledigt hatte, sammelte Vorusta die Ausrüstung wieder ein und begann das Werk von neuem.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 10
+Mindeststärke: 7
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Magiern
+- Mönchen~ 
+
+//@16273 - add Required: 8 Strength
+@2314 = ~Der Schienenpanzer ist dem Bänderpanzer ziemlich ähnlich, jedoch sind die Metallstreifen nicht waagerecht auf das Grundmaterial (entweder Kettenhemd, Leder oder Stoff) aufgebracht, sondern senkrecht. Da der menschliche Oberkörper sich mehr nach vorne und hinten biegt, als dass er sich dreht, erweist sich der Schienenpanzer im Kampf eher als hinderlich. Magische Verzauberungen haben die Schutzwirkung dieser Rüstung erhöht.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 20
+Mindeststärke: 8
+
+Kann nicht verwendet werden von:
+- Barden
+- Dieben
+- Druiden
+- Magiern
+- Mönchen~
+
+//@11059 - add Required: 5 Strength
+@2315 = ~Das ist das persönliche Kettenhemd von Drizzt, dem berühmten Drow Waldläufer. Sein Freund Bruenor schmiedete es für ihn.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Gewicht: 7
+Mindeststärke: 5
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Magiern
+- Mönchen~ 
+
+//@21303 - add Required: 6 Strength
+@2316 = ~Das perfekt geschmiedete Kettenhemd ist die Standardrüstung, die von den Elitekriegern der Tiefenzwerge getragen wird. Es besteht aus einer Mithril-Legierung und schützt den Träger vor fast allen Angriffen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+Gewicht: 9
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Magiern
+- Mönchen~
+
+//@17243
+@2317 = ~Der sagenumwobene Nymphenumhang ist für seine Fähigkeit berühmt, das Charisma selbst des verdrießlichsten aller Zwerge zu erhöhen. Eine Edelfrau aus Cormyr, die sich dadurch ihre Zweckheirat versüßen wollte, investierte enorme Summen in den Kauf eines solchen Umhangs für sich und ihren Mann.
+
+EIGENSCHAFTEN:
+
+Charisma-Bonus: +2
+Gewicht: 3~
+
+//@21408
+@2318 = ~Das ist der Helm von Kiel dem Legionentöter, dem erstgeborenen Sohn von Durlag Trolltöter. Er war der Clan-Prinz und hätte eines Tages den Turm seines Vaters beherrschen sollen, doch dieser war ja bekanntlich dem Untergang geweiht. Man sagt, dass jeder, der diesen Helm trägt, gegen alle Arten von Furcht oder Panik immun ist, egal ob sie durch Magie oder auf normalem Weg verursacht werden.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen alle Arten der Furcht und seine Moral wird angehoben.
+
+Schützt vor kritischen Treffern
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+- Barden
+- Dieben
+- Magiern
+- Mönchen~
+
+//@16269 - add Required: 4 Strength
+@2319 = ~Rüstungsleder wird mit Wachs oder Wasser gehärtet. Es ist dick und fest, nicht weich und geschmeidig wie das Leder, das für die Stiefel eines Waldläufers oder das Gewand eines Druiden verwendet wird. Solches Leder würde nicht mehr Schutz bieten als normale Stoffkleidung. Magische Verzauberungen haben die Schutzwirkung dieser Rüstung erhöht.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 7
+Gewicht: 10
+Mindeststärke: 4
+
+Kann nicht verwendet werden von:
+- Magiern
+- Mönchen~
+
+//@6682 - add Required: 11 Strength
+@2320 = ~Fallorains Panzer
+
+Hauptmann Fallorain, der Anführer der 12. Kavalleriebrigade von Calimshan, trug diese verzauberte Rüstung zum letzten Mal bei der Schlacht am Spinnensumpf. Dort verlor er sein Leben und seine Armee bei dem Versuch, die Gegend von einem unbekannten Übel zu befreien.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+Gewicht: 20
+Mindeststärke: 11
+
+Kann nicht verwendet werden von:
+- Barden
+- Dieben
+- Druiden
+- Magiern
+- Mönchen~
+
+//@6685 - add Required: 14 Strength
+@2321 = ~Panzer der Finsternis
+
+Der finstere Fürst Hertious, ein untoter Kriegsherr von Bane, trug dieses Stück Rüstung vor über 500 Jahren. Man munkelt, das er während dieser Zeit in einem Schloss irgendwo im Erdlaufgebirge gewohnt hat. Wie seine Rüstung ohne ihn in andere Länder gelangte ist ungewiss, aber die Trennung der beiden war sicher nicht angenehm.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Gewicht: 35
+Mindeststärke: 14
+
+Kann nur verwendet werden von:
+- Kämpfern
+- Klerikern
+- Paladinen
+- Waldläufern~
+
+//@17489 - add Required: 8 Strength
+@2322 = ~Dieser Plattenpanzer besteht aus dem Chitin-Panzer eines Ankheg und bietet daher besseren Schutz als herkömmliche Plattenpanzer. Wie Euch jeder erfahrene Abenteurer bestätigen kann, sind die größten Vorteile des Ankheg-Plattenpanzers jedoch sein geringes Gewicht und seine anschmiegsame Form. Monster kommen und gehen, aber Erschöpfung ist ein immerwährender Feind.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Gewicht: 25
+Mindeststärke: 8
+
+Kann nur verwendet werden von:
+- Kämpfern
+- Klerikern
+- Paladinen
+- Waldläufern~
+
+//@17659 - add Required: 14 Strength
+@2323 = ~Der Langschild, auch Drachen- oder Turmschild genannt, ist ein riesiger Schild aus Metall oder Holz, der dem Träger vom Fuß bis fast zum Kinn reicht. Er muss gut am Unterarm befestigt sein und jederzeit fest in der Hand gehalten werden, was es natürlich unmöglich macht, mit der Schildhand noch andere Aktionen auszuführen. Magische Verzauberungen haben die Schutzwirkung dieses Schildes erhöht.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -2, -3 gg. Geschosswaffen
+Gewicht: 12
+Mindeststärke: 14
+
+Kann nicht verwendet werden von:
+- Barden
+- Dieben
+- Druiden
+- Magiern
+- Mönchen~
+
+//@7358 - Required: 13 Strength
+@2324 = ~Schild der fallenden Sterne
+
+Ilmater selbst verzauberte diesen Schild, nachdem er Zeuge der Bereitschaft eines jungen Knappen geworden war, unsägliche Schmerzen für das Wohlergehen seines Pferdes auf sich zu nehmen. In einer erbitterten Schlacht zwischen einer Kavalleriedivision der Menschen und einer Horde von Hobgoblins wurde der junge Mann losgeschickt, um Verstärkung zu holen. Ein Pfeilhagel ging auf ihn nieder, der fast die Sonne verdunkelte und er wusste, dass, auch wenn er selbst den Pfeilen würde ausweichen können, er dennoch verloren wäre, wenn sein Pferd fiel. Mit seinem Schild und seinem Körper fing er die Wucht des Angriffs ab und wurde dabei tödlich verwundet. Sein Pferd blieb unversehrt, was ihrer beider Flucht ermöglichte. Seine Leiche wurde in die nächste Stadt getragen, wo man ihn wieder zum Leben erweckte.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -2, -7 gg. Geschosswaffen
+Gewicht: 12
+Mindeststärke: 13
+
+Kann nicht verwendet werden von:
+- Barden
+- Dieben
+- Druiden
+- Magiern~
+
+//@23963 - Missile Weapons -> Sling, add Required: 3 Strength
+@2325 = ~Arlas Drachenbann
+
+Es weiß wohl niemand so gut wie die Halblinge, wie wertvoll ein zielsicher geschleuderter Stein ist, wenn man es mit einem übergroßen Feind zu tun hat. Diese Waffe gehörte einer jungen Frau namens Arla Sichertritt. Sie war eine der wenigen weiblichen Halblinge, die den gemütlichen und sicheren Platz vor dem Herd verließen, um auf Abenteuer auszuziehen. Die Legende besagt, dass die kleine Arla die Schleuder dazu verwendete, um einen fliegenden grünen Drachen damit abzuschießen. Der Stein durchbohrte angeblich den Schädel des Drachen. Allerdings wird die gleiche Geschichte in anderen Schänken so erzählt, dass der Stein den Drachen angeblich in den Hintern getroffen hat. Bei dieser Version der Geschichte stirbt der Drache natürlich nicht und alles nimmt einen ziemlich humoristischen Verlauf. Offenbar legen Halblinge nicht so viel Wert darauf, als große Helden dazustehen, wenn sie von ihrer Vergangenheit erzählen. Es reicht ihnen wohl, wenn sich jeder gut amüsiert.
+
+EIGENSCHAFTEN:
+
+Schadensbonus: +3 (Geschoss)
+ETW0-Bonus: -3
+Gewicht: 0
+Initiativefaktor: 3
+Mindeststärke: 3
+Fertigkeit: Schleuder
+Typ: 1-händig~
+
+//@22020 - Blunt Weapons -> Quarterstaff, add Type:  2-handed, add Required: 3 Strength
+@2326 = ~Schlagstecken werden von den Goldelfen in Drelagara hergestellt, das auf Immerdar liegt. Die Stecken sind von einem magischen Leben erfüllt und springen dem Gegner mit tödlicher Präzision entgegen, wenn sie geschwungen werden. Die Elfen-Handwerker verkaufen diese mächtigen Nahkampfwaffen nur äußerst selten an Mitglieder anderer Rassen. Hin und wieder taucht jedoch einer dieser Stecken in Faerûn auf. Jeder Angriff, der mit dem Stecken ausgeführt wird, verbraucht eine Ladung. Sobald die letzte Ladung aufgebraucht wurde, wird der Stecken von seiner eigenen magischen Energie praktisch aufgefressen und dadurch vernichtet.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +9 (Wucht)
+ETW0-Bonus: -3
+Gewicht: 4
+Initiativefaktor: 1
+Mindeststärke: 3
+Fertigkeit: Kampfstab
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+- Mönchen~
+
+//@23977
+@2327 = ~Kampfstab +3~
+
+//@23978 - Blunt Weapons -> Quarterstaff, add Required: 5 Strength
+@2328 = ~Aules Stab
+
+Dieser fein gearbeitete Kampfstab gehört zu den Schätzen, die die Eindringlinge in Durlags Turm zurückließen. Er ist im Kampf tödlich und gehörte wohl zum Besitz eines Zauberwirkers, der es genoss, an der Front zu kämpfen. Anscheinend besitzt der Stab einen Eisenkern und dennoch ist sein Gewicht vergleichbar mit einer normalen Waffe dieses Typs. Ein Teil der Verzauberung kommt anscheinend aus dem Fell, das den Griff umschließt. Das Leder stammt zweifellos von einem Geschöpf, das garantiert kampferprobt war. Der Geschmack und die Neigung der Angreifer des Turms sind zwar gut dokumentiert, aber das Fell könnte dennoch von allem... oder jedem stammen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Wucht)
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 1
+Mindeststärke: 5
+Fertigkeit: Kampfstab
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+- Mönchen~
+
+//@7347 - Small Sword -> Short Sword, add Required: 4 Strength
+@2329 = ~Das pfeifende Schwert
+
+In den Ebenen der Östlichen Shaar lebte ein kleiner Schmied von der Rasse der Menschen, dessen fast zwergenhafter Wuchs seiner Seele nicht gerecht wurde. Er war zwar ein versierter Waffenschmied, aber seine eigentliche Fähigkeit bestand darin, ein gefühlvolles Lied zu pfeifen, das einen gestandenen Mann dazu bringen konnte, wie ein Kind zu weinen. Nur ein zurückgezogen lebender Magier verbrachte seine Zeit mit dem Kleinwüchsigen, während die anderen sich lediglich über seine geringe Körpergröße lustig machten. Das Lied des Schmieds stieß bei ihnen wegen ihrer Vorurteile auf taube Ohren und ihr Spott steigerte sich in grausame Quälerei, so dass der entmutigte Mann sich schließlich dazu gedrängt sah, sein Zuhause für immer zu verlassen. Vor seinem Aufbruch schmiedete er noch diese Waffe als Geschenk für seinen Freund, der sie bei der Herstellung verzauberte. So pfeift die Klinge ihrem Träger eine süße Melodie, wenn sie aus der Scheide gezogen wird. Nur kurze Zeit später verließ auch der Magier angewidert die kleine Stadt, wobei er das Schwert auf seine Reisen mitnahm.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 (Stich)
+ETW0-Bonus: -2
+Gewicht: 2
+Initiativefaktor: 1
+Mindeststärke: 4
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern~
+
+//@18976 - Small Sword -> Short Sword, add Required: 5 Strength
+@2330 = ~Das Kurzschwert ist die erste und ursprüngliche Form eines Schwertes. Einfach ausgedrückt ist ein Kurzschwert ein Dolch, bei dem die Klinge so lang ist, dass das Ganze nicht mehr als Dolch bezeichnet werden kann. Der Begriff "Kurzschwert" ist in der Klassifizierung der Schwerter eigentlich nicht bekannt. Er wird jedoch mittlerweile zur Beschreibung einer zweischneidigen Klinge mit einer ungefähren Länge von 60 cm verwendet. Die Klinge ist normalerweise vorne spitz, wodurch sich das Kurzschwert hervorragend zum Stoßen eignet. Diese Klinge wurde magisch verbessert, so dass sie genauer trifft und mehr Schaden anrichtet.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Stich)
+ETW0-Bonus: -1
+Gewicht: 3
+Initiativefaktor: 2
+Mindeststärke: 5
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern~
+
+//@23970 - Large Sword -> Long Sword, add Required: 5 Strength
+@2331 = ~Brennende Erde
+
+Es gab eine Zeit, in der es in Niewinter noch nicht warm und in der großen Wüste Anauroch noch nicht trocken war. So behaupten es zumindest die Legenden. Es gibt nur noch wenige Relikte, die Zeugnis dieses Zeitalters ablegen und nur ein Bruchteil dieser Relikte hat einen Zweck, den man auch heute noch erkennen kann. Das Schwert "Brennende Erde" ist jedoch kein besonders komplizierter Gegenstand: Es verbrennt die Feinde schlicht und einfach mit magischem Feuer. Eine kryptische Rune scheint anzudeuten, dass das Schwert die Energie dazu direkt aus dem Erdreich bezieht. Wer die Waffe konstruiert hat, bleibt ein Rätsel. Auf den ersten Blick wirkt die Waffe ganz normal, aber irgendwie scheint sie nicht richtig ausbalanciert zu sein. Vielleicht passt auch der Griff nicht. Sie belastet den Unterarm, wenn man sie schwingt und passt nicht so richtig in die Hand. Das stört im Kampf zwar nicht wirklich, doch man kann den lästigen Gedanken nie ganz abschütteln, dass die Waffe vielleicht nicht für humanoide Hände gedacht war.
+
+EIGENSCHAFTEN:
+
+Schaden:
+ 1W8 +1 (Klinge)
+ 1W8 +3 (gg. regenerierende Wesen)
+ 1W8 +4 (gg. Kältewesen)
+ 1W8 +5 (gg. Untote)
+ETW0-Bonus: -1
+Gewicht: 4
+Initiativefaktor: 3
+Mindeststärke: 5
+Fertigkeit: Langschwert
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern~
+
+//@17656
+@2332 = ~Der Besitzer dieses Zauberstabs kann einen Blitzstrahl erzeugen. Das Wesen, das von dem Blitzstrahl getroffen wird, erleidet 6W6 Schadenspunkte (wobei jede gewürfelte 1 als 2 gezählt wird), die bei Gelingen eines Rettungswurfs gegen Zauberstäbe halbiert werden können. Der Blitzstrahl durchquert sein Ziel und setzt seine Zickzackbahn so lange fort, bis er erlischt.
+
+EIGENSCHAFTEN:
+
+Blitzstrahl
+ Schaden: 6W6 (Elektrizität)
+ Reichweite: Lang
+ Bereich: Speziell
+ Rettungswurf: 1/2 (gg. Zauberstäbe)
+ Mindestintelligenz: 9
+
+Kann nur verwendet werden von:
+- Barden
+- Magiern
+- Mönchen~
+
+//@17658
+@2333 = ~Der Stab erzeugt einen dünnen, grünen Strahl, der ein Wesen in der Nähe trifft. Dem Wesen muss ein Rettungswurf gegen Zauberstäbe gelingen oder es wird in ein Eichhörnchen verwandelt. Das Ziel bleibt verwandelt bis auf ihn erfolgreich Magie bannen angewandt wird.
+
+EIGENSCHAFTEN:
+
+Verwandlung in ein Eichhörnchen
+ Reichweite: Kurz
+ Dauer: Permanent (oder bis gebannt)
+ Bereich: 1 Wesen
+ Rettungswurf: Ja (gg. Zauberstäbe)
+ Mindestintelligenz: 9
+
+Kann nur verwendet werden von:
+- Barden
+- Magiern
+- Mönchen~

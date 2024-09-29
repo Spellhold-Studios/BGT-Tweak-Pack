@@ -1,0 +1,31 @@
+IF
+  RandomNum(1,1)
+  Global("RandomSet2868850_0","ARW012",0)
+  Global("RandomBeenSet2868850","ARW012",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet2868850_0","ARW012",1)
+    SetGlobal("RandomBeenSet2868850","ARW012",1)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset2868850","ARW012",1)
+  GlobalTimerExpired("20122868850","ARW012")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset2868850","ARW012",0)
+    SetGlobal("RandomBeenSet2868850","ARW012",0)
+    SetGlobal("RandomSet2868850_0","ARW012",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset2868850","ARW012",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset2868850","ARW012",1)
+    CreateCreature("WEREWO",[2868.850],0)  // ~Werewolf~
+    SetGlobalTimer("20122868850","ARW012",2400)
+END
+

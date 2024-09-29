@@ -1,0 +1,5585 @@
+IF
+  RandomNum(2,1)
+  Global("RandomSet6111449_1","ARD011",0)
+  Global("RandomBeenSet6111449","ARD011",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet6111449_1","ARD011",1)
+    SetGlobal("RandomBeenSet6111449","ARD011",1)
+END
+
+IF
+  RandomNum(2,2)
+  Global("RandomSet6111449_0","ARD011",0)
+  Global("RandomBeenSet6111449","ARD011",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet6111449_0","ARD011",1)
+    SetGlobal("RandomBeenSet6111449","ARD011",1)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_1","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(24)
+  LevelPartyLT(26)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(25)
+  LevelPartyLT(27)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(26)
+  LevelPartyLT(28)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(27)
+  LevelPartyLT(29)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(28)
+  LevelPartyLT(30)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(29)
+  LevelPartyLT(31)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(30)
+  LevelPartyLT(32)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(31)
+  LevelPartyLT(33)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(32)
+  LevelPartyLT(34)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(33)
+  LevelPartyLT(35)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(34)
+  LevelPartyLT(36)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(35)
+  LevelPartyLT(37)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(36)
+  LevelPartyLT(38)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(37)
+  LevelPartyLT(39)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(38)
+  LevelPartyLT(40)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(39)
+  LevelPartyLT(41)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(40)
+  LevelPartyLT(42)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(41)
+  LevelPartyLT(43)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(42)
+  LevelPartyLT(44)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(43)
+  LevelPartyLT(45)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(44)
+  LevelPartyLT(46)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(45)
+  LevelPartyLT(47)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(46)
+  LevelPartyLT(48)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(47)
+  LevelPartyLT(49)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(48)
+  LevelPartyLT(50)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(49)
+  LevelPartyLT(51)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(50)
+  LevelPartyLT(52)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(51)
+  LevelPartyLT(53)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(52)
+  LevelPartyLT(54)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(53)
+  LevelPartyLT(55)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(54)
+  LevelPartyLT(56)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(55)
+  LevelPartyLT(57)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(56)
+  LevelPartyLT(58)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(57)
+  LevelPartyLT(59)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(58)
+  LevelPartyLT(60)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(59)
+  LevelPartyLT(61)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(60)
+  LevelPartyLT(62)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(61)
+  LevelPartyLT(63)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(62)
+  LevelPartyLT(64)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(63)
+  LevelPartyLT(65)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(64)
+  LevelPartyLT(66)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(65)
+  LevelPartyLT(67)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(66)
+  LevelPartyLT(68)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(67)
+  LevelPartyLT(69)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(68)
+  LevelPartyLT(70)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(69)
+  LevelPartyLT(71)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(70)
+  LevelPartyLT(72)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(71)
+  LevelPartyLT(73)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(72)
+  LevelPartyLT(74)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(73)
+  LevelPartyLT(75)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(74)
+  LevelPartyLT(76)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(75)
+  LevelPartyLT(77)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(76)
+  LevelPartyLT(78)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(77)
+  LevelPartyLT(79)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(78)
+  LevelPartyLT(80)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(79)
+  LevelPartyLT(81)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(80)
+  LevelPartyLT(82)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(81)
+  LevelPartyLT(83)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(82)
+  LevelPartyLT(84)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(83)
+  LevelPartyLT(85)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(84)
+  LevelPartyLT(86)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(85)
+  LevelPartyLT(87)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(86)
+  LevelPartyLT(88)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(87)
+  LevelPartyLT(89)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(88)
+  LevelPartyLT(90)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(89)
+  LevelPartyLT(91)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(90)
+  LevelPartyLT(92)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(91)
+  LevelPartyLT(93)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(92)
+  LevelPartyLT(94)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(93)
+  LevelPartyLT(95)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(94)
+  LevelPartyLT(96)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(95)
+  LevelPartyLT(97)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(96)
+  LevelPartyLT(98)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(97)
+  LevelPartyLT(99)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(98)
+  LevelPartyLT(100)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(99)
+  LevelPartyLT(101)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(100)
+  LevelPartyLT(102)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(101)
+  LevelPartyLT(103)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(102)
+  LevelPartyLT(104)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(103)
+  LevelPartyLT(105)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(104)
+  LevelPartyLT(106)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(105)
+  LevelPartyLT(107)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(106)
+  LevelPartyLT(108)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(107)
+  LevelPartyLT(109)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(108)
+  LevelPartyLT(110)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(109)
+  LevelPartyLT(111)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(110)
+  LevelPartyLT(112)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(111)
+  LevelPartyLT(113)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(112)
+  LevelPartyLT(114)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(113)
+  LevelPartyLT(115)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(114)
+  LevelPartyLT(116)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(115)
+  LevelPartyLT(117)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(116)
+  LevelPartyLT(118)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(117)
+  LevelPartyLT(119)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(118)
+  LevelPartyLT(120)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(119)
+  LevelPartyLT(121)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(120)
+  LevelPartyLT(122)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(121)
+  LevelPartyLT(123)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(122)
+  LevelPartyLT(124)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(123)
+  LevelPartyLT(125)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(124)
+  LevelPartyLT(126)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(125)
+  LevelPartyLT(127)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(126)
+  LevelPartyLT(128)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(127)
+  LevelPartyLT(129)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(128)
+  LevelPartyLT(130)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(129)
+  LevelPartyLT(131)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(130)
+  LevelPartyLT(132)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(131)
+  LevelPartyLT(133)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(132)
+  LevelPartyLT(134)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(133)
+  LevelPartyLT(135)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(134)
+  LevelPartyLT(136)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(135)
+  LevelPartyLT(137)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(136)
+  LevelPartyLT(138)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(137)
+  LevelPartyLT(139)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(138)
+  LevelPartyLT(140)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(139)
+  LevelPartyLT(141)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(140)
+  LevelPartyLT(142)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(141)
+  LevelPartyLT(143)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(142)
+  LevelPartyLT(144)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(143)
+  LevelPartyLT(145)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(144)
+  LevelPartyLT(146)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(145)
+  LevelPartyLT(147)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(146)
+  LevelPartyLT(148)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(147)
+  LevelPartyLT(149)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(148)
+  LevelPartyLT(150)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(149)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(23)
+  LevelPartyLT(25)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(24)
+  LevelPartyLT(26)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(25)
+  LevelPartyLT(27)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(26)
+  LevelPartyLT(28)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(27)
+  LevelPartyLT(29)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(28)
+  LevelPartyLT(30)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(29)
+  LevelPartyLT(31)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(30)
+  LevelPartyLT(32)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(31)
+  LevelPartyLT(33)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(32)
+  LevelPartyLT(34)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(33)
+  LevelPartyLT(35)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(34)
+  LevelPartyLT(36)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(35)
+  LevelPartyLT(37)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(36)
+  LevelPartyLT(38)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(37)
+  LevelPartyLT(39)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(38)
+  LevelPartyLT(40)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(39)
+  LevelPartyLT(41)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(40)
+  LevelPartyLT(42)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(41)
+  LevelPartyLT(43)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(42)
+  LevelPartyLT(44)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(43)
+  LevelPartyLT(45)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(44)
+  LevelPartyLT(46)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(45)
+  LevelPartyLT(47)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(46)
+  LevelPartyLT(48)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(47)
+  LevelPartyLT(49)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(48)
+  LevelPartyLT(50)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(49)
+  LevelPartyLT(51)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(50)
+  LevelPartyLT(52)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(51)
+  LevelPartyLT(53)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(52)
+  LevelPartyLT(54)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(53)
+  LevelPartyLT(55)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(54)
+  LevelPartyLT(56)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(55)
+  LevelPartyLT(57)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(56)
+  LevelPartyLT(58)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(57)
+  LevelPartyLT(59)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(58)
+  LevelPartyLT(60)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(59)
+  LevelPartyLT(61)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(60)
+  LevelPartyLT(62)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(61)
+  LevelPartyLT(63)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(62)
+  LevelPartyLT(64)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(63)
+  LevelPartyLT(65)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(64)
+  LevelPartyLT(66)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(65)
+  LevelPartyLT(67)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(66)
+  LevelPartyLT(68)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(67)
+  LevelPartyLT(69)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(68)
+  LevelPartyLT(70)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(69)
+  LevelPartyLT(71)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(70)
+  LevelPartyLT(72)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(71)
+  LevelPartyLT(73)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(72)
+  LevelPartyLT(74)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(73)
+  LevelPartyLT(75)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(74)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(23)
+  LevelPartyLT(25)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(24)
+  LevelPartyLT(26)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(25)
+  LevelPartyLT(27)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(26)
+  LevelPartyLT(28)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(27)
+  LevelPartyLT(29)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(28)
+  LevelPartyLT(30)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(29)
+  LevelPartyLT(31)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(30)
+  LevelPartyLT(32)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(31)
+  LevelPartyLT(33)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(32)
+  LevelPartyLT(34)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(33)
+  LevelPartyLT(35)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(34)
+  LevelPartyLT(36)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(35)
+  LevelPartyLT(37)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(36)
+  LevelPartyLT(38)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(37)
+  LevelPartyLT(39)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(38)
+  LevelPartyLT(40)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(39)
+  LevelPartyLT(41)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(40)
+  LevelPartyLT(42)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(41)
+  LevelPartyLT(43)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(42)
+  LevelPartyLT(44)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(43)
+  LevelPartyLT(45)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(44)
+  LevelPartyLT(46)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(45)
+  LevelPartyLT(47)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(46)
+  LevelPartyLT(48)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(47)
+  LevelPartyLT(49)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(48)
+  LevelPartyLT(50)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(49)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(23)
+  LevelPartyLT(25)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(24)
+  LevelPartyLT(26)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(25)
+  LevelPartyLT(27)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(26)
+  LevelPartyLT(28)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(27)
+  LevelPartyLT(29)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(28)
+  LevelPartyLT(30)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(29)
+  LevelPartyLT(31)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(30)
+  LevelPartyLT(32)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(31)
+  LevelPartyLT(33)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(32)
+  LevelPartyLT(34)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(33)
+  LevelPartyLT(35)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(34)
+  LevelPartyLT(36)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(35)
+  LevelPartyLT(37)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(36)
+  LevelPartyLT(38)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(37)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(23)
+  LevelPartyLT(25)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(24)
+  LevelPartyLT(26)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(25)
+  LevelPartyLT(27)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(26)
+  LevelPartyLT(28)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(27)
+  LevelPartyLT(29)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(28)
+  LevelPartyLT(30)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(29)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(23)
+  LevelPartyLT(25)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(24)
+  Global("SpawnReset6111449","ARD011",0)
+  Global("RandomSet6111449_0","ARD011",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    CreateCreature("SPIDPH",[611.1449],0)  // ~Phase Spider~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset6111449","ARD011",1)
+  GlobalTimerExpired("05116111449","ARD011")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",0)
+    SetGlobal("RandomBeenSet6111449","ARD011",0)
+    SetGlobal("RandomSet6111449_1","ARD011",0)
+    SetGlobal("RandomSet6111449_0","ARD011",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset6111449","ARD011",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset6111449","ARD011",1)
+    CreateCreature("ZOMBIE",[611.1449],0)  // ~Zombie~
+    SetGlobalTimer("05116111449","ARD011",2400)
+END
+

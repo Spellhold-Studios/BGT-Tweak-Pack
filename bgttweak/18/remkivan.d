@@ -1,0 +1,4 @@
+REPLACE_TRIGGER_TEXT ~KIVANP~ ~GlobalLT("ENDOFBG1","GLOBAL",2)~ ~~
+
+REPLACE_TRIGGER_TEXT ~KIVANJ~ ~HappinessLT(Myself,0)
+GlobalLT("ENDOFBG1","GLOBAL",2)~ ~HappinessLT(Myself,0)~

@@ -1,0 +1,108 @@
+IF
+  Entered([ANYONE])
+THEN
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_ARROW)
+  RESPONSE #3
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+    Wait(1)
+    ForceSpell(LastTrigger,TRAP_ARROW)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_ARROW_SLAYING)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_ARROW_ACID)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_ARROW_BITING)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_ARROW_DETONATION)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_ARROW_DISPELLING)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_ARROW_FIRE)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_ARROW_ICE)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,WIZARD_AGANNAZAR_SCORCHER)
+  RESPONSE #3
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_CLOUDKILL)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_CONFUSION)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_CHROMATIC_ORB)
+  RESPONSE #3
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_DIRE_CHARM)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_FIREBALL)
+  RESPONSE #3
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_FIREBALL)
+    Wait(2)
+    ForceSpell(LastTrigger,TRAP_FIREBALL)
+    Wait(2)
+    ForceSpell(LastTrigger,TRAP_FIREBALL)
+    Wait(2)
+    ForceSpell(LastTrigger,TRAP_FIREBALL)
+    Wait(2)
+    ForceSpell(LastTrigger,TRAP_FIREBALL)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_FROST)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_FLAMESTRIKE)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,CLERIC_GLYPH_OF_WARDING)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_HOLD_PERSON)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_LIGHTNING_BOLT)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_MAGIC_MISSILE)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_STINKING_CLOUD)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,TRAP_SILENCE)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,WIZARD_SKULL_TRAP)
+  RESPONSE #4
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpell(LastTrigger,WIZARD_WEB)
+END

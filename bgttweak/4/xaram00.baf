@@ -1,0 +1,17 @@
+IF
+  PartyHasItem("CLCK33")  // Ring of Free Action
+  Global("IHaveSemaj","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveSemaj","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("MISC47")  // Golden Pantaloons
+  Global("IHavePants","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHavePants","GLOBAL",1)
+    Continue()
+END

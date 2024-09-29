@@ -1,0 +1,19 @@
+IF
+  Global("XanImport","GLOBAL",0)
+  Global("XanPartyBG1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    AddXPObject("Xan",50000)
+    GiveItemCreate("CLCK16","Xan",1,0,0) // Robe of the Neutral Archmagi
+    GiveItemCreate("SW1H13","Xan",1,0,0) // Moonblade
+    GiveItemCreate("POTN08","Xan",2,0,0) // Potion of Healing
+    SmallWait(10)
+    ActionOverride("Xan",FillSlot(SLOT_ARMOR))
+    ActionOverride("Xan",FillSlot(SLOT_WEAPON))
+    SmallWait(10)
+    ActionOverride("Xan",SetGlobal("IWasKickedOut","LOCALS",1))
+    ActionOverride("Xan",ChangeAIScript("",OVERRIDE))
+    ActionOverride("Xan",SetDialog("XANP")
+    ActionOverride("Xan",EquipMostDamagingMelee())
+    SetGlobal("XanImport","GLOBAL",1)
+END

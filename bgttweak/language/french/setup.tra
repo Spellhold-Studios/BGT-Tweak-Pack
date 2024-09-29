@@ -1,0 +1,535 @@
+/////////////////////////////////
+//Eldoth reminds of Skie's ransom
+/////////////////////////////////
+
+@101 = ~Nous devrions aller voir Elkart à l'auberge "Lame et Etoiles". Deux jours se sont écoulés.~
+
+///////////////////////////
+//Tougher Sarevok and Semaj
+///////////////////////////
+
+@401 = ~Cape de mage~
+@402 = ~Cape de Semaj~
+@403 = ~C'est la cape magique que vous avez trouvée sur le cadavre du mage de Sarevok, Semaj. Difficile de dire quels pouvoirs cette cape renferme.~
+@404 = ~La cape que vous avez trouvée sur le cadavre du mage de Sarevok, Semaj, est une petite merveille. Elle met le porteur sous effet de Flou et lui confère une certaine résistance à la magie.
+
+PARAMETRES:
+
+Porteur sous effet de Flou
+Résistance à la magie: 10
+Poids:  2
+
+Non utilisable par:
+ Personnages loyaux
+ Guerrier
+ Voleur
+ Rôdeur
+ Moine
+ Guerrier/Voleur
+ Nain
+ Gnome
+ Demi-orque~
+@405 = ~Anneau de protection +2 de Koveras
+Cet anneau a été donné à <CHARNAME> par "Koveras" lors de leur rencontre à Château-Suif pendant la crise du Trône de Fer. Il a été utilisé pour entraîner <CHARNAME> dans une affaire de meurtre, sous l'apparence de l'une des possessions de Gorion. Cet anneau a été conservé par valeur sentimentale, mais a été trouvé parmis le restant des possessions de <CHARNAME> conservées dans le dongeon d'Irenicus, plus puissant qu'auparavant. Il n'est pas logique que le mage ne l'ait pas vendu à la première occasion, et encore moins logique qu'il ait augmenté son pouvoir...
+
+PARAMETRES :
+
+Classe d'armure: +2
+Jets de sauvegarde: +2
+Résistance à la magie: +5%~
+
+////////////////////////////////
+//Make armor and shields shatter
+////////////////////////////////
+
+@1503 = ~Mon armure s'est brisée !~
+@1504 = ~Mon bouclier s'est brisé !~
+@1505 = ~Mon arme s'est brisée !~
+
+////////////////////
+//Item BG1-ification
+////////////////////
+
+//@16297
+@2301 = ~La flèche légère, comme son nom l'indique, est conçue pour la distance. C'est une flèche rapide et très utilisée pour la chasse. La plupart des flèches sont fabriquées en bois de bouleau ou de frêne et mesurent de 75 cm à 1 m de long. 
+
+PARAMETRES :
+
+Dégâts : 1D6 + 1
+TAC0 : bonus de +1
+Type de dégâts : projectile (perforant)
+Poids : 0
+Arme de jet : arc
+Non utilisable par :
+ Clerc
+ Druide
+ Mage~
+
+//@17536
+@2302 = ~Cette flèche est enduite d'acide, de sorte que, si elle touche, elle perce la chair de la cible et, plutôt que d'en rester là, commence à forer et à agrandir la plaie.
+
+PARAMETRES :
+
+Dégâts : 1d6+1
+TAC0 : +1
+Type de dégâts : projectile (perforant)
+Spécial : 2d6 points de dégâts d'acide
+Poids : 0
+Arme de jet : arc
+Non utilisable par :
+ Clerc
+ Druide
+ Mage~
+
+//@17540
+@2303 = ~La flèche de feu est une flèche magique qui s'embrase dès qu'on la décoche, effet similaire à celui d'une flèche enduite d'huile enflammée.
+
+PARAMETRES :
+
+Dégâts : 1d6
+Type de dégâts : projectile (perforant)
+Spécial : 1d6 points de dégâts de feu (jet de sauvegarde contre sorts pour annuler)
+Poids : 0
+Arme de jet : arc
+Non utilisable par :
+ Clerc
+ Druide
+ Mage~
+
+//@17542
+@2304 = ~Cette flèche a été enchantée de façon à se transformer en une énorme boule de glace et de froid dès qu'on la décoche. Quand elle frappe sa cible, celle-ci subit une vague de froid qui l'engourdit et la brûle entièrement.
+
+PARAMETRES :
+
+Dégâts : 1d6
+Type de dégâts : projectile (perforant)
+Spécial : 1d6 points de dégâts de froid (pas de jet de sauvegarde)
+Poids : 0
+Arme de jet : arc
+Non utilisable par :
+ Clerc
+ Druide
+ Mage~
+
+//@17534
+@2305 = ~Ces flèches ont été enchantées à la fabrication. Elles paraissent un peu plus droites que les flèches usuelles et presque vivantes tandis qu'elles quittent votre arc sans effort pour filer vers leur cible avec une précision mortelle.
+
+PARAMETRES :
+
+Dégâts : 1D6 + 2
+TAC0 : +2
+Type de dégâts : projectile (perforant)
+Poids : 0
+Arme de jet : arc
+Non utilisable par :
+ Clerc
+ Druide
+ Mage~
+
+//@19353
+@2306 = ~Les carreaux lourds et les carreaux légers sont les munitions tirées par les arbalètes quelle que soit la taille de l'arme. L'énergie contenue dans ce carreau accroît la précision de sa trajectoire, comme s'il était guidé vers sa cible.
+
+PARAMETRES :
+
+Dégâts : 1d8+1
+TAC0 : +1
+Type de dégâts : projectile (perforant)
+Poids : 0
+Arme de jet : arbalète~
+
+//@19358
+@2307 = ~Les carreaux lourds et les carreaux légers sont les munitions tirées par les arbalètes quelle que soit la taille de l'arme. L'énergie contenue dans ce carreau accroît la précision de sa trajectoire, comme s'il était guidé vers sa cible.
+
+PARAMETRES :
+
+Dégâts : 1d8+2
+TAC0 : +2
+Type de dégâts : projectile (perforant)
+Poids : 0
+Arme de jet : arbalète~
+
+//@7376
+@2308 = ~Bottes furtives : « Soupirs las »
+Autrefois, un roi nommé Rhigaerd était renommé pour ses espions. Ces derniers étaient si adroits qu'aucun recoin n'échappait à leurs yeux. Aussi étaient-ils capables de dresser les plans de châteaux et de villes entières. Ils furent finalement trahis par l'un des leurs. On leur enleva alors les outils indispensables à leur activité, puis on les dispersa afin que personne ne puisse plus réunir un tel groupe à l'avenir.  
+
+PARAMETRES :
+
+Bonus de furtivité : +35%
+Poids : 4
+Non utilisable par :
+ Guerrier
+ Mage
+ Clerc
+ Druide~
+
+//@6858 - Bow Weapons -> Long Bow
+@2309 = ~Les arcs composés sont des arcs longs ou courts dont les branches sont faites de plusieurs matériaux. Cela rend l'arc plus souple, ce qui accroît sa portée. Ceux-ci ont été conçus après l'arc long ordinaire. 
+
+PARAMETRES :
+
+Dégâts : +2
+Bonus au coup : +1
+Poids : 10
+Facteur de vitesse : 7
+Type de compétence : arc long
+Type : arme à 2 mains
+Non utilisable par :
+ Druide
+ Clerc
+ Mage 
+ Voleur
+ Barde~
+
+//@16288 - Bow Weapons -> Long Bow
+@2310 = ~Les arcs composés sont des arcs longs ou courts dont les branches sont faites de plusieurs matériaux. Cela rend l'arc plus souple, ce qui accroît sa portée. Ceux-ci ont été conçus après l'arc long ordinaire.
+
+PARAMETRES :
+
+TAC0 : +2
+Dégâts : +3
+Poids : 9
+Facteur de vitesse : 6
+Type de compétence : arc long
+Type : arme à 2 mains
+Non utilisable par :
+ Druide
+ Clerc
+ Mage 
+ Voleur
+ Barde~
+
+//@17643 - Bow Weapons -> Long Bow
+@2311 = ~L'arc long est similaire à l'arc court, sauf que la branche est pratiquement aussi grande que l'archer, généralement entre 1,80 m et 2 m. Il a une plus grande portée que l'arc court, mais une rapidité de tir inférieure et une plus grande précision. Celui-ci est enchanté, ce qui le rapproche de la perfection en la matière.
+
+PARAMETRES :
+
+TAC0 : +2
+Dégâts : +1
+Poids : 3
+Facteur de vitesse : 6
+Type de compétence : arc long
+Type : arme à 2 mains
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Voleur~
+
+//@16272 - add Required: 8 Strength
+@2312 = ~L'armure en cottes de mailles est constituée d'anneaux métalliques imbriqués les uns dans les autres. Elle est toujours portée par-dessus une couche de tissu matelassé ou de cuir souple pour empêcher le frottement et réduire l'impact des chocs. 
+
+PARAMETRES :
+
+Classe d'Armure : 4
+Poids : 20
+Force nécessaire : 8
+Non utilisable par :
+ Druide 
+ Mage 
+ Voleur~
+
+//@6676 - add Required: 7 Strength
+@2313 = ~Cotte de mailles +2 : « Cotte de mailles des Morts »
+Un mage peut se transformer en parfait assassin, comme l'a prouvé Vorusta voilà plus de 400 ans. Il créait des combattants squelettes équipés de cette armure enchantée et d'une lame puissante et remettait leur bandeau de puissance à sa cible en gage de reconnaissance. Lorsque la machine meurtrière avait accompli sa tâche, Vorusta retirait l'équipement et recommençait l'ensemble de la procédure meurtrière. 
+
+PARAMETRES :
+
+Classe d'Armure : 3
+Poids : 10
+Force nécessaire : 7
+Non utilisable par :
+ Druide 
+ Mage 
+ Voleur~
+
+//@16273 - add Required: 8 Strength
+@2314 = ~L'armure feuilletée est une variante de l'armure à bandes. Elle comporte des bandes métalliques appliquées verticalement au renforcement des mailles, du cuir et du tissu, plutôt qu'horizontalement comme dans l'armure à bandes. Comme le corps humain ne pivote pas au milieu du torse autant qu'il peut se courber en avant, l'armure feuilletée est plus limitée dans les combats.
+
+PARAMETRES :
+
+Classe d'Armure : 3
+Poids : 20
+Force nécessaire : 8
+Non utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur~
+
+//@11059 - add Required: 5 Strength
+@2315 = ~Cottes de mailles +4 Mithril.
+C'est l'armure personnelle de Drizzt, le fameux rôdeur elfe noir, forgée pour lui par son ami Bruenor.
+
+PARAMETRES :
+
+Classe d'Armure : 1
+Poids : 7
+Force nécessaire : 5
+Non utilisable par :
+ Druide 
+ Mage 
+ Voleur~
+
+//@21303 - add Required: 6 Strength
+@2316 = ~Cotte de mailles +3 :
+Cette cotte de mailles d'excellente fabrication est l'armure standard des combattants d'élite chez les nains. Elle est composée d'un alliage de mithral et protège contre tous les types d'attaquants, excepté les plus acharnés.
+
+PARAMETRES :
+
+Classe d'armure : 2
+Poids : 9
+Force nécessaire : 6
+Non utilisable par :
+ Druide 
+ Mage 
+ Voleur~
+
+//@17243
+@2317 = ~La fameuse cape de la nymphe est réputée accroître le Charisme de tout individu, fût-ce le nain le plus grincheux. Une noble cormyrienne qui espérait rendre plus agréable son mariage de raison a semble-t-il cassé sa tirelire afin d'en obtenir deux, une pour elle et une pour son mari.
+
+PARAMETRES :
+
+Charisme : bonus de +2
+Poids : 3
+Non utilisable par :~
+
+//@21408
+@2318 = ~Heaume de Kiel :
+Il s'agit du heaume de Kiel le tueur de légions, fils aîné de Durlag le tueur de trolls et prince du clan de la tour funeste de son père. On dit que toute personne qui le porte est immunisée contre la peur et la panique, qu'elles soient d'origine naturelle ou magique.
+
+PARAMETRES :
+
+Bonus à la classe d'armure : aucun
+Spécial : protège des coups critiques
+Spécial : protège contre toute forme de sentiment de panique et renforce la force mentale
+Poids : 2
+Non utilisable par :
+ Mage
+ Barde
+ Voleur~
+
+//@16269 - add Required: 4 Strength
+@2319 = ~En dépit de la croyance populaire, l'armure de cuir n'est pas molle et souple comme le cuir utilisé pour fabriquer les bottes de rôdeur ou une robe de druide. Ce type de cuir n'offre pas de meilleure protection que les vêtements traditionnels.
+
+PARAMETRES :
+
+Classe d'Armure : 7
+Poids : 10
+Force nécessaire : 4
+Non utilisable par :
+ Mage~
+
+//@6682 - add Required: 11 Strength
+@2320 = ~Armure de plates +1 : « Armure de plates de Fallorain »
+Le Capitaine Fallorain, chef du 12ème escadron de cavalerie de Calimshan, a porté cette armure enchantée pour la dernière fois durant la Bataille du Marais de l'Araignée. Il y a laissé la vie en tentant de débarrasser la région d'un mal inconnu. 
+
+PARAMETRES :
+
+Classe d'Armure : 2
+Poids : 20
+Force nécessaire : 11
+Non utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur~
+
+//@6685 - add Required: 14 Strength
+@2321 = ~Armure de plates complète +1 : « Plate des Ténèbres »
+
+Hertious, le Seigneur des Ténèbres, Seigneur de la Guerre mort-vivant de Baine, a porté cette armure pendant plus de 500 ans. Pendant cette période, il aurait habité un château quelque part à l'intérieur des Montagnes du Jeûne. On ne sait pas comment son armure a pu atteindre d'autres contrées sans lui, mais ce que l'on sait, c'est que la séparation a dû être fort déplaisante. 
+
+PARAMETRES :
+
+Classe d'Armure : 0
+Poids : 35
+Force nécessaire : 14
+Non utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur~
+
+//@17489 - add Required: 8 Strength
+@2322 = ~Cette armure de plates a été faite sur mesure pour vous par Taërom Fuiruim, artisan à Berégost. Moulée dans les écailles chitineuses d'un ankheg, elle offre une protection supérieure à celle de l'armure de plates usuelle, et ne rouille jamais. Comme vous le dira par ailleurs tout aventurier expérimenté, son principal avantage réside dans la réduction de son poids et de son encombrement. Les monstres, ça va, ça vient, mais la fatigue est un ennemi tenace.
+
+PARAMETRES :
+
+Classe d'Armure : 1
+Poids : 25
+Force nécessaire : 8
+Non utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur~
+
+//@17659 - add Required: 14 Strength
+@2323 = ~Le pavois est un bouclier massif en métal ou en bois couvrant le guerrier pratiquement du menton jusqu'aux doigts de pied. Il doit être bien attaché sur l'avant-bras et maintenu solidement. Naturellement, la main prise ne peut servir qu'à maintenir le pavois en place. 
+
+PARAMETRES :
+
+Bonus à la classe d'armure : 2
+Spécial : +1 contre les armes à projectile
+Poids : 12
+Force nécessaire : 14
+Non utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur~
+
+//@7358 - Required: 13 Strength
+@2324 = ~Grand bouclier +1, +4 contre projectiles : « Bouclier des Etoiles Déchues »
+
+Ilmater en personne enchanta ce bouclier après avoir vu un jeune écuyer subir délibérément un indicible supplice pour sauver sa monture. Au cours d'une bataille féroce entre une division de cavalerie humaine et une horde de hobgobelins, le jeune homme fut envoyé en renfort. Assailli par une nuée de flèches qui masquait presque le soleil, il comprit que même s'il parvenait à éviter les flèches, une chute de son cheval provoquerait sa perte. Armé de son bouclier, il se positionna de manière à essuyer le choc de l'attaque et fut mortellement blessé. Son cheval s'en tira indemne et ils purent s'échapper ; son corps fut transporté vers la ville la plus proche, où on le fit ressusciter. 
+
+PARAMETRES :
+
+Classe d'armure : bonus de +2, +5 contre les armes à projectiles
+Poids : 12
+Force nécessaire : 13
+Non utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur~
+
+//@23963 - Missile Weapons -> Sling, add Required: 3 Strength
+@2325 = ~Fronde +3 : " Boute-dragon d'Arla "
+Nul ne connaît aussi bien que les Petites-gens la valeur d'une pierre bien lancée lors d'une confrontation avec un ennemi de taille supérieure. Cette arme-ci appartenait à Arla Aupassûr, une des rares jeunes femmes du Petit-peuple à quitter son foyer en quête d'aventures. La légende décrit la minuscule Arla lançant avec cette fronde un caillou bien aiguisé dans le crâne d'un dragon vert en plein vol ; mais dans une autre taverne, l'histoire change un peu et le caillou frappe carrément l'arrière-train du dragon, pour donner un effet plus comique que mortel. Les Petites-gens semblent préférer souvent la drôlerie à la précision historique.
+
+PARAMETRES :
+
+Dégâts : +3 (projectiles)
+TAC0 : +3
+Poids : 0
+Facteur de vitesse : 3
+Type de compétence : fronde
+Type : arme à 1 main
+Force nécessaire : 3
+Non utilisable par :~
+
+//@22020 - Blunt Weapons -> Quarterstaff, add Type:  2-handed, add Required: 3 Strength
+@2326 = ~Les bâtons de contrecoup sont fabriqués par les elfes dorés de Drelagara sur l'Eternelle-Rencontre. Ces bâtons sont vivants et sautent dans les mains de leurs propriétaires au moment de l'attaque. Les artisans elfes les vendent rarement aux autres races mais ces puissantes armes de mêlée font parfois leur apparition à Féérune. Il faut cependant noter que chaque attaque portée avec ce bâton le décharge, et qu'il se consume donc de lui-même lorsqu'il n'a plus d'énergie.
+
+PARAMETRES :
+
+Dégâts : 1D6 + 9
+TAC0  : bonus de +3
+Type de dégâts : contondant
+Poids : 4
+Facteur de vitesse : 1
+Type de compétence : bâton
+Type : arme à 2 mains
+Force nécessaire : 3
+Non utilisable par :~
+
+//@23977
+@2327 = ~Bâton +3~
+
+//@23978 - Blunt Weapons -> Quarterstaff, add Required: 5 Strength
+@2328 = ~Bâton +3 : " Bâton d'Aule "
+Ce bâton finement sculpté se trouvait dans le butin pris aux envahisseurs de la Tour de Durlag. Très efficace au combat, il appartenait apparemment à un jeteur de sorts qui aimait être en première ligne. Malgré sa structure interne, apparemment en fer, il pèse à peu près le même poids qu'une arme normale de ce type. Une partie de l'enchantement vient du cuir fixé sur son manche, il s'agit sans doute de la peau d'une créature guerrière. Quand on sait les goûts et les penchants des assaillants de cette Tour, cette peau pourrait bien venir de n'importe quoi... ou n'importe qui.
+
+PARAMETRES :
+
+Dégâts : 1D6 + 3
+TAC0 : +3
+Type de dégâts : contondant
+Poids : 3
+Facteur de vitesse : 1
+Type de compétence : bâton
+Type : arme à 2 mains
+Force nécessaire : 5
+Non utilisable par :~
+
+//@7347 - Small Sword -> Short Sword, add Required: 4 Strength
+@2329 = ~Epée courte +2 : « L'Epée qui Siffle »
+Au milieu des plaines du Shaar Oriental, vivait un petit forgeron. La taille de cet homme, proche de celle des nains, ne reflétait pas sa grandeur d'âme. C'était un forgeron d'armes très adroit, mais il avait surtout le don de siffler une mélodie émouvante qui faisait pleurer les adultes comme des nouveau-nés. Seul un mage solitaire partageait son temps avec le tout petit homme et appréciait sa compagnie, car les autres ne voyaient dans sa petite taille qu'une source de moquerie. Les préjugés les rendaient sourds à la chanson du forgeron. Leurs railleries se transformèrent en un cruel supplice qui persuada finalement l'homme au coeur léger de quitter à tout jamais sa maison. Avant de partir, il forgea cette arme pour l'offrir à son vieil ami, qui lui jeta un sort pendant sa fabrication. A présent, la lame émet un sifflement doux à l'oreille de quiconque la dégaine. Peu après, le mage quitta également la petite ville, écoeuré, emportant l'épée dans son voyage.
+
+PARAMETRES :
+
+Dégâts : 1D6 +2
+TAC0 : bonus de +2
+Type de dégâts : perforant
+Poids : 2
+Facteur de vitesse : 1
+Type de compétence : épée courte
+Type : arme à 1 main
+Force nécessaire : 4
+Non utilisable par :
+ Druide
+ Clerc 
+ Mage~
+
+//@18976 - Small Sword -> Short Sword, add Required: 5 Strength
+@2330 = ~L'épée courte est le premier type d'épée à être apparu. Grossièrement, on peut comparer une épée courte à une dague dont la lame serait si longue qu'on ne pourrait plus l'appeler dague. Le terme épée courte n'entre pas dans la nomenclature des épées. Pourtant, il est utilisé pour décrire une lame à double tranchant longue d'environ 60 cm. L'estoc de l'épée est généralement pointu, et on la classe donc dans les armes perforantes.
+
+PARAMETRES :
+
+Dégâts : 1D6 +1
+TAC0 : bonus de +1
+Type de dégâts : perforant
+Facteur de vitesse : 2
+Poids : 3
+Type de compétence : épée courte
+Type : arme à 1 main
+Force nécessaire : 5
+Non utilisable par :
+ Druide
+ Clerc 
+ Mage~
+
+//@23970 - Large Sword -> Long Sword, add Required: 5 Strength
+@2331 = ~Epée langue de feu : " Terre enflammée "
+Le Padhiver n'a pas toujours été chaud et le grand Anauroch asséché... ou du moins c'est ce qu'on dit. Mais seules quelques traces de cette époque nous sont parvenues et parmi elles, les vestiges identifiables sont très rares. Il est cependant facile de deviner la fonction de " Terre enflammée " : elle brûle ses victimes d'un feu magique et une rune énigmatique semble suggérer qu'elle tient son pouvoir du sol lui-même. Ceci dit, le plus grand mystère entoure sa fabrication. Cette arme a l'air tout à fait utilisable, mais au niveau de l'équilibre et du maintien, quelque chose ne va pas. Elle pèse un peu sur l'avant-bras et ne se positionne pas très bien dans la main. Cela ne joue apparemment pas sur les performances des guerriers, mais on ne peut s'empêcher d'avoir l'impression que cette arme n'a pas été conçue pour eux... ni pour tout autre humanoïde.
+
+PARAMETRES :
+
+Dégâts : 1D8 +1
+TAC0 : +1 de bonus
+Spécial :
+   +2 contre les créatures régénérantes
+   +3 contre les créatures du froid 
+   +4 contre les morts-vivants
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 5
+Non utilisable par :
+ Druide
+ Clerc
+ Mage~
+
+//@17656
+@2332 = ~Quiconque porte cette baguette peut lancer un éclair. Si celui-ci traverse une créature, il inflige à celle-ci 6d6 points de dégâts (minimum de 2 par dé), réduits de moitié par un jet de sauvegarde réussi contre les baguettes. L'éclair poursuit sa course et « rebondit » jusqu'à ce qu'il atteigne sa longueur maximale.
+
+PARAMETRES :
+
+Effet : éclair
+Dégâts : 6d6 (jet de sauvegarde contre baguettes pour moitié)
+Portée : 30 m
+Zone : trajectoire de l'éclair
+Non utilisable par :
+ Guerrier
+ Clerc
+ Druide
+ Voleur~
+
+//@17658
+@2333 = ~La baguette émet un rayon vert qui porte au maximum à 18 mètres. Une créature touchée par ce rayon doit réussir un jet de sauvegarde contre les baguettes, sous peine d'être métamorphosée en écureuil.
+
+PARAMETRES :
+
+Effet : métamorphose en écureuil, sauf réussite d'un jet de sauvegarde contre baguettes
+Portée : 30 m
+Zone : 1 créature
+Durée : permanente jusqu'à dissipation
+Non utilisable par :
+ Guerrier
+ Clerc
+ Druide
+ Voleur~

@@ -1,0 +1,19 @@
+IF
+  Global("AloraImport","GLOBAL",0)
+  Global("AloraPartyBG1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    AddXPObject("Alora",50000)
+    GiveItemCreate("LEAT04","Alora",1,0,0) // Studded Leather Armor
+    GiveItemCreate("DAGG01","Alora",1,0,0) // Dagger
+    SmallWait(10)
+    ActionOverride("Alora",FillSlot(SLOT_ARMOR))
+    ActionOverride("Alora",FillSlot(SLOT_WEAPON))
+    GiveItemCreate("DAGG05","Edwin",1,0,0) // Throwing Dagger
+    SmallWait(10)
+    ActionOverride("Alora",SetGlobal("IWasKickedOut","LOCALS",1))
+    ActionOverride("Alora",ChangeAIScript("",OVERRIDE))
+    ActionOverride("Alora",SetDialog("ALORAP")
+    ActionOverride("Alora",EquipMostDamagingMelee())
+    SetGlobal("AloraImport","GLOBAL",1)
+END

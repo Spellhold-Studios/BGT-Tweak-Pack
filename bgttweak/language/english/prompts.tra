@@ -1,0 +1,114 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Installation Prompts
+////////////////////////////////////////////////////////////////////
+
+@-1000 = "This mod has"
+@-1001 = "distinct optional components.
+To save time, you can choose what to do with them at a high level rather
+than being asked about each one."
+@-1002 = "What should be done with all components that are NOT YET installed?
+[I]nstall them, [S]kip them, [A]sk about each one? "
+@-1003 = "What should be done with all components that are ALREADY installed?
+[R]e-install them, [U]ninstall them, [S]kip them, [A]sk about each one? "
+@-1004 = "PLEASE email the file"
+@-1005 = "to"
+
+@-1006 = "Install Component ["
+@-1007 = "]
+[R]e-Install, [N]o Change or [U]ninstall or [Q]uit? "
+@-1008 = "]
+[Y]es or [N]o or [Q]uit? "
+@-1009 = "Enter part of a module name: "
+@-1011 = "] component "
+@-1013 = "Removing old installation of ["
+@-1014 = "] first ..."
+@-1015 = "SUCCESSFULLY REMOVED OLD"
+
+@-1016 = "Installing"
+@-1017 = "ERROR Installing ["
+@-1018 = "], rolling back to previous state"
+@-1019 = "SUCCESSFULLY INSTALLED"
+@-1020 = "Skipping"
+@-1021 = "Removing ["
+@-1022 = "] (component #"
+@-1023 = ")"
+@-1024 = "SUCCESSFULLY REMOVED ["
+
+////////
+//Errors
+////////
+@1 = ~Baldur's Gate Trilogy-WeiDU could not be detected.~
+@2 = ~The BG1 NPC Project component "The BG1 NPC Project for BGT: Core Install" conflicts with this component.~
+@3 = ~The BG1 NPC Project component "The BG1 NPC Project for BGT-Weidu: Phase II (Quests and Interjections)" conflicts with this component.~
+@4 = ~The Ease-of-Use component "Happy: NPCs won't fight with each other or leave the group" conflicts with this component.~
+@5 = ~The BG1 NPC Project component "The BG1 NPC Project for BGT-Weidu: Phase I (Banters)" conflicts with this component.~
+@6 = ~The BG1 Unfinished Business component "Creature Corrections" conflicts with this component.~
+@7 = ~The BGT Tweak component "Remove item shattering" conflicts with this component.~
+@8 = ~This component requires Dark Side of the Sword Coast.~
+@9 = ~This component requires Northern Tales of the Sword Coast.~
+@10 = ~This component requires Baldur's Gate Trilogy-WeiDU version 1.07 or higher.~
+@11 = ~The BP-BGT Worldmap modification conflicts with this component.~
+@12 = ~The BGSpawn modification conflicts with this component.~
+
+/////////////////
+//Component names
+/////////////////
+@100 = ~Eldoth reminds of Skie's ransom~
+@200 = ~Angelo notices Shar-teel~
+@300 = ~Finishable Kagain caravan quest~
+@400 = ~Add Semaj's Cloak and Upgraded Koveras' Ring of Protection~
+@500 = ~Major locations explored upon visit~
+@600 = ~Druid/Ranger-responsive bears in BG1~
+@700 = ~Happy patch~
+@701 = ~NPCs cannot choose to leave the party~
+@702 = ~Only good and evil NPCs leave the party~
+@800 = ~Import more items into Shadows of Amn
+(WARNING: This can be considered a cheat)~
+@900 = ~Random activated traps in the pirate cave~
+@901 = ~Install-time randomisation~
+@902 = ~Game-time randomisation~
+@1000 = ~Bags of the Sword Coast~
+@1100 = ~Altered spawns~
+@1101 = ~TuTu-style levelled spawns~
+@1102 = ~Deactivate BGT-WeiDU spawns: spawns never appear~
+@1103 = ~EasyTutu-style spawns~
+@1104 = ~Deactivate BGT-WeiDU spawns: spawns appear once~
+@1200 = ~Arkion reacts to player's reputation~
+@1300 = ~Coran responds to the death of a wyvern~
+@1400 = ~More bandit scalps~
+@1500 = ~Altered item shattering~
+@1501 = ~Remove item shattering~
+@1502 = ~Make armor and shields shatter~
+@1600 = ~Hooded unarmoured mages and thieves~
+@1700 = ~Salk's Pen-and-Paper ruleset corrections~
+@1800 = ~Import more NPCs into Shadow of Amn: Alora~
+@1801 = ~Import more NPCs into Shadow of Amn: Branwen~
+@1802 = ~Import more NPCs into Shadow of Amn: Eldoth~
+@1803 = ~Import more NPCs into Shadow of Amn: Kagain~
+@1804 = ~Import more NPCs into Shadow of Amn: Kivan~
+@1805 = ~Import more NPCs into Shadow of Amn: Sharteel~
+@1806 = ~Import more NPCs into Shadow of Amn: Skie~
+@1807 = ~Import more NPCs into Shadow of Amn: Xan~
+@1808 = ~Import more NPCs into Shadow of Amn: Yeslick~
+@1809 = ~Import more NPCs into Shadow of Amn: Bub Snikt~
+@1810 = ~Import more NPCs into Shadow of Amn: Conchobhair Strongblade~
+@1811 = ~Import more NPCs into Shadow of Amn: Ferthgil Trollslayer~
+@1812 = ~Import more NPCs into Shadow of Amn: Jet'laya~
+@1813 = ~Import more NPCs into Shadow of Amn: Keiria Silverstring~
+@1814 = ~Import more NPCs into Shadow of Amn: Skeezer Lumpkin VI~
+@1815 = ~Import more NPCs into Shadow of Amn: Will Scarlet O'Hara~
+@1900 = ~Restore BG2 XP bonus for traps, locks, and scrolls~
+@2000 = ~Protagonist's biography modifications~
+@2001 = ~Do not set BG1 biography for imported characters~
+@2002 = ~Set BG2 biography upon Shadows of Amn transition~
+@2100 = ~Exotic Weapons For Taerom~
+@2200 = ~Item BG1-ification: Price changes~
+@2201 = ~Item BG1-ification: Reduced stack size from 40 to 20~
+@2202 = ~Item BG1-ification: Lore changes~
+@2203 = ~Item BG1-ification: Scroll casting level changes~
+@2204 = ~Item BG1-ification: Item behaviour changes~
+@2300 = ~Disable hostile reaction after charm~
+@2400 = ~Enemy items shatter~
+@2500 = ~Access Ulgoth's Beard west of Wyrm's Crossing only~
+@2600 = ~Prevent access to Durlag's Tower from adjacent areas~
+@2700 = ~Put Sword of Chaos +2 in Sarevok's inventory~

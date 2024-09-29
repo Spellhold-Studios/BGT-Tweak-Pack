@@ -1,0 +1,7 @@
+IF
+  Global("ENDOFBG1","GLOBAL",2)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,15881,EXISTANCE5)
+    DestroySelf()
+END

@@ -1,0 +1,3052 @@
+IF
+  RandomNum(4,1)
+  Global("RandomSet1047598_3","AR9600",0)
+  Global("RandomBeenSet1047598","AR9600",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet1047598_3","AR9600",1)
+    SetGlobal("RandomBeenSet1047598","AR9600",1)
+END
+
+IF
+  RandomNum(4,2)
+  Global("RandomSet1047598_2","AR9600",0)
+  Global("RandomBeenSet1047598","AR9600",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet1047598_2","AR9600",1)
+    SetGlobal("RandomBeenSet1047598","AR9600",1)
+END
+
+IF
+  RandomNum(4,3)
+  Global("RandomSet1047598_1","AR9600",0)
+  Global("RandomBeenSet1047598","AR9600",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet1047598_1","AR9600",1)
+    SetGlobal("RandomBeenSet1047598","AR9600",1)
+END
+
+IF
+  RandomNum(4,4)
+  Global("RandomSet1047598_0","AR9600",0)
+  Global("RandomBeenSet1047598","AR9600",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet1047598_0","AR9600",1)
+    SetGlobal("RandomBeenSet1047598","AR9600",1)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_3","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_C",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(23)
+  LevelPartyLT(25)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(24)
+  LevelPartyLT(26)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(25)
+  LevelPartyLT(27)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(26)
+  LevelPartyLT(28)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(27)
+  LevelPartyLT(29)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(28)
+  LevelPartyLT(30)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(29)
+  LevelPartyLT(31)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(30)
+  LevelPartyLT(32)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(31)
+  LevelPartyLT(33)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(32)
+  LevelPartyLT(34)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(33)
+  LevelPartyLT(35)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(34)
+  LevelPartyLT(36)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(35)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(17)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(11)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(8)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_2","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    CreateCreature("BEARBL",[1047.598],0)  // ~Black Bear~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_1","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    CreateCreature("ZOMBIE",[1047.598],0)  // ~Zombie~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  Global("SpawnReset1047598","AR9600",0)
+  Global("RandomSet1047598_0","AR9600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset1047598","AR9600",1)
+  GlobalTimerExpired("37001047598","AR9600")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",0)
+    SetGlobal("RandomBeenSet1047598","AR9600",0)
+    SetGlobal("RandomSet1047598_3","AR9600",0)
+    SetGlobal("RandomSet1047598_2","AR9600",0)
+    SetGlobal("RandomSet1047598_1","AR9600",0)
+    SetGlobal("RandomSet1047598_0","AR9600",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset1047598","AR9600",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset1047598","AR9600",1)
+    CreateCreature("SKELET_A",[1047.598],0)  // ~Skeleton~
+    SetGlobalTimer("37001047598","AR9600",2400)
+END
+

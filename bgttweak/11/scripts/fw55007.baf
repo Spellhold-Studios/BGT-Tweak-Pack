@@ -1,0 +1,507 @@
+IF
+  RandomNum(1,1)
+  Global("RandomSet18621015_0","AR4600",0)
+  Global("RandomBeenSet18621015","AR4600",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet18621015_0","AR4600",1)
+    SetGlobal("RandomBeenSet18621015","AR4600",1)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  Global("SpawnReset18621015","AR4600",0)
+  Global("RandomSet18621015_0","AR4600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset18621015","AR4600",1)
+  GlobalTimerExpired("550018621015","AR4600")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",0)
+    SetGlobal("RandomBeenSet18621015","AR4600",0)
+    SetGlobal("RandomSet18621015_0","AR4600",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset18621015","AR4600",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset18621015","AR4600",1)
+    CreateCreature("GIBBER",[1862.1015],0)  // ~Gibberling~
+    SetGlobalTimer("550018621015","AR4600",2400)
+END
+

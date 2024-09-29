@@ -1,0 +1,9 @@
+IF
+  CombatCounter(0)
+  Dead("Wyvern")
+  InParty(Myself)
+  Global("CoranReward","GLOBAL",0)
+THEN
+  RESPONSE #100
+    Dialogue([PC])
+END

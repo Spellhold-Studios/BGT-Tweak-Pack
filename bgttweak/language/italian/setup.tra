@@ -1,0 +1,547 @@
+/////////////////////////////////
+//Eldoth reminds of Skie's ransom
+/////////////////////////////////
+
+@101 = ~Dovremmo andare ora e vedere Elkart a Spada e Stelle.  Sono passati due giorni secondo i miei conti.~
+
+///////////////////////////
+//Tougher Sarevok and Semaj
+///////////////////////////
+
+@401 = ~Mantello del Mago~
+@402 = ~Mantello di Semaj~
+@403 = ~Questo è il mantello magico che hai trovato sul corpo del mago di Sarevok, Semaj.  Non si conosce che poteri possiede.~
+@404 = ~Il mantello che hai trovato sul corpo del mago di Sarevok, Semaj, è una meraviglia di per sè.  Esso offusca il portatore e fornisce una debole resistenza magica.
+
+Statistiche:
+
+Portatore Offuscato
+Resistenza alla magia: 10
+Peso: 2
+Non utilizzabile da:
+ Personaggi legali
+ Guerriero
+ Ladro
+ Ranger
+ Monaco
+ Guerriero/Ladro
+ Nano
+ Gnomo
+ Mezzorco~
+@405 = ~Anello di Protezione di Koveras +2
+Questo anello è stato dato a <CHARNAME> da "Koveras", durante il loro viaggio insieme a Candlekeep quando imperversava la crisi del Trono di Ferro.  E’ stato usato per incastrare <CHARNAME> in una trama omicida, consegnato sotto la falsa maschera di un oggetto appartenente a Gorion.  Questo anello non ha alcun valore sentimentale, ma è stato trovato tra le poche cose rimaste in possesso di <CHARNAME> nella prigione di Irenicus, più potente di prima.  Non c'è alcuna ragione logica per cui il mago non lo avrebbe dovuto vendere alla prima occasione, se non per incrementare il suo potere... 
+
+STATISTICHE:
+
+Classe armatura:  +2 bonus
+Tiro salvezza:  +2 bonus
+5% Resistenza Magica~
+
+////////////////////////////////
+//Make armor and shields shatter
+////////////////////////////////
+
+@1503 = ~La mia armatura è andata in frantumi!~
+@1504 = ~Il mio scudo è andato in frantumi!~
+@1505 = ~La mia arma è andata in frantumi!~
+
+////////////////////
+//Item BG1-ification
+////////////////////
+
+//@16297
+@2301 = ~Le frecce da tiro, come dice il nome, sono state progettate per la distanza. Sono frecce leggere e vengono spesso usate per cacciare. Queste frecce sono in genere di frassino o betulla e lunghe da 75 cm a 1 m.
+
+STATISTICHE:
+
+Danno: 1D6 + 1
+THACO: Bonus di +1
+Tipo di danno: Proiettile (perforazione)
+Peso: 0
+Dispositivo: Arco
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago~
+
+//@17536
+@2302 = ~Questa freccia è impregnata di acido cosicché quando colpisce un nemico, non solo ne buca la pelle ma ne corrode anche la carne intorno alla ferita, allargandola e aggravandola.
+
+STATISTICHE:
+
+Danno: 1D6 + 1
+THACO: Bonus di +1
+Tipo di danno: Proiettile (perforazione)
+Speciale: 2D6 di danno da acido
+Peso: 0
+Dispositivo: Arco
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago~
+
+//@17540
+@2303 = ~La freccia di fuoco è magica e prende fuoco nel momento in cui viene scagliata contro il nemico. L'effetto è simile ad una freccia impregnata di petrolio a cui viene dato fuoco.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di danno: Proiettile (perforazione)
+Speciale: 1D6 di danno da fuoco (nessun danno se si salva contro incantesimi)
+Peso: 0
+Dispositivo: Arco
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago~
+
+//@17542
+@2304 = ~La freccia di ghiaccio ha proprietà magiche tali da trasformarla in una palla di ghiaccio e di freddo roteante. All'impatto, il corpo della vittima è percorso da un'onda di freddo che ne brucerà e intorpidirà le membra.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di danno: Proiettile (perforazione)
+Speciale: 1D6 di danni di freddo (nessun tiro-salvezza)
+Peso: 0
+Dispositivo: Arco
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago~
+
+//@17534
+@2305 = ~Queste frecce sono state create utilizzando proprietà magiche. Sono leggermente più diritte delle normali frecce, sembrano quasi vive quando partono senza sforzo dall'arco e filano veloci e precise verso il bersaglio.
+
+STATISTICHE:
+
+Danno: 1D6 + 2
+THACO: Bonus di +2
+Tipo di danno: Proiettile (perforazione)
+Peso: 0
+Dispositivo: Arco
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago~
+
+//@19353
+@2306 = ~I quadrelli o dardi sono le munizioni lanciate dalle balestre, indipendentemente dalle dimensioni dell'arma. Questo dardo ha tuttavia una piccola quantità di proprietà magiche che ne migliora le prestazioni in volo, quasi come se fosse pilotato verso il bersaglio.
+
+STATISTICHE:
+
+Danno: 1D8 +1
+THACO: Bonus di +1
+Tipo di danno: Proiettile (perforazione)
+Peso: 0
+Dispositivo: Balestra~
+
+//@19358
+@2307 = ~I quadrelli o dardi sono le munizioni lanciate dalle balestre, indipendentemente dalle dimensioni dell'arma. Questo dardo ha tuttavia alcune proprietà magiche che ne migliorano le prestazioni in volo, quasi come se fosse pilotato verso il bersaglio.
+
+STATISTICHE:
+
+Danno: 1D8 +2
+THACO: Bonus di +2
+Tipo di danno: Proiettile (perforazione)
+Peso: 0
+Dispositivo: Balestra~
+
+//@7376
+@2308 = ~Stivali da furto: 'Bisbigli Indossati'
+
+Molto tempo fa, un Re chiamato Rhigaerd era rinomato per le sue spie. Erano talmente efficienti che riuscivano a tenere sott'occhio ogni singolo angolo e avevano mappe di castelli e città. Alla fine tra di loro ci furono dei traditori e i loro strumenti di lavoro vennero presi e dispersi per assicurarsi che nessuno potesse più creare una tale banda.
+
+STATISTICHE:
+
+Bonus al Muoversi silenziosamente: +35%
+Peso: 4
+Non utilizzabile da:
+ Guerriero
+ Druido
+ Chierico
+ Mago~
+
+//@6858 - Bow Weapons -> Long Bow
+@2309 = ~Gli archi compositi sono archi lunghi o corti fatti di listelli di più tipi di materiale. Questo conferisce loro più elasticità e pertanto una migliore gittata. Gli archi compositi sono un'evoluzione di quelli lunghi normali.
+
+STATISTICHE:
+
+Danno: +2
+THACO: Bonus di +1
+Peso: 10
+Fattore-velocità: 7
+Tipo di capacità: Arco lungo
+Tipo: A due mani
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ladro
+ Bardo~
+
+//@16288 - Bow Weapons -> Long Bow
+@2310 = ~Gli archi compositi sono archi lunghi o corti fatti di listelli di più tipi di materiale. Questo conferisce loro più elasticità e pertanto una migliore gittata. Gli archi compositi sono un'evoluzione di quelli lunghi normali.
+
+STATISTICHE:
+
+THACO: Bonus di +2
+Danno: +3
+Peso: 9
+Fattore-velocità: 6
+Tipo di capacità: Arco lungo
+Tipo: A due mani
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ladro
+ Bardo~
+
+//@17643 - Bow Weapons -> Long Bow
+@2311 = ~L'arco lungo è simile a quello corto, ma il sostegno è alto quasi quanto l'arciere, di solito da 1,8 a 2 m. L'arco lungo scaglia le frecce a una minore velocità rispetto a quello corto, ma ha una migliore gittata ed è più preciso. Possiede inoltre proprietà magiche che lo rendono quasi perfetto.
+
+STATISTICHE:
+
+THACO: Bonus di +2
+Danno: +1
+Peso: 3
+Fattore-velocità: 6
+Tipo di capacità: Arco lungo
+Tipo: A due mani
+Non utilizzabile da:
+Druido
+Chierico
+Mago
+Ladro~
+
+//@16272 - add Required: 8 Strength
+@2312 = ~La corazza di maglia è fatta di anelli metallici intrecciati. Viene sempre indossata sopra uno strato di stoffa imbottita o cuoio morbido per evitare lo strofinamento e per diminuire l'impatto dei colpi.
+
+STATISTICHE:
+
+Classe Armatura: 4
+Peso: 20
+Richiede: Forza 8
+Non utilizzabile da:
+Druido
+Mago
+Ladro~
+
+//@6676 - add Required: 7 Strength
+@2313 = ~Corazza di maglia +2: 'Maglia della morte'
+
+Un mago può trasformarsi in un assassino molto pericoloso, come ha dimostrato Vorusta più di 400 anni fa, la quale creava scheletri guerrieri equipaggiati con una corazza incantata e una spada molto potente e li lanciava contro gli obiettivi. Quando la macchina da guerra aveva terminato l'opera, Vorusta recuperava l'equipaggiamento e ricominciava da capo.
+
+STATISTICHE:
+
+Classe Armatura: 3
+Peso: 10
+Richiede: Forza 7
+Non utilizzabile da:
+Druido
+Mago
+Ladro~
+
+//@16273 - add Required: 8 Strength
+@2314 = ~La corazza a strisce è una variante della corazza a bande in cui le strisce di metallo vengono applicate verticalmente al sostegno di catena, cuoio o indumento, piuttosto che orizzontalmente come nel caso della corazza a bande. Poiché il corpo umano non ruota molto il busto, ma si flette molto di più in avanti e indietro, la corazza a strisce è più limitante nelle battaglie.
+
+STATISTICHE:
+
+Classe Armatura: 3
+Peso: 20
+Richiede: Forza 8
+Non utilizzabile da:
+Bardo
+Druido
+Mago
+Ladro~
+
+//@11059 - add Required: 5 Strength
+@2315 = ~Corazza di maglia di Mithril +4: 
+
+Questa è la corazza personale di Drizzt, il famoso ranger elfo scuro. E' stata forgiata dal suo amico Bruenor.
+
+
+STATISTICHE:
+
+Classe Armatura: 1
+Peso: 7
+Richiede: Forza 5
+Non utilizzabile da:
+Druido 
+Mago
+Ladro~
+
+//@21303 - add Required: 6 Strength
+@2316 = ~Corazza di maglia +3:
+
+Confezionata con grande maestria, questa corazza di maglia è normalmente indossata dai guerrieri dell'élite nana delle profondità. E costituita da una lega di mithral e protegge dalla maggior parte degli attacchi, salvo quelli più determinati.
+
+STATISTICHE:
+
+Classe armatura: 2
+Peso: 9
+Richiede: Forza 6
+Non utilizzabile da:
+ Druido 
+ Mago 
+ Ladro~
+
+//@17243
+@2317 = ~Il favoloso Mantello della Ninfa è rinomato per la sua capacità di aumentare il Carisma anche dei nani più burberi. Una nobile di Cormyrean nel tentativo di rendere più appetibile il suo matrimonio di convenienza, pare che spese molto denaro per procurarsene uno per sé e uno per il marito.
+
+STATISTICHE:
+
+Carisma: Bonus di +2
+Peso: 3
+Non utilizzabile da:~
+
+//@21408
+@2318 = ~Elmo di Kiel:
+
+Si tratta dell'elmo indossato da Kiel, il Sicario delle Legioni, primogenito di Durlag l'Assassino dei Troll e principe del clan della tanto sventurata torre paterna. Si dice che tutti quelli che lo indossano siano immuni da qualsiasi forma di paura o panico di origine naturale o magica.
+
+STATISTICHE:
+
+Bonus di Classe armatura: Nessuno
+Speciale: Protegge da colpi critici
+Speciale: Protegge da qualsiasi forma di panico e risolleva il morale
+Peso: 2
+Non utilizzabile da:
+Mago
+Bardo
+Ladro~
+
+//@16269 - add Required: 4 Strength
+@2319 = ~La corazza di cuoio, nonostante le credenze popolari, non è morbida e flessibile come il cuoio usato per fare gli stivali dei ranger o gli abiti dei druidi. Quel tipo di cuoio non garantisce una protezione migliore di un normale indumento.
+
+STATISTICHE:
+
+Classe Armatura: 7
+Peso: 10
+Richiede: Forza 4
+Non utilizzabile da:
+Mago~
+
+//@6682 - add Required: 11 Strength
+@2320 = ~Corazza di piastre +1: 'La corazza di Fallorain'
+
+Il capitano Fallorain, il capo della 12esima brigata della cavalleria Calimshan, indossò questa corazza incantata per l'ultima volta durante la Battaglia della Palude dei Ragni. Fu lì che perse la vita e la sua armata, mentre cercava di liberare l'area da un male mai visto prima.
+
+STATISTICHE:
+
+Classe Armatura: 2
+Peso: 20
+Richiede: Forza 11
+Non utilizzabile da:
+Bardo
+Druido
+Mago
+Ladro~
+
+//@6685 - add Required: 14 Strength
+@2321 = ~Corazza completa +1: 'Corazza dell'Oscurità'
+
+Signore Hertious dell'Oscurità, Signore della Guerra di Bane non morto, indossò questa corazza per più di 500 anni. Si dice che in questo periodo abitasse in un castello nei pressi delle Montagne Ripide. Non si sa come la sua corazza sia arrivata in altre terre senza di lui, anche se la separazione non deve essere stata piacevole.
+
+STATISTICHE:
+
+Classe Armatura: 0
+Peso: 35
+Richiede: Forza 14
+Non utilizzabile da:
+Bardo
+Druido
+Mago
+Ladro~
+
+//@17489 - add Required: 8 Strength
+@2322 = ~Questa corazza di piastre è stata abilmente confezionata per te da Taerom Fuiruim di Beregost. Ricoperta dalle scaglie chitinose dell'ankheg, offre una protezione superiore rispetto alla tradizionale corazza a piastre e non è soggetta alla ruggine. Tuttavia, come ti diranno molti avventurieri, gli aspetti più apprezzati della corazza di ankheg sono la leggerezza e il scarso ingombro. I mostri vanno e vengono ma la stanchezza è il peggiore dei nemici. 
+
+STATISTICHE:
+
+Classe Armatura: 1
+Peso: 25
+Richiede: Forza 8
+Non utilizzabile da: 
+ Bardo
+ Druido:
+ Mago
+ Ladro~
+
+//@17659 - add Required: 14 Strength
+@2323 = ~Lo scudo grande, conosciuto anche come aquilone o scudo torre, è un enorme scudo di metallo o di legno alto circa dai piedi al mento di chi lo usa. Deve essere legato saldamente all'avambraccio e la mano che lo impugna deve tenerlo strettamente per tutto il tempo. Questo ovviamente preclude l'utilizzo di tale mano per qualcosa di diverso dal mantenere lo scudo grande al suo posto. 
+
+STATISTICHE:
+
+Bonus di Classe Armatura: 2
+Speciale: +1 contro armi da lancio
+Peso: 12
+Richiede: Forza 14
+Non utilizzabile da:
+Bardo
+Druido
+Mago
+Ladro~
+
+//@7358 - Required: 13 Strength
+@2324 = ~Scudo grande +1, +4 contro missili: "Scudo delle Stelle Cadenti"
+
+Ilmater in persona applicò un incantesimo a questo scudo quando vide con quale determinazione un giovane scudiero sopportava dolori lancinanti per il bene del suo cavallo. Il giovane fu mandato come rinforzo durante una cruenta battaglia tra una divisione della cavalleria umana e un'orda di hobgoblin. La cascata di frecce che lo attaccò per un attimo offuscò il sole. Sapeva che anche se fosse riuscito a evitare le frecce, ma il suo cavallo fosse morto, per lui sarebbe finita. Con lo scudo e il corpo si preparò ad affrontare l'attacco e venne ferito a morte. Il cavallo rimase illeso, riuscì a scappare e a portarlo nella città più vicina dove venne strappato alla morte.
+
+STATISTICHE:
+
+Classe Armatura: Bonus +2, +5 contro armi da lancio
+Peso: 12
+Richiede: Forza 13
+Non utilizzabile da:
+Bardo
+Druido
+Mago
+Ladro~
+
+//@23963 - Missile Weapons -> Sling, add Required: 3 Strength
+@2325 = ~Fionda +3: 'Dragonbane di Arla'
+ 
+Nessuno meglio degli halfling sa quanto sia utile saper tirare bene una sassata a un nemico più grande. Questa particolare arma apparteneva a una giovane di nome Arla Passosicuro, una delle poche donne che osò abbandonare il focolare e partire in cerca di avventura. La leggenda vuole che la piccola Arla abbia usato questa fionda per colpire in fronte un drago verde sollevatosi in volo. Secondo una versione della storia raccontata in un'altra taverna, invece, Arla riuscì a colpire il drago verde nelle parti basse, sortendo effetti più umoristici che letali. Gli halfling antepongono il divertimento alla precisione quando si tratta della loro storia.
+
+STATISTICHE:
+
+Danno: +3 (danno arma da lancio)
+THACO: Bonus di +3
+Peso: 0
+Fattore-velocità: 3
+Tipo di capacità: Fionda
+Tipo: A una mano
+Richiede: Forza 3
+Non utilizzabile da:~
+
+
+//@22020 - Blunt Weapons -> Quarterstaff, add Type:  2-handed, add Required: 3 Strength
+@2326 = ~I Bastoni da Combattimento sono costruiti dagli Elfi Dorati di Drelagara su Evermeet. Questo tipo di bastone ha una vita propria e sguscia via dalle mani di chi lo impugna per attaccare. Gli artigiani elfi raramente lo vendono ad altre razze, ma queste potenti armi da combattimento ravvicinato si vedono ogni tanto a Faerun. Tuttavia, ogni attacco sferrato con questo bastone consuma una carica, fino a esaurimento.
+
+STATISTICHE:
+
+Danno:  1D6 + 9
+THACO: Bonus di +3
+Tipo di danno: Schiacciamento
+Peso: 4
+Fattore-velocità: 1
+Tipo di capacità: Bastone
+Tipo: A due mani
+Richiede: Forza 3
+Non utilizzabile da:~
+
+//@23977
+@2327 = ~Bastone +3~
+
+//@23978 - Blunt Weapons -> Quarterstaff, add Required: 5 Strength
+@2328 = ~Bastone +3: 'Bastone di Aule'
+
+Quest'arma di fattura pregiata è uno dei tanti oggetti trafugati dalla Torre di Durlag. In combattimento è letale e pare appartenesse a un lanciatore di incantesimi che amava schierarsi sempre in prima linea. Internamente è di ferro, ma pesa più o meno come un'arma normale. La magia risiede nell'impugnatura, ovvero nel pellame che la rinforza e che pare appartenesse a una qualche creatura bellicosa. Conoscendo i gusti e le inclinazioni di coloro che assalirono la torre, è possibile dedurre che il pellame poteva essere di qualunque cosa... o persona.
+
+STATISTICHE:
+
+Danno: 1D6 + 3
+THACO: Bonus di +3
+Tipo di danno: Schiacciamento
+Peso: 3
+Fattore-velocità: 1
+Tipo di capacità: Bastone
+Tipo: A due mani
+Richiede: Forza 5
+Non utilizzabile da:~
+
+//@7347 - Small Sword -> Short Sword, add Required: 4 Strength
+@2329 = ~Spada corta +2: 'La Spada Fischiettante'
+
+Nelle pianure dello Shaar Orientale viveva una piccolo fabbro umano, alto quanto un nano ma dal cuore immenso. Pur essendo molto bravo a costruire le armi, la sua vera dote era quella di fischiettare una canzone talmente commovente da far piangere come un bambino persino un adulto. Tuttavia, l'unico a trascorrere del tempo con il piccolo uomo era un mago eremita, poiché gli altri non facevano altro che prenderlo in giro per la sua bassa statura. Sordi alla canzone del fabbro a causa dei loro pregiudizi, dalla beffa ben presto si passò al vero tormento e alla fine l'allegro uomo decise di lasciare per sempre la sua casa. Prima di partire forgiò quest'arma per regalarla al suo unico amico, il quale, durante la fabbricazione, le applicò un incantesimo. E così, quando la spada veniva sguainata, fischiettava al suo proprietario. Passò poco tempo e anche il mago abbandonò disgustato la piccola città, portando con sé la spada.
+
+STATISTICHE:
+
+Danno: 1D6 + 2
+THACO: Bonus di +2
+Tipo di danno: Perforazione
+Peso: 2
+Fattore-velocità: 1
+Tipo di capacità: Spada corta
+Tipo: A una mano
+Richiede: Forza 4
+Non utilizzabile da:
+Druido
+Chierico
+Mago~
+
+//@18976 - Small Sword -> Short Sword, add Required: 5 Strength
+@2330 = ~La spada corta fu la prima spada prodotta. In parole semplici, la spada corta può essere assimilata a una sorta di pugnale, ma con la lama così lunga da non poter più essere considerata per l'appunto un pugnale. Il termine spada corta non esiste nella classificazione delle spade. Tuttavia, definisce una lama a doppio taglio di circa 60 cm. Solitamente l'estremità è appuntita, l'ideale per trafiggere.  
+
+STATISTICHE:
+
+Danno: 1D6 +1
+THACO: Bonus +1
+Tipo di danno: Perforazione
+Fattore-velocità: 2
+Peso: 3
+Tipo di capacità: Spada corta
+Tipo: A 1 mano
+Richiede: Forza 5
+Non utilizzabile da:
+Druido
+Chierico
+Mago~
+
+//@23970 - Large Sword -> Long Sword, add Required: 5 Strength
+@2331 = ~Spada Lingua di Fuoco: "Terra Rovente"
+
+Un tempo a Neverwinter non faceva ancora caldo e ad Anauroch non tutto era secco ed arido... o almeno così si dice. Le testimonianze sono rare e conosciamo soltanto alcuni oggetti di quell'epoca. A cosa servisse la "Terra Rovente", per esempio, è chiaro: bruciava le vittime con una fiamma magica. Una pietra runica criptica sembra suggerire che il potere sia emanato dalla terra stessa, ma tutto il resto è un mistero. Sembra un'arma normalissima, ma c'è qualcosa di... insolito nell'impugnatura che, oltre a sottoporre l'avambraccio a un considerevole sforzo, non è facile da prendere con la mano. Le prestazioni del guerriero non ne risentono molto, ma questa spada non sembra fatta né per lui, né per gli altri umanoidi.
+
+STATISTICHE:
+
+Danno: 1D8 +1
+THACO: bonus +1
+Speciale:
+   +2 contro le creature che si rigenerano
+   +3 contro le creature che usano il freddo
+   +4 contro i non morti
+Tipo di danno: Taglio
+Peso: 4
+Fattore-velocità: 3
+Tipo di capacità: Spada lunga
+Tipo: A una mano
+Richiede: Forza 5
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago~
+
+
+//@17656
+@2332 = ~Il possessore di questa bacchetta può scagliare un fulmine contro il bersaglio trapassandolo. Il danno subito è di 6d6 punti (i lati con 1 vengono conteggiati 2), dimezzabile con Salva contro bacchette. Dopo aver trapassato il bersaglio, il fulmine prende a "rimbalzare" fino a che non si esaurisce. 
+
+STATISTICHE:
+
+Effetto: Fulmine
+Danno: 6D6 (metà danni se si salva contro bacchette)
+Raggio di azione: 30 m
+Area: Percorso del fulmine
+Non utilizzabile da:
+ Guerriero
+ Chierico
+ Druido
+ Ladro~
+
+//@17658
+@2333 = ~Questa bacchetta emette un sottile fascio verde fino ad una distanza di 18 m. Qualsiasi creatura toccata da questo fascio deve eseguire Salva contro bacchette per non essere trasformata in uno scoiattolo.
+
+STATISTICHE:
+
+Effetto: Trasforma la creatura colpita in scoiattolo a meno che questa non si salvi contro bacchette
+Raggio di azione: 30 m
+Area: 1 creatura
+Durata: Permanente fino alla neutralizzazione
+Non utilizzabile da:
+ Guerriero
+ Chierico
+ Druido
+ Ladro~

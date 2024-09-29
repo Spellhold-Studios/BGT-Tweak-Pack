@@ -1,0 +1,1199 @@
+IF
+  RandomNum(3,1)
+  Global("RandomSet4032320_2","AR3800",0)
+  Global("RandomBeenSet4032320","AR3800",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet4032320_2","AR3800",1)
+    SetGlobal("RandomBeenSet4032320","AR3800",1)
+END
+
+IF
+  RandomNum(3,2)
+  Global("RandomSet4032320_1","AR3800",0)
+  Global("RandomBeenSet4032320","AR3800",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet4032320_1","AR3800",1)
+    SetGlobal("RandomBeenSet4032320","AR3800",1)
+END
+
+IF
+  RandomNum(3,3)
+  Global("RandomSet4032320_0","AR3800",0)
+  Global("RandomBeenSet4032320","AR3800",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet4032320_0","AR3800",1)
+    SetGlobal("RandomBeenSet4032320","AR3800",1)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_2","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_1","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_B",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  Global("SpawnReset4032320","AR3800",0)
+  Global("RandomSet4032320_0","AR3800",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    CreateCreature("KOBOLD_E",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset4032320","AR3800",1)
+  GlobalTimerExpired("49004032320","AR3800")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",0)
+    SetGlobal("RandomBeenSet4032320","AR3800",0)
+    SetGlobal("RandomSet4032320_2","AR3800",0)
+    SetGlobal("RandomSet4032320_1","AR3800",0)
+    SetGlobal("RandomSet4032320_0","AR3800",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset4032320","AR3800",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset4032320","AR3800",1)
+    CreateCreature("KOBOLA_C",[4032.320],0)  // ~Kobold~
+    SetGlobalTimer("49004032320","AR3800",2400)
+END
+

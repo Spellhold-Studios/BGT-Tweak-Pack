@@ -1,0 +1,114 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Installation Prompts
+////////////////////////////////////////////////////////////////////
+
+@-1000 = ~Dieser Mod hat~ 
+@-1001 = ~einzelne optionale Komponenten.
+Um Zeit zu sparen, koennt Ihr waehlen, was Ihr mit denen machen wollt,
+anstatt ueber jede einzelne gefragt zu werden.~
+@-1002 = ~Was soll mit den Komponenten geschehen, die NOCH NICHT installiert sind?
+Installiere sie [I], ueberspringe sie [S], frage jede einzelne ab [A]? ~ 
+@-1003 = ~Was soll mit den Komponenten geschehen, die BEREITS installiert sind?
+Reinstalliere sie [R], deinstalliere sie [U], ueberspringe sie [S], frage jede einzelne ab [A]? ~
+@-1004 = ~BITTE schickt diese Datei per E-Mail~ 
+@-1005 = ~an~
+
+@-1006 = ~Installiere Komponente [~
+@-1007 = ~]
+Reinstallieren [R), nicht aendern [N], deinstallieren [U] oder beenden [Q]? ~ 
+@-1008 = ~]
+Ja [Y], Nein [N] oder Beenden [Q]? ~
+@-1009 = ~Gebt den Teil eines Modulnamens ein: ~ 
+@-1011 = ~] Komponente ~
+@-1013 = ~Entferne zuerst alte Installation von [~
+@-1014 = ~] ...~ 
+@-1015 = ~ERFOLGREICH ALTE ENTFERNT~
+
+@-1016 = ~Installiere~ 
+@-1017 = ~ERROR beim Installieren [~
+@-1018 = ~], stelle den Ursprung wieder her~
+@-1019 = ~ERFOLGREICH INSTALLIERT~
+@-1020 = ~Ueberspringe~ 
+@-1021 = ~Entferne [~
+@-1022 = ~] (Komponente #~ 
+@-1023 = ~)~ 
+@-1024 = ~ERFOLGREICH ENTFERNT [~
+
+////////
+//Errors
+////////
+@1     = ~Baldurs Gate Trilogie-WeiDU konnte nicht gefunden werden.~ 
+@2     = ~Die BG1 NPC Project Komponente "Das BG1 NSC Projekt fuer BGT: Hauptinstallation" ist nicht kompatibel mit dieser Komponente.~
+@3     = ~Die BG1 NPC Project Komponente "Das BG1 NSC Projekt fuer BGT: Teil II (Aufgaben und Interjektionen)" ist nicht kompatibel mit dieser Komponente.~
+@4     = ~Die Ease-of-Use Komponente "Durch Gesinnung/Ruf verursachte Beschwerden der Partymitglieder entfernen" ist nicht kompatibel mit dieser Komponente.~
+@5     = ~Die BG1 NPC Project Komponente "Das BG1 NSC Projekt fuer BGT: Teil I (Banters)" ist nicht kompatibel mit dieser Komponente.~
+@6     = ~Die BG1 Unfinished Business Komponente "Korrekturen von Kreaturen" ist nicht kompatibel mit dieser Komponente.~
+@7     = ~Die BGT Tweak Pack Komponente "Entferne das Zerbrechen von Gegenstaenden" ist nicht kompatibel mit dieser Komponente.~
+@8     = ~Diese Komponente benoetigt "Dark Side of the Sword Coast".~
+@9     = ~Diese Komponente benoetigt "Northern Tales of the Sword Coast".~
+@10    = ~Diese Komponente benoetigt "Baldurs Gate Trilogie-WeiDU" Version 1.07 oder hoeher.~
+@11    = ~Der Mod "BP-BGT Worldmap" ist nicht kompatibel mit dieser Komponente.~
+@12    = ~Der Mod "BGSpawn System" ist nicht kompatibel mit dieser Komponente.~
+
+/////////////////
+//Component names
+/////////////////
+@100   = ~Eldoth erinnert an das Loesegeld von Skie~
+@200   = ~Angelo nimmt Notiz von Shar-Teel~
+@300   = ~Kagains loesbares Karavanenabenteur~
+@400   = ~Fuege Semajs Umhang und Koveras verbesserten Schutzring hinzu~
+@500   = ~Die Hauptgegenden sind beim Betreten bereits erforscht~
+@600   = ~Auf Druiden und Waldlaeufer reagierende Baeren in BG1~
+@700   = ~Happy Patch~
+@701   = ~NSCs koennen nicht waehlen, ob sie die Gruppe verlassen wollen~
+@702   = ~Nur gute und boese NSCs verlassen die Gruppe~
+@800   = ~Importiere mehr Gegenstaende nach Schatten von Amn
+(WARNUNG: Dies kann auch als ein Cheat gewertet werden)~
+@900   = ~Zufaellig aktivierte Fallen in der Piratenhoehle~
+@901   = ~Zufaelligkeit anhand der Installationszeit~
+@902   = ~Zufaelligkeit anhand der Spielzeit~
+@1000  = ~Taschen von der Schwertkueste~
+@1100  = ~Geaenderte Hervorrufungen~
+@1101  = ~TuTu-artige stufenbasierende Hervorrufungen~
+@1102  = ~Deaktiviere BGT-WeiDU Hervorrufungen: Keinerlei Hervorrufungen~
+@1103  = ~EasyTutu-artige Hervorrufungen~
+@1104  = ~Deaktiviere BGT-WeiDU Hervorrufungen: Einmalige Hervorrufungen~
+@1200  = ~Arkion reagiert auf den Ruf des Spielers~
+@1300  = ~Coran reagiert auf den Tod eines Lindwurms~
+@1400  = ~Mehr Raeuberskalpe~
+@1500  = ~Geaendertes Zerbrechen von Gegenstaenden~
+@1501  = ~Entferne das Zerbrechen von Gegenstaenden~
+@1502  = ~Ruestungen und Schilde sollen zerbrechen~
+@1600  = ~Ungeruestete Magier und Diebe sind mt einer Kapuze bekleidet~
+@1700  = ~Salks Pen-and-Paper Regelkorrekturen~
+@1800  = ~Importiere mehr NSCs nach Schatten von Amn: Alora~
+@1801  = ~Importiere mehr NSCs nach Schatten von Amn: Branwen~
+@1802  = ~Importiere mehr NSCs nach Schatten von Amn: Eldoth~
+@1803  = ~Importiere mehr NSCs nach Schatten von Amn: Kagain~
+@1804  = ~Importiere mehr NSCs nach Schatten von Amn: Kivan~
+@1805  = ~Importiere mehr NSCs nach Schatten von Amn: Shar-Teel~
+@1806  = ~Importiere mehr NSCs nach Schatten von Amn: Skie~
+@1807  = ~Importiere mehr NSCs nach Schatten von Amn: Xan~
+@1808  = ~Importiere mehr NSCs nach Schatten von Amn: Yeslick~
+@1809  = ~Importiere mehr NSCs nach Schatten von Amn: Bub Snikt~
+@1810  = ~Importiere mehr NSCs nach Schatten von Amn: Conchobhair Strongblade~
+@1811  = ~Importiere mehr NSCs nach Schatten von Amn: Ferthgil Trollslayer~
+@1812  = ~Importiere mehr NSCs nach Schatten von Amn: Jet'laya~
+@1813  = ~Importiere mehr NSCs nach Schatten von Amn: Keiria Silverstring~
+@1814  = ~Importiere mehr NSCs nach Schatten von Amn: Skeezer Lumpkin VI~
+@1815  = ~Importiere mehr NSCs nach Schatten von Amn: Will Scarlet O'Hara~
+@1900  = ~Stelle BG2 XP Bonus fuer Fallen, Schloesser und Zauber wieder her~
+@2000  = ~Modifikationen der protagonistischen Biographie~
+@2001  = ~Verwende keine BG1 Biographie fuer importierte Charaktere~
+@2002  = ~Verwende BG2 Biographie beim Uebergang zu Schatten von Amn~
+@2100  = ~Exotische Waffen fuer Taerom~
+@2200  = ~Item BG1-ifikation: Preisaenderungen~
+@2201  = ~Item BG1-ifikation: Stapelverkleinerung von 40 auf 20 Stueck~
+@2202  = ~Item BG1-ifikation: Sagenkundeaenderungen~
+@2203  = ~Item BG1-ifikation: Zaubergradaenderungen bei Schriftrollen~
+@2204  = ~Item BG1-ifikation: Verhaltensaenderungen bei Gegenstaenden~
+@2300  = ~Keine feindlichen Reaktionen nach Betoeren~
+@2400  = ~Gegnerische Gegenstaende koennen zerbrechen~
+@2500  = ~Zugang nach Ulgoths Bart nur westlich der Bruecke von Baldurs Tor~
+@2600  = ~Verhindere den Zugang zu Durlags Turm ueber benachberte Gebiete~
+@2700  = ~Lege das "Schwert des Chaos +2" in Sarevoks Inventar~

@@ -1,0 +1,1790 @@
+IF
+  RandomNum(2,1)
+  Global("RandomSet9221513_1","AR6900",0)
+  Global("RandomBeenSet9221513","AR6900",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet9221513_1","AR6900",1)
+    SetGlobal("RandomBeenSet9221513","AR6900",1)
+END
+
+IF
+  RandomNum(2,2)
+  Global("RandomSet9221513_0","AR6900",0)
+  Global("RandomBeenSet9221513","AR6900",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RandomSet9221513_0","AR6900",1)
+    SetGlobal("RandomBeenSet9221513","AR6900",1)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(23)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(11)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(7)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(5)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(4)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(3)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_1","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    CreateCreature("XVART",[922.1513],0)  // ~Xvart~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(11)
+  LevelPartyLT(13)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(12)
+  LevelPartyLT(14)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(13)
+  LevelPartyLT(15)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(14)
+  LevelPartyLT(16)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(15)
+  LevelPartyLT(17)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(16)
+  LevelPartyLT(18)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(17)
+  LevelPartyLT(19)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(18)
+  LevelPartyLT(20)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(19)
+  LevelPartyLT(21)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(20)
+  LevelPartyLT(22)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(21)
+  LevelPartyLT(23)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(22)
+  LevelPartyLT(24)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(1)
+  LevelPartyGT(23)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(7)
+  LevelPartyLT(9)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(8)
+  LevelPartyLT(10)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(9)
+  LevelPartyLT(11)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(10)
+  LevelPartyLT(12)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(2)
+  LevelPartyGT(11)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(5)
+  LevelPartyLT(7)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(6)
+  LevelPartyLT(8)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(3)
+  LevelPartyGT(7)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(4)
+  LevelPartyLT(6)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(4)
+  LevelPartyGT(5)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(3)
+  LevelPartyLT(5)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(5)
+  LevelPartyGT(4)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(0)
+  LevelPartyLT(2)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(1)
+  LevelPartyLT(3)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(2)
+  LevelPartyLT(4)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  Range([PC],35)
+  NumInPartyAlive(6)
+  LevelPartyGT(3)
+  Global("SpawnReset9221513","AR6900",0)
+  Global("RandomSet9221513_0","AR6900",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+
+IF
+  !Range([PC],35)
+  Global("SpawnReset9221513","AR6900",1)
+  GlobalTimerExpired("28009221513","AR6900")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",0)
+    SetGlobal("RandomBeenSet9221513","AR6900",0)
+    SetGlobal("RandomSet9221513_1","AR6900",0)
+    SetGlobal("RandomSet9221513_0","AR6900",0)
+END
+
+IF
+  Range([PC],35)
+  Global("SpawnReset9221513","AR6900",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnReset9221513","AR6900",1)
+    CreateCreature("GIBBER2",[922.1513],0)  // ~Diseased Gibberling~
+    SetGlobalTimer("28009221513","AR6900",2400)
+END
+

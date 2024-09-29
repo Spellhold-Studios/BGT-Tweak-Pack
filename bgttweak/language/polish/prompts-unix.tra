@@ -1,0 +1,147 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Installation Prompts
+////////////////////////////////////////////////////////////////////
+
+@-1000= "Modyfikacja %TP2_FILE_NAME% posiada"
+@-1001= "kilka opcjonalnych komponentow.
+By oszczedzic czas mozesz wybrac co zrobic ze wszystkimi zamiast byc pytanym o kazdy z osobna.
+"
+@-1002= "Co zrobic z wszystkimi komponentami, ktore NIE SA jeszcze zainstalowane?
+[I]nstall them, [S]kip them, [A]sk about each one? "
+@-1003= "Co zrobic z komponentami, ktore JUZ SA zainstalowane?
+[R]e-install them, [U]ninstall them, [S]kip them, [A]sk about each one? "
+
+//modified
+@-1004= "Prosze WYSLIJ plik "
+@-1005= "do"
+
+@-1006= "Instalacja komponentu ["
+@-1007= "]?
+[R]e-Instaluj, [N]ie Zmieniaj or [U]sun lub [Q] - wyjdz? "
+@-1008= "]?
+[I]nstaluj, lub [N]ie Instaluj lub [Q] - wyjdz? "
+
+@-1009= "Wprowadz czesc nazwy modulu: "
+
+@-1010= "Re-Instalacja ["
+@-1011= "] komponentu "
+@-1012= "Re-Instalacja uzywajac jezyka "
+
+@-1013= "Usuwanie starej instalacji ["
+@-1014= "] najpierw ..."
+@-1015= "USUNIECIE STAREJ WERSJI ZAKONCZONE SUKCESEM"
+
+@-1016= "Instalacja"
+@-1017= "BLAD Instalacji ["
+@-1018= "], przywracanie do poprzedniego stanu"
+@-1019= "SUKCES INSTALACJI     "
+@-1020= "Pomijanie"
+@-1021= "Usuwanie ["
+@-1022= "] (komponent #"
+@-1023= ")"
+@-1024= "SUKCES USUNIECIA ["
+
+@-1025= "]?
+[R]e-instaluj, [N]ie Zmieniaj, [U]sun, [Q]- wyjdz lub wybierz:"
+@-1026= "]?
+[N]ie, [Q] - wyjdz lub wybierz:"
+@-1027= " (aktualnie zainstalowane)"
+
+@-1028= "Czy chcesz wyswietlic komponenty ["
+@-1029= "]?
+[Y] - tak, [N]ie? "
+
+@-1030= "]?
+wybierz jedno:"
+@-1031= "]?
+[R]e-instaluj, [N]ie Zmieniaj, [Q] - wyjdz lub wybierz:"
+@-1032= "NIE ZAINSTALOWANO ZE WZGLEDU NA BLEDY"
+@-1033= "ZAINSTALOWANO Z OSTRZEZENIAMI    "
+@-1034= "Czy wyswietlic plik readme? [Y]es [N]o"
+@-1035= "Uzycie jezyka"
+  
+@-1036= "Pominiecie GRUPY ["
+@-1037= "] poniewaz nie spelniono wymagan."
+  
+@-1038= "[A] - pytaj o kazdy komponent, [S] - pomin wszystkie lub wybierz z predefiniowanych:"
+@-1039= "[A] - pytaj o kazdy komponent, [R]einstaluj obecna konfiguracje, [U]sun wszystko, [S] - pomin wszystko lub wybierz z predefiniowanych:"
+
+////////
+//Errors
+////////
+@1 = ~Nie można odnaleźć Baldur's Gate Trilogy-WeiDU.~
+@2 = ~Komponent moda BG1 NPC Project "The BG1 NPC Project for BGT: Core Install" stwarza problemy z wybranym komponentem.~
+@3 = ~Komponent moda BG1 NPC Project "The BG1 NPC Project for BGT-Weidu: Phase II (Quests and Interjections)" stwarza problemy z wybranym komponentem.~
+@4 = ~Komponent Ease-of-Use "Szczęście: Postacie nie będą walczyć ze sobą i nie opuszczą grupy" stwarza problemy z wybranym komponentem.~
+@5 = ~Komponent moda BG1 NPC Project "The BG1 NPC Project for BGT-Weidu: Phase I (Banters)" stwarza problemy z wybranym komponentem.~
+@6 = ~Komponent BG1 Unfinished Business "Poprawki stworzeń" stwarza problemy z wybranym komponentem.~
+@7 = ~Komponent modyfikacji BGTTweak o nazwie 'Usunięcie niszczenia przedmiotów' powoduje problemy z wybranym komponentem.~
+@8 = ~Ten komponent wymaga Dark Side of the Sword Coast.~
+@9 = ~Ten komponent wymaga Northern Tales of the Sword Coast.~
+@10 = ~Ten komponent wymaga Baldur's Gate Trilogy - WeiDU w wersji 1.07 lub wyższej.~
+@11 = ~Modyfikacja BP-BGT Worldmap stwarza problemy z wybranym komponentem.~
+@12 = ~Modyfikacja BGSPawn powoduje konflikt z tym komponentem.~
+
+/////////////////
+//Component names
+/////////////////
+@100 = ~Eldoth przypomina Skie o okupie~
+@200 = ~Angelo rozpoznaje Shar-teel~
+@300 = ~Zakończenie questu Kagaina z karawaną~
+@400 = ~Silniejszy Sarevok i Semaj~
+@500 = ~Odkrycie ważniejszych lokacji podczas wizyty~
+@600 = ~Druid/Łowca-przyjazne niedźwiedzie w BG1~
+@700 = ~Szczęśliwy patch~
+@701 = ~NPC nie mogą wybrać opuszczenia drużyny~
+@702 = ~Jedynie Dobrzy oraz Źli NPC mogą opuścić drużynę~
+@800 = ~Importowanie większej ilości przedmiotów do SoA
+(UWAGA: Może być postrzegany jako cheat)~
+@900 = ~Losowo aktywowane pułapki w jaskini piratów~
+@901 = ~Randomizacja czasu instalacji~
+@902 = ~Randomizacja czasu gry~
+@1000 = ~Pojemniki Wybrzeża Mieczy~
+@1100 = ~Zmienione spawny potworów~
+@1101 = ~Poziomowe spawny jak w TuTu~
+@1102 = ~Wyłączenie losowych potworów BGT-WeiDU: Losowe potwory nigdy się nie pojawiają~
+//@1103 = ~Losowe potwory w stylu EasyTutu~
+@1104 = ~Wyłączenie losowych potworów BGT-WeiDU: Losowe potwory pojawiają się tylko raz~
+@1200 = ~Arkion zwraca uwagę na reputację gracza~
+@1300 = ~Coran reaguje na śmierć wywerny~
+@1400 = ~Więcej skalpów bandytów~
+@1500 = ~Wyłączenie niszczenia się przedmiotów~
+@1501 = ~Usunięcie niszczenia się przedmiotów~
+@1502 = ~Zbroje i tarcze mogą się niszczyc~
+@1600 = ~Zakapturzeni nieopancerzeni magowie~
+@1700 = ~Poprawki zasad gry przez Salka~
+@1800 = ~Importowanie większej ilości NPC do Cieni Amn: Alora~
+@1801 = ~Importowanie większej ilości NPC do Cieni Amn: Branwen~
+@1802 = ~Importowanie większej ilości NPC do Cieni Amn: Eldoth~
+@1803 = ~Importowanie większej ilości NPC do Cieni Amn: Kagain~
+@1804 = ~Importowanie większej ilości NPC do Cieni Amn: Kivan~
+@1805 = ~Importowanie większej ilości NPC do Cieni Amn: Sharteel~
+@1806 = ~Importowanie większej ilości NPC do Cieni Amn: Skie~
+@1807 = ~Importowanie większej ilości NPC do Cieni Amn: Xan~
+@1808 = ~Importowanie większej ilości NPC do Cieni Amn: Yeslick~
+@1809 = ~Importowanie większej ilości NPC do Cieni Amn: Bub Snikt~
+@1810 = ~Importowanie większej ilości NPC do Cieni Amn: Conchobhair Strongblade~
+@1811 = ~Importowanie większej ilości NPC do Cieni Amn: Ferthgil Trollslayer~
+@1812 = ~Importowanie większej ilości NPC do Cieni Amn: Jet'laya~
+@1813 = ~Importowanie większej ilości NPC do Cieni Amn: Keiria Silverstring~
+@1814 = ~Importowanie większej ilości NPC do Cieni Amn: Skeezer Lumpkin VI~
+@1815 = ~Importowanie większej ilości NPC do Cieni Amn: Will Scarlet O'Hara~
+@1900 = ~Przywrócenie premi doświadczenia za rozbrajanie pułapek, otwieranie zamów i naukę czarów z BG2~
+@2000 = ~Modyfikacje biografii postaci głównej~
+@2001 = ~Nie ustawiaj biografii BG1 dla importowanych postaci~
+@2002 = ~Ustaw biografię BG2 podczas przejścia do Cieni Amn~
+@2100 = ~Egzotyczne bronie dla Taeroma~
+@2200 = ~Zmiana przedmiotów na styl BG1: Zmiana Cen~
+@2201 = ~Zmiana przedmiotów na styl BG1: Zredukowane stosy pocisków z 40 do 20~
+@2202 = ~Zmiana przedmiotów na styl BG1: Zmiany WIEDZY~
+@2203 = ~Zmiana przedmiotów na styl BG1: Zmiany poziomów zwojów czarów~
+@2204 = ~Zmiana przedmiotów na styl BG1: Zmiany w zachowaniu przedmiotów~
+@2300 = ~Wyłącz nieprzyjazne reakcje po zauroczeniu~
+@2400 = ~Przedmioty wrogów mogą ulec zniszczeniu~
+@2500 = ~Dostęp do Brody Ulgotha jedynie na zachód od Żmijowego skrzyżowania.~
+@2600 = ~Uniemożliwienie dostępu do Wieży Durlaga z pobliskich obszarów~
+@2700 = ~Umieść Miecz Chaosu+2 w ekwipunku Sarevoka~
+@2800 = ~Reputacja ulega zresetowaniu na poczatku BG2~

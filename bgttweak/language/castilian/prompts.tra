@@ -2,36 +2,35 @@
 //WeiDU Installation Prompts
 ////////////////////////////////////////////////////////////////////
 
-@-1000 = "Este mod tiene"
+@-1000 = "Este mod contiene"
 @-1001 = "distintos componentes opcionales.
-Para salvar tiempo, puedes elegir que hacer con ellos desde un primer momento en vez de preguntarte por cada uno."
-@-1002 = "¨Que debo hacer con todos los componentes que NO ESTEN TODAVIA instalados?
-¨[I]nstalarlos, [S]altartelos, [A] preguntar por cada uno? "
-@-1003 = "¨Que debo hacer con todos los componentes que YA ESTAN instalados?
-¨[R]einstalarlos, [U]ninstalarlos, [S]altartelos, [A] preguntar por cada uno? "
-@-1004 = "POR FAVOR manda un mensaje del archivo"
-@-1005 = "a"
-
+Para ahorrar tiempo, puedes decidir que hacer con ellos desde un primer momento
+en vez de tener que elegirlos por separado."
+@-1002 = "Que se debe hacer con todos los componentes que NO ESTAN todavia instalados?
+[I]nstalar, [S]Omitir, [A]Preguntar por cada uno? "
+@-1003 = "Que se debe hacer con todos los componentes que YA ESTAN instalados?
+[U]Desinstalar, [S]Omitir o [A]Preguntar por cada uno? (No elijas [R]einstalar) "
+@-1004 = "Por favor, escribe los contenidos del archivo"
+@-1005 = "en"
 @-1006 = "Instalar componente ["
 @-1007 = "]
-[R]einstalar, [N]o cambiar o [U]desinstalar o [Q]uitar? "
+[N]o cambiar, [U]Desinstalar o [Q]Salir? (No elijas [R]einstalar) "
 @-1008 = "]
-[Y]es o [N]o o [Q]uitar? "
+[Y]Si, [N]o o [Q]Salir? "
 @-1009 = "Insertar parte del nombre del modulo: "
 @-1011 = "] componente "
-@-1013 = "Eliminando vieja instalacion de ["
-@-1014 = "] primero ..."
-@-1015 = "VIEJA INSTALACIoN ELIMINADA SATISFACTORIAMENTE"
-
+@-1013 = "Eliminando anterior instalacion de ["
+@-1014 = "] primero..."
+@-1015 = "ANTERIOR INSTALACION ELIMINADA CON EXITO"
 @-1016 = "Instalando"
 @-1017 = "ERROR al instalar ["
 @-1018 = "], volviendo al estado anterior"
 @-1019 = "INSTALADO SATISFACTORIAMENTE"
-@-1020 = "Saltando"
-@-1021 = "Eliminando ["
+@-1020 = "Omitiendo"
+@-1021 = "Borrando ["
 @-1022 = "] (componente #"
 @-1023 = ")"
-@-1024 = "ELIMINADO SATISFACTORIAMENTE ["
+@-1024 = "ELIMINADO CON EXITO ["
 
 ////////
 //Errors
@@ -70,7 +69,7 @@ Para salvar tiempo, puedes elegir que hacer con ellos desde un primer momento en
 @1100 = ~Reapariciones alteradas~
 @1101 = ~Reapariciones al estilo Tutu~
 @1102 = ~Desactivar engendros de BGT-WeiDU: los engendros nunca aparecen~
-@1103 = ~Engendros al estilo EasyTutu~
+//@1103 = ~Engendros al estilo EasyTutu~
 @1104 = ~Desactivar engendros de BGT-WeiDU: los engendros aparecen una sola vez~
 @1200 = ~Arkion reacciona a la reputacion del jugador~
 @1300 = ~Coran responde a la muerte de un draco~
@@ -78,7 +77,7 @@ Para salvar tiempo, puedes elegir que hacer con ellos desde un primer momento en
 @1500 = ~Rompimiento de objetos alterado~
 @1501 = ~No utilizar rompimiento de objetos~
 @1502 = ~Hacer que las armaduras y escudos se rompan~
-@1600 = ~Encapuchados desarmados para magos y ladrones~
+@1600 = ~Magos encapuchados desarmados~
 @1700 = ~Correciones de Salk de las reglas de Lapiz y papel~
 @1800 = ~Importar mas NPCs a Shadows of Amn: Alora~
 @1801 = ~Importar mas NPCs a Shadows of Amn: Branwen~
@@ -97,17 +96,18 @@ Para salvar tiempo, puedes elegir que hacer con ellos desde un primer momento en
 @1814 = ~Importar mas NPCs a Shadows of Amn: Skeezer Lumpkin VI~
 @1815 = ~Importar mas NPCs a Shadows of Amn: Will Scarlet O'Hara~
 @1900 = ~Restaurando bonificacion BG2 XP para trampas, cerraduras y pergaminos~
-@2000 = ~Protagonist's biography modifications~
-@2001 = ~Do not set BG1 biography for imported characters~
-@2002 = ~Set BG2 biography upon Shadows of Amn transition~
-@2100 = ~Exotic Weapons For Taerom~
+@2000 = ~Modificaciones de la biografía del protagonista~
+@2001 = ~No colocar biografía para los personajes importados de BG1~
+@2002 = ~Colocar la biografía de BG2 en la transición a Shadows of Amn~
+@2100 = ~Armas exoticas para Taerom~
 @2200 = ~Objetos estilo BG1: Cambio de precios~
 @2201 = ~Objetos estilo BG1: Apilacion reducida de 40 a 20~
 @2202 = ~Objetos estilo BG1: Cambios de lore~
 @2203 = ~Objetos estilo BG1: Cambios del nivel de lanzamiento de hechizos~
 @2204 = ~Objetos estilo BG1: Cambios en el comportamiento de los objetos~
-@2300 = ~Disable hostile reaction after charm~
+@2300 = ~Desactivar reaccion hostil luego de hechizar~
 @2400 = ~Fragmentacion de objetos de los enemigos~
 @2500 = ~Acceder a la Barba de Ulgoth solo por el oeste del Cruce del Wyrm~
 @2600 = ~Evitar el acceso a la torre de Durlag desde áreas adyacentes~
 @2700 = ~Colocar la espada del caos +2 en el inventario de Sarevok~
+@2800 = ~La reputacion se resetea al comienzo de BG2~

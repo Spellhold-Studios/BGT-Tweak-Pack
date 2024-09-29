@@ -71,7 +71,7 @@ than being asked about each one."
 @1100 = ~Altered spawns~
 @1101 = ~TuTu-style levelled spawns~
 @1102 = ~Deactivate BGT-WeiDU spawns: spawns never appear~
-@1103 = ~EasyTutu-style spawns~
+//@1103 = ~EasyTutu-style spawns~
 @1104 = ~Deactivate BGT-WeiDU spawns: spawns appear once~
 @1200 = ~Arkion reacts to player's reputation~
 @1300 = ~Coran responds to the death of a wyvern~
@@ -79,7 +79,7 @@ than being asked about each one."
 @1500 = ~Altered item shattering~
 @1501 = ~Remove item shattering~
 @1502 = ~Make armor and shields shatter~
-@1600 = ~Hooded unarmoured mages and thieves~
+@1600 = ~Hooded unarmoured mages~
 @1700 = ~Salk's Pen-and-Paper ruleset corrections~
 @1800 = ~Import more NPCs into Shadow of Amn: Alora~
 @1801 = ~Import more NPCs into Shadow of Amn: Branwen~
@@ -112,3 +112,4 @@ than being asked about each one."
 @2500 = ~Access Ulgoth's Beard west of Wyrm's Crossing only~
 @2600 = ~Prevent access to Durlag's Tower from adjacent areas~
 @2700 = ~Put Sword of Chaos +2 in Sarevok's inventory~
+@2800 = ~Reputation Resets at Beginning of BG2~

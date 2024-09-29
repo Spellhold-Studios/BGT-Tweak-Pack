@@ -2,13 +2,13 @@
 // BGT-WeiDU Tweak pack installation tp2 file
 ////////////////////////////////////////////////////////////
 
-BACKUP ~BGTTweak/Backup~
+BACKUP ~bgttweak/backup~
 
 AUTHOR ~http://forums.spellholdstudios.net/index.php?showforum=261~
 
-VERSION ~9 (31 Dec 09)~
+VERSION ~10 (8 Jan 12)~
 
-README ~BGTTweak/Language/%LANGUAGE%/Readme.htm~
+README ~bgttweak/language/%LANGUAGE%/readme.htm~
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 //Macros for enemy items shatter component
@@ -232,152 +232,152 @@ END
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 LANGUAGE ~English~
-         ~English~
-         ~BGTTweak/Language/English/prompts.tra~
-         ~BGTTweak/Language/English/setup.tra~
+         ~english~
+         ~bgttweak/language/english/prompts.tra~
+         ~bgttweak/language/english/setup.tra~
 LANGUAGE ~Castellano (Castilian/Spanish)~
-         ~Castilian~
-         ~BGTTweak/Language/Castilian/prompts.tra~
-         ~BGTTweak/Language/Castilian/setup.tra~
+         ~castilian~
+         ~bgttweak/language/castilian/prompts.tra~
+         ~bgttweak/language/castilian/setup.tra~
 LANGUAGE ~Francais (French)~
-         ~French~
-         ~BGTTweak/Language/French/prompts.tra~
-         ~BGTTweak/Language/French/setup.tra~
+         ~french~
+         ~bgttweak/language/french/prompts.tra~
+         ~bgttweak/language/french/setup.tra~
 LANGUAGE ~Deutsch (German)~
-         ~German~
-         ~BGTTweak/Language/German/prompts.tra~
-         ~BGTTweak/Language/German/setup.tra~
+         ~german~
+         ~bgttweak/language/german/prompts.tra~
+         ~bgttweak/language/german/setup.tra~
 LANGUAGE ~Italiano (Italian)~
-         ~Italian~
-         ~BGTTweak/Language/Italian/prompts.tra~
-         ~BGTTweak/Language/Italian/setup.tra~
+         ~italian~
+         ~bgttweak/language/italian/prompts.tra~
+         ~bgttweak/language/italian/setup.tra~
 LANGUAGE ~«—±πæÓ (Korean)~
-         ~Korean~
-         ~BGTTweak/Language/Korean/prompts.tra~
-         ~BGTTweak/Language/Korean/setup.tra~
+         ~korean~
+         ~bgttweak/language/korean/prompts-%WEIDU_OS%.tra~
+         ~bgttweak/language/korean/setup.tra~
 LANGUAGE ~Polski (Polish)~
-         ~Polish~
-         ~BGTTweak/Language/Polish/prompts.tra~
-         ~BGTTweak/Language/Polish/setup.tra~
+         ~polish~
+         ~bgttweak/language/polish/prompts-%WEIDU_OS%.tra~
+         ~bgttweak/language/polish/setup.tra~
 LANGUAGE ~ê„··™®© (Russian)~
-         ~Russian~
-         ~BGTTweak/Language/Russian/prompts.tra~
-         ~BGTTweak/Language/Russian/setup.tra~
+         ~russian~
+         ~bgttweak/language/russian/prompts-%WEIDU_OS%.tra~
+         ~bgttweak/language/russian/setup.tra~
 LANGUAGE ~ºÚÃÂ÷–Œƒ (Simplified Chinese)~
-         ~SChinese~
-         ~BGTTweak/Language/SChinese/prompts.tra~
-         ~BGTTweak/Language/SChinese/setup.tra~
+         ~schinese~
+         ~bgttweak/language/schinese/prompts-%WEIDU_OS%.tra~
+         ~bgttweak/language/schinese/setup.tra~
 LANGUAGE %¡c≈È§§§Â (Traditional Chinese)%
-         ~TChinese~
-         ~BGTTweak/Language/TChinese/prompts.tra~
-         ~BGTTweak/Language/TChinese/setup.tra~
+         ~tchinese~
+         ~bgttweak/language/tchinese/prompts-%WEIDU_OS%.tra~
+         ~bgttweak/language/tchinese/setup.tra~
 
 //#1 Eldoth reminds of Skie's ransom/////////////////////////
 BEGIN @100
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 100
 
-EXTEND_BOTTOM ~ELDOTH.BCS~ ~BGTTweak/1/aELDOTH.BAF~
-COMPILE ~BGTTweak/1/aELDOTJ.D~
+EXTEND_BOTTOM ~eldoth.bcs~ ~bgttweak/1/aeldoth.baf~
+COMPILE ~bgttweak/1/aeldotj.d~
 /////////////////////////////////////////////////////////////
 
 
 
 //#2 Angelo notices Shar-teel////////////////////////////////
 BEGIN @200
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 200
 DEPRECATED ~This component has been moved to the BG1 Unfinished Business modification.~
 FORBID_FILE ~override/X#BG1NPCPhase2.G3~ @3
 
-COMPILE ~BGTTweak/2/rANGELO.D~
-EXTEND_BOTTOM ~AR7607.BCS~ ~BGTTweak/2/xAR7607.BAF~
+COMPILE ~bgttweak/2/rangelo.d~
+EXTEND_BOTTOM ~ar7607.bcs~ ~bgttweak/2/xar7607.baf~
 /////////////////////////////////////////////////////////////
 
 
 
 //#3 Finishable Kagain caravan quest/////////////////////////
 BEGIN @300
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 300
 DEPRECATED ~This component has been moved to the BG1 Unfinished Business modification.~
 FORBID_FILE ~override/X#BG1NPCCore.G3~ @2
 
-COPY_EXISTING ~AR6900.BCS~ ~override~
+COPY_EXISTING ~ar6900.bcs~ ~override/ar6900.bcs~
   DECOMPILE_BCS_TO_BAF
   REPLACE_TEXTUALLY ~GlobalLT~ ~Global~
   REPLACE_TEXTUALLY ~SetGlobal("KagainCaravan","GLOBAL",2)~ ~SetGlobal("KagainLostChildQuest","GLOBAL",2)~
   COMPILE_BAF_TO_BCS
-EXTEND_BOTTOM ~AR6900.BCS~ ~BGTTweak/3/aAR6900.BAF~
-COPY_EXISTING ~KAGAIN.BCS~ ~override~
-  REPLACE_BCS_BLOCK ~BGTTweak/3/xKAGAIN.BAF~ ~BGTTweak/3/rKAGAIN.BAF~
+EXTEND_BOTTOM ~ar6900.bcs~ ~bgttweak/3/aar6900.baf~
+COPY_EXISTING ~kagain.bcs~ ~override/kagain.bcs~
+  REPLACE_BCS_BLOCK ~bgttweak/3/xkagain.baf~ ~bgttweak/3/rkagain.baf~
 
-COMPILE ~BGTTweak/3/rKAGAIJ.D~
-COPY ~BGTTweak/3/DLOSTKAG.CRE~ ~override~
+COMPILE ~bgttweak/3/rkagaij.d~
+COPY ~bgttweak/3/dlostkag.cre~ ~override/dlostkag.cre~
 /////////////////////////////////////////////////////////////
 
 
 
 //#4 Add Semaj's Cloak and Upgraded Koveras' Ring of Protection//
 BEGIN @400
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 400
 
-COPY ~BGTTweak/4/CLCK33.ITM~ ~override~
+COPY ~bgttweak/4/clck33.itm~ ~override/clck33.itm~
   SAY NAME1 @401
   SAY NAME2 @402
   SAY UNIDENTIFIED_DESC @403
   SAY IDENTIFIED_DESC @404
 
-COPY ~BGTTweak/4/RING25B.ITM~ ~override~
+COPY ~bgttweak/4/ring25b.itm~ ~override/ring25b.itm~
   SAY IDENTIFIED_DESC @405
 
-COPY_EXISTING ~SEMAJ.CRE~ ~override~
+COPY_EXISTING ~semaj.cre~ ~override/semaj.cre~
   ADD_CRE_ITEM ~CLCK33~ #0 #0 #0 ~NONE~ ~CLOAK~
 
-COPY_EXISTING ~AR0602.BCS~ ~override~
-  REPLACE_BCS_BLOCK ~BGTTweak/4/rAR0602.BAF~ ~BGTTweak/4/xAR0602.BAF~
+COPY_EXISTING ~ar0602.bcs~ ~override/ar0602.bcs~
+  REPLACE_BCS_BLOCK ~bgttweak/4/rar0602.baf~ ~bgttweak/4/xar0602.baf~
   DECOMPILE_BCS_TO_BAF
   REPLACE_TEXTUALLY ~"RING25"~ ~"RING25B"~
   COMPILE_BAF_TO_BCS
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
-  REPLACE_BCS_BLOCK ~BGTTweak/4/rARAM00.BAF~ ~BGTTweak/4/xARAM00.BAF~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
+  REPLACE_BCS_BLOCK ~bgttweak/4/raram00.baf~ ~bgttweak/4/xaram00.baf~
 /////////////////////////////////////////////////////////////
 
 
 
 //#5 Major locations explored upon visit/////////////////////
 BEGIN @500
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 500
 
-EXTEND_TOP ~AR0015.BCS~ ~BGTTweak/5/aEXPLORE.BAF~
-EXTEND_TOP ~AR3700.BCS~ ~BGTTweak/5/aEXPLORE.BAF~
-EXTEND_TOP ~AR6526.BCS~ ~BGTTweak/5/aEXPLORE.BAF~
-EXTEND_TOP ~AR6700.BCS~ ~BGTTweak/5/aEXPLORE.BAF~
-EXTEND_TOP ~AR7200.BCS~ ~BGTTweak/5/aEXPLORE.BAF~
-EXTEND_TOP ~AR7300.BCS~ ~BGTTweak/5/aEXPLORE.BAF~
-EXTEND_TOP ~AR7400.BCS~ ~BGTTweak/5/aEXPLORE.BAF~
-EXTEND_TOP ~AR7600.BCS~ ~BGTTweak/5/aEXPLORE.BAF~
-EXTEND_TOP ~AR7700.BCS~ ~BGTTweak/5/aEXPLORE.BAF~
-EXTEND_TOP ~AR7800.BCS~ ~BGTTweak/5/aEXPLORE.BAF~
-EXTEND_TOP ~AR8000.BCS~ ~BGTTweak/5/aEXPLORE.BAF~
-EXTEND_TOP ~AR8100.BCS~ ~BGTTweak/5/aEXPLORE.BAF~
-EXTEND_TOP ~AR8200.BCS~ ~BGTTweak/5/aEXPLORE.BAF~
-EXTEND_TOP ~ARU000.BCS~ ~BGTTweak/5/aEXPLORE.BAF~
+EXTEND_TOP ~ar0015.bcs~ ~bgttweak/5/aexplore.baf~
+EXTEND_TOP ~ar3700.bcs~ ~bgttweak/5/aexplore.baf~
+EXTEND_TOP ~ar6526.bcs~ ~bgttweak/5/aexplore.baf~
+EXTEND_TOP ~ar6700.bcs~ ~bgttweak/5/aexplore.baf~
+EXTEND_TOP ~ar7200.bcs~ ~bgttweak/5/aexplore.baf~
+EXTEND_TOP ~ar7300.bcs~ ~bgttweak/5/aexplore.baf~
+EXTEND_TOP ~ar7400.bcs~ ~bgttweak/5/aexplore.baf~
+EXTEND_TOP ~ar7600.bcs~ ~bgttweak/5/aexplore.baf~
+EXTEND_TOP ~ar7700.bcs~ ~bgttweak/5/aexplore.baf~
+EXTEND_TOP ~ar7800.bcs~ ~bgttweak/5/aexplore.baf~
+EXTEND_TOP ~ar8000.bcs~ ~bgttweak/5/aexplore.baf~
+EXTEND_TOP ~ar8100.bcs~ ~bgttweak/5/aexplore.baf~
+EXTEND_TOP ~ar8200.bcs~ ~bgttweak/5/aexplore.baf~
+EXTEND_TOP ~aru000.bcs~ ~bgttweak/5/aexplore.baf~
 /////////////////////////////////////////////////////////////
 
 
 
 //#6 Druid-responsive bears in BG1///////////////////////////
 BEGIN @600
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 600
 FORBID_FILE ~override/BG1UBCreCorrect.UB~ @6
 
-COPY_EXISTING ~BEAR.BCS~  ~override~
-  REPLACE_BCS_BLOCK ~BGTTweak/6/rBEAR.BAF~ ~BGTTweak/6/xBEAR.BAF~
+COPY_EXISTING ~bear.bcs~  ~override/bear.bcs~
+  REPLACE_BCS_BLOCK ~bgttweak/6/rbear.baf~ ~bgttweak/6/xbear.baf~
 /////////////////////////////////////////////////////////////
 
 
@@ -385,11 +385,11 @@ COPY_EXISTING ~BEAR.BCS~  ~override~
 //#7 Happy patch ////////////////////////////////////////////
 //NPCs cannot choose to leave the party
 BEGIN @701 SUBCOMPONENT @700
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 701
 FORBID_COMPONENT ~Setup-Ease.tp2~ 25 @4
 
-COPY_EXISTING ~HAPPY.2DA~ ~override~
+COPY_EXISTING ~happy.2da~ ~override/happy.2da~
   COUNT_2DA_ROWS 4 happy_rows
   FOR(i=0;i<"%happy_rows%";i+=1) BEGIN
     SET happy_col = 1
@@ -405,34 +405,34 @@ BUT_ONLY_IF_IT_CHANGES
 //////////////////////////////////////////////////////////////
 //Only good and evil NPCs leave the party
 BEGIN @702 SUBCOMPONENT @700
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 702
 FORBID_COMPONENT ~Setup-Ease.tp2~ 25 @4
 
-COMPILE ~BGTTweak/7/Happy.D~
+COMPILE ~bgttweak/7/happy.d~
 //////////////////////////////////////////////////////////////
 
 
 
 //#8 Import more items into Shadows of Amn////////////////////
 BEGIN @800
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 800
 
 //Backwards compatibility with versions 1.05a or older
-ACTION_IF FILE_EXISTS_IN_GAME ~RINGA0.ITM~ BEGIN
+ACTION_IF FILE_EXISTS_IN_GAME ~ringa0.itm~ BEGIN
   OUTER_SPRINT ~RingOfWizardry~ ~RINGA0~
 END
 ELSE BEGIN
   OUTER_SPRINT ~RingOfWizardry~ ~BGRING08~
 END
 
-COPY_EXISTING ~AR0602.BCS~ ~override~
-  REPLACE_BCS_BLOCK ~BGTTweak/8/rAR0602.BAF~ ~BGTTweak/8/xAR0602.BAF~
+COPY_EXISTING ~ar0602.bcs~ ~override/ar0602.bcs~
+  REPLACE_BCS_BLOCK ~bgttweak/8/rar0602.baf~ ~bgttweak/8/xar0602.baf~
   EVALUATE_BUFFER
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
-  REPLACE_BCS_BLOCK ~BGTTweak/8/rARAM00.BAF~ ~BGTTweak/8/xARAM00.BAF~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
+  REPLACE_BCS_BLOCK ~bgttweak/8/raram00.baf~ ~bgttweak/8/xaram00.baf~
   EVALUATE_BUFFER
 //////////////////////////////////////////////////////////////
 
@@ -440,12 +440,12 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 
 //#9 Random activated traps in the pirate cave////////////////
 BEGIN @901 SUBCOMPONENT @900
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 901
 
 RANDOM_SEED reset //seeds to the current time
 
-COPY_EXISTING ~AR9501.ARE~ ~override~
+COPY_EXISTING ~ar9501.are~ ~override/ar9501.are~
   SPRINT Random1 "GTAR"
   SPRINT Random2 "GTAR2"
   SPRINT Random3 "GTAR3"
@@ -505,12 +505,12 @@ COPY_EXISTING ~AR9501.ARE~ ~override~
   END
 //////////////////////////////////////////////////////////////
 BEGIN @902 SUBCOMPONENT @900
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 902
 
-COMPILE ~BGTTweak/9/GTAR9501.BAF~
+COMPILE ~bgttweak/9/gtar9501.baf~
 
-COPY_EXISTING ~AR9501.ARE~ ~override~
+COPY_EXISTING ~ar9501.are~ ~override/ar9501.are~
   READ_LONG 0x5c info_off
   READ_SHORT 0x5a info_num
   FOR (i=0;i<"%info_num%";i+=1) BEGIN
@@ -534,24 +534,24 @@ COPY_EXISTING ~AR9501.ARE~ ~override~
 
 //#10 Bags of the Sword Coast/////////////////////////////////
 BEGIN @1000
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1000
 
-COPY ~BGTTweak/10~ ~override~
+COPY ~bgttweak/10~ ~override~
 
-COPY_EXISTING ~FRIEND.STO~ ~override~
+COPY_EXISTING ~friend.sto~ ~override/friend.sto~
   ADD_STORE_ITEM ~BGBAG01~ #0 #0 #0 ~IDENTIFIED~ #1 //Gem Bag
 
-COPY_EXISTING ~HIGHHEDG.STO~ ~override~
+COPY_EXISTING ~highhedg.sto~ ~override/highhedg.sto~
   ADD_STORE_ITEM ~BGBAG02~ #0 #0 #0 ~IDENTIFIED~ #1 //Scroll Case
 
-COPY_EXISTING ~MULAHE.CRE~ ~override~
+COPY_EXISTING ~mulahe.cre~ ~override/mulahe.cre~
   ADD_CRE_ITEM ~BGBAG03~ #0 #0 #0 ~IDENTIFIED~ ~INV16~ //Bag of Holding
 
-COPY_EXISTING ~ERDANE.STO~ ~override~
+COPY_EXISTING ~erdane.sto~ ~override/erdane.sto~
   ADD_STORE_ITEM ~BGBAG04~ #0 #0 #0 ~IDENTIFIED~ #1 //Ammo Belt
 
-COPY_EXISTING ~AR9902.ARE~ ~override~
+COPY_EXISTING ~ar9902.are~ ~override/ar9902.are~
   READ_LONG 0x70 container_off
   READ_SHORT 0x74 container_num
   READ_LONG 0x78 item_off
@@ -606,11 +606,11 @@ COPY_EXISTING ~AR9902.ARE~ ~override~
 
 //#11 Levelled spawns/////////////////////////////////////////
 BEGIN @1101 SUBCOMPONENT @1100
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 FORBID_COMPONENT ~Setup-BGSpawn.tp2~ ~0~ @12
 DESIGNATED 1101
 
-COPY ~BGTTweak/11/info~ ~BGTTweak/11/info~
+COPY ~bgttweak/11/info~ ~bgttweak/11/info~
   SPRINT source "%SOURCE_RES%"
   SET info_vertex_num_new_total = 0
 
@@ -624,7 +624,7 @@ COPY ~BGTTweak/11/info~ ~BGTTweak/11/info~
 
       //add to the corresponding ARE file with the same ResRef
       INNER_ACTION BEGIN
-        COPY_EXISTING ~%source%.ARE~ ~override/%source%.ARE~
+        COPY_EXISTING ~%source%.are~ ~override/%source%.are~
           READ_LONG 0x54 actor_off
           READ_LONG 0x5c info_off
           READ_LONG 0x60 spawn_off
@@ -674,7 +674,7 @@ COPY ~BGTTweak/11/info~ ~BGTTweak/11/info~
           FOR (j=0;j<"%info_vertex_num_new%";j+=1) BEGIN
             
             INNER_ACTION BEGIN
-              COPY ~BGTTweak/11/vertex/%source%.vtx~ ~BGTTweak/11/vertex/%source%.vtx~
+              COPY ~bgttweak/11/vertex/%source%.vtx~ ~bgttweak/11/vertex/%source%.vtx~
                 READ_LONG (("%j%" + "%info_vertex_num_new_total%" - "%info_vertex_num_new%")*0x4) vertex_data_new
               BUT_ONLY_IF_IT_CHANGES
             END          
@@ -724,59 +724,59 @@ BUT_ONLY_IF_IT_CHANGES
 COMPILE ~BGTTweak/11/scripts~
 //////////////////////////////////////////////////////////////
 BEGIN @1102 SUBCOMPONENT @1100
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 FORBID_COMPONENT ~Setup-BGSpawn.tp2~ ~0~ @12
 DESIGNATED 1102
 
-COPY_EXISTING ~AR3100.ARE~ ~override~
-              ~AR3200.ARE~ ~override~
-              ~AR3300.ARE~ ~override~
-              ~AR3400.ARE~ ~override~
-              ~AR3401.ARE~ ~override~
-              ~AR3498.ARE~ ~override~
-              ~AR3499.ARE~ ~override~
-              ~AR3800.ARE~ ~override~
-              ~AR3900.ARE~ ~override~
-              ~AR4100.ARE~ ~override~
-              ~AR4200.ARE~ ~override~
-              ~AR4300.ARE~ ~override~
-              ~AR4400.ARE~ ~override~
-              ~AR4600.ARE~ ~override~
-              ~AR6519.ARE~ ~override~
-              ~AR6600.ARE~ ~override~
-              ~AR6900.ARE~ ~override~
-              ~AR7000.ARE~ ~override~
-              ~AR7100.ARE~ ~override~
-              ~AR7223.ARE~ ~override~
-              ~AR7324.ARE~ ~override~
-              ~AR7325.ARE~ ~override~
-              ~AR7326.ARE~ ~override~
-              ~AR8300.ARE~ ~override~
-              ~AR8400.ARE~ ~override~
-              ~AR8500.ARE~ ~override~
-              ~AR8600.ARE~ ~override~
-              ~AR8602.ARE~ ~override~
-              ~AR8700.ARE~ ~override~
-              ~AR8800.ARE~ ~override~
-              ~AR8900.ARE~ ~override~
-              ~AR9000.ARE~ ~override~
-              ~AR9100.ARE~ ~override~
-              ~AR9200.ARE~ ~override~
-              ~AR9300.ARE~ ~override~
-              ~AR9400.ARE~ ~override~
-              ~AR9500.ARE~ ~override~
-              ~AR9600.ARE~ ~override~
-              ~AR9700.ARE~ ~override~
-              ~AR9798.ARE~ ~override~
-              ~AR9799.ARE~ ~override~
-              ~AR9900.ARE~ ~override~
-              ~ARA100.ARE~ ~override~
-              ~ARD000.ARE~ ~override~
-              ~ARD011.ARE~ ~override~
-              ~ARD014.ARE~ ~override~
-              ~ARW000.ARE~ ~override~
-              ~ARW012.ARE~ ~override~
-              ~ARW500.ARE~ ~override~
+COPY_EXISTING ~ar3100.are~ ~override/ar3100.are~
+              ~ar3200.are~ ~override/ar3200.are~
+              ~ar3300.are~ ~override/ar3300.are~
+              ~ar3400.are~ ~override/ar3400.are~
+              ~ar3401.are~ ~override/ar3401.are~
+              ~ar3498.are~ ~override/ar3498.are~
+              ~ar3499.are~ ~override/ar3499.are~
+              ~ar3800.are~ ~override/ar3800.are~
+              ~ar3900.are~ ~override/ar3900.are~
+              ~ar4100.are~ ~override/ar4100.are~
+              ~ar4200.are~ ~override/ar4200.are~
+              ~ar4300.are~ ~override/ar4300.are~
+              ~ar4400.are~ ~override/ar4400.are~
+              ~ar4600.are~ ~override/ar4600.are~
+              ~ar6519.are~ ~override/ar6519.are~
+              ~ar6600.are~ ~override/ar6600.are~
+              ~ar6900.are~ ~override/ar6900.are~
+              ~ar7000.are~ ~override/ar7000.are~
+              ~ar7100.are~ ~override/ar7100.are~
+              ~ar7223.are~ ~override/ar7223.are~
+              ~ar7324.are~ ~override/ar7324.are~
+              ~ar7325.are~ ~override/ar7325.are~
+              ~ar7326.are~ ~override/ar7326.are~
+              ~ar8300.are~ ~override/ar8300.are~
+              ~ar8400.are~ ~override/ar8400.are~
+              ~ar8500.are~ ~override/ar8500.are~
+              ~ar8600.are~ ~override/ar8600.are~
+              ~ar8602.are~ ~override/ar8602.are~
+              ~ar8700.are~ ~override/ar8700.are~
+              ~ar8800.are~ ~override/ar8800.are~
+              ~ar8900.are~ ~override/ar8900.are~
+              ~ar9000.are~ ~override/ar9000.are~
+              ~ar9100.are~ ~override/ar9100.are~
+              ~ar9200.are~ ~override/ar9200.are~
+              ~ar9300.are~ ~override/ar9300.are~
+              ~ar9400.are~ ~override/ar9400.are~
+              ~ar9500.are~ ~override/ar9500.are~
+              ~ar9600.are~ ~override/ar9600.are~
+              ~ar9700.are~ ~override/ar9700.are~
+              ~ar9798.are~ ~override/ar9798.are~
+              ~ar9799.are~ ~override/ar9799.are~
+              ~ar9900.are~ ~override/ar9900.are~
+              ~ara100.are~ ~override/ara100.are~
+              ~ard000.are~ ~override/ard000.are~
+              ~ard011.are~ ~override/ard011.are~
+              ~ard014.are~ ~override/ard014.are~
+              ~arw000.are~ ~override/arw000.are~
+              ~arw012.are~ ~override/arw012.are~
+              ~arw500.are~ ~override/arw500.are~
   READ_LONG 0x60 spawn_off
   READ_SHORT 0x64 spawn_num
 
@@ -787,248 +787,62 @@ COPY_EXISTING ~AR3100.ARE~ ~override~
   END
 BUT_ONLY_IF_IT_CHANGES
 
-EXTEND_BOTTOM ~AR7100.BCS~ ~BGTTweak/11/NoSpawn/xAR7100.BAF~
-//////////////////////////////////////////////////////////////
-/*BEGIN @1103 SUBCOMPONENT @1100
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
-FORBID_COMPONENT ~Setup-BGSpawn.tp2~ ~0~ @12
-DESIGNATED 1103
-
-//deactivate BGT spawn points
-COPY_EXISTING ~AR3100.ARE~ ~override~
-              ~AR3200.ARE~ ~override~
-              ~AR3300.ARE~ ~override~
-              ~AR3400.ARE~ ~override~
-              ~AR3401.ARE~ ~override~
-              ~AR3498.ARE~ ~override~
-              ~AR3499.ARE~ ~override~
-              ~AR3800.ARE~ ~override~
-              ~AR3900.ARE~ ~override~
-              ~AR4100.ARE~ ~override~
-              ~AR4200.ARE~ ~override~
-              ~AR4300.ARE~ ~override~
-              ~AR4400.ARE~ ~override~
-              ~AR4600.ARE~ ~override~
-              ~AR6519.ARE~ ~override~
-              ~AR6600.ARE~ ~override~
-              ~AR6900.ARE~ ~override~
-              ~AR7000.ARE~ ~override~
-              ~AR7100.ARE~ ~override~
-              ~AR7223.ARE~ ~override~
-              ~AR7324.ARE~ ~override~
-              ~AR7325.ARE~ ~override~
-              ~AR7326.ARE~ ~override~
-              ~AR8300.ARE~ ~override~
-              ~AR8400.ARE~ ~override~
-              ~AR8500.ARE~ ~override~
-              ~AR8600.ARE~ ~override~
-              ~AR8602.ARE~ ~override~
-              ~AR8700.ARE~ ~override~
-              ~AR8800.ARE~ ~override~
-              ~AR8900.ARE~ ~override~
-              ~AR9000.ARE~ ~override~
-              ~AR9100.ARE~ ~override~
-              ~AR9200.ARE~ ~override~
-              ~AR9300.ARE~ ~override~
-              ~AR9400.ARE~ ~override~
-              ~AR9500.ARE~ ~override~
-              ~AR9600.ARE~ ~override~
-              ~AR9700.ARE~ ~override~
-              ~AR9798.ARE~ ~override~
-              ~AR9799.ARE~ ~override~
-              ~AR9900.ARE~ ~override~
-              ~ARA100.ARE~ ~override~
-              ~ARD000.ARE~ ~override~
-              ~ARD011.ARE~ ~override~
-              ~ARD014.ARE~ ~override~
-              ~ARW000.ARE~ ~override~
-              ~ARW012.ARE~ ~override~
-              ~ARW500.ARE~ ~override~
-  READ_LONG 0x60 spawn_off
-  READ_SHORT 0x64 spawn_num
-
-  FOR (n=0;n<"%spawn_num%";n+=1) BEGIN
-    //deactivate spawn point using its flag
-    WRITE_SHORT ("%spawn_off%" + "%n%"*0xc8 + 0x86) 0
-  END
-BUT_ONLY_IF_IT_CHANGES
-
-//delete all actors from random encounter areas
-COPY_EXISTING ~AR4700.ARE~ ~override/AR4700.ARE~
-              ~AR4701.ARE~ ~override/AR4701.ARE~
-              ~AR4800.ARE~ ~override/AR4800.ARE~
-              ~AR4801.ARE~ ~override/AR4801.ARE~
-              ~AR4900.ARE~ ~override/AR4900.ARE~
-              ~AR4901.ARE~ ~override/AR4901.ARE~
-              ~AR5100.ARE~ ~override/AR5100.ARE~
-              ~AR5101.ARE~ ~override/AR5101.ARE~
-              ~AR5300.ARE~ ~override/AR5300.ARE~
-              ~AR5301.ARE~ ~override/AR5301.ARE~
-              ~AR5400.ARE~ ~override/AR5400.ARE~
-  READ_LONG 0x54 actor_off
-  READ_LONG 0x5c info_off
-  READ_LONG 0x60 spawn_off
-  READ_LONG 0x68 entrance_off
-  READ_LONG 0x70 container_off
-  READ_LONG 0x78 item_off
-  READ_LONG 0x7c vertex_off
-  READ_LONG 0x84 ambient_off
-  READ_LONG 0x88 variable_off
-  READ_LONG 0xa8 door_off
-  READ_LONG 0xa0 explored_off
-  READ_LONG 0xb0 anim_off
-  READ_LONG 0xb8 tiled_off
-  READ_LONG 0xbc song_off
-  READ_LONG 0xc0 rest_off
-  READ_LONG 0xc4 automap_off
-
-  READ_SHORT 0x58 actor_num
-  WRITE_SHORT 0x58 0
-
-  //delete all actors
-  DELETE_BYTES ("%actor_off%") (0x110 * "%actor_num%")
-
-  //update offsets
-  SPRINT are_update_offset_datatype "actor"
-  SET are_update_offset_increment = 0 - 272
-  PATCH_PRINT "%are_update_offset_increment%"
-  FOR (i = 0; i < "%actor_num%"; i += 1) BEGIN
-   LAUNCH_PATCH_MACRO are_update_offset
-  END
-BUT_ONLY_IF_IT_CHANGES
-
-//if script file does not already exist, compile an empty version
-COPY ~BGTTweak/11/EasyTutu/BAFextend~ ~BGTTweak/11/EasyTutu/BAFextend~
-  INNER_ACTION BEGIN
-    ACTION_IF NOT FILE_EXISTS_IN_GAME ~%SOURCE_RES%.BCS~ THEN BEGIN
-      <<<<<<<< %SOURCE_RES%.BAF
->>>>>>>>
-      COMPILE ~%SOURCE_RES%.BAF~
-    END
-  END
-BUT_ONLY_IF_IT_CHANGES
-
-//add spawning script to areas
-EXTEND_BOTTOM ~AR3100.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR3100.baf~
-EXTEND_BOTTOM ~AR3200.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR3200.baf~
-EXTEND_BOTTOM ~AR3300.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR3300.baf~
-EXTEND_BOTTOM ~AR3400.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR3400.baf~
-EXTEND_BOTTOM ~AR3401.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR3401.baf~
-EXTEND_BOTTOM ~AR3498.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR3498.baf~
-EXTEND_BOTTOM ~AR3499.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR3499.baf~
-EXTEND_BOTTOM ~AR3900.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR3900.baf~
-EXTEND_BOTTOM ~AR4100.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR4100.baf~
-EXTEND_BOTTOM ~AR4200.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR4200.baf~
-EXTEND_BOTTOM ~AR4300.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR4300.baf~
-EXTEND_BOTTOM ~AR4400.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR4400.baf~
-EXTEND_BOTTOM ~AR4600.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR4600.baf~
-EXTEND_BOTTOM ~AR4700.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR4700.baf~
-EXTEND_BOTTOM ~AR4701.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR4701.baf~
-EXTEND_BOTTOM ~AR4800.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR4800.baf~
-EXTEND_BOTTOM ~AR4801.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR4801.baf~
-EXTEND_BOTTOM ~AR4900.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR4900.baf~
-EXTEND_BOTTOM ~AR4901.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR4901.baf~
-EXTEND_BOTTOM ~AR5100.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR5100.baf~
-EXTEND_BOTTOM ~AR5101.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR5101.baf~
-EXTEND_BOTTOM ~AR5300.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR5300.baf~
-EXTEND_BOTTOM ~AR5301.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR5301.baf~
-EXTEND_BOTTOM ~AR5400.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR5400.baf~
-EXTEND_BOTTOM ~AR6519.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR6519.baf~
-EXTEND_BOTTOM ~AR6600.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR6600.baf~
-EXTEND_BOTTOM ~AR6900.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR6900.baf~
-EXTEND_BOTTOM ~AR7000.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR7000.baf~
-EXTEND_BOTTOM ~AR7100.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR7100.baf~
-EXTEND_BOTTOM ~AR7223.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR7223.baf~
-EXTEND_BOTTOM ~AR7324.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR7324.baf~
-EXTEND_BOTTOM ~AR7325.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR7325.baf~
-EXTEND_BOTTOM ~AR7326.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR7326.baf~
-EXTEND_BOTTOM ~AR8300.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR8300.baf~
-EXTEND_BOTTOM ~AR8400.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR8400.baf~
-EXTEND_BOTTOM ~AR8500.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR8500.baf~
-EXTEND_BOTTOM ~AR8600.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR8600.baf~
-EXTEND_BOTTOM ~AR8602.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR8602.baf~
-EXTEND_BOTTOM ~AR8700.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR8700.baf~
-EXTEND_BOTTOM ~AR8800.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR8800.baf~
-EXTEND_BOTTOM ~AR8900.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR8900.baf~
-EXTEND_BOTTOM ~AR9000.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR9000.baf~
-EXTEND_BOTTOM ~AR9100.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR9100.baf~
-EXTEND_BOTTOM ~AR9200.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR9200.baf~
-EXTEND_BOTTOM ~AR9300.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR9300.baf~
-EXTEND_BOTTOM ~AR9400.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR9400.baf~
-EXTEND_BOTTOM ~AR9500.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR9500.baf~
-EXTEND_BOTTOM ~AR9600.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR9600.baf~
-EXTEND_BOTTOM ~AR9700.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR9700.baf~
-EXTEND_BOTTOM ~AR9798.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR9798.baf~
-EXTEND_BOTTOM ~AR9799.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR9799.baf~
-EXTEND_BOTTOM ~AR9900.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/AR9900.baf~
-EXTEND_BOTTOM ~ARA100.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/ARA100.baf~
-EXTEND_BOTTOM ~ARD000.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/ARD000.baf~
-EXTEND_BOTTOM ~ARD011.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/ARD011.baf~
-EXTEND_BOTTOM ~ARD014.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/ARD014.baf~
-EXTEND_BOTTOM ~ARW000.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/ARW000.baf~
-EXTEND_BOTTOM ~ARW012.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/ARW012.baf~
-EXTEND_BOTTOM ~ARW500.BCS~ ~BGTTweak/11/EasyTutu/BAFextend/ARW500.baf~
-
-//install creatures that control spawning
-COPY ~BGTTweak/11/EasyTutu/CRE~ ~override~
-
-//install scripts for creatures
-COMPILE ~BGTTweak/11/EasyTutu/BAF~*/
+EXTEND_BOTTOM ~ar7100.bcs~ ~bgttweak/11/nospawn/xar7100.baf~
 //////////////////////////////////////////////////////////////
 BEGIN @1104 SUBCOMPONENT @1100
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 FORBID_COMPONENT ~Setup-BGSpawn.tp2~ ~0~ @12
 DESIGNATED 1104
 
-COPY_EXISTING ~AR3100.ARE~ ~override~
-              ~AR3200.ARE~ ~override~
-              ~AR3300.ARE~ ~override~
-              ~AR3400.ARE~ ~override~
-              ~AR3401.ARE~ ~override~
-              ~AR3498.ARE~ ~override~
-              ~AR3499.ARE~ ~override~
-              ~AR3800.ARE~ ~override~
-              ~AR3900.ARE~ ~override~
-              ~AR4100.ARE~ ~override~
-              ~AR4200.ARE~ ~override~
-              ~AR4300.ARE~ ~override~
-              ~AR4400.ARE~ ~override~
-              ~AR4600.ARE~ ~override~
-              ~AR6519.ARE~ ~override~
-              ~AR6600.ARE~ ~override~
-              ~AR6900.ARE~ ~override~
-              ~AR7000.ARE~ ~override~
-              ~AR7100.ARE~ ~override~
-              ~AR7223.ARE~ ~override~
-              ~AR7324.ARE~ ~override~
-              ~AR7325.ARE~ ~override~
-              ~AR7326.ARE~ ~override~
-              ~AR8300.ARE~ ~override~
-              ~AR8400.ARE~ ~override~
-              ~AR8500.ARE~ ~override~
-              ~AR8600.ARE~ ~override~
-              ~AR8602.ARE~ ~override~
-              ~AR8700.ARE~ ~override~
-              ~AR8800.ARE~ ~override~
-              ~AR8900.ARE~ ~override~
-              ~AR9000.ARE~ ~override~
-              ~AR9100.ARE~ ~override~
-              ~AR9200.ARE~ ~override~
-              ~AR9300.ARE~ ~override~
-              ~AR9400.ARE~ ~override~
-              ~AR9500.ARE~ ~override~
-              ~AR9600.ARE~ ~override~
-              ~AR9700.ARE~ ~override~
-              ~AR9798.ARE~ ~override~
-              ~AR9799.ARE~ ~override~
-              ~AR9900.ARE~ ~override~
-              ~ARA100.ARE~ ~override~
-              ~ARD000.ARE~ ~override~
-              ~ARD011.ARE~ ~override~
-              ~ARD014.ARE~ ~override~
-              ~ARW000.ARE~ ~override~
-              ~ARW012.ARE~ ~override~
-              ~ARW500.ARE~ ~override~
+COPY_EXISTING ~ar3100.are~ ~override/ar3100.are~
+              ~ar3200.are~ ~override/ar3200.are~
+              ~ar3300.are~ ~override/ar3300.are~
+              ~ar3400.are~ ~override/ar3400.are~
+              ~ar3401.are~ ~override/ar3401.are~
+              ~ar3498.are~ ~override/ar3498.are~
+              ~ar3499.are~ ~override/ar3499.are~
+              ~ar3800.are~ ~override/ar3800.are~
+              ~ar3900.are~ ~override/ar3900.are~
+              ~ar4100.are~ ~override/ar4100.are~
+              ~ar4200.are~ ~override/ar4200.are~
+              ~ar4300.are~ ~override/ar4300.are~
+              ~ar4400.are~ ~override/ar4400.are~
+              ~ar4600.are~ ~override/ar4600.are~
+              ~ar6519.are~ ~override/ar6519.are~
+              ~ar6600.are~ ~override/ar6600.are~
+              ~ar6900.are~ ~override/ar6900.are~
+              ~ar7000.are~ ~override/ar7000.are~
+              ~ar7100.are~ ~override/ar7100.are~
+              ~ar7223.are~ ~override/ar7223.are~
+              ~ar7324.are~ ~override/ar7324.are~
+              ~ar7325.are~ ~override/ar7325.are~
+              ~ar7326.are~ ~override/ar7326.are~
+              ~ar8300.are~ ~override/ar8300.are~
+              ~ar8400.are~ ~override/ar8400.are~
+              ~ar8500.are~ ~override/ar8500.are~
+              ~ar8600.are~ ~override/ar8600.are~
+              ~ar8602.are~ ~override/ar8602.are~
+              ~ar8700.are~ ~override/ar8700.are~
+              ~ar8800.are~ ~override/ar8800.are~
+              ~ar8900.are~ ~override/ar8900.are~
+              ~ar9000.are~ ~override/ar9000.are~
+              ~ar9100.are~ ~override/ar9100.are~
+              ~ar9200.are~ ~override/ar9200.are~
+              ~ar9300.are~ ~override/ar9300.are~
+              ~ar9400.are~ ~override/ar9400.are~
+              ~ar9500.are~ ~override/ar9500.are~
+              ~ar9600.are~ ~override/ar9600.are~
+              ~ar9700.are~ ~override/ar9700.are~
+              ~ar9798.are~ ~override/ar9798.are~
+              ~ar9799.are~ ~override/ar9799.are~
+              ~ar9900.are~ ~override/ar9900.are~
+              ~ara100.are~ ~override/ara100.are~
+              ~ard000.are~ ~override/ard000.are~
+              ~ard011.are~ ~override/ard011.are~
+              ~ard014.are~ ~override/ard014.are~
+              ~arw000.are~ ~override/arw000.are~
+              ~arw012.are~ ~override/arw012.are~
+              ~arw500.are~ ~override/arw500.are~
   READ_LONG 0x60 spawn_off
   READ_SHORT 0x64 spawn_num
 
@@ -1039,451 +853,405 @@ COPY_EXISTING ~AR3100.ARE~ ~override~
   END
 BUT_ONLY_IF_IT_CHANGES
 
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR3100.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR3100.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR3100.BCS~ ~BGTTweak/11/SpawnOnce/AR3100.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR3200.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR3200.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR3200.BCS~ ~BGTTweak/11/SpawnOnce/AR3200.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR3300.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR3300.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR3300.BCS~ ~BGTTweak/11/SpawnOnce/AR3300.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR3400.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR3400.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR3400.BCS~ ~BGTTweak/11/SpawnOnce/AR3400.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR3401.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR3401.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR3401.BCS~ ~BGTTweak/11/SpawnOnce/AR3401.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR3498.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR3498.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR3498.BCS~ ~BGTTweak/11/SpawnOnce/AR3498.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR3499.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR3499.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR3499.BCS~ ~BGTTweak/11/SpawnOnce/AR3499.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR3800.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR3800.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR3800.BCS~ ~BGTTweak/11/SpawnOnce/AR3800.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR3900.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR3900.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR3900.BCS~ ~BGTTweak/11/SpawnOnce/AR3900.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR4100.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR4100.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR4100.BCS~ ~BGTTweak/11/SpawnOnce/AR4100.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR4200.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR4200.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR4200.BCS~ ~BGTTweak/11/SpawnOnce/AR4200.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR4300.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR4300.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR4300.BCS~ ~BGTTweak/11/SpawnOnce/AR4300.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR4400.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR4400.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR4400.BCS~ ~BGTTweak/11/SpawnOnce/AR4400.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR4600.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR4600.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR4600.BCS~ ~BGTTweak/11/SpawnOnce/AR4600.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR6519.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR6519.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR6519.BCS~ ~BGTTweak/11/SpawnOnce/AR6519.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR6600.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR6600.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR6600.BCS~ ~BGTTweak/11/SpawnOnce/AR6600.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR6900.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR6900.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR6900.BCS~ ~BGTTweak/11/SpawnOnce/AR6900.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR7000.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR7000.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR7000.BCS~ ~BGTTweak/11/SpawnOnce/AR7000.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR7100.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR7100.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR7100.BCS~ ~BGTTweak/11/SpawnOnce/AR7100.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR7223.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR7223.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR7223.BCS~ ~BGTTweak/11/SpawnOnce/AR7223.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR7324.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR7324.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR7324.BCS~ ~BGTTweak/11/SpawnOnce/AR7324.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR7325.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR7325.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR7325.BCS~ ~BGTTweak/11/SpawnOnce/AR7325.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR7326.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR7326.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR7326.BCS~ ~BGTTweak/11/SpawnOnce/AR7326.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR8300.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR8300.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR8300.BCS~ ~BGTTweak/11/SpawnOnce/AR8300.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR8400.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR8400.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR8400.BCS~ ~BGTTweak/11/SpawnOnce/AR8400.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR8500.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR8500.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR8500.BCS~ ~BGTTweak/11/SpawnOnce/AR8500.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR8600.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR8600.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR8600.BCS~ ~BGTTweak/11/SpawnOnce/AR8600.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR8602.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR8602.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR8602.BCS~ ~BGTTweak/11/SpawnOnce/AR8602.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR8700.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR8700.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR8700.BCS~ ~BGTTweak/11/SpawnOnce/AR8700.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR8800.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR8800.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR8800.BCS~ ~BGTTweak/11/SpawnOnce/AR8800.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR8900.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR8900.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR8900.BCS~ ~BGTTweak/11/SpawnOnce/AR8900.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR9000.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR9000.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR9000.BCS~ ~BGTTweak/11/SpawnOnce/AR9000.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR9100.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR9100.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR9100.BCS~ ~BGTTweak/11/SpawnOnce/AR9100.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR9200.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR9200.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR9200.BCS~ ~BGTTweak/11/SpawnOnce/AR9200.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR9300.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR9300.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR9300.BCS~ ~BGTTweak/11/SpawnOnce/AR9300.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR9400.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR9400.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR9400.BCS~ ~BGTTweak/11/SpawnOnce/AR9400.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR9500.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR9500.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR9500.BCS~ ~BGTTweak/11/SpawnOnce/AR9500.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR9600.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR9600.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR9600.BCS~ ~BGTTweak/11/SpawnOnce/AR9600.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR9700.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR9700.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR9700.BCS~ ~BGTTweak/11/SpawnOnce/AR9700.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR9798.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR9798.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR9798.BCS~ ~BGTTweak/11/SpawnOnce/AR9798.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR9799.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR9799.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR9799.BCS~ ~BGTTweak/11/SpawnOnce/AR9799.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~AR9900.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/AR9900.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~AR9900.BCS~ ~BGTTweak/11/SpawnOnce/AR9900.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~ARA100.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/ARA100.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~ARA100.BCS~ ~BGTTweak/11/SpawnOnce/ARA100.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~ARD000.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/ARD000.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~ARD000.BCS~ ~BGTTweak/11/SpawnOnce/ARD000.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~ARD011.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/ARD011.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~ARD011.BCS~ ~BGTTweak/11/SpawnOnce/ARD011.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~ARD014.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/ARD014.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~ARD014.BCS~ ~BGTTweak/11/SpawnOnce/ARD014.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~ARW000.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/ARW000.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~ARW000.BCS~ ~BGTTweak/11/SpawnOnce/ARW000.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~ARW012.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/ARW012.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~ARW012.BCS~ ~BGTTweak/11/SpawnOnce/ARW012.BAF~ END
-ACTION_IF !(FILE_EXISTS_IN_GAME ~ARW500.BCS~) THEN BEGIN COMPILE ~BGTTweak/11/SpawnOnce/ARW500.BAF~ END ELSE BEGIN EXTEND_BOTTOM ~ARW500.BCS~ ~BGTTweak/11/SpawnOnce/ARW500.BAF~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar3100.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar3100.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar3100.bcs~ ~bgttweak/11/spawnonce/ar3100.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar3200.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar3200.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar3200.bcs~ ~bgttweak/11/spawnonce/ar3200.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar3300.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar3300.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar3300.bcs~ ~bgttweak/11/spawnonce/ar3300.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar3400.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar3400.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar3400.bcs~ ~bgttweak/11/spawnonce/ar3400.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar3401.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar3401.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar3401.bcs~ ~bgttweak/11/spawnonce/ar3401.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar3498.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar3498.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar3498.bcs~ ~bgttweak/11/spawnonce/ar3498.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar3499.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar3499.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar3499.bcs~ ~bgttweak/11/spawnonce/ar3499.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar3800.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar3800.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar3800.bcs~ ~bgttweak/11/spawnonce/ar3800.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar3900.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar3900.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar3900.bcs~ ~bgttweak/11/spawnonce/ar3900.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar4100.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar4100.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar4100.bcs~ ~bgttweak/11/spawnonce/ar4100.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar4200.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar4200.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar4200.bcs~ ~bgttweak/11/spawnonce/ar4200.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar4300.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar4300.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar4300.bcs~ ~bgttweak/11/spawnonce/ar4300.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar4400.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar4400.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar4400.bcs~ ~bgttweak/11/spawnonce/ar4400.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar4600.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar4600.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar4600.bcs~ ~bgttweak/11/spawnonce/ar4600.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar6519.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar6519.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar6519.bcs~ ~bgttweak/11/spawnonce/ar6519.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar6600.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar6600.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar6600.bcs~ ~bgttweak/11/spawnonce/ar6600.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar6900.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar6900.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar6900.bcs~ ~bgttweak/11/spawnonce/ar6900.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar7000.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar7000.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar7000.bcs~ ~bgttweak/11/spawnonce/ar7000.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar7100.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar7100.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar7100.bcs~ ~bgttweak/11/spawnonce/ar7100.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar7223.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar7223.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar7223.bcs~ ~bgttweak/11/spawnonce/ar7223.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar7324.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar7324.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar7324.bcs~ ~bgttweak/11/spawnonce/ar7324.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar7325.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar7325.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar7325.bcs~ ~bgttweak/11/spawnonce/ar7325.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar7326.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar7326.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar7326.bcs~ ~bgttweak/11/spawnonce/ar7326.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar8300.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar8300.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar8300.bcs~ ~bgttweak/11/spawnonce/ar8300.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar8400.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar8400.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar8400.bcs~ ~bgttweak/11/spawnonce/ar8400.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar8500.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar8500.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar8500.bcs~ ~bgttweak/11/spawnonce/ar8500.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar8600.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar8600.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar8600.bcs~ ~bgttweak/11/spawnonce/ar8600.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar8602.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar8602.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar8602.bcs~ ~bgttweak/11/spawnonce/ar8602.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar8700.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar8700.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar8700.bcs~ ~bgttweak/11/spawnonce/ar8700.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar8800.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar8800.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar8800.bcs~ ~bgttweak/11/spawnonce/ar8800.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar8900.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar8900.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar8900.bcs~ ~bgttweak/11/spawnonce/ar8900.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar9000.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar9000.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar9000.bcs~ ~bgttweak/11/spawnonce/ar9000.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar9100.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar9100.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar9100.bcs~ ~bgttweak/11/spawnonce/ar9100.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar9200.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar9200.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar9200.bcs~ ~bgttweak/11/spawnonce/ar9200.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar9300.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar9300.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar9300.bcs~ ~bgttweak/11/spawnonce/ar9300.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar9400.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar9400.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar9400.bcs~ ~bgttweak/11/spawnonce/ar9400.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar9500.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar9500.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar9500.bcs~ ~bgttweak/11/spawnonce/ar9500.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar9600.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar9600.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar9600.bcs~ ~bgttweak/11/spawnonce/ar9600.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar9700.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar9700.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar9700.bcs~ ~bgttweak/11/spawnonce/ar9700.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar9798.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar9798.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar9798.bcs~ ~bgttweak/11/spawnonce/ar9798.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar9799.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar9799.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar9799.bcs~ ~bgttweak/11/spawnonce/ar9799.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ar9900.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ar9900.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ar9900.bcs~ ~bgttweak/11/spawnonce/ar9900.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ara100.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ara100.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ara100.bcs~ ~bgttweak/11/spawnonce/ara100.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ard000.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ard000.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ard000.bcs~ ~bgttweak/11/spawnonce/ard000.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ard011.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ard011.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ard011.bcs~ ~bgttweak/11/spawnonce/ard011.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~ard014.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/ard014.baf~ END ELSE BEGIN EXTEND_BOTTOM ~ard014.bcs~ ~bgttweak/11/spawnonce/ard014.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~arw000.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/arw000.baf~ END ELSE BEGIN EXTEND_BOTTOM ~arw000.bcs~ ~bgttweak/11/spawnonce/arw000.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~arw012.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/arw012.baf~ END ELSE BEGIN EXTEND_BOTTOM ~arw012.bcs~ ~bgttweak/11/spawnonce/arw012.baf~ END
+ACTION_IF !(FILE_EXISTS_IN_GAME ~arw500.bcs~) THEN BEGIN COMPILE ~bgttweak/11/spawnonce/arw500.baf~ END ELSE BEGIN EXTEND_BOTTOM ~arw500.bcs~ ~bgttweak/11/spawnonce/arw500.baf~ END
 //////////////////////////////////////////////////////////////
 
 
 
 //#12 Arkion reacts to player's reputation////////////////////
 BEGIN @1200
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1200
 
-COMPILE ~BGTTweak/12/rARKION.D~
+COMPILE ~bgttweak/12/rarkion.d~
 //////////////////////////////////////////////////////////////
 
 
 
 //#13 Coran responds to the death of a wyvern/////////////////
 BEGIN @1300
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1300
 FORBID_FILE ~override/X#BG1NPCPhase1.G3~ @5
 
-ACTION_IF FILE_EXISTS_IN_GAME ~X#CORWYV.CRE~ THEN BEGIN
-  COPY ~BGTTweak/13/aCORAN.BAF~ ~BGTTweak/13/aCORAN.BAF~
+ACTION_IF FILE_EXISTS_IN_GAME ~x#corwyv.cre~ THEN BEGIN
+  COPY ~bgttweak/13/acoran.baf~ ~bgttweak/13/acoran.baf~
     REPLACE_TEXTUALLY ~("Wyvern")~ ~("X#CoranWyvern")~
 END
 
-EXTEND_BOTTOM ~CORAN.BCS~ ~BGTTweak/13/aCORAN.BAF~
+EXTEND_BOTTOM ~coran.bcs~ ~bgttweak/13/acoran.baf~
 //////////////////////////////////////////////////////////////
 
 
 
 //#14 More bandit scalps//////////////////////////////////////
 BEGIN @1400
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1400
 
-COPY_EXISTING ~BRITIK.CRE~ ~override~
-              ~CREDUS.CRE~ ~override~
-              ~HAKT.CRE~   ~override~
-              ~RAIKEN.CRE~ ~override~
-              ~TAUGOS.CRE~ ~override~
-              ~TERSUS.CRE~ ~override~
-              ~TEVEN.CRE~  ~override~
-              ~VAX.CRE~    ~override~
-              ~VENKT.CRE~  ~override~
-  ADD_CRE_ITEM ~MISC86~ #0 #0 #0 ~NONE~ ~GLOVES~
-
-COPY_EXISTING ~ZAL.CRE~ ~override~
-  ADD_CRE_ITEM ~MISC86~ #0 #0 #0 ~NONE~ ~CLOAK~
+COPY_EXISTING ~britik.cre~ ~override/britik.cre~
+              ~credus.cre~ ~override/credus.cre~
+              ~hakt.cre~   ~override/hakt.cre~
+              ~raiken.cre~ ~override/raiken.cre~
+              ~taugos.cre~ ~override/taugos.cre~
+              ~tersus.cre~ ~override/tersus.cre~
+              ~teven.cre~  ~override/teven.cre~
+              ~vax.cre~    ~override/vax.cre~
+              ~venkt.cre~  ~override/venkt.cre~
+              ~zal.cre~    ~override/zal.cre~
+  ADD_CRE_ITEM ~MISC86~ #0 #0 #0 ~UNSTEALABLE~ ~INV~
 //////////////////////////////////////////////////////////////
 
 
 
 //#15 Altered item shattering//////////////////////////////////
 BEGIN @1501 SUBCOMPONENT @1500
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1501
 
-COPY_EXISTING ~DPLAYER2.BCS~ ~override~
-              ~DPLAYER3.BCS~ ~override~
+COPY_EXISTING ~dplayer2.bcs~ ~override/dplayer2.bcs~
+              ~dplayer3.bcs~ ~override/dplayer3.bcs~
   DECOMPILE_BCS_TO_BAF
   REPLACE_TEXTUALLY ~DisplayStringHead(Myself,[0-9]*)~ ~DisplayStringHead(Myself,1)~
   COMPILE_BAF_TO_BCS
 
   //backwards compatibility with BGT v1.06 and older
-  PATCH_IF FILE_EXISTS_IN_GAME ~BGPOTN14.ITM~ BEGIN
-    REPLACE_BCS_BLOCK ~BGTTweak/15/rDPLAY107.BAF~ ~BGTTweak/15/xDPLAY151.BAF~
+  PATCH_IF FILE_EXISTS_IN_GAME ~bgpotn14.itm~ BEGIN
+    REPLACE_BCS_BLOCK ~bgttweak/15/rdplay107.baf~ ~bgttweak/15/xdplay151.baf~
   END ELSE BEGIN
-    REPLACE_BCS_BLOCK ~BGTTweak/15/rDPLAY106.BAF~ ~BGTTweak/15/xDPLAY151.BAF~
+    REPLACE_BCS_BLOCK ~bgttweak/15/rdplay106.baf~ ~bgttweak/15/xdplay151.baf~
   END
 //////////////////////////////////////////////////////////////
 BEGIN @1502 SUBCOMPONENT @1500
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1502
 
-EXTEND_BOTTOM ~DPLAYER2.BCS~ ~BGTTweak/15/xDPLAY152.BAF~
-EXTEND_BOTTOM ~DPLAYER3.BCS~ ~BGTTweak/15/xDPLAY152.BAF~
+EXTEND_BOTTOM ~dplayer2.bcs~ ~bgttweak/15/xdplay152.baf~
+EXTEND_BOTTOM ~dplayer3.bcs~ ~bgttweak/15/xdplay152.baf~
 //////////////////////////////////////////////////////////////
 
 
 
-//#16 Hooded unarmoured mages and thieves/////////////////////
+//#16 Hooded unarmoured mages ////////////////////////////////
 BEGIN @1600
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1600
 
-//Thieves -- a Tutu desquamate
-COPY_EXISTING ~CHMT2A1.BAM~ ~override/CHMB1A1.BAM~
-COPY_EXISTING ~CHMT2A2.BAM~ ~override/CHMB1A2.BAM~
-COPY_EXISTING ~CHMT2A3.BAM~ ~override/CHMB1A3.BAM~
-COPY_EXISTING ~CHMT2A4.BAM~ ~override/CHMB1A4.BAM~
-COPY_EXISTING ~CHMT2A5.BAM~ ~override/CHMB1A5.BAM~
-COPY_EXISTING ~CHMT2A6.BAM~ ~override/CHMB1A6.BAM~
-COPY_EXISTING ~CHMT2A7.BAM~ ~override/CHMB1A7.BAM~
-COPY_EXISTING ~CHMT2A8.BAM~ ~override/CHMB1A8.BAM~
-COPY_EXISTING ~CHMT2A9.BAM~ ~override/CHMB1A9.BAM~
-COPY_EXISTING ~CHMT2CA.BAM~ ~override/CHMB1CA.BAM~
-COPY_EXISTING ~CHMT2G1.BAM~ ~override/CHMB1G1.BAM~
-COPY_EXISTING ~CHMT2G11.BAM~ ~override/CHMB1G11.BAM~
-COPY_EXISTING ~CHMT2G12.BAM~ ~override/CHMB1G12.BAM~
-COPY_EXISTING ~CHMT2G13.BAM~ ~override/CHMB1G13.BAM~
-COPY_EXISTING ~CHMT2G14.BAM~ ~override/CHMB1G14.BAM~
-COPY_EXISTING ~CHMT2G15.BAM~ ~override/CHMB1G15.BAM~
-COPY_EXISTING ~CHMT2G16.BAM~ ~override/CHMB1G16.BAM~
-COPY_EXISTING ~CHMT2G17.BAM~ ~override/CHMB1G17.BAM~
-COPY_EXISTING ~CHMT2G18.BAM~ ~override/CHMB1G18.BAM~
-COPY_EXISTING ~CHMT2G19.BAM~ ~override/CHMB1G19.BAM~
-COPY_EXISTING ~CHMT2SA.BAM~ ~override/CHMB1SA.BAM~
-COPY_EXISTING ~CHMT2Ss.BAM~ ~override/CHMB1Ss.BAM~
-COPY_EXISTING ~CHMT2Sx.BAM~ ~override/CHMB1Sx.BAM~
-
-COPY_EXISTING ~CHFT2A1.BAM~ ~override/CHFB1A1.BAM~
-COPY_EXISTING ~CHFT2A2.BAM~ ~override/CHFB1A2.BAM~
-COPY_EXISTING ~CHFT2A3.BAM~ ~override/CHFB1A3.BAM~
-COPY_EXISTING ~CHFT2A4.BAM~ ~override/CHFB1A4.BAM~
-COPY_EXISTING ~CHFT2A5.BAM~ ~override/CHFB1A5.BAM~
-COPY_EXISTING ~CHFT2A6.BAM~ ~override/CHFB1A6.BAM~
-COPY_EXISTING ~CHFT2A7.BAM~ ~override/CHFB1A7.BAM~
-COPY_EXISTING ~CHFT2A8.BAM~ ~override/CHFB1A8.BAM~
-COPY_EXISTING ~CHFT2A9.BAM~ ~override/CHFB1A9.BAM~
-COPY_EXISTING ~CHFT2CA.BAM~ ~override/CHFB1CA.BAM~
-COPY_EXISTING ~CHFT2G1.BAM~ ~override/CHFB1G1.BAM~
-COPY_EXISTING ~CHFT2G11.BAM~ ~override/CHFB1G11.BAM~
-COPY_EXISTING ~CHFT2G12.BAM~ ~override/CHFB1G12.BAM~
-COPY_EXISTING ~CHFT2G13.BAM~ ~override/CHFB1G13.BAM~
-COPY_EXISTING ~CHFT2G14.BAM~ ~override/CHFB1G14.BAM~
-COPY_EXISTING ~CHFT2G15.BAM~ ~override/CHFB1G15.BAM~
-COPY_EXISTING ~CHFT2G16.BAM~ ~override/CHFB1G16.BAM~
-COPY_EXISTING ~CHFT2G17.BAM~ ~override/CHFB1G17.BAM~
-COPY_EXISTING ~CHFT2G18.BAM~ ~override/CHFB1G18.BAM~
-COPY_EXISTING ~CHFT2G19.BAM~ ~override/CHFB1G19.BAM~
-COPY_EXISTING ~CHFT2SA.BAM~ ~override/CHFB1SA.BAM~
-COPY_EXISTING ~CHFT2Ss.BAM~ ~override/CHFB1Ss.BAM~
-COPY_EXISTING ~CHFT2Sx.BAM~ ~override/CHFB1Sx.BAM~
-
-COPY_EXISTING ~CEMT2A1.BAM~ ~override/CEMB1A1.BAM~
-COPY_EXISTING ~CEMT2A2.BAM~ ~override/CEMB1A2.BAM~
-COPY_EXISTING ~CEMT2A3.BAM~ ~override/CEMB1A3.BAM~
-COPY_EXISTING ~CEMT2A4.BAM~ ~override/CEMB1A4.BAM~
-COPY_EXISTING ~CEMT2A5.BAM~ ~override/CEMB1A5.BAM~
-COPY_EXISTING ~CEMT2A6.BAM~ ~override/CEMB1A6.BAM~
-COPY_EXISTING ~CEMT2A7.BAM~ ~override/CEMB1A7.BAM~
-COPY_EXISTING ~CEMT2A8.BAM~ ~override/CEMB1A8.BAM~
-COPY_EXISTING ~CEMT2A9.BAM~ ~override/CEMB1A9.BAM~
-COPY_EXISTING ~CEMT2CA.BAM~ ~override/CEMB1CA.BAM~
-COPY_EXISTING ~CEMT2G1.BAM~ ~override/CEMB1G1.BAM~
-COPY_EXISTING ~CEMT2G11.BAM~ ~override/CEMB1G11.BAM~
-COPY_EXISTING ~CEMT2G12.BAM~ ~override/CEMB1G12.BAM~
-COPY_EXISTING ~CEMT2G13.BAM~ ~override/CEMB1G13.BAM~
-COPY_EXISTING ~CEMT2G14.BAM~ ~override/CEMB1G14.BAM~
-COPY_EXISTING ~CEMT2G15.BAM~ ~override/CEMB1G15.BAM~
-COPY_EXISTING ~CEMT2G16.BAM~ ~override/CEMB1G16.BAM~
-COPY_EXISTING ~CEMT2G17.BAM~ ~override/CEMB1G17.BAM~
-COPY_EXISTING ~CEMT2G18.BAM~ ~override/CEMB1G18.BAM~
-COPY_EXISTING ~CEMT2G19.BAM~ ~override/CEMB1G19.BAM~
-COPY_EXISTING ~CEMT2SA.BAM~ ~override/CEMB1SA.BAM~
-COPY_EXISTING ~CEMT2Ss.BAM~ ~override/CEMB1Ss.BAM~
-COPY_EXISTING ~CEMT2Sx.BAM~ ~override/CEMB1Sx.BAM~
-
-COPY_EXISTING ~CEFT2A1.BAM~ ~override/CEFB1A1.BAM~
-COPY_EXISTING ~CEFT2A2.BAM~ ~override/CEFB1A2.BAM~
-COPY_EXISTING ~CEFT2A3.BAM~ ~override/CEFB1A3.BAM~
-COPY_EXISTING ~CEFT2A4.BAM~ ~override/CEFB1A4.BAM~
-COPY_EXISTING ~CEFT2A5.BAM~ ~override/CEFB1A5.BAM~
-COPY_EXISTING ~CEFT2A6.BAM~ ~override/CEFB1A6.BAM~
-COPY_EXISTING ~CEFT2A7.BAM~ ~override/CEFB1A7.BAM~
-COPY_EXISTING ~CEFT2A8.BAM~ ~override/CEFB1A8.BAM~
-COPY_EXISTING ~CEFT2A9.BAM~ ~override/CEFB1A9.BAM~
-COPY_EXISTING ~CEFT2CA.BAM~ ~override/CEFB1CA.BAM~
-COPY_EXISTING ~CEFT2G1.BAM~ ~override/CEFB1G1.BAM~
-COPY_EXISTING ~CEFT2G11.BAM~ ~override/CEFB1G11.BAM~
-COPY_EXISTING ~CEFT2G12.BAM~ ~override/CEFB1G12.BAM~
-COPY_EXISTING ~CEFT2G13.BAM~ ~override/CEFB1G13.BAM~
-COPY_EXISTING ~CEFT2G14.BAM~ ~override/CEFB1G14.BAM~
-COPY_EXISTING ~CEFT2G15.BAM~ ~override/CEFB1G15.BAM~
-COPY_EXISTING ~CEFT2G16.BAM~ ~override/CEFB1G16.BAM~
-COPY_EXISTING ~CEFT2G17.BAM~ ~override/CEFB1G17.BAM~
-COPY_EXISTING ~CEFT2G18.BAM~ ~override/CEFB1G18.BAM~
-COPY_EXISTING ~CEFT2G19.BAM~ ~override/CEFB1G19.BAM~
-COPY_EXISTING ~CEFT2SA.BAM~ ~override/CEFB1SA.BAM~
-COPY_EXISTING ~CEFT2Ss.BAM~ ~override/CEFB1Ss.BAM~
-COPY_EXISTING ~CEFT2Sx.BAM~ ~override/CEFB1Sx.BAM~
-
-COPY_EXISTING ~CDMT2A1.BAM~ ~override/CDMB1A1.BAM~
-COPY_EXISTING ~CDMT2A2.BAM~ ~override/CDMB1A2.BAM~
-COPY_EXISTING ~CDMT2A3.BAM~ ~override/CDMB1A3.BAM~
-COPY_EXISTING ~CDMT2A4.BAM~ ~override/CDMB1A4.BAM~
-COPY_EXISTING ~CDMT2A5.BAM~ ~override/CDMB1A5.BAM~
-COPY_EXISTING ~CDMT2A6.BAM~ ~override/CDMB1A6.BAM~
-COPY_EXISTING ~CDMT2A7.BAM~ ~override/CDMB1A7.BAM~
-COPY_EXISTING ~CDMT2A8.BAM~ ~override/CDMB1A8.BAM~
-COPY_EXISTING ~CDMT2A9.BAM~ ~override/CDMB1A9.BAM~
-COPY_EXISTING ~CDMT2CA.BAM~ ~override/CDMB1CA.BAM~
-COPY_EXISTING ~CDMT2G1.BAM~ ~override/CDMB1G1.BAM~
-COPY_EXISTING ~CDMT2G11.BAM~ ~override/CDMB1G11.BAM~
-COPY_EXISTING ~CDMT2G12.BAM~ ~override/CDMB1G12.BAM~
-COPY_EXISTING ~CDMT2G13.BAM~ ~override/CDMB1G13.BAM~
-COPY_EXISTING ~CDMT2G14.BAM~ ~override/CDMB1G14.BAM~
-COPY_EXISTING ~CDMT2G15.BAM~ ~override/CDMB1G15.BAM~
-COPY_EXISTING ~CDMT2G16.BAM~ ~override/CDMB1G16.BAM~
-COPY_EXISTING ~CDMT2G17.BAM~ ~override/CDMB1G17.BAM~
-COPY_EXISTING ~CDMT2G18.BAM~ ~override/CDMB1G18.BAM~
-COPY_EXISTING ~CDMT2G19.BAM~ ~override/CDMB1G19.BAM~
-COPY_EXISTING ~CDMT2SA.BAM~ ~override/CDMB1SA.BAM~
-COPY_EXISTING ~CDMT2Ss.BAM~ ~override/CDMB1Ss.BAM~
-COPY_EXISTING ~CDMT2Sx.BAM~ ~override/CDMB1Sx.BAM~
-
-COPY_EXISTING ~CIMT2A1.BAM~ ~override/CIMB1A1.BAM~
-COPY_EXISTING ~CIMT2A2.BAM~ ~override/CIMB1A2.BAM~
-COPY_EXISTING ~CIMT2A3.BAM~ ~override/CIMB1A3.BAM~
-COPY_EXISTING ~CIMT2A4.BAM~ ~override/CIMB1A4.BAM~
-COPY_EXISTING ~CIMT2A5.BAM~ ~override/CIMB1A5.BAM~
-COPY_EXISTING ~CIMT2A6.BAM~ ~override/CIMB1A6.BAM~
-COPY_EXISTING ~CIMT2A7.BAM~ ~override/CIMB1A7.BAM~
-COPY_EXISTING ~CIMT2A8.BAM~ ~override/CIMB1A8.BAM~
-COPY_EXISTING ~CIMT2A9.BAM~ ~override/CIMB1A9.BAM~
-COPY_EXISTING ~CIMT2CA.BAM~ ~override/CIMB1CA.BAM~
-COPY_EXISTING ~CIMT2G1.BAM~ ~override/CIMB1G1.BAM~
-COPY_EXISTING ~CIMT2G11.BAM~ ~override/CIMB1G11.BAM~
-COPY_EXISTING ~CIMT2G12.BAM~ ~override/CIMB1G12.BAM~
-COPY_EXISTING ~CIMT2G13.BAM~ ~override/CIMB1G13.BAM~
-COPY_EXISTING ~CIMT2G14.BAM~ ~override/CIMB1G14.BAM~
-COPY_EXISTING ~CIMT2G15.BAM~ ~override/CIMB1G15.BAM~
-COPY_EXISTING ~CIMT2G16.BAM~ ~override/CIMB1G16.BAM~
-COPY_EXISTING ~CIMT2G17.BAM~ ~override/CIMB1G17.BAM~
-COPY_EXISTING ~CIMT2G18.BAM~ ~override/CIMB1G18.BAM~
-COPY_EXISTING ~CIMT2G19.BAM~ ~override/CIMB1G19.BAM~
-COPY_EXISTING ~CIMT2SA.BAM~ ~override/CIMB1SA.BAM~
-COPY_EXISTING ~CIMT2Ss.BAM~ ~override/CIMB1Ss.BAM~
-COPY_EXISTING ~CIMT2Sx.BAM~ ~override/CIMB1Sx.BAM~
-
-COPY_EXISTING ~CIFT2A1.BAM~ ~override/CIFB1A1.BAM~
-COPY_EXISTING ~CIFT2A2.BAM~ ~override/CIFB1A2.BAM~
-COPY_EXISTING ~CIFT2A3.BAM~ ~override/CIFB1A3.BAM~
-COPY_EXISTING ~CIFT2A4.BAM~ ~override/CIFB1A4.BAM~
-COPY_EXISTING ~CIFT2A5.BAM~ ~override/CIFB1A5.BAM~
-COPY_EXISTING ~CIFT2A6.BAM~ ~override/CIFB1A6.BAM~
-COPY_EXISTING ~CIFT2A7.BAM~ ~override/CIFB1A7.BAM~
-COPY_EXISTING ~CIFT2A8.BAM~ ~override/CIFB1A8.BAM~
-COPY_EXISTING ~CIFT2A9.BAM~ ~override/CIFB1A9.BAM~
-COPY_EXISTING ~CIFT2CA.BAM~ ~override/CIFB1CA.BAM~
-COPY_EXISTING ~CIFT2G1.BAM~ ~override/CIFB1G1.BAM~
-COPY_EXISTING ~CIFT2G11.BAM~ ~override/CIFB1G11.BAM~
-COPY_EXISTING ~CIFT2G12.BAM~ ~override/CIFB1G12.BAM~
-COPY_EXISTING ~CIFT2G13.BAM~ ~override/CIFB1G13.BAM~
-COPY_EXISTING ~CIFT2G14.BAM~ ~override/CIFB1G14.BAM~
-COPY_EXISTING ~CIFT2G15.BAM~ ~override/CIFB1G15.BAM~
-COPY_EXISTING ~CIFT2G16.BAM~ ~override/CIFB1G16.BAM~
-COPY_EXISTING ~CIFT2G17.BAM~ ~override/CIFB1G17.BAM~
-COPY_EXISTING ~CIFT2G18.BAM~ ~override/CIFB1G18.BAM~
-COPY_EXISTING ~CIFT2G19.BAM~ ~override/CIFB1G19.BAM~
-COPY_EXISTING ~CIFT2SA.BAM~ ~override/CIFB1SA.BAM~
-COPY_EXISTING ~CIFT2Ss.BAM~ ~override/CIFB1Ss.BAM~
-COPY_EXISTING ~CIFT2Sx.BAM~ ~override/CIFB1Sx.BAM~
-
 //Mages
-COPY_EXISTING ~CHMW4A1.BAM~ ~override/CHMW1A1.BAM~
-COPY_EXISTING ~CHMW4A2.BAM~ ~override/CHMW1A2.BAM~
-COPY_EXISTING ~CHMW4A3.BAM~ ~override/CHMW1A3.BAM~
-COPY_EXISTING ~CHMW4A4.BAM~ ~override/CHMW1A4.BAM~
-COPY_EXISTING ~CHMW4A5.BAM~ ~override/CHMW1A5.BAM~
-COPY_EXISTING ~CHMW4A6.BAM~ ~override/CHMW1A6.BAM~
-COPY_EXISTING ~CHMW4A7.BAM~ ~override/CHMW1A7.BAM~
-COPY_EXISTING ~CHMW4A8.BAM~ ~override/CHMW1A8.BAM~
-COPY_EXISTING ~CHMW4A9.BAM~ ~override/CHMW1A9.BAM~
-COPY_EXISTING ~CHMW4CA.BAM~ ~override/CHMW1CA.BAM~
-COPY_EXISTING ~CHMW4G1.BAM~ ~override/CHMW1G1.BAM~
-COPY_EXISTING ~CHMW4G11.BAM~ ~override/CHMW1G11.BAM~
-COPY_EXISTING ~CHMW4G12.BAM~ ~override/CHMW1G12.BAM~
-COPY_EXISTING ~CHMW4G13.BAM~ ~override/CHMW1G13.BAM~
-COPY_EXISTING ~CHMW4G14.BAM~ ~override/CHMW1G14.BAM~
-COPY_EXISTING ~CHMW4G15.BAM~ ~override/CHMW1G15.BAM~
-COPY_EXISTING ~CHMW4G16.BAM~ ~override/CHMW1G16.BAM~
-COPY_EXISTING ~CHMW4G17.BAM~ ~override/CHMW1G17.BAM~
-COPY_EXISTING ~CHMW4G18.BAM~ ~override/CHMW1G18.BAM~
-COPY_EXISTING ~CHMW4G19.BAM~ ~override/CHMW1G19.BAM~
-COPY_EXISTING ~CHMW4INV.BAM~ ~override/CHMW1INV.BAM~
-COPY_EXISTING ~CHMW4SA.BAM~ ~override/CHMW1SA.BAM~
-COPY_EXISTING ~CHMW4Ss.BAM~ ~override/CHMW1Ss.BAM~
-COPY_EXISTING ~CHMW4Sx.BAM~ ~override/CHMW1Sx.BAM~
+COPY_EXISTING ~chmw4a1.bam~ ~override/chmw1a1.bam~
+COPY_EXISTING ~chmw4a2.bam~ ~override/chmw1a2.bam~
+COPY_EXISTING ~chmw4a3.bam~ ~override/chmw1a3.bam~
+COPY_EXISTING ~chmw4a4.bam~ ~override/chmw1a4.bam~
+COPY_EXISTING ~chmw4a5.bam~ ~override/chmw1a5.bam~
+COPY_EXISTING ~chmw4a6.bam~ ~override/chmw1a6.bam~
+COPY_EXISTING ~chmw4a7.bam~ ~override/chmw1a7.bam~
+COPY_EXISTING ~chmw4a8.bam~ ~override/chmw1a8.bam~
+COPY_EXISTING ~chmw4a9.bam~ ~override/chmw1a9.bam~
+COPY_EXISTING ~chmw4ca.bam~ ~override/chmw1ca.bam~
+COPY_EXISTING ~chmw4g1.bam~ ~override/chmw1g1.bam~
+COPY_EXISTING ~chmw4g11.bam~ ~override/chmw1g11.bam~
+COPY_EXISTING ~chmw4g12.bam~ ~override/chmw1g12.bam~
+COPY_EXISTING ~chmw4g13.bam~ ~override/chmw1g13.bam~
+COPY_EXISTING ~chmw4g14.bam~ ~override/chmw1g14.bam~
+COPY_EXISTING ~chmw4g15.bam~ ~override/chmw1g15.bam~
+COPY_EXISTING ~chmw4g16.bam~ ~override/chmw1g16.bam~
+COPY_EXISTING ~chmw4g17.bam~ ~override/chmw1g17.bam~
+COPY_EXISTING ~chmw4g18.bam~ ~override/chmw1g18.bam~
+COPY_EXISTING ~chmw4g19.bam~ ~override/chmw1g19.bam~
+COPY_EXISTING ~chmw4inv.bam~ ~override/chmw1inv.bam~
+COPY_EXISTING ~chmw4sa.bam~ ~override/chmw1sa.bam~
+COPY_EXISTING ~chmw4ss.bam~ ~override/chmw1ss.bam~
+COPY_EXISTING ~chmw4sx.bam~ ~override/chmw1sx.bam~
 
-COPY_EXISTING ~CHFW4A1.BAM~ ~override/CHFW1A1.BAM~
-COPY_EXISTING ~CHFW4A2.BAM~ ~override/CHFW1A2.BAM~
-COPY_EXISTING ~CHFW4A3.BAM~ ~override/CHFW1A3.BAM~
-COPY_EXISTING ~CHFW4A4.BAM~ ~override/CHFW1A4.BAM~
-COPY_EXISTING ~CHFW4A5.BAM~ ~override/CHFW1A5.BAM~
-COPY_EXISTING ~CHFW4A6.BAM~ ~override/CHFW1A6.BAM~
-COPY_EXISTING ~CHFW4A7.BAM~ ~override/CHFW1A7.BAM~
-COPY_EXISTING ~CHFW4A8.BAM~ ~override/CHFW1A8.BAM~
-COPY_EXISTING ~CHFW4A9.BAM~ ~override/CHFW1A9.BAM~
-COPY_EXISTING ~CHFW4CA.BAM~ ~override/CHFW1CA.BAM~
-COPY_EXISTING ~CHFW4G1.BAM~ ~override/CHFW1G1.BAM~
-COPY_EXISTING ~CHFW4G11.BAM~ ~override/CHFW1G11.BAM~
-COPY_EXISTING ~CHFW4G12.BAM~ ~override/CHFW1G12.BAM~
-COPY_EXISTING ~CHFW4G13.BAM~ ~override/CHFW1G13.BAM~
-COPY_EXISTING ~CHFW4G14.BAM~ ~override/CHFW1G14.BAM~
-COPY_EXISTING ~CHFW4G15.BAM~ ~override/CHFW1G15.BAM~
-COPY_EXISTING ~CHFW4G16.BAM~ ~override/CHFW1G16.BAM~
-COPY_EXISTING ~CHFW4G17.BAM~ ~override/CHFW1G17.BAM~
-COPY_EXISTING ~CHFW4G18.BAM~ ~override/CHFW1G18.BAM~
-COPY_EXISTING ~CHFW4G19.BAM~ ~override/CHFW1G19.BAM~
-COPY_EXISTING ~CHFW4INV.BAM~ ~override/CHFW1INV.BAM~
-COPY_EXISTING ~CHFW4SA.BAM~ ~override/CHFW1SA.BAM~
-COPY_EXISTING ~CHFW4Ss.BAM~ ~override/CHFW1Ss.BAM~
-COPY_EXISTING ~CHFW4Sx.BAM~ ~override/CHFW1Sx.BAM~
+COPY_EXISTING ~chfw4a1.bam~ ~override/chfw1a1.bam~
+COPY_EXISTING ~chfw4a2.bam~ ~override/chfw1a2.bam~
+COPY_EXISTING ~chfw4a3.bam~ ~override/chfw1a3.bam~
+COPY_EXISTING ~chfw4a4.bam~ ~override/chfw1a4.bam~
+COPY_EXISTING ~chfw4a5.bam~ ~override/chfw1a5.bam~
+COPY_EXISTING ~chfw4a6.bam~ ~override/chfw1a6.bam~
+COPY_EXISTING ~chfw4a7.bam~ ~override/chfw1a7.bam~
+COPY_EXISTING ~chfw4a8.bam~ ~override/chfw1a8.bam~
+COPY_EXISTING ~chfw4a9.bam~ ~override/chfw1a9.bam~
+COPY_EXISTING ~chfw4ca.bam~ ~override/chfw1ca.bam~
+COPY_EXISTING ~chfw4g1.bam~ ~override/chfw1g1.bam~
+COPY_EXISTING ~chfw4g11.bam~ ~override/chfw1g11.bam~
+COPY_EXISTING ~chfw4g12.bam~ ~override/chfw1g12.bam~
+COPY_EXISTING ~chfw4g13.bam~ ~override/chfw1g13.bam~
+COPY_EXISTING ~chfw4g14.bam~ ~override/chfw1g14.bam~
+COPY_EXISTING ~chfw4g15.bam~ ~override/chfw1g15.bam~
+COPY_EXISTING ~chfw4g16.bam~ ~override/chfw1g16.bam~
+COPY_EXISTING ~chfw4g17.bam~ ~override/chfw1g17.bam~
+COPY_EXISTING ~chfw4g18.bam~ ~override/chfw1g18.bam~
+COPY_EXISTING ~chfw4g19.bam~ ~override/chfw1g19.bam~
+COPY_EXISTING ~chfw4inv.bam~ ~override/chfw1inv.bam~
+COPY_EXISTING ~chfw4sa.bam~ ~override/chfw1sa.bam~
+COPY_EXISTING ~chfw4ss.bam~ ~override/chfw1ss.bam~
+COPY_EXISTING ~chfw4sx.bam~ ~override/chfw1sx.bam~
 
-COPY_EXISTING ~CEMW4A1.BAM~ ~override/CEMW1A1.BAM~
-COPY_EXISTING ~CEMW4A2.BAM~ ~override/CEMW1A2.BAM~
-COPY_EXISTING ~CEMW4A3.BAM~ ~override/CEMW1A3.BAM~
-COPY_EXISTING ~CEMW4A4.BAM~ ~override/CEMW1A4.BAM~
-COPY_EXISTING ~CEMW4A5.BAM~ ~override/CEMW1A5.BAM~
-COPY_EXISTING ~CEMW4A6.BAM~ ~override/CEMW1A6.BAM~
-COPY_EXISTING ~CEMW4A7.BAM~ ~override/CEMW1A7.BAM~
-COPY_EXISTING ~CEMW4A8.BAM~ ~override/CEMW1A8.BAM~
-COPY_EXISTING ~CEMW4A9.BAM~ ~override/CEMW1A9.BAM~
-COPY_EXISTING ~CEMW4CA.BAM~ ~override/CEMW1CA.BAM~
-COPY_EXISTING ~CEMW4G1.BAM~ ~override/CEMW1G1.BAM~
-COPY_EXISTING ~CEMW4G11.BAM~ ~override/CEMW1G11.BAM~
-COPY_EXISTING ~CEMW4G12.BAM~ ~override/CEMW1G12.BAM~
-COPY_EXISTING ~CEMW4G13.BAM~ ~override/CEMW1G13.BAM~
-COPY_EXISTING ~CEMW4G14.BAM~ ~override/CEMW1G14.BAM~
-COPY_EXISTING ~CEMW4G15.BAM~ ~override/CEMW1G15.BAM~
-COPY_EXISTING ~CEMW4G16.BAM~ ~override/CEMW1G16.BAM~
-COPY_EXISTING ~CEMW4G17.BAM~ ~override/CEMW1G17.BAM~
-COPY_EXISTING ~CEMW4G18.BAM~ ~override/CEMW1G18.BAM~
-COPY_EXISTING ~CEMW4G19.BAM~ ~override/CEMW1G19.BAM~
-COPY_EXISTING ~CEMW4INV.BAM~ ~override/CEMW1INV.BAM~
-COPY_EXISTING ~CEMW4SA.BAM~ ~override/CEMW1SA.BAM~
-COPY_EXISTING ~CEMW4Ss.BAM~ ~override/CEMW1Ss.BAM~
-COPY_EXISTING ~CEMW4Sx.BAM~ ~override/CEMW1Sx.BAM~
+COPY_EXISTING ~cemw4a1.bam~ ~override/cemw1a1.bam~
+COPY_EXISTING ~cemw4a2.bam~ ~override/cemw1a2.bam~
+COPY_EXISTING ~cemw4a3.bam~ ~override/cemw1a3.bam~
+COPY_EXISTING ~cemw4a4.bam~ ~override/cemw1a4.bam~
+COPY_EXISTING ~cemw4a5.bam~ ~override/cemw1a5.bam~
+COPY_EXISTING ~cemw4a6.bam~ ~override/cemw1a6.bam~
+COPY_EXISTING ~cemw4a7.bam~ ~override/cemw1a7.bam~
+COPY_EXISTING ~cemw4a8.bam~ ~override/cemw1a8.bam~
+COPY_EXISTING ~cemw4a9.bam~ ~override/cemw1a9.bam~
+COPY_EXISTING ~cemw4ca.bam~ ~override/cemw1ca.bam~
+COPY_EXISTING ~cemw4g1.bam~ ~override/cemw1g1.bam~
+COPY_EXISTING ~cemw4g11.bam~ ~override/cemw1g11.bam~
+COPY_EXISTING ~cemw4g12.bam~ ~override/cemw1g12.bam~
+COPY_EXISTING ~cemw4g13.bam~ ~override/cemw1g13.bam~
+COPY_EXISTING ~cemw4g14.bam~ ~override/cemw1g14.bam~
+COPY_EXISTING ~cemw4g15.bam~ ~override/cemw1g15.bam~
+COPY_EXISTING ~cemw4g16.bam~ ~override/cemw1g16.bam~
+COPY_EXISTING ~cemw4g17.bam~ ~override/cemw1g17.bam~
+COPY_EXISTING ~cemw4g18.bam~ ~override/cemw1g18.bam~
+COPY_EXISTING ~cemw4g19.bam~ ~override/cemw1g19.bam~
+COPY_EXISTING ~cemw4inv.bam~ ~override/cemw1inv.bam~
+COPY_EXISTING ~cemw4sa.bam~ ~override/cemw1sa.bam~
+COPY_EXISTING ~cemw4ss.bam~ ~override/cemw1ss.bam~
+COPY_EXISTING ~cemw4sx.bam~ ~override/cemw1sx.bam~
 
-COPY_EXISTING ~CEFW4A1.BAM~ ~override/CEFW1A1.BAM~
-COPY_EXISTING ~CEFW4A2.BAM~ ~override/CEFW1A2.BAM~
-COPY_EXISTING ~CEFW4A3.BAM~ ~override/CEFW1A3.BAM~
-COPY_EXISTING ~CEFW4A4.BAM~ ~override/CEFW1A4.BAM~
-COPY_EXISTING ~CEFW4A5.BAM~ ~override/CEFW1A5.BAM~
-COPY_EXISTING ~CEFW4A6.BAM~ ~override/CEFW1A6.BAM~
-COPY_EXISTING ~CEFW4A7.BAM~ ~override/CEFW1A7.BAM~
-COPY_EXISTING ~CEFW4A8.BAM~ ~override/CEFW1A8.BAM~
-COPY_EXISTING ~CEFW4A9.BAM~ ~override/CEFW1A9.BAM~
-COPY_EXISTING ~CEFW4CA.BAM~ ~override/CEFW1CA.BAM~
-COPY_EXISTING ~CEFW4G1.BAM~ ~override/CEFW1G1.BAM~
-COPY_EXISTING ~CEFW4G11.BAM~ ~override/CEFW1G11.BAM~
-COPY_EXISTING ~CEFW4G12.BAM~ ~override/CEFW1G12.BAM~
-COPY_EXISTING ~CEFW4G13.BAM~ ~override/CEFW1G13.BAM~
-COPY_EXISTING ~CEFW4G14.BAM~ ~override/CEFW1G14.BAM~
-COPY_EXISTING ~CEFW4G15.BAM~ ~override/CEFW1G15.BAM~
-COPY_EXISTING ~CEFW4G16.BAM~ ~override/CEFW1G16.BAM~
-COPY_EXISTING ~CEFW4G17.BAM~ ~override/CEFW1G17.BAM~
-COPY_EXISTING ~CEFW4G18.BAM~ ~override/CEFW1G18.BAM~
-COPY_EXISTING ~CEFW4G19.BAM~ ~override/CEFW1G19.BAM~
-COPY_EXISTING ~CEFW4INV.BAM~ ~override/CEFW1INV.BAM~
-COPY_EXISTING ~CEFW4SA.BAM~ ~override/CEFW1SA.BAM~
-COPY_EXISTING ~CEFW4Ss.BAM~ ~override/CEFW1Ss.BAM~
-COPY_EXISTING ~CEFW4Sx.BAM~ ~override/CEFW1Sx.BAM~
+COPY_EXISTING ~cefw4a1.bam~ ~override/cefw1a1.bam~
+COPY_EXISTING ~cefw4a2.bam~ ~override/cefw1a2.bam~
+COPY_EXISTING ~cefw4a3.bam~ ~override/cefw1a3.bam~
+COPY_EXISTING ~cefw4a4.bam~ ~override/cefw1a4.bam~
+COPY_EXISTING ~cefw4a5.bam~ ~override/cefw1a5.bam~
+COPY_EXISTING ~cefw4a6.bam~ ~override/cefw1a6.bam~
+COPY_EXISTING ~cefw4a7.bam~ ~override/cefw1a7.bam~
+COPY_EXISTING ~cefw4a8.bam~ ~override/cefw1a8.bam~
+COPY_EXISTING ~cefw4a9.bam~ ~override/cefw1a9.bam~
+COPY_EXISTING ~cefw4ca.bam~ ~override/cefw1ca.bam~
+COPY_EXISTING ~cefw4g1.bam~ ~override/cefw1g1.bam~
+COPY_EXISTING ~cefw4g11.bam~ ~override/cefw1g11.bam~
+COPY_EXISTING ~cefw4g12.bam~ ~override/cefw1g12.bam~
+COPY_EXISTING ~cefw4g13.bam~ ~override/cefw1g13.bam~
+COPY_EXISTING ~cefw4g14.bam~ ~override/cefw1g14.bam~
+COPY_EXISTING ~cefw4g15.bam~ ~override/cefw1g15.bam~
+COPY_EXISTING ~cefw4g16.bam~ ~override/cefw1g16.bam~
+COPY_EXISTING ~cefw4g17.bam~ ~override/cefw1g17.bam~
+COPY_EXISTING ~cefw4g18.bam~ ~override/cefw1g18.bam~
+COPY_EXISTING ~cefw4g19.bam~ ~override/cefw1g19.bam~
+COPY_EXISTING ~cefw4inv.bam~ ~override/cefw1inv.bam~
+COPY_EXISTING ~cefw4sa.bam~ ~override/cefw1sa.bam~
+COPY_EXISTING ~cefw4ss.bam~ ~override/cefw1ss.bam~
+COPY_EXISTING ~cefw4sx.bam~ ~override/cefw1sx.bam~
 
-COPY_EXISTING ~CDMW4A1.BAM~ ~override/CDMW1A1.BAM~
-COPY_EXISTING ~CDMW4A2.BAM~ ~override/CDMW1A2.BAM~
-COPY_EXISTING ~CDMW4A3.BAM~ ~override/CDMW1A3.BAM~
-COPY_EXISTING ~CDMW4A4.BAM~ ~override/CDMW1A4.BAM~
-COPY_EXISTING ~CDMW4A5.BAM~ ~override/CDMW1A5.BAM~
-COPY_EXISTING ~CDMW4A6.BAM~ ~override/CDMW1A6.BAM~
-COPY_EXISTING ~CDMW4A7.BAM~ ~override/CDMW1A7.BAM~
-COPY_EXISTING ~CDMW4A8.BAM~ ~override/CDMW1A8.BAM~
-COPY_EXISTING ~CDMW4A9.BAM~ ~override/CDMW1A9.BAM~
-COPY_EXISTING ~CDMW4CA.BAM~ ~override/CDMW1CA.BAM~
-COPY_EXISTING ~CDMW4G1.BAM~ ~override/CDMW1G1.BAM~
-COPY_EXISTING ~CDMW4G11.BAM~ ~override/CDMW1G11.BAM~
-COPY_EXISTING ~CDMW4G12.BAM~ ~override/CDMW1G12.BAM~
-COPY_EXISTING ~CDMW4G13.BAM~ ~override/CDMW1G13.BAM~
-COPY_EXISTING ~CDMW4G14.BAM~ ~override/CDMW1G14.BAM~
-COPY_EXISTING ~CDMW4G15.BAM~ ~override/CDMW1G15.BAM~
-COPY_EXISTING ~CDMW4G16.BAM~ ~override/CDMW1G16.BAM~
-COPY_EXISTING ~CDMW4G17.BAM~ ~override/CDMW1G17.BAM~
-COPY_EXISTING ~CDMW4G18.BAM~ ~override/CDMW1G18.BAM~
-COPY_EXISTING ~CDMW4G19.BAM~ ~override/CDMW1G19.BAM~
-COPY_EXISTING ~CDMW4INV.BAM~ ~override/CDMW1INV.BAM~
-COPY_EXISTING ~CDMW4SA.BAM~ ~override/CDMW1SA.BAM~
-COPY_EXISTING ~CDMW4Ss.BAM~ ~override/CDMW1Ss.BAM~
-COPY_EXISTING ~CDMW4Sx.BAM~ ~override/CDMW1Sx.BAM~
+COPY_EXISTING ~cdmw4a1.bam~ ~override/cdmw1a1.bam~
+COPY_EXISTING ~cdmw4a2.bam~ ~override/cdmw1a2.bam~
+COPY_EXISTING ~cdmw4a3.bam~ ~override/cdmw1a3.bam~
+COPY_EXISTING ~cdmw4a4.bam~ ~override/cdmw1a4.bam~
+COPY_EXISTING ~cdmw4a5.bam~ ~override/cdmw1a5.bam~
+COPY_EXISTING ~cdmw4a6.bam~ ~override/cdmw1a6.bam~
+COPY_EXISTING ~cdmw4a7.bam~ ~override/cdmw1a7.bam~
+COPY_EXISTING ~cdmw4a8.bam~ ~override/cdmw1a8.bam~
+COPY_EXISTING ~cdmw4a9.bam~ ~override/cdmw1a9.bam~
+COPY_EXISTING ~cdmw4ca.bam~ ~override/cdmw1ca.bam~
+COPY_EXISTING ~cdmw4g1.bam~ ~override/cdmw1g1.bam~
+COPY_EXISTING ~cdmw4g11.bam~ ~override/cdmw1g11.bam~
+COPY_EXISTING ~cdmw4g12.bam~ ~override/cdmw1g12.bam~
+COPY_EXISTING ~cdmw4g13.bam~ ~override/cdmw1g13.bam~
+COPY_EXISTING ~cdmw4g14.bam~ ~override/cdmw1g14.bam~
+COPY_EXISTING ~cdmw4g15.bam~ ~override/cdmw1g15.bam~
+COPY_EXISTING ~cdmw4g16.bam~ ~override/cdmw1g16.bam~
+COPY_EXISTING ~cdmw4g17.bam~ ~override/cdmw1g17.bam~
+COPY_EXISTING ~cdmw4g18.bam~ ~override/cdmw1g18.bam~
+COPY_EXISTING ~cdmw4g19.bam~ ~override/cdmw1g19.bam~
+COPY_EXISTING ~cdmw4inv.bam~ ~override/cdmw1inv.bam~
+COPY_EXISTING ~cdmw4sa.bam~ ~override/cdmw1sa.bam~
+COPY_EXISTING ~cdmw4ss.bam~ ~override/cdmw1ss.bam~
+COPY_EXISTING ~cdmw4sx.bam~ ~override/cdmw1sx.bam~
+
+COPY_EXISTING ~chmw4a1.bam~ ~override/chmw2a1.bam~
+COPY_EXISTING ~chmw4a2.bam~ ~override/chmw2a2.bam~
+COPY_EXISTING ~chmw4a3.bam~ ~override/chmw2a3.bam~
+COPY_EXISTING ~chmw4a4.bam~ ~override/chmw2a4.bam~
+COPY_EXISTING ~chmw4a5.bam~ ~override/chmw2a5.bam~
+COPY_EXISTING ~chmw4a6.bam~ ~override/chmw2a6.bam~
+COPY_EXISTING ~chmw4a7.bam~ ~override/chmw2a7.bam~
+COPY_EXISTING ~chmw4a8.bam~ ~override/chmw2a8.bam~
+COPY_EXISTING ~chmw4a9.bam~ ~override/chmw2a9.bam~
+COPY_EXISTING ~chmw4ca.bam~ ~override/chmw2ca.bam~
+COPY_EXISTING ~chmw4g1.bam~ ~override/chmw2g1.bam~
+COPY_EXISTING ~chmw4g11.bam~ ~override/chmw2g11.bam~
+COPY_EXISTING ~chmw4g12.bam~ ~override/chmw2g12.bam~
+COPY_EXISTING ~chmw4g13.bam~ ~override/chmw2g13.bam~
+COPY_EXISTING ~chmw4g14.bam~ ~override/chmw2g14.bam~
+COPY_EXISTING ~chmw4g15.bam~ ~override/chmw2g15.bam~
+COPY_EXISTING ~chmw4g16.bam~ ~override/chmw2g16.bam~
+COPY_EXISTING ~chmw4g17.bam~ ~override/chmw2g17.bam~
+COPY_EXISTING ~chmw4g18.bam~ ~override/chmw2g18.bam~
+COPY_EXISTING ~chmw4g19.bam~ ~override/chmw2g19.bam~
+COPY_EXISTING ~chmw4inv.bam~ ~override/chmw2inv.bam~
+COPY_EXISTING ~chmw4sa.bam~ ~override/chmw2sa.bam~
+COPY_EXISTING ~chmw4ss.bam~ ~override/chmw2ss.bam~
+COPY_EXISTING ~chmw4sx.bam~ ~override/chmw2sx.bam~
+
+COPY_EXISTING ~chfw4a1.bam~ ~override/chfw2a1.bam~
+COPY_EXISTING ~chfw4a2.bam~ ~override/chfw2a2.bam~
+COPY_EXISTING ~chfw4a3.bam~ ~override/chfw2a3.bam~
+COPY_EXISTING ~chfw4a4.bam~ ~override/chfw2a4.bam~
+COPY_EXISTING ~chfw4a5.bam~ ~override/chfw2a5.bam~
+COPY_EXISTING ~chfw4a6.bam~ ~override/chfw2a6.bam~
+COPY_EXISTING ~chfw4a7.bam~ ~override/chfw2a7.bam~
+COPY_EXISTING ~chfw4a8.bam~ ~override/chfw2a8.bam~
+COPY_EXISTING ~chfw4a9.bam~ ~override/chfw2a9.bam~
+COPY_EXISTING ~chfw4ca.bam~ ~override/chfw2ca.bam~
+COPY_EXISTING ~chfw4g1.bam~ ~override/chfw2g1.bam~
+COPY_EXISTING ~chfw4g11.bam~ ~override/chfw2g11.bam~
+COPY_EXISTING ~chfw4g12.bam~ ~override/chfw2g12.bam~
+COPY_EXISTING ~chfw4g13.bam~ ~override/chfw2g13.bam~
+COPY_EXISTING ~chfw4g14.bam~ ~override/chfw2g14.bam~
+COPY_EXISTING ~chfw4g15.bam~ ~override/chfw2g15.bam~
+COPY_EXISTING ~chfw4g16.bam~ ~override/chfw2g16.bam~
+COPY_EXISTING ~chfw4g17.bam~ ~override/chfw2g17.bam~
+COPY_EXISTING ~chfw4g18.bam~ ~override/chfw2g18.bam~
+COPY_EXISTING ~chfw4g19.bam~ ~override/chfw2g19.bam~
+COPY_EXISTING ~chfw4inv.bam~ ~override/chfw2inv.bam~
+COPY_EXISTING ~chfw4sa.bam~ ~override/chfw2sa.bam~
+COPY_EXISTING ~chfw4ss.bam~ ~override/chfw2ss.bam~
+COPY_EXISTING ~chfw4sx.bam~ ~override/chfw2sx.bam~
+
+COPY_EXISTING ~cemw4a1.bam~ ~override/cemw2a1.bam~
+COPY_EXISTING ~cemw4a2.bam~ ~override/cemw2a2.bam~
+COPY_EXISTING ~cemw4a3.bam~ ~override/cemw2a3.bam~
+COPY_EXISTING ~cemw4a4.bam~ ~override/cemw2a4.bam~
+COPY_EXISTING ~cemw4a5.bam~ ~override/cemw2a5.bam~
+COPY_EXISTING ~cemw4a6.bam~ ~override/cemw2a6.bam~
+COPY_EXISTING ~cemw4a7.bam~ ~override/cemw2a7.bam~
+COPY_EXISTING ~cemw4a8.bam~ ~override/cemw2a8.bam~
+COPY_EXISTING ~cemw4a9.bam~ ~override/cemw2a9.bam~
+COPY_EXISTING ~cemw4ca.bam~ ~override/cemw2ca.bam~
+COPY_EXISTING ~cemw4g1.bam~ ~override/cemw2g1.bam~
+COPY_EXISTING ~cemw4g11.bam~ ~override/cemw2g11.bam~
+COPY_EXISTING ~cemw4g12.bam~ ~override/cemw2g12.bam~
+COPY_EXISTING ~cemw4g13.bam~ ~override/cemw2g13.bam~
+COPY_EXISTING ~cemw4g14.bam~ ~override/cemw2g14.bam~
+COPY_EXISTING ~cemw4g15.bam~ ~override/cemw2g15.bam~
+COPY_EXISTING ~cemw4g16.bam~ ~override/cemw2g16.bam~
+COPY_EXISTING ~cemw4g17.bam~ ~override/cemw2g17.bam~
+COPY_EXISTING ~cemw4g18.bam~ ~override/cemw2g18.bam~
+COPY_EXISTING ~cemw4g19.bam~ ~override/cemw2g19.bam~
+COPY_EXISTING ~cemw4inv.bam~ ~override/cemw2inv.bam~
+COPY_EXISTING ~cemw4sa.bam~ ~override/cemw2sa.bam~
+COPY_EXISTING ~cemw4ss.bam~ ~override/cemw2ss.bam~
+COPY_EXISTING ~cemw4sx.bam~ ~override/cemw2sx.bam~
+
+COPY_EXISTING ~cefw4a1.bam~ ~override/cefw2a1.bam~
+COPY_EXISTING ~cefw4a2.bam~ ~override/cefw2a2.bam~
+COPY_EXISTING ~cefw4a3.bam~ ~override/cefw2a3.bam~
+COPY_EXISTING ~cefw4a4.bam~ ~override/cefw2a4.bam~
+COPY_EXISTING ~cefw4a5.bam~ ~override/cefw2a5.bam~
+COPY_EXISTING ~cefw4a6.bam~ ~override/cefw2a6.bam~
+COPY_EXISTING ~cefw4a7.bam~ ~override/cefw2a7.bam~
+COPY_EXISTING ~cefw4a8.bam~ ~override/cefw2a8.bam~
+COPY_EXISTING ~cefw4a9.bam~ ~override/cefw2a9.bam~
+COPY_EXISTING ~cefw4ca.bam~ ~override/cefw2ca.bam~
+COPY_EXISTING ~cefw4g1.bam~ ~override/cefw2g1.bam~
+COPY_EXISTING ~cefw4g11.bam~ ~override/cefw2g11.bam~
+COPY_EXISTING ~cefw4g12.bam~ ~override/cefw2g12.bam~
+COPY_EXISTING ~cefw4g13.bam~ ~override/cefw2g13.bam~
+COPY_EXISTING ~cefw4g14.bam~ ~override/cefw2g14.bam~
+COPY_EXISTING ~cefw4g15.bam~ ~override/cefw2g15.bam~
+COPY_EXISTING ~cefw4g16.bam~ ~override/cefw2g16.bam~
+COPY_EXISTING ~cefw4g17.bam~ ~override/cefw2g17.bam~
+COPY_EXISTING ~cefw4g18.bam~ ~override/cefw2g18.bam~
+COPY_EXISTING ~cefw4g19.bam~ ~override/cefw2g19.bam~
+COPY_EXISTING ~cefw4inv.bam~ ~override/cefw2inv.bam~
+COPY_EXISTING ~cefw4sa.bam~ ~override/cefw2sa.bam~
+COPY_EXISTING ~cefw4ss.bam~ ~override/cefw2ss.bam~
+COPY_EXISTING ~cefw4sx.bam~ ~override/cefw2sx.bam~
+
+COPY_EXISTING ~cdmw4a1.bam~ ~override/cdmw2a1.bam~
+COPY_EXISTING ~cdmw4a2.bam~ ~override/cdmw2a2.bam~
+COPY_EXISTING ~cdmw4a3.bam~ ~override/cdmw2a3.bam~
+COPY_EXISTING ~cdmw4a4.bam~ ~override/cdmw2a4.bam~
+COPY_EXISTING ~cdmw4a5.bam~ ~override/cdmw2a5.bam~
+COPY_EXISTING ~cdmw4a6.bam~ ~override/cdmw2a6.bam~
+COPY_EXISTING ~cdmw4a7.bam~ ~override/cdmw2a7.bam~
+COPY_EXISTING ~cdmw4a8.bam~ ~override/cdmw2a8.bam~
+COPY_EXISTING ~cdmw4a9.bam~ ~override/cdmw2a9.bam~
+COPY_EXISTING ~cdmw4ca.bam~ ~override/cdmw2ca.bam~
+COPY_EXISTING ~cdmw4g1.bam~ ~override/cdmw2g1.bam~
+COPY_EXISTING ~cdmw4g11.bam~ ~override/cdmw2g11.bam~
+COPY_EXISTING ~cdmw4g12.bam~ ~override/cdmw2g12.bam~
+COPY_EXISTING ~cdmw4g13.bam~ ~override/cdmw2g13.bam~
+COPY_EXISTING ~cdmw4g14.bam~ ~override/cdmw2g14.bam~
+COPY_EXISTING ~cdmw4g15.bam~ ~override/cdmw2g15.bam~
+COPY_EXISTING ~cdmw4g16.bam~ ~override/cdmw2g16.bam~
+COPY_EXISTING ~cdmw4g17.bam~ ~override/cdmw2g17.bam~
+COPY_EXISTING ~cdmw4g18.bam~ ~override/cdmw2g18.bam~
+COPY_EXISTING ~cdmw4g19.bam~ ~override/cdmw2g19.bam~
+COPY_EXISTING ~cdmw4inv.bam~ ~override/cdmw2inv.bam~
+COPY_EXISTING ~cdmw4sa.bam~ ~override/cdmw2sa.bam~
+COPY_EXISTING ~cdmw4ss.bam~ ~override/cdmw2ss.bam~
+COPY_EXISTING ~cdmw4sx.bam~ ~override/cdmw2sx.bam~
 //////////////////////////////////////////////////////////////
 
 
 
 //#17 Salk's Pen-and-Paper ruleset corrections////////////////
 BEGIN @1700
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1700
 
-COPY_EXISTING ~SKILLRAC.2DA~ ~override~
+COPY_EXISTING ~skillrac.2da~ ~override/skillrac.2da~
   SET_2DA_ENTRY 2 4 8 ~15~ // Elf Move Silently correction
   SET_2DA_ENTRY 4 4 8 ~10~ // Half-Elf Move Silently correction
   SET_2DA_ENTRY 5 4 8 ~20~ // Halfling Move Silently correction
   SET_2DA_ENTRY 6 3 8 ~10~ // Half-Orc Find Traps correction
 BUT_ONLY_IF_IT_CHANGES
 
-COPY_EXISTING ~SKILLRNG.2DA~ ~override~
+COPY_EXISTING ~skillrng.2da~ ~override/skillrng.2da~
   SET_2DA_ENTRY 1 1 2 ~21~
 BUT_ONLY_IF_IT_CHANGES
 //////////////////////////////////////////////////////////////
@@ -1493,10 +1261,10 @@ BUT_ONLY_IF_IT_CHANGES
 //#18 Import more NPCs into Shadows of Amn/////////////////////
 //#18-0 Alora
 BEGIN @1800
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1800
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1512,15 +1280,15 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 
  COMPILE_BAF_TO_BCS
 
-EXTEND_BOTTOM ~AR2000.BCS~ ~BGTTweak/18/aAR2000.BAF~
-COMPILE ~BGTTweak\18\RemAlora.D~
+EXTEND_BOTTOM ~ar2000.bcs~ ~bgttweak/18/aar2000.baf~
+COMPILE ~bgttweak\18\remalora.d~
 //////////////////////////////////////////////////////////////
 //#18-1 Branwen
 BEGIN @1801
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1801
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1536,15 +1304,15 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 
  COMPILE_BAF_TO_BCS
 
-EXTEND_BOTTOM ~AR0900.BCS~ ~BGTTweak/18/aAR0900.BAF~
-COMPILE ~BGTTweak\18\RemBranw.D~
+EXTEND_BOTTOM ~ar0900.bcs~ ~bgttweak/18/aar0900.baf~
+COMPILE ~bgttweak\18\rembranw.d~
 //////////////////////////////////////////////////////////////
 //#18-2 Eldoth
 BEGIN @1802
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1802
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1556,14 +1324,14 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 
  COMPILE_BAF_TO_BCS
 
-COMPILE ~BGTTweak\18\RemEldot.D~
+COMPILE ~bgttweak\18\remeldot.d~
 //////////////////////////////////////////////////////////////
 //#18-3 Kagain
 BEGIN @1803
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1803
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1579,15 +1347,15 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 
  COMPILE_BAF_TO_BCS
 
-EXTEND_BOTTOM ~AR0020.BCS~ ~BGTTweak/18/aAR0020.BAF~
-COMPILE ~BGTTweak\18\RemKagai.D~
+EXTEND_BOTTOM ~ar0020.bcs~ ~bgttweak/18/aar0020.baf~
+COMPILE ~bgttweak\18\remkagai.d~
 //////////////////////////////////////////////////////////////
 //#18-4 Kivan
 BEGIN @1804
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1804
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1603,15 +1371,15 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 
  COMPILE_BAF_TO_BCS
 
-EXTEND_BOTTOM ~AR1100.BCS~ ~BGTTweak/18/aAR1100.BAF~
-COMPILE ~BGTTweak\18\RemKivan.D~
+EXTEND_BOTTOM ~ar1100.bcs~ ~bgttweak/18/aar1100.baf~
+COMPILE ~bgttweak\18\remkivan.d~
 //////////////////////////////////////////////////////////////
 //#18-5 Sharteel
 BEGIN @1805
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1805
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1627,20 +1395,20 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 
  COMPILE_BAF_TO_BCS
 
-EXTEND_BOTTOM ~AR1005.BCS~ ~BGTTweak/18/aAR1005.BAF~
-COMPILE ~BGTTweak\18\RemShart.D~
+EXTEND_BOTTOM ~ar1005.bcs~ ~bgttweak/18/aar1005.baf~
+COMPILE ~bgttweak\18\remshart.d~
 
-//Set script to AR1005.ARE
-COPY_EXISTING ~AR1005.ARE~ ~override/AR1005.ARE~
+//Set script to ar1005.are
+COPY_EXISTING ~ar1005.are~ ~override/ar1005.are~
  WRITE_ASCII 0x94 ~AR1005~
 BUT_ONLY_IF_IT_CHANGES
 //////////////////////////////////////////////////////////////
 //#18-6 Skie
 BEGIN @1806
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1806
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1654,10 +1422,10 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 //////////////////////////////////////////////////////////////
 //#18-7 Xan
 BEGIN @1807
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1807
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1673,15 +1441,15 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 
  COMPILE_BAF_TO_BCS
 
-EXTEND_BOTTOM ~AR0700.BCS~ ~BGTTweak/18/aAR0700.BAF~
-COMPILE ~BGTTweak\18\RemXan.D~
+EXTEND_BOTTOM ~ar0700.bcs~ ~bgttweak/18/aar0700.baf~
+COMPILE ~bgttweak\18\remxan.d~
 //////////////////////////////////////////////////////////////
 //#18-8 Yeslick
 BEGIN @1808
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1808
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1697,16 +1465,16 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 
  COMPILE_BAF_TO_BCS
  
-COMPILE ~BGTTweak\18\RemYesli.D~
+COMPILE ~bgttweak\18\remyesli.d~
 //////////////////////////////////////////////////////////////
 //Dark Side of the Sword Coast NPCs
 //#18-9 Bub Snikt
 BEGIN @1809
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~DSC001.ARE~) @8
 DESIGNATED 1809
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1719,11 +1487,11 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 //////////////////////////////////////////////////////////////
 //#18-10 Conchobhair Strongblade
 BEGIN @1810
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~DSC001.ARE~) @8
 DESIGNATED 1810
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1736,11 +1504,11 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 //////////////////////////////////////////////////////////////
 //#18-11 Ferthgil Trollslayer
 BEGIN @1811
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~DSC001.ARE~) @8
 DESIGNATED 1811
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1753,11 +1521,11 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 //////////////////////////////////////////////////////////////
 //#18-12 Jet'laya
 BEGIN @1812
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~DSC001.ARE~) @8
 DESIGNATED 1812
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1770,11 +1538,11 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 //////////////////////////////////////////////////////////////
 //#18-13 Keiria Silverstring
 BEGIN @1813
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~DSC001.ARE~) @8
 DESIGNATED 1813
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1787,11 +1555,11 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 //////////////////////////////////////////////////////////////
 //#18-14 Skeezer Lumpkin VI
 BEGIN @1814
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~DSC001.ARE~) @8
 DESIGNATED 1814
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1805,11 +1573,11 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 //Northern Tales of the Sword Coast NPCs
 //#18-15 Will Scarlet O'Hara
 BEGIN @1815
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AR01PB.ARE~) @9
 DESIGNATED 1815
 
-COPY_EXISTING ~ARAM00.BCS~ ~override~
+COPY_EXISTING ~aram00.bcs~ ~override/aram00.bcs~
  DECOMPILE_BCS_TO_BAF
 
  REPLACE_TEXTUALLY
@@ -1825,20 +1593,20 @@ COPY_EXISTING ~ARAM00.BCS~ ~override~
 
 //#19 Restore BG2 XP bonus for traps, locks, and scrolls//////
 BEGIN @1900
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 1900
 
-COPY ~BGTTweak/19/xpbonus.2da~ ~override/xpbonus.2da~
+COPY ~bgttweak/19/xpbonus.2da~ ~override/xpbonus.2da~
 //////////////////////////////////////////////////////////////
 
 
 
 //#20 Protagonist's biography modifications///////////////////
 BEGIN @2001 SUBCOMPONENT @2000
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 2001
 
-COPY_EXISTING ~AR0015.BCS~ ~override/AR0015.BCS~
+COPY_EXISTING ~ar0015.bcs~ ~override/ar0015.bcs~
  DECOMPILE_BCS_TO_BAF
  REPLACE_TEXTUALLY ~CreateCreatureObject("A6BIO",Player1,0,0,0)~ ~~
  REPLACE_TEXTUALLY ~AddXPObject(Player1,-1)~ ~AddXPObxject(Player1,-1)
@@ -1847,12 +1615,12 @@ CreateCreatureObject("A6BIO",Player1,0,0,0)~
  COMPILE_BAF_TO_BCS
 //////////////////////////////////////////////////////////////
 BEGIN @2002 SUBCOMPONENT @2000
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 2002
 
-EXTEND_TOP ~A6BIO.BCS~ ~BGTTweak/21/aA6BIO.BAF~
+EXTEND_TOP ~a6bio.bcs~ ~bgttweak/21/aa6bio.baf~
 
-COPY_EXISTING ~AR0602.BCS~ ~override/AR0602.BCS~
+COPY_EXISTING ~ar0602.bcs~ ~override/ar0602.bcs~
   DECOMPILE_BCS_TO_BAF
   REPLACE_TEXTUALLY ~ActionOverride(Player1,SetPlayerSound(Myself,15881,EXISTANCE5))~ ~~
   REPLACE_TEXTUALLY ~TakePartyGold(2147483647)~ ~TakePartyGoxld(2147483647)
@@ -1862,22 +1630,22 @@ CreateCreatureObject("A6BIO",Player1,0,0,0)~
 //////////////////////////////////////////////////////////////
 /* Why revert a biography when you cannot even make a custom biography?
 BEGIN @2003 //SUBCOMPONENT @2000
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 2003
 
 STRING_SET ~33347~ @2005
 
-EXTEND_BOTTOM ~BALDUR.BCS~ ~BGTTwweak/21/aBALDUR.BAF~
+EXTEND_BOTTOM ~baldur.bcs~ ~bgttwweak/21/abaldur.baf~
 //////////////////////////////////////////////////////////////
 BEGIN @2004 //SUBCOMPONENT @2000
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 2004
 
 STRING_SET ~33347~ @2005
 
-EXTEND_TOP ~A6BIO.BCS~ ~BGTTweak/21/aA6BIO.BAF~
+EXTEND_TOP ~a6bio.bcs~ ~bgttweak/21/aa6bio.baf~
 
-COPY_EXISTING ~AR0602.BCS~ ~override/AR0602.BCS~
+COPY_EXISTING ~ar0602.bcs~ ~override/ar0602.bcs~
   DECOMPILE_BCS_TO_BAF
   REPLACE_TEXTUALLY ~ActionOverride(Player1,SetPlayerSound(Myself,15881,EXISTANCE5)~ ~~
   REPLACE_TEXTUALLY ~TakePartyGold(2147483647)
@@ -1886,7 +1654,7 @@ COPY_EXISTING ~AR0602.BCS~ ~override/AR0602.BCS~
     ActionOverride(Player1,DestroyAllEquipment())~
   COMPILE_BAF_TO_BCS
 
-EXTEND_BOTTOM ~BALDUR.BCS~ ~BGTTwweak/21/aBALDUR.BAF~
+EXTEND_BOTTOM ~baldur.bcs~ ~bgttwweak/21/abaldur.baf~
 */
 /////////////////////////////////////////////////////////////
 
@@ -1894,10 +1662,10 @@ EXTEND_BOTTOM ~BALDUR.BCS~ ~BGTTwweak/21/aBALDUR.BAF~
 
 //#21 Exotic Weapons For Taerom//////////////////////
 BEGIN @2100
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 2100
 
-COPY_EXISTING ~TAERUM.STO~ ~override/TAERUM.STO~
+COPY_EXISTING ~taerum.sto~ ~override/taerum.sto~
   ADD_STORE_ITEM ~SW1H43~ #0 #0 #0 ~IDENTIFIED~ #2 //Katana
   ADD_STORE_ITEM ~SW1H46~ #0 #0 #0 ~IDENTIFIED~ #2 //Wazikashi
   ADD_STORE_ITEM ~SW1H48~ #0 #0 #0 ~IDENTIFIED~ #2 //Ninja-to
@@ -1908,365 +1676,365 @@ COPY_EXISTING ~TAERUM.STO~ ~override/TAERUM.STO~
 //#22 Item BG1-ification/////////////////////////////////////
 //Price changes
 BEGIN @2200
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 2200
 
-COPY_EXISTING ~AMUL17.ITM~ ~override/AMUL17.ITM~
+COPY_EXISTING ~amul17.itm~ ~override/amul17.itm~
   WRITE_LONG 0x34 15000 //Price
 
-COPY_EXISTING ~AROW02.ITM~ ~override/AROW02.ITM~
+COPY_EXISTING ~arow02.itm~ ~override/arow02.itm~
   WRITE_LONG 0x34 10 //Price
 
-COPY_EXISTING ~AROW04.ITM~ ~override/AROW04.ITM~
+COPY_EXISTING ~arow04.itm~ ~override/arow04.itm~
   WRITE_LONG 0x34 50 //Price
 
-COPY_EXISTING ~AROW05.ITM~ ~override/AROW05.ITM~
+COPY_EXISTING ~arow05.itm~ ~override/arow05.itm~
   WRITE_LONG 0x34 50 //Price
 
-COPY_EXISTING ~AROW08.ITM~ ~override/AROW08.ITM~
+COPY_EXISTING ~arow08.itm~ ~override/arow08.itm~
   WRITE_LONG 0x34 25 //Price
 
-COPY_EXISTING ~AROW09.ITM~ ~override/AROW09.ITM~
+COPY_EXISTING ~arow09.itm~ ~override/arow09.itm~
   WRITE_LONG 0x34 30 //Price
 
-COPY_EXISTING ~AROW11.ITM~ ~override/AROW11.ITM~
+COPY_EXISTING ~arow11.itm~ ~override/arow11.itm~
   WRITE_LONG 0x34 18 //Price
 
-COPY_EXISTING ~BOLT02.ITM~ ~override/BOLT02.ITM~
+COPY_EXISTING ~bolt02.itm~ ~override/bolt02.itm~
   WRITE_LONG 0x34 10 //Price
 
-COPY_EXISTING ~BOLT06.ITM~ ~override/BOLT06.ITM~
+COPY_EXISTING ~bolt06.itm~ ~override/bolt06.itm~
   WRITE_LONG 0x34 15 //Price
 
-COPY_EXISTING ~BOW06.ITM~ ~override/BOW06.ITM~
+COPY_EXISTING ~bow06.itm~ ~override/bow06.itm~
   WRITE_LONG 0x34 1500 //Price
 
-COPY_EXISTING ~BRAC01.ITM~ ~override/BRAC01.ITM~
+COPY_EXISTING ~brac01.itm~ ~override/brac01.itm~
   WRITE_LONG 0x34 3000 //Price
 
-COPY_EXISTING ~BRAC02.ITM~ ~override/BRAC02.ITM~
+COPY_EXISTING ~brac02.itm~ ~override/brac02.itm~
   WRITE_LONG 0x34 3500 //Price
 
-COPY_EXISTING ~BRAC03.ITM~ ~override/BRAC03.ITM~
+COPY_EXISTING ~brac03.itm~ ~override/brac03.itm~
   WRITE_LONG 0x34 4000 //Price
 
-COPY_EXISTING ~BRAC04.ITM~ ~override/BRAC04.ITM~
+COPY_EXISTING ~brac04.itm~ ~override/brac04.itm~
   WRITE_LONG 0x34 5000 //Price
 
-COPY_EXISTING ~BRAC06.ITM~ ~override/BRAC06.ITM~
+COPY_EXISTING ~brac06.itm~ ~override/brac06.itm~
   WRITE_LONG 0x34 9000 //Price
 
-COPY_EXISTING ~BRAC07.ITM~ ~override/BRAC07.ITM~
+COPY_EXISTING ~brac07.itm~ ~override/brac07.itm~
   WRITE_LONG 0x34 7000 //Price
 
-COPY_EXISTING ~CLCK02.ITM~ ~override/CLCK02.ITM~
+COPY_EXISTING ~clck02.itm~ ~override/clck02.itm~
   WRITE_LONG 0x34 9000 //Price
 
-COPY_EXISTING ~CLCK05.ITM~ ~override/CLCK05.ITM~
+COPY_EXISTING ~clck05.itm~ ~override/clck05.itm~
   WRITE_LONG 0x34 16000 //Price
 
-COPY_EXISTING ~CLCK07.ITM~ ~override/CLCK07.ITM~
+COPY_EXISTING ~clck07.itm~ ~override/clck07.itm~
   WRITE_LONG 0x34 1500 //Price
 
-COPY_EXISTING ~CLCK17.ITM~ ~override/CLCK17.ITM~
+COPY_EXISTING ~clck17.itm~ ~override/clck17.itm~
   WRITE_LONG 0x34 10500 //Price
 
-COPY_EXISTING ~HELM07.ITM~ ~override/HELM07.ITM~
+COPY_EXISTING ~helm07.itm~ ~override/helm07.itm~
   WRITE_LONG 0x34 14000 //Price
 
-COPY_EXISTING ~MISC73.ITM~ ~override/MISC73.ITM~
+COPY_EXISTING ~misc73.itm~ ~override/misc73.itm~
   WRITE_LONG 0x34 18000 //Price
 
-COPY_EXISTING ~RING03.ITM~ ~override/RING03.ITM~
+COPY_EXISTING ~ring03.itm~ ~override/ring03.itm~
   WRITE_LONG 0x34 5000 //Price
 
-COPY_EXISTING ~RING05.ITM~ ~override/RING05.ITM~
+COPY_EXISTING ~ring05.itm~ ~override/ring05.itm~
   WRITE_LONG 0x34 20000 //Price
 
-COPY_EXISTING ~RING06.ITM~ ~override/RING06.ITM~
+COPY_EXISTING ~ring06.itm~ ~override/ring06.itm~
   WRITE_LONG 0x34 3000 //Price
 
-COPY_EXISTING ~RING07.ITM~ ~override/RING07.ITM~
+COPY_EXISTING ~ring07.itm~ ~override/ring07.itm~
   WRITE_LONG 0x34 9000 //Price
 
-COPY_EXISTING ~RING09.ITM~ ~override/RING09.ITM~
+COPY_EXISTING ~ring09.itm~ ~override/ring09.itm~
   WRITE_LONG 0x34 10000 //Price
 
-COPY_EXISTING ~RING20.ITM~ ~override/RING20.ITM~
+COPY_EXISTING ~ring20.itm~ ~override/ring20.itm~
   WRITE_LONG 0x34 5000 //Price
 
-COPY_EXISTING ~RING22.ITM~ ~override/RING22.ITM~
+COPY_EXISTING ~ring22.itm~ ~override/ring22.itm~
   WRITE_LONG 0x34 10000 //Price
 
-COPY_EXISTING ~SCRL13.ITM~ ~override/SCRL13.ITM~
+COPY_EXISTING ~scrl13.itm~ ~override/scrl13.itm~
   WRITE_LONG 0x34 0 //Price
 
-COPY_EXISTING ~SCRL14.ITM~ ~override/SCRL14.ITM~
+COPY_EXISTING ~scrl14.itm~ ~override/scrl14.itm~
   WRITE_LONG 0x34 0 //Price
 
-COPY_EXISTING ~SCRL16.ITM~ ~override/SCRL16.ITM~
+COPY_EXISTING ~scrl16.itm~ ~override/scrl16.itm~
   WRITE_LONG 0x34 0 //Price
 
-COPY_EXISTING ~SCRL1U.ITM~ ~override/SCRL1U.ITM~
+COPY_EXISTING ~scrl1u.itm~ ~override/scrl1u.itm~
   WRITE_LONG 0x34 1200 //Price
 
-COPY_EXISTING ~SCRL1Y.ITM~ ~override/SCRL1Y.ITM~
+COPY_EXISTING ~scrl1y.itm~ ~override/scrl1y.itm~
   WRITE_LONG 0x34 1200 //Price
 
-COPY_EXISTING ~SCRL1Z.ITM~ ~override/SCRL1Z.ITM~
+COPY_EXISTING ~scrl1z.itm~ ~override/scrl1z.itm~
   WRITE_LONG 0x34 1200 //Price
 
-COPY_EXISTING ~SCRL2A.ITM~ ~override/SCRL2A.ITM~
+COPY_EXISTING ~scrl2a.itm~ ~override/scrl2a.itm~
   WRITE_LONG 0x34 1200 //Price
 
-COPY_EXISTING ~SCRL2D.ITM~ ~override/SCRL2D.ITM~
+COPY_EXISTING ~scrl2d.itm~ ~override/scrl2d.itm~
   WRITE_LONG 0x34 500 //Price
 
-COPY_EXISTING ~SCRL2E.ITM~ ~override/SCRL2E.ITM~
+COPY_EXISTING ~scrl2e.itm~ ~override/scrl2e.itm~
   WRITE_LONG 0x34 500 //Price
 
-COPY_EXISTING ~SCRL2F.ITM~ ~override/SCRL2F.ITM~
+COPY_EXISTING ~scrl2f.itm~ ~override/scrl2f.itm~
   WRITE_LONG 0x34 500 //Price
 
-COPY_EXISTING ~SCRL2G.ITM~ ~override/SCRL2G.ITM~
+COPY_EXISTING ~scrl2g.itm~ ~override/scrl2g.itm~
   WRITE_LONG 0x34 500 //Price
 
-COPY_EXISTING ~SCRL2H.ITM~ ~override/SCRL2H.ITM~
+COPY_EXISTING ~scrl2h.itm~ ~override/scrl2h.itm~
   WRITE_LONG 0x34 500 //Price
 
-COPY_EXISTING ~SCRL5H.ITM~ ~override/SCRL5H.ITM~
+COPY_EXISTING ~scrl5h.itm~ ~override/scrl5h.itm~
   WRITE_LONG 0x34 400 //Price
 
-COPY_EXISTING ~SCRL5I.ITM~ ~override/SCRL5I.ITM~
+COPY_EXISTING ~scrl5i.itm~ ~override/scrl5i.itm~
   WRITE_LONG 0x34 400 //Price
 
-COPY_EXISTING ~SCRL5J.ITM~ ~override/SCRL5J.ITM~
+COPY_EXISTING ~scrl5j.itm~ ~override/scrl5j.itm~
   WRITE_LONG 0x34 400 //Price
 
-COPY_EXISTING ~SCRL5K.ITM~ ~override/SCRL5K.ITM~
+COPY_EXISTING ~scrl5k.itm~ ~override/scrl5k.itm~
   WRITE_LONG 0x34 400 //Price
 
-COPY_EXISTING ~SCRL5L.ITM~ ~override/SCRL5L.ITM~
+COPY_EXISTING ~scrl5l.itm~ ~override/scrl5l.itm~
   WRITE_LONG 0x34 400 //Price
 
-COPY_EXISTING ~SCRL5M.ITM~ ~override/SCRL5M.ITM~
+COPY_EXISTING ~scrl5m.itm~ ~override/scrl5m.itm~
   WRITE_LONG 0x34 400 //Price
 
-COPY_EXISTING ~SCRL5N.ITM~ ~override/SCRL5N.ITM~
+COPY_EXISTING ~scrl5n.itm~ ~override/scrl5n.itm~
   WRITE_LONG 0x34 500 //Price
 
-COPY_EXISTING ~SCRL5O.ITM~ ~override/SCRL5O.ITM~
+COPY_EXISTING ~scrl5o.itm~ ~override/scrl5o.itm~
   WRITE_LONG 0x34 500 //Price
 
-COPY_EXISTING ~SCRL5P.ITM~ ~override/SCRL5P.ITM~
+COPY_EXISTING ~scrl5p.itm~ ~override/scrl5p.itm~
   WRITE_LONG 0x34 500 //Price
 
-COPY_EXISTING ~SCRL5Q.ITM~ ~override/SCRL5Q.ITM~
+COPY_EXISTING ~scrl5q.itm~ ~override/scrl5q.itm~
   WRITE_LONG 0x34 500 //Price
 
-COPY_EXISTING ~SCRL63.ITM~ ~override/SCRL63.ITM~
+COPY_EXISTING ~scrl63.itm~ ~override/scrl63.itm~
   WRITE_LONG 0x34 500 //Price
 
-COPY_EXISTING ~STAF06.ITM~ ~override/STAF06.ITM~
+COPY_EXISTING ~staf06.itm~ ~override/staf06.itm~
   WRITE_LONG 0x34 2900 //Price
 
-COPY_EXISTING ~SW1H09.ITM~ ~override/SW1H09.ITM~
+COPY_EXISTING ~sw1h09.itm~ ~override/sw1h09.itm~
   WRITE_LONG 0x34 4000 //Price
 
-COPY_EXISTING ~SW1H22.ITM~ ~override/SW1H22.ITM~
+COPY_EXISTING ~sw1h22.itm~ ~override/sw1h22.itm~
   WRITE_LONG 0x34 1300 //Price
 
-COPY_EXISTING ~SW1H23.ITM~ ~override/SW1H23.ITM~
+COPY_EXISTING ~sw1h23.itm~ ~override/sw1h23.itm~
   WRITE_LONG 0x34 3000 //Price
 
-COPY_EXISTING ~SW2H02.ITM~ ~override/SW2H02.ITM~
+COPY_EXISTING ~sw2h02.itm~ ~override/sw2h02.itm~
   WRITE_LONG 0x34 1500 //Price
 
-COPY_EXISTING ~WAND02.ITM~ ~override/WAND02.ITM~
+COPY_EXISTING ~wand02.itm~ ~override/wand02.itm~
   WRITE_LONG 0x34 10000 //Price
 
-COPY_EXISTING ~WAND03.ITM~ ~override/WAND03.ITM~
+COPY_EXISTING ~wand03.itm~ ~override/wand03.itm~
   WRITE_LONG 0x34 10000 //Price
 
-COPY_EXISTING ~WAND04.ITM~ ~override/WAND04.ITM~
+COPY_EXISTING ~wand04.itm~ ~override/wand04.itm~
   WRITE_LONG 0x34 12500 //Price
 
-COPY_EXISTING ~WAND05.ITM~ ~override/WAND05.ITM~
+COPY_EXISTING ~wand05.itm~ ~override/wand05.itm~
   WRITE_LONG 0x34 22000 //Price
 
-COPY_EXISTING ~WAND06.ITM~ ~override/WAND06.ITM~
+COPY_EXISTING ~wand06.itm~ ~override/wand06.itm~
   WRITE_LONG 0x34 15000 //Price
 
-COPY_EXISTING ~WAND07.ITM~ ~override/WAND07.ITM~
+COPY_EXISTING ~wand07.itm~ ~override/wand07.itm~
   WRITE_LONG 0x34 20000 //Price
 
-COPY_EXISTING ~WAND10.ITM~ ~override/WAND10.ITM~
+COPY_EXISTING ~wand10.itm~ ~override/wand10.itm~
   WRITE_LONG 0x34 25000 //Price
 
-COPY_EXISTING ~XBOW03.ITM~ ~override/XBOW03.ITM~
+COPY_EXISTING ~xbow03.itm~ ~override/xbow03.itm~
   WRITE_LONG 0x34 8000 //Price
 
-COPY_EXISTING ~XBOW06.ITM~ ~override/XBOW06.ITM~
+COPY_EXISTING ~xbow06.itm~ ~override/xbow06.itm~
   WRITE_LONG 0x34 8000 //Price
 /////////////////////////////////////////////////////////////
 //Reduced stack size from 40 to 20
 BEGIN @2201
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 2201
 
-COPY_EXISTING ~AROW01.ITM~ ~override/AROW01.ITM~
+COPY_EXISTING ~arow01.itm~ ~override/arow01.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~AROW02.ITM~ ~override/AROW02.ITM~
+COPY_EXISTING ~arow02.itm~ ~override/arow02.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~AROW03.ITM~ ~override/AROW03.ITM~
+COPY_EXISTING ~arow03.itm~ ~override/arow03.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~AROW04.ITM~ ~override/AROW04.ITM~
+COPY_EXISTING ~arow04.itm~ ~override/arow04.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~AROW05.ITM~ ~override/AROW05.ITM~
+COPY_EXISTING ~arow05.itm~ ~override/arow05.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~AROW06.ITM~ ~override/AROW06.ITM~
+COPY_EXISTING ~arow06.itm~ ~override/arow06.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~AROW07.ITM~ ~override/AROW07.ITM~
+COPY_EXISTING ~arow07.itm~ ~override/arow07.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~AROW08.ITM~ ~override/AROW08.ITM~
+COPY_EXISTING ~arow08.itm~ ~override/arow08.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~AROW09.ITM~ ~override/AROW09.ITM~
+COPY_EXISTING ~arow09.itm~ ~override/arow09.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~AROW10.ITM~ ~override/AROW10.ITM~
+COPY_EXISTING ~arow10.itm~ ~override/arow10.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~AROW11.ITM~ ~override/AROW11.ITM~
+COPY_EXISTING ~arow11.itm~ ~override/arow11.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
 //undroppable
-//COPY_EXISTING ~AROW12.ITM~ ~override/AROW12.ITM~
+//COPY_EXISTING ~arow12.itm~ ~override/arow12.itm~
 //  WRITE_SHORT 0x38 20 //Max in stack
 
 //IdDesc different, but undroppable
-//COPY_EXISTING ~AROW16.ITM~ ~override/AROW16.ITM~
+//COPY_EXISTING ~arow16.itm~ ~override/arow16.itm~
 //  WRITE_SHORT 0x38 20 //Max in stack
 
 //IdDesc different, but undroppable
-//COPY_EXISTING ~AROWKC.ITM~ ~override/AROWKC.ITM~
+//COPY_EXISTING ~arowkc.itm~ ~override/arowkc.itm~
 //  WRITE_SHORT 0x38 20 //Max in stack
 
 //IdDesc different, but undroppable
-//COPY_EXISTING ~ARROPHE2.ITM~ ~override/ARROPHE2.ITM~
+//COPY_EXISTING ~arrophe2.itm~ ~override/arrophe2.itm~
 //  WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~BOLT01.ITM~ ~override/BOLT01.ITM~
+COPY_EXISTING ~bolt01.itm~ ~override/bolt01.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~BOLT02.ITM~ ~override/BOLT02.ITM~
+COPY_EXISTING ~bolt02.itm~ ~override/bolt02.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~BOLT03.ITM~ ~override/BOLT03.ITM~
+COPY_EXISTING ~bolt03.itm~ ~override/bolt03.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~BOLT04.ITM~ ~override/BOLT04.ITM~
+COPY_EXISTING ~bolt04.itm~ ~override/bolt04.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~BOLT05.ITM~ ~override/BOLT05.ITM~
+COPY_EXISTING ~bolt05.itm~ ~override/bolt05.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~BOLT06.ITM~ ~override/BOLT06.ITM~
+COPY_EXISTING ~bolt06.itm~ ~override/bolt06.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~BULL01.ITM~ ~override/BULL01.ITM~
+COPY_EXISTING ~bull01.itm~ ~override/bull01.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~BULL02.ITM~ ~override/BULL02.ITM~
+COPY_EXISTING ~bull02.itm~ ~override/bull02.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~BULL03.ITM~ ~override/BULL03.ITM~
+COPY_EXISTING ~bull03.itm~ ~override/bull03.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~DART01.ITM~ ~override/DART01.ITM~
+COPY_EXISTING ~dart01.itm~ ~override/dart01.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 
-COPY_EXISTING ~IAROW01.ITM~ ~override/IAROW01.ITM~
+COPY_EXISTING ~iarow01.itm~ ~override/iarow01.itm~
   WRITE_SHORT 0x38 20 //Max in stack
 /////////////////////////////////////////////////////////////
 //Lore changes
 BEGIN @2202
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 2202
 
-COPY_EXISTING ~AX1H07.ITM~ ~override/AX1H07.ITM~
+COPY_EXISTING ~ax1h07.itm~ ~override/ax1h07.itm~
   WRITE_SHORT 0x42 65 //Lore
 
-COPY_EXISTING ~BLUN09.ITM~ ~override/BLUN09.ITM~
+COPY_EXISTING ~blun09.itm~ ~override/blun09.itm~
   WRITE_SHORT 0x42 65 //Lore
 
-COPY_EXISTING ~BLUN11.ITM~ ~override/BLUN11.ITM~
+COPY_EXISTING ~blun11.itm~ ~override/blun11.itm~
   WRITE_SHORT 0x42 40 //Lore
 
-COPY_EXISTING ~BOW06.ITM~ ~override/BOW06.ITM~
+COPY_EXISTING ~bow06.itm~ ~override/bow06.itm~
   WRITE_SHORT 0x42 25 //Lore
 
-COPY_EXISTING ~CHAN03.ITM~ ~override/CHAN03.ITM~
+COPY_EXISTING ~chan03.itm~ ~override/chan03.itm~
   WRITE_SHORT 0x42 65 //Lore
 
-COPY_EXISTING ~CHAN07.ITM~ ~override/CHAN07.ITM~
+COPY_EXISTING ~chan07.itm~ ~override/chan07.itm~
   WRITE_SHORT 0x42 75 //Lore
 
-COPY_EXISTING ~CLCK07.ITM~ ~override/CLCK07.ITM~
+COPY_EXISTING ~clck07.itm~ ~override/clck07.itm~
   WRITE_SHORT 0x42 0 //Lore
 
-COPY_EXISTING ~DAGG04.ITM~ ~override/DAGG04.ITM~
+COPY_EXISTING ~dagg04.itm~ ~override/dagg04.itm~
   WRITE_SHORT 0x42 60 //Lore
 
-COPY_EXISTING ~HALB03.ITM~ ~override/HALB03.ITM~
+COPY_EXISTING ~halb03.itm~ ~override/halb03.itm~
   WRITE_SHORT 0x42 60 //Lore
 
-COPY_EXISTING ~HELM03.ITM~ ~override/HELM03.ITM~
+COPY_EXISTING ~helm03.itm~ ~override/helm03.itm~
   WRITE_SHORT 0x42 40 //Lore
 
-COPY_EXISTING ~HELM07.ITM~ ~override/HELM07.ITM~
+COPY_EXISTING ~helm07.itm~ ~override/helm07.itm~
   WRITE_SHORT 0x42 100 //Lore
 
-COPY_EXISTING ~LEAT03.ITM~ ~override/LEAT03.ITM~
+COPY_EXISTING ~leat03.itm~ ~override/leat03.itm~
   WRITE_SHORT 0x42 60 //Lore
 
-COPY_EXISTING ~LEAT06.ITM~ ~override/LEAT06.ITM~
+COPY_EXISTING ~leat06.itm~ ~override/leat06.itm~
   WRITE_SHORT 0x42 100 //Lore
 
-COPY_EXISTING ~MISC72.ITM~ ~override/MISC72.ITM~
+COPY_EXISTING ~misc72.itm~ ~override/misc72.itm~
   WRITE_SHORT 0x42 20 //Lore
 
-COPY_EXISTING ~PLAT02.ITM~ ~override/PLAT02.ITM~
+COPY_EXISTING ~plat02.itm~ ~override/plat02.itm~
   WRITE_SHORT 0x42 40 //Lore
 
-COPY_EXISTING ~SLNG03.ITM~ ~override/SLNG03.ITM~
+COPY_EXISTING ~slng03.itm~ ~override/slng03.itm~
   WRITE_SHORT 0x42 45 //Lore
 
-COPY_EXISTING ~STAF06.ITM~ ~override/STAF06.ITM~
+COPY_EXISTING ~staf06.itm~ ~override/staf06.itm~
   WRITE_SHORT 0x42 25 //Lore
 
-COPY_EXISTING ~STAF07.ITM~ ~override/STAF07.ITM~
+COPY_EXISTING ~staf07.itm~ ~override/staf07.itm~
   WRITE_SHORT 0x42 65 //Lore
 
-COPY_EXISTING ~SW1H06.ITM~ ~override/SW1H06.ITM~
+COPY_EXISTING ~sw1h06.itm~ ~override/sw1h06.itm~
   WRITE_SHORT 0x42 60 //Lore
 
-COPY_EXISTING ~SW1H24.ITM~ ~override/SW1H24.ITM~
+COPY_EXISTING ~sw1h24.itm~ ~override/sw1h24.itm~
   WRITE_SHORT 0x42 70 //Lore
 /////////////////////////////////////////////////////////////
 //Scroll casting level changes
 BEGIN @2203
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 2203
 
-COPY_EXISTING ~SCRL1B.ITM~ ~override/SCRL1B.ITM~
+COPY_EXISTING ~scrl1b.itm~ ~override/scrl1b.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2286,7 +2054,7 @@ COPY_EXISTING ~SCRL1B.ITM~ ~override/SCRL1B.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1C.ITM~ ~override/SCRL1C.ITM~
+COPY_EXISTING ~scrl1c.itm~ ~override/scrl1c.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2306,7 +2074,7 @@ COPY_EXISTING ~SCRL1C.ITM~ ~override/SCRL1C.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1D.ITM~ ~override/SCRL1D.ITM~
+COPY_EXISTING ~scrl1d.itm~ ~override/scrl1d.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2326,7 +2094,7 @@ COPY_EXISTING ~SCRL1D.ITM~ ~override/SCRL1D.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1E.ITM~ ~override/SCRL1E.ITM~
+COPY_EXISTING ~scrl1e.itm~ ~override/scrl1e.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2346,7 +2114,7 @@ COPY_EXISTING ~SCRL1E.ITM~ ~override/SCRL1E.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1F.ITM~ ~override/SCRL1F.ITM~
+COPY_EXISTING ~scrl1f.itm~ ~override/scrl1f.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2366,7 +2134,7 @@ COPY_EXISTING ~SCRL1F.ITM~ ~override/SCRL1F.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1G.ITM~ ~override/SCRL1G.ITM~
+COPY_EXISTING ~scrl1g.itm~ ~override/scrl1g.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2386,7 +2154,7 @@ COPY_EXISTING ~SCRL1G.ITM~ ~override/SCRL1G.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1H.ITM~ ~override/SCRL1H.ITM~
+COPY_EXISTING ~scrl1h.itm~ ~override/scrl1h.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2406,7 +2174,7 @@ COPY_EXISTING ~SCRL1H.ITM~ ~override/SCRL1H.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1I.ITM~ ~override/SCRL1I.ITM~
+COPY_EXISTING ~scrl1i.itm~ ~override/scrl1i.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2426,7 +2194,7 @@ COPY_EXISTING ~SCRL1I.ITM~ ~override/SCRL1I.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1K.ITM~ ~override/SCRL1K.ITM~
+COPY_EXISTING ~scrl1k.itm~ ~override/scrl1k.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2446,7 +2214,7 @@ COPY_EXISTING ~SCRL1K.ITM~ ~override/SCRL1K.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1L.ITM~ ~override/SCRL1L.ITM~
+COPY_EXISTING ~scrl1l.itm~ ~override/scrl1l.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2466,7 +2234,7 @@ COPY_EXISTING ~SCRL1L.ITM~ ~override/SCRL1L.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1M.ITM~ ~override/SCRL1M.ITM~
+COPY_EXISTING ~scrl1m.itm~ ~override/scrl1m.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2486,7 +2254,7 @@ COPY_EXISTING ~SCRL1M.ITM~ ~override/SCRL1M.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1N.ITM~ ~override/SCRL1N.ITM~
+COPY_EXISTING ~scrl1n.itm~ ~override/scrl1n.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2506,7 +2274,7 @@ COPY_EXISTING ~SCRL1N.ITM~ ~override/SCRL1N.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1O.ITM~ ~override/SCRL1O.ITM~
+COPY_EXISTING ~scrl1o.itm~ ~override/scrl1o.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2526,7 +2294,7 @@ COPY_EXISTING ~SCRL1O.ITM~ ~override/SCRL1O.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1P.ITM~ ~override/SCRL1P.ITM~
+COPY_EXISTING ~scrl1p.itm~ ~override/scrl1p.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2546,7 +2314,7 @@ COPY_EXISTING ~SCRL1P.ITM~ ~override/SCRL1P.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1Q.ITM~ ~override/SCRL1Q.ITM~
+COPY_EXISTING ~scrl1q.itm~ ~override/scrl1q.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2566,7 +2334,7 @@ COPY_EXISTING ~SCRL1Q.ITM~ ~override/SCRL1Q.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1S.ITM~ ~override/SCRL1S.ITM~
+COPY_EXISTING ~scrl1s.itm~ ~override/scrl1s.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2586,7 +2354,7 @@ COPY_EXISTING ~SCRL1S.ITM~ ~override/SCRL1S.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1T.ITM~ ~override/SCRL1T.ITM~
+COPY_EXISTING ~scrl1t.itm~ ~override/scrl1t.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2606,7 +2374,7 @@ COPY_EXISTING ~SCRL1T.ITM~ ~override/SCRL1T.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1U.ITM~ ~override/SCRL1U.ITM~
+COPY_EXISTING ~scrl1u.itm~ ~override/scrl1u.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2626,7 +2394,7 @@ COPY_EXISTING ~SCRL1U.ITM~ ~override/SCRL1U.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1Y.ITM~ ~override/SCRL1Y.ITM~
+COPY_EXISTING ~scrl1y.itm~ ~override/scrl1y.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2646,7 +2414,7 @@ COPY_EXISTING ~SCRL1Y.ITM~ ~override/SCRL1Y.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL2A.ITM~ ~override/SCRL2A.ITM~
+COPY_EXISTING ~scrl2a.itm~ ~override/scrl2a.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2666,7 +2434,7 @@ COPY_EXISTING ~SCRL2A.ITM~ ~override/SCRL2A.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL2D.ITM~ ~override/SCRL2D.ITM~
+COPY_EXISTING ~scrl2d.itm~ ~override/scrl2d.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2686,7 +2454,7 @@ COPY_EXISTING ~SCRL2D.ITM~ ~override/SCRL2D.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL2E.ITM~ ~override/SCRL2E.ITM~
+COPY_EXISTING ~scrl2e.itm~ ~override/scrl2e.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2706,7 +2474,7 @@ COPY_EXISTING ~SCRL2E.ITM~ ~override/SCRL2E.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL2F.ITM~ ~override/SCRL2F.ITM~
+COPY_EXISTING ~scrl2f.itm~ ~override/scrl2f.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2726,7 +2494,7 @@ COPY_EXISTING ~SCRL2F.ITM~ ~override/SCRL2F.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL2G.ITM~ ~override/SCRL2G.ITM~
+COPY_EXISTING ~scrl2g.itm~ ~override/scrl2g.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2746,7 +2514,7 @@ COPY_EXISTING ~SCRL2G.ITM~ ~override/SCRL2G.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL2H.ITM~ ~override/SCRL2H.ITM~
+COPY_EXISTING ~scrl2h.itm~ ~override/scrl2h.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2766,7 +2534,7 @@ COPY_EXISTING ~SCRL2H.ITM~ ~override/SCRL2H.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL56.ITM~ ~override/SCRL56.ITM~
+COPY_EXISTING ~scrl56.itm~ ~override/scrl56.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2786,7 +2554,7 @@ COPY_EXISTING ~SCRL56.ITM~ ~override/SCRL56.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL58.ITM~ ~override/SCRL58.ITM~
+COPY_EXISTING ~scrl58.itm~ ~override/scrl58.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2806,7 +2574,7 @@ COPY_EXISTING ~SCRL58.ITM~ ~override/SCRL58.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL59.ITM~ ~override/SCRL59.ITM~
+COPY_EXISTING ~scrl59.itm~ ~override/scrl59.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2826,7 +2594,7 @@ COPY_EXISTING ~SCRL59.ITM~ ~override/SCRL59.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5A.ITM~ ~override/SCRL5A.ITM~
+COPY_EXISTING ~scrl5a.itm~ ~override/scrl5a.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2846,7 +2614,7 @@ COPY_EXISTING ~SCRL5A.ITM~ ~override/SCRL5A.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5B.ITM~ ~override/SCRL5B.ITM~
+COPY_EXISTING ~scrl5b.itm~ ~override/scrl5b.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2866,7 +2634,7 @@ COPY_EXISTING ~SCRL5B.ITM~ ~override/SCRL5B.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5C.ITM~ ~override/SCRL5C.ITM~
+COPY_EXISTING ~scrl5c.itm~ ~override/scrl5c.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2886,7 +2654,7 @@ COPY_EXISTING ~SCRL5C.ITM~ ~override/SCRL5C.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5D.ITM~ ~override/SCRL5D.ITM~
+COPY_EXISTING ~scrl5d.itm~ ~override/scrl5d.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2906,7 +2674,7 @@ COPY_EXISTING ~SCRL5D.ITM~ ~override/SCRL5D.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5E.ITM~ ~override/SCRL5E.ITM~
+COPY_EXISTING ~scrl5e.itm~ ~override/scrl5e.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2926,7 +2694,7 @@ COPY_EXISTING ~SCRL5E.ITM~ ~override/SCRL5E.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5F.ITM~ ~override/SCRL5F.ITM~
+COPY_EXISTING ~scrl5f.itm~ ~override/scrl5f.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2946,7 +2714,7 @@ COPY_EXISTING ~SCRL5F.ITM~ ~override/SCRL5F.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5G.ITM~ ~override/SCRL5G.ITM~
+COPY_EXISTING ~scrl5g.itm~ ~override/scrl5g.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2966,7 +2734,7 @@ COPY_EXISTING ~SCRL5G.ITM~ ~override/SCRL5G.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5H.ITM~ ~override/SCRL5H.ITM~
+COPY_EXISTING ~scrl5h.itm~ ~override/scrl5h.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -2986,7 +2754,7 @@ COPY_EXISTING ~SCRL5H.ITM~ ~override/SCRL5H.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5I.ITM~ ~override/SCRL5I.ITM~
+COPY_EXISTING ~scrl5i.itm~ ~override/scrl5i.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3006,7 +2774,7 @@ COPY_EXISTING ~SCRL5I.ITM~ ~override/SCRL5I.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5J.ITM~ ~override/SCRL5J.ITM~
+COPY_EXISTING ~scrl5j.itm~ ~override/scrl5j.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3026,7 +2794,7 @@ COPY_EXISTING ~SCRL5J.ITM~ ~override/SCRL5J.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5K.ITM~ ~override/SCRL5K.ITM~
+COPY_EXISTING ~scrl5k.itm~ ~override/scrl5k.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3046,7 +2814,7 @@ COPY_EXISTING ~SCRL5K.ITM~ ~override/SCRL5K.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5L.ITM~ ~override/SCRL5L.ITM~
+COPY_EXISTING ~scrl5l.itm~ ~override/scrl5l.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3066,7 +2834,7 @@ COPY_EXISTING ~SCRL5L.ITM~ ~override/SCRL5L.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5M.ITM~ ~override/SCRL5M.ITM~
+COPY_EXISTING ~scrl5m.itm~ ~override/scrl5m.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3086,7 +2854,7 @@ COPY_EXISTING ~SCRL5M.ITM~ ~override/SCRL5M.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5N.ITM~ ~override/SCRL5N.ITM~
+COPY_EXISTING ~scrl5n.itm~ ~override/scrl5n.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3106,7 +2874,7 @@ COPY_EXISTING ~SCRL5N.ITM~ ~override/SCRL5N.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5O.ITM~ ~override/SCRL5O.ITM~
+COPY_EXISTING ~scrl5o.itm~ ~override/scrl5o.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3126,7 +2894,7 @@ COPY_EXISTING ~SCRL5O.ITM~ ~override/SCRL5O.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5P.ITM~ ~override/SCRL5P.ITM~
+COPY_EXISTING ~scrl5p.itm~ ~override/scrl5p.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3146,7 +2914,7 @@ COPY_EXISTING ~SCRL5P.ITM~ ~override/SCRL5P.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL5Q.ITM~ ~override/SCRL5Q.ITM~
+COPY_EXISTING ~scrl5q.itm~ ~override/scrl5q.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3166,7 +2934,7 @@ COPY_EXISTING ~SCRL5Q.ITM~ ~override/SCRL5Q.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL61.ITM~ ~override/SCRL61.ITM~
+COPY_EXISTING ~scrl61.itm~ ~override/scrl61.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3186,7 +2954,7 @@ COPY_EXISTING ~SCRL61.ITM~ ~override/SCRL61.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL62.ITM~ ~override/SCRL62.ITM~
+COPY_EXISTING ~scrl62.itm~ ~override/scrl62.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3206,7 +2974,7 @@ COPY_EXISTING ~SCRL62.ITM~ ~override/SCRL62.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL66.ITM~ ~override/SCRL66.ITM~
+COPY_EXISTING ~scrl66.itm~ ~override/scrl66.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3226,7 +2994,7 @@ COPY_EXISTING ~SCRL66.ITM~ ~override/SCRL66.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL68.ITM~ ~override/SCRL68.ITM~
+COPY_EXISTING ~scrl68.itm~ ~override/scrl68.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3246,7 +3014,7 @@ COPY_EXISTING ~SCRL68.ITM~ ~override/SCRL68.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL69.ITM~ ~override/SCRL69.ITM~
+COPY_EXISTING ~scrl69.itm~ ~override/scrl69.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3266,7 +3034,7 @@ COPY_EXISTING ~SCRL69.ITM~ ~override/SCRL69.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL70.ITM~ ~override/SCRL70.ITM~
+COPY_EXISTING ~scrl70.itm~ ~override/scrl70.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3286,7 +3054,7 @@ COPY_EXISTING ~SCRL70.ITM~ ~override/SCRL70.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL71.ITM~ ~override/SCRL71.ITM~
+COPY_EXISTING ~scrl71.itm~ ~override/scrl71.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3306,7 +3074,7 @@ COPY_EXISTING ~SCRL71.ITM~ ~override/SCRL71.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL72.ITM~ ~override/SCRL72.ITM~
+COPY_EXISTING ~scrl72.itm~ ~override/scrl72.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3326,7 +3094,7 @@ COPY_EXISTING ~SCRL72.ITM~ ~override/SCRL72.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL73.ITM~ ~override/SCRL73.ITM~
+COPY_EXISTING ~scrl73.itm~ ~override/scrl73.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3346,7 +3114,7 @@ COPY_EXISTING ~SCRL73.ITM~ ~override/SCRL73.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL76.ITM~ ~override/SCRL76.ITM~
+COPY_EXISTING ~scrl76.itm~ ~override/scrl76.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3366,7 +3134,7 @@ COPY_EXISTING ~SCRL76.ITM~ ~override/SCRL76.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL77.ITM~ ~override/SCRL77.ITM~
+COPY_EXISTING ~scrl77.itm~ ~override/scrl77.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3386,7 +3154,7 @@ COPY_EXISTING ~SCRL77.ITM~ ~override/SCRL77.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL78.ITM~ ~override/SCRL78.ITM~
+COPY_EXISTING ~scrl78.itm~ ~override/scrl78.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3406,7 +3174,7 @@ COPY_EXISTING ~SCRL78.ITM~ ~override/SCRL78.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL79.ITM~ ~override/SCRL79.ITM~
+COPY_EXISTING ~scrl79.itm~ ~override/scrl79.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3426,7 +3194,7 @@ COPY_EXISTING ~SCRL79.ITM~ ~override/SCRL79.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL80.ITM~ ~override/SCRL80.ITM~
+COPY_EXISTING ~scrl80.itm~ ~override/scrl80.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3446,7 +3214,7 @@ COPY_EXISTING ~SCRL80.ITM~ ~override/SCRL80.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL81.ITM~ ~override/SCRL81.ITM~
+COPY_EXISTING ~scrl81.itm~ ~override/scrl81.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3466,7 +3234,7 @@ COPY_EXISTING ~SCRL81.ITM~ ~override/SCRL81.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL82.ITM~ ~override/SCRL82.ITM~
+COPY_EXISTING ~scrl82.itm~ ~override/scrl82.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3486,7 +3254,7 @@ COPY_EXISTING ~SCRL82.ITM~ ~override/SCRL82.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL83.ITM~ ~override/SCRL83.ITM~
+COPY_EXISTING ~scrl83.itm~ ~override/scrl83.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3506,7 +3274,7 @@ COPY_EXISTING ~SCRL83.ITM~ ~override/SCRL83.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL84.ITM~ ~override/SCRL84.ITM~
+COPY_EXISTING ~scrl84.itm~ ~override/scrl84.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3526,7 +3294,7 @@ COPY_EXISTING ~SCRL84.ITM~ ~override/SCRL84.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL85.ITM~ ~override/SCRL85.ITM~
+COPY_EXISTING ~scrl85.itm~ ~override/scrl85.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3546,7 +3314,7 @@ COPY_EXISTING ~SCRL85.ITM~ ~override/SCRL85.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL86.ITM~ ~override/SCRL86.ITM~
+COPY_EXISTING ~scrl86.itm~ ~override/scrl86.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3566,7 +3334,7 @@ COPY_EXISTING ~SCRL86.ITM~ ~override/SCRL86.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL87.ITM~ ~override/SCRL87.ITM~
+COPY_EXISTING ~scrl87.itm~ ~override/scrl87.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3586,7 +3354,7 @@ COPY_EXISTING ~SCRL87.ITM~ ~override/SCRL87.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL89.ITM~ ~override/SCRL89.ITM~
+COPY_EXISTING ~scrl89.itm~ ~override/scrl89.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3606,7 +3374,7 @@ COPY_EXISTING ~SCRL89.ITM~ ~override/SCRL89.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL90.ITM~ ~override/SCRL90.ITM~
+COPY_EXISTING ~scrl90.itm~ ~override/scrl90.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3626,7 +3394,7 @@ COPY_EXISTING ~SCRL90.ITM~ ~override/SCRL90.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL91.ITM~ ~override/SCRL91.ITM~
+COPY_EXISTING ~scrl91.itm~ ~override/scrl91.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3646,7 +3414,7 @@ COPY_EXISTING ~SCRL91.ITM~ ~override/SCRL91.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL92.ITM~ ~override/SCRL92.ITM~
+COPY_EXISTING ~scrl92.itm~ ~override/scrl92.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3666,7 +3434,7 @@ COPY_EXISTING ~SCRL92.ITM~ ~override/SCRL92.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL93.ITM~ ~override/SCRL93.ITM~
+COPY_EXISTING ~scrl93.itm~ ~override/scrl93.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3686,7 +3454,7 @@ COPY_EXISTING ~SCRL93.ITM~ ~override/SCRL93.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL94.ITM~ ~override/SCRL94.ITM~
+COPY_EXISTING ~scrl94.itm~ ~override/scrl94.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3706,7 +3474,7 @@ COPY_EXISTING ~SCRL94.ITM~ ~override/SCRL94.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL95.ITM~ ~override/SCRL95.ITM~
+COPY_EXISTING ~scrl95.itm~ ~override/scrl95.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3726,7 +3494,7 @@ COPY_EXISTING ~SCRL95.ITM~ ~override/SCRL95.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL96.ITM~ ~override/SCRL96.ITM~
+COPY_EXISTING ~scrl96.itm~ ~override/scrl96.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3746,7 +3514,7 @@ COPY_EXISTING ~SCRL96.ITM~ ~override/SCRL96.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL97.ITM~ ~override/SCRL97.ITM~
+COPY_EXISTING ~scrl97.itm~ ~override/scrl97.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3766,7 +3534,7 @@ COPY_EXISTING ~SCRL97.ITM~ ~override/SCRL97.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL98.ITM~ ~override/SCRL98.ITM~
+COPY_EXISTING ~scrl98.itm~ ~override/scrl98.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3786,7 +3554,7 @@ COPY_EXISTING ~SCRL98.ITM~ ~override/SCRL98.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL99.ITM~ ~override/SCRL99.ITM~
+COPY_EXISTING ~scrl99.itm~ ~override/scrl99.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -3808,10 +3576,10 @@ COPY_EXISTING ~SCRL99.ITM~ ~override/SCRL99.ITM~
 /////////////////////////////////////////////////////////////
 //Item behaviour changes
 BEGIN @2204
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 2204
 
-COPY_EXISTING ~AROW02.ITM~ ~override/AROW02.ITM~
+COPY_EXISTING ~arow02.itm~ ~override/arow02.itm~
   SAY IDENTIFIED_DESC @2301 //16297
 
   READ_LONG 0x64 abil_off
@@ -3823,7 +3591,7 @@ COPY_EXISTING ~AROW02.ITM~ ~override/AROW02.ITM~
     END
   END
 
-COPY_EXISTING ~AROW04.ITM~ ~override/AROW04.ITM~
+COPY_EXISTING ~arow04.itm~ ~override/arow04.itm~
   SAY IDENTIFIED_DESC @2302 //17536
 
   READ_LONG 0x64 abil_off
@@ -3847,7 +3615,7 @@ COPY_EXISTING ~AROW04.ITM~ ~override/AROW04.ITM~
     END
   END
 
-COPY_EXISTING ~AROW08.ITM~ ~override/AROW08.ITM~
+COPY_EXISTING ~arow08.itm~ ~override/arow08.itm~
   SAY IDENTIFIED_DESC @2303 //17540
 
   READ_LONG 0x64 abil_off
@@ -3871,7 +3639,7 @@ COPY_EXISTING ~AROW08.ITM~ ~override/AROW08.ITM~
     END
   END
 
-COPY_EXISTING ~AROW09.ITM~ ~override/AROW09.ITM~
+COPY_EXISTING ~arow09.itm~ ~override/arow09.itm~
   SAY IDENTIFIED_DESC @2304 //17542
 
   READ_LONG 0x64 abil_off
@@ -3894,7 +3662,7 @@ COPY_EXISTING ~AROW09.ITM~ ~override/AROW09.ITM~
     END
   END
 
-COPY_EXISTING ~AROW11.ITM~ ~override/AROW11.ITM~
+COPY_EXISTING ~arow11.itm~ ~override/arow11.itm~
   SAY IDENTIFIED_DESC @2305 //17534
 
   READ_LONG 0x64 abil_off
@@ -3907,9 +3675,9 @@ COPY_EXISTING ~AROW11.ITM~ ~override/AROW11.ITM~
   END
 
 //BG2 has correct description
-//COPY_EXISTING ~AX1H02.ITM~ ~override/AX1H02.ITM~
+//COPY_EXISTING ~ax1h02.itm~ ~override/ax1h02.itm~
 
-/*COPY_EXISTING ~AX1H04.ITM~ ~override/AX1H04.ITM~
+/*COPY_EXISTING ~ax1h04.itm~ ~override/ax1h04.itm~
 //  WRITE_LONG 0x4c 2 //Weight; but description says 5
 
   READ_LONG 0x64 abil_off
@@ -3921,7 +3689,7 @@ COPY_EXISTING ~AROW11.ITM~ ~override/AROW11.ITM~
     END
   END*/
 
-/*COPY_EXISTING ~AX1H05.ITM~ ~override/AX1H05.ITM~
+/*COPY_EXISTING ~ax1h05.itm~ ~override/ax1h05.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -3932,9 +3700,9 @@ COPY_EXISTING ~AROW11.ITM~ ~override/AROW11.ITM~
   END*/
 
 //converted by old Tutu versions, but actually unused
-//COPY_EXISTING ~BLUN10.ITM~ ~override/BLUN10.ITM~
+//COPY_EXISTING ~blun10.itm~ ~override/blun10.itm~
 
-COPY_EXISTING ~BOLT02.ITM~ ~override/BOLT02.ITM~
+COPY_EXISTING ~bolt02.itm~ ~override/bolt02.itm~
   SAY IDENTIFIED_DESC @2306 //19353
 
   READ_LONG 0x64 abil_off
@@ -3946,7 +3714,7 @@ COPY_EXISTING ~BOLT02.ITM~ ~override/BOLT02.ITM~
     END
   END
 
-COPY_EXISTING ~BOLT06.ITM~ ~override/BOLT06.ITM~
+COPY_EXISTING ~bolt06.itm~ ~override/bolt06.itm~
   SAY IDENTIFIED_DESC @2307 //19358
 
   READ_LONG 0x64 abil_off
@@ -3958,7 +3726,7 @@ COPY_EXISTING ~BOLT06.ITM~ ~override/BOLT06.ITM~
     END
   END
 
-COPY_EXISTING ~BOOT02.ITM~ ~override/BOOT02.ITM~
+COPY_EXISTING ~boot02.itm~ ~override/boot02.itm~
   SAY IDENTIFIED_DESC @2308 //7376
 
   READ_LONG 0x64 abil_off
@@ -3984,10 +3752,10 @@ COPY_EXISTING ~BOOT02.ITM~ ~override/BOOT02.ITM~
     END
   END
 
-//COPY_EXISTING ~BOOT06.ITM~ ~override/BOOT06.ITM~
+//COPY_EXISTING ~boot06.itm~ ~override/boot06.itm~
 //  WRITE_LONG 0x4c 5 //Weight; but description says 4
 
-COPY_EXISTING ~BOW01.ITM~ ~override/BOW01.ITM~
+COPY_EXISTING ~bow01.itm~ ~override/bow01.itm~
   SAY UNIDENTIFIED_DESC @2309 //6858
 
   READ_LONG 0x64 abil_off
@@ -3999,7 +3767,7 @@ COPY_EXISTING ~BOW01.ITM~ ~override/BOW01.ITM~
     END
   END
 
-COPY_EXISTING ~BOW02.ITM~ ~override/BOW02.ITM~
+COPY_EXISTING ~bow02.itm~ ~override/bow02.itm~
   SAY UNIDENTIFIED_DESC @2309 //6858
   SAY IDENTIFIED_DESC @2310 //16288
   WRITE_BYTE 0x26 8 //Minimum strength
@@ -4013,7 +3781,7 @@ COPY_EXISTING ~BOW02.ITM~ ~override/BOW02.ITM~
     END
   END
 
-COPY_EXISTING ~BOW04.ITM~ ~override/BOW04.ITM~
+COPY_EXISTING ~bow04.itm~ ~override/bow04.itm~
   SAY IDENTIFIED_DESC @2311 //17643
 
   READ_LONG 0x64 abil_off
@@ -4025,7 +3793,7 @@ COPY_EXISTING ~BOW04.ITM~ ~override/BOW04.ITM~
     END
   END
 
-COPY_EXISTING ~BOW05.ITM~ ~override/BOW05.ITM~
+COPY_EXISTING ~bow05.itm~ ~override/bow05.itm~
   READ_STRREF UNIDENTIFIED_DESC temp_strref
   INNER_PATCH_SAVE new_strref "%temp_strref%" BEGIN
     REPLACE_TEXTUALLY ~ 3 ~ ~ 6 ~ //Change description to require 6 strength
@@ -4034,7 +3802,7 @@ COPY_EXISTING ~BOW05.ITM~ ~override/BOW05.ITM~
 
   WRITE_BYTE 0x26 6 //Minimum strength
 
-COPY_EXISTING ~BOW06.ITM~ ~override/BOW06.ITM~
+COPY_EXISTING ~bow06.itm~ ~override/bow06.itm~
   READ_STRREF UNIDENTIFIED_DESC temp_strref
   INNER_PATCH_SAVE new_strref "%temp_strref%" BEGIN
     REPLACE_TEXTUALLY ~ 3 ~ ~ 6 ~ //Change description to require 6 strength
@@ -4061,28 +3829,28 @@ COPY_EXISTING ~BOW06.ITM~ ~override/BOW06.ITM~
     END
   END
 
-COPY_EXISTING ~CHAN02.ITM~ ~override/CHAN02.ITM~
+COPY_EXISTING ~chan02.itm~ ~override/chan02.itm~
   SAY IDENTIFIED_DESC @2312 //16272
   WRITE_LONG 0x4c 20 //Weight
 
-COPY_EXISTING ~CHAN03.ITM~ ~override/CHAN03.ITM~
+COPY_EXISTING ~chan03.itm~ ~override/chan03.itm~
   SAY IDENTIFIED_DESC @2313 //6676
 
   WRITE_BYTE 0x26 7 //Minimum strength
 
-COPY_EXISTING ~CHAN05.ITM~ ~override/CHAN05.ITM~
+COPY_EXISTING ~chan05.itm~ ~override/chan05.itm~
   SAY IDENTIFIED_DESC @2314 //16273
   WRITE_LONG 0x4c 20 //Weight
 
-COPY_EXISTING ~CHAN06.ITM~ ~override/CHAN06.ITM~
+COPY_EXISTING ~chan06.itm~ ~override/chan06.itm~
   SAY IDENTIFIED_DESC @2315 //11059
   WRITE_BYTE 0x26 5 //Minimum strength
 
-COPY_EXISTING ~CHAN07.ITM~ ~override/CHAN07.ITM~
+COPY_EXISTING ~chan07.itm~ ~override/chan07.itm~
   SAY IDENTIFIED_DESC @2316 //21303
   WRITE_BYTE 0x26 6 //Minimum strength
 
-COPY_EXISTING ~CHILLT.ITM~ ~override/CHILLT.ITM~
+COPY_EXISTING ~chillt.itm~ ~override/chillt.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4092,7 +3860,7 @@ COPY_EXISTING ~CHILLT.ITM~ ~override/CHILLT.ITM~
     END
   END
 
-COPY_EXISTING ~CLCK07.ITM~ ~override/CLCK07.ITM~
+COPY_EXISTING ~clck07.itm~ ~override/clck07.itm~
   SAY IDENTIFIED_DESC @2317 //17243
 
   READ_LONG 0x64 abil_off
@@ -4120,10 +3888,10 @@ COPY_EXISTING ~CLCK07.ITM~ ~override/CLCK07.ITM~
     END
   END
 
-//COPY_EXISTING ~DAGG04.ITM~ ~override/DAGG04.ITM~
+//COPY_EXISTING ~dagg04.itm~ ~override/dagg04.itm~
 //  WRITE_BYTE 0x26 4 //Minimum strength; but not consistent with daggers
 
-/*COPY_EXISTING ~DAGG05.ITM~ ~override/DAGG05.ITM~
+/*COPY_EXISTING ~dagg05.itm~ ~override/dagg05.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4133,7 +3901,7 @@ COPY_EXISTING ~CLCK07.ITM~ ~override/CLCK07.ITM~
     END
   END*/
 
-COPY_EXISTING ~DART01.ITM~ ~override/DART01.ITM~
+COPY_EXISTING ~dart01.itm~ ~override/dart01.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4145,7 +3913,7 @@ COPY_EXISTING ~DART01.ITM~ ~override/DART01.ITM~
     END
   END
 
-/*COPY_EXISTING ~DART02.ITM~ ~override/DART02.ITM~
+/*COPY_EXISTING ~dart02.itm~ ~override/dart02.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4155,7 +3923,7 @@ COPY_EXISTING ~DART01.ITM~ ~override/DART01.ITM~
     END
   END*/
 
-/*COPY_EXISTING ~DART03.ITM~ ~override/DART03.ITM~
+/*COPY_EXISTING ~dart03.itm~ ~override/dart03.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4165,7 +3933,7 @@ COPY_EXISTING ~DART01.ITM~ ~override/DART01.ITM~
     END
   END*/
 
-/*COPY_EXISTING ~DART04.ITM~ ~override/DART04.ITM~
+/*COPY_EXISTING ~dart04.itm~ ~override/dart04.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4175,7 +3943,7 @@ COPY_EXISTING ~DART01.ITM~ ~override/DART01.ITM~
     END
   END*/
 
-COPY_EXISTING ~GHOST3.ITM~ ~override/GHOST3.ITM~
+COPY_EXISTING ~ghost3.itm~ ~override/ghost3.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4219,7 +3987,7 @@ COPY_EXISTING ~GHOST3.ITM~ ~override/GHOST3.ITM~
   SET fx_global_num += 1
   WRITE_SHORT 0x70 fx_global_num
 
-COPY_EXISTING ~GHOUL1.ITM~ ~override/GHOUL1.ITM~
+COPY_EXISTING ~ghoul1.itm~ ~override/ghoul1.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4333,7 +4101,7 @@ COPY_EXISTING ~GHOUL1.ITM~ ~override/GHOUL1.ITM~
   END
 
 //BG2 version contains in Display String effect Param2 = 2, apparently irrelevant
-COPY_EXISTING ~GHOULT.ITM~ ~override/GHOULT.ITM~
+COPY_EXISTING ~ghoult.itm~ ~override/ghoult.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4346,22 +4114,22 @@ COPY_EXISTING ~GHOULT.ITM~ ~override/GHOULT.ITM~
     END
   END
 
-//COPY_EXISTING ~HALB03.ITM~ ~override/HALB03.ITM~
+//COPY_EXISTING ~halb03.itm~ ~override/halb03.itm~
 //  WRITE_BYTE 0x26 11 //Minimum strength; but not consistent with halberds
 
-//COPY_EXISTING ~HAMM03.ITM~ ~override/HAMM03.ITM~
+//COPY_EXISTING ~hamm03.itm~ ~override/hamm03.itm~
 //  WRITE_BYTE 0x26 8 //Minimum strength; but not consistent with warhammers
 
 //BG2 version is more accurate to description
-//COPY_EXISTING ~HAMM04.ITM~ ~override/HAMM04.ITM~
+//COPY_EXISTING ~hamm04.itm~ ~override/hamm04.itm~
 
-COPY_EXISTING ~HELM14.ITM~ ~override/HELM14.ITM~
+COPY_EXISTING ~helm14.itm~ ~override/helm14.itm~
   SAY IDENTIFIED_DESC @2318 //21408
 
   READ_BYTE 0x18 flags
   WRITE_BYTE 0x18 (%flags% BOR 0b00000001) //Add Unsellable flag
 
-COPY_EXISTING ~IMMUNE1.ITM~ ~override/IMMUNE1.ITM~
+COPY_EXISTING ~immune1.itm~ ~override/immune1.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4381,13 +4149,13 @@ COPY_EXISTING ~IMMUNE1.ITM~ ~override/IMMUNE1.ITM~
     END
   END
 
-COPY_EXISTING ~LEAT02.ITM~ ~override/LEAT02.ITM~
+COPY_EXISTING ~leat02.itm~ ~override/leat02.itm~
   SAY IDENTIFIED_DESC @2319 //16269
 
   WRITE_LONG 0x4c 10 //Weight
 
 //BG2 has more accurate description
-COPY_EXISTING ~LEAT10.ITM~ ~override/LEAT10.ITM~
+COPY_EXISTING ~leat10.itm~ ~override/leat10.itm~
   READ_STRREF UNIDENTIFIED_DESC temp_strref
   INNER_PATCH_SAVE new_strref "%temp_strref%" BEGIN
     REPLACE_TEXTUALLY ~ 6 ~ ~ 9 ~ //Change description to require 9 strength
@@ -4417,15 +4185,15 @@ COPY_EXISTING ~LEAT10.ITM~ ~override/LEAT10.ITM~
   END
 
 //undroppable
-//COPY_EXISTING ~MAGE03.ITM~ ~override/MAGE03.ITM~
+//COPY_EXISTING ~mage03.itm~ ~override/mage03.itm~
 
 //undroppable
-//COPY_EXISTING ~MAGE05.ITM~ ~override/MAGE05.ITM~
+//COPY_EXISTING ~mage05.itm~ ~override/mage05.itm~
 
 //BG2 correctly categorises as a Book
-//COPY_EXISTING ~MISC71.ITM~ ~override/MISC71.ITM~
+//COPY_EXISTING ~misc71.itm~ ~override/misc71.itm~
 
-COPY_EXISTING ~MISC97.ITM~ ~override/MISC97.ITM~
+COPY_EXISTING ~misc97.itm~ ~override/misc97.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4445,19 +4213,19 @@ COPY_EXISTING ~MISC97.ITM~ ~override/MISC97.ITM~
   WRITE_LONG 0x6a 0x72
   WRITE_SHORT 0x70 0
 
-COPY_EXISTING ~PLAT02.ITM~ ~override/PLAT02.ITM~
+COPY_EXISTING ~plat02.itm~ ~override/plat02.itm~
   SAY IDENTIFIED_DESC @2320 //6682
   WRITE_BYTE 0x26 11 //Minimum strength
 
-COPY_EXISTING ~PLAT05.ITM~ ~override/PLAT05.ITM~
+COPY_EXISTING ~plat05.itm~ ~override/plat05.itm~
   SAY IDENTIFIED_DESC @2321 //6685
 
-COPY_EXISTING ~PLAT06.ITM~ ~override/PLAT06.ITM~
+COPY_EXISTING ~plat06.itm~ ~override/plat06.itm~
   SAY IDENTIFIED_DESC @2322 //17489
 
-//COPY_EXISTING ~POTN10.ITM~ ~override/POTN10.ITM~
+//COPY_EXISTING ~potn10.itm~ ~override/potn10.itm~
 
-COPY_EXISTING ~POTN17.ITM~ ~override/POTN17.ITM~
+COPY_EXISTING ~potn17.itm~ ~override/potn17.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4477,29 +4245,29 @@ COPY_EXISTING ~POTN17.ITM~ ~override/POTN17.ITM~
     END
   END
 
-//COPY_EXISTING ~POTN27.ITM~ ~override/POTN27.ITM~
-//COPY_EXISTING ~POTN28.ITM~ ~override/POTN28.ITM~
-//COPY_EXISTING ~POTN29.ITM~ ~override/POTN29.ITM~
-//COPY_EXISTING ~POTN30.ITM~ ~override/POTN30.ITM~
-//COPY_EXISTING ~POTN31.ITM~ ~override/POTN31.ITM~
-//COPY_EXISTING ~POTN32.ITM~ ~override/POTN32.ITM~
-//COPY_EXISTING ~POTN33.ITM~ ~override/POTN33.ITM~
-//COPY_EXISTING ~POTN34.ITM~ ~override/POTN34.ITM~
-//COPY_EXISTING ~POTN35.ITM~ ~override/POTN35.ITM~
-//COPY_EXISTING ~POTN36.ITM~ ~override/POTN36.ITM~
-//COPY_EXISTING ~POTN37.ITM~ ~override/POTN37.ITM~
-//COPY_EXISTING ~POTN38.ITM~ ~override/POTN38.ITM~
-//COPY_EXISTING ~POTN39.ITM~ ~override/POTN39.ITM~
-//COPY_EXISTING ~POTN40.ITM~ ~override/POTN40.ITM~
-//COPY_EXISTING ~POTN41.ITM~ ~override/POTN41.ITM~
-//COPY_EXISTING ~POTN42.ITM~ ~override/POTN42.ITM~
-//COPY_EXISTING ~POTN43.ITM~ ~override/POTN43.ITM~
-//COPY_EXISTING ~POTN45.ITM~ ~override/POTN45.ITM~
+//COPY_EXISTING ~potn27.itm~ ~override/potn27.itm~
+//COPY_EXISTING ~potn28.itm~ ~override/potn28.itm~
+//COPY_EXISTING ~potn29.itm~ ~override/potn29.itm~
+//COPY_EXISTING ~potn30.itm~ ~override/potn30.itm~
+//COPY_EXISTING ~potn31.itm~ ~override/potn31.itm~
+//COPY_EXISTING ~potn32.itm~ ~override/potn32.itm~
+//COPY_EXISTING ~potn33.itm~ ~override/potn33.itm~
+//COPY_EXISTING ~potn34.itm~ ~override/potn34.itm~
+//COPY_EXISTING ~potn35.itm~ ~override/potn35.itm~
+//COPY_EXISTING ~potn36.itm~ ~override/potn36.itm~
+//COPY_EXISTING ~potn37.itm~ ~override/potn37.itm~
+//COPY_EXISTING ~potn38.itm~ ~override/potn38.itm~
+//COPY_EXISTING ~potn39.itm~ ~override/potn39.itm~
+//COPY_EXISTING ~potn40.itm~ ~override/potn40.itm~
+//COPY_EXISTING ~potn41.itm~ ~override/potn41.itm~
+//COPY_EXISTING ~potn42.itm~ ~override/potn42.itm~
+//COPY_EXISTING ~potn43.itm~ ~override/potn43.itm~
+//COPY_EXISTING ~potn45.itm~ ~override/potn45.itm~
 
-COPY_EXISTING ~POTN46.ITM~ ~override/POTN46.ITM~
+COPY_EXISTING ~potn46.itm~ ~override/potn46.itm~
   WRITE_LONG 0x4c 0 //Weight
 
-COPY_EXISTING ~REVENT1.ITM~ ~override/REVENT1.ITM~
+COPY_EXISTING ~revent1.itm~ ~override/revent1.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4509,7 +4277,7 @@ COPY_EXISTING ~REVENT1.ITM~ ~override/REVENT1.ITM~
     END
   END
 
-COPY_EXISTING ~RING05.ITM~ ~override/RING05.ITM~
+COPY_EXISTING ~ring05.itm~ ~override/ring05.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4521,7 +4289,7 @@ COPY_EXISTING ~RING05.ITM~ ~override/RING05.ITM~
     END
   END
 
-COPY_EXISTING ~RING09.ITM~ ~override/RING09.ITM~
+COPY_EXISTING ~ring09.itm~ ~override/ring09.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4538,7 +4306,7 @@ COPY_EXISTING ~RING09.ITM~ ~override/RING09.ITM~
     WRITE_LONG (%fx_off% + %i% * 0x30 + 0xD) 0 //Dispel/Resistance = NO/NO
   END
 
-COPY_EXISTING ~RINGWOLF.ITM~ ~override/RINGWOLF.ITM~
+COPY_EXISTING ~ringwolf.itm~ ~override/ringwolf.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4567,7 +4335,7 @@ COPY_EXISTING ~RINGWOLF.ITM~ ~override/RINGWOLF.ITM~
   SET fx_global_num += 1
   WRITE_SHORT 0x70 fx_global_num
 
-COPY_EXISTING ~SCRL07.ITM~ ~override/SCRL07.ITM~
+COPY_EXISTING ~scrl07.itm~ ~override/scrl07.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4579,9 +4347,9 @@ COPY_EXISTING ~SCRL07.ITM~ ~override/SCRL07.ITM~
 
 //Difference in IdDesc 12 hours [BG1] vs. 10 turns (2 hours) [BG2]
 //BG2 has the correct description
-//COPY_EXISTING ~SCRL09.ITM~ ~override/SCRL09.ITM~
+//COPY_EXISTING ~scrl09.itm~ ~override/scrl09.itm~
 
-COPY_EXISTING ~SCRL10.ITM~ ~override/SCRL10.ITM~
+COPY_EXISTING ~scrl10.itm~ ~override/scrl10.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4591,7 +4359,7 @@ COPY_EXISTING ~SCRL10.ITM~ ~override/SCRL10.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL11.ITM~ ~override/SCRL11.ITM~
+COPY_EXISTING ~scrl11.itm~ ~override/scrl11.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4601,7 +4369,7 @@ COPY_EXISTING ~SCRL11.ITM~ ~override/SCRL11.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL12.ITM~ ~override/SCRL12.ITM~
+COPY_EXISTING ~scrl12.itm~ ~override/scrl12.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4611,7 +4379,7 @@ COPY_EXISTING ~SCRL12.ITM~ ~override/SCRL12.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL18.ITM~ ~override/SCRL18.ITM~
+COPY_EXISTING ~scrl18.itm~ ~override/scrl18.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4621,7 +4389,7 @@ COPY_EXISTING ~SCRL18.ITM~ ~override/SCRL18.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1C.ITM~ ~override/SCRL1C.ITM~
+COPY_EXISTING ~scrl1c.itm~ ~override/scrl1c.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4641,7 +4409,7 @@ COPY_EXISTING ~SCRL1C.ITM~ ~override/SCRL1C.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1F.ITM~ ~override/SCRL1F.ITM~
+COPY_EXISTING ~scrl1f.itm~ ~override/scrl1f.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4662,7 +4430,7 @@ COPY_EXISTING ~SCRL1F.ITM~ ~override/SCRL1F.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1G.ITM~ ~override/SCRL1G.ITM~
+COPY_EXISTING ~scrl1g.itm~ ~override/scrl1g.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4682,7 +4450,7 @@ COPY_EXISTING ~SCRL1G.ITM~ ~override/SCRL1G.ITM~
     END
   END
 
-COPY_EXISTING ~SCRL1H.ITM~ ~override/SCRL1H.ITM~
+COPY_EXISTING ~scrl1h.itm~ ~override/scrl1h.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4708,10 +4476,10 @@ COPY_EXISTING ~SCRL1H.ITM~ ~override/SCRL1H.ITM~
     END
   END
 
-//Renamed to BG1SCRL1V.ITM
-//COPY_EXISTING ~SCRL1V.ITM~ ~override/SCRL1V.ITM~
+//Renamed to Bg1scrl1v.itm
+//COPY_EXISTING ~scrl1v.itm~ ~override/scrl1v.itm~
 
-COPY_EXISTING ~SCRL3G.ITM~ ~override/SCRL3G.ITM~
+COPY_EXISTING ~scrl3g.itm~ ~override/scrl3g.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4737,9 +4505,9 @@ COPY_EXISTING ~SCRL3G.ITM~ ~override/SCRL3G.ITM~
   END
 
 //BG2 does not have this resource; need to copy over
-//COPY_EXISTING ~SCRL5R.ITM~ ~override/SCRL5R.ITM~
+//COPY_EXISTING ~scrl5r.itm~ ~override/scrl5r.itm~
 
-COPY_EXISTING ~SCRL63.ITM~ ~override/SCRL63.ITM~
+COPY_EXISTING ~scrl63.itm~ ~override/scrl63.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4764,12 +4532,12 @@ COPY_EXISTING ~SCRL63.ITM~ ~override/SCRL63.ITM~
     END
   END
 
-COPY_EXISTING ~SCRLPET.ITM~ ~override/SCRLPET.ITM~
+COPY_EXISTING ~scrlpet.itm~ ~override/scrlpet.itm~
   WRITE_BYTE 0x2a 9 //Minimum intelligence
 
-//COPY_EXISTING ~SGRASP.ITM~ ~override/SGRASP.ITM~
+//COPY_EXISTING ~sgrasp.itm~ ~override/sgrasp.itm~
 
-COPY_EXISTING ~SHAMMR.ITM~ ~override/SHAMMR.ITM~
+COPY_EXISTING ~shammr.itm~ ~override/shammr.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4796,11 +4564,11 @@ COPY_EXISTING ~SHAMMR.ITM~ ~override/SHAMMR.ITM~
     END
   END
 
-COPY_EXISTING ~SHLD06.ITM~ ~override/SHLD06.ITM~
+COPY_EXISTING ~shld06.itm~ ~override/shld06.itm~
   SAY IDENTIFIED_DESC @2323 //17659
   WRITE_BYTE 0x26 14 //Minimum strength
 
-COPY_EXISTING ~SHLD07.ITM~ ~override/SHLD07.ITM~
+COPY_EXISTING ~shld07.itm~ ~override/shld07.itm~
   SAY IDENTIFIED_DESC @2324 //7358
   WRITE_BYTE 0x26 13 //Minimum strength
 
@@ -4826,7 +4594,7 @@ COPY_EXISTING ~SHLD07.ITM~ ~override/SHLD07.ITM~
     END
   END
 
-COPY_EXISTING ~SLNG01.ITM~ ~override/SLNG01.ITM~
+COPY_EXISTING ~slng01.itm~ ~override/slng01.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4836,7 +4604,7 @@ COPY_EXISTING ~SLNG01.ITM~ ~override/SLNG01.ITM~
     END
   END
 
-COPY_EXISTING ~SLNG02.ITM~ ~override/SLNG02.ITM~
+COPY_EXISTING ~slng02.itm~ ~override/slng02.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   FOR (i = 0; i < "%abil_num%"; i += 1) BEGIN
@@ -4846,7 +4614,7 @@ COPY_EXISTING ~SLNG02.ITM~ ~override/SLNG02.ITM~
     END
   END
 
-COPY_EXISTING ~SLNG03.ITM~ ~override/SLNG03.ITM~
+COPY_EXISTING ~slng03.itm~ ~override/slng03.itm~
   SAY IDENTIFIED_DESC @2325 //23963
 
   READ_LONG 0x64 abil_off
@@ -4858,9 +4626,9 @@ COPY_EXISTING ~SLNG03.ITM~ ~override/SLNG03.ITM~
     END
   END
 
-//COPY_EXISTING ~SPER03.ITM~ ~override/SPER03.ITM~
+//COPY_EXISTING ~sper03.itm~ ~override/sper03.itm~
 
-COPY_EXISTING ~SPIDPH1.ITM~ ~override/SPIDPH1.ITM~
+COPY_EXISTING ~spidph1.itm~ ~override/spidph1.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -4882,11 +4650,11 @@ COPY_EXISTING ~SPIDPH1.ITM~ ~override/SPIDPH1.ITM~
     END
   END
 
-COPY_EXISTING ~STAF05.ITM~ ~override/STAF05.ITM~
+COPY_EXISTING ~staf05.itm~ ~override/staf05.itm~
   SAY IDENTIFIED_DESC @2326 //22020
   WRITE_BYTE 0x26 3 //Minimum strength
 
-COPY_EXISTING ~STAF06.ITM~ ~override/STAF06.ITM~
+COPY_EXISTING ~staf06.itm~ ~override/staf06.itm~
   WRITE_BYTE 0x26 3 //Minimum strength
   READ_STRREF UNIDENTIFIED_DESC temp_strref
   INNER_PATCH_SAVE new_strref "%temp_strref%" BEGIN
@@ -4899,11 +4667,11 @@ COPY_EXISTING ~STAF06.ITM~ ~override/STAF06.ITM~
   END
   SAY_EVALUATED IDENTIFIED_DESC "%new_strref%"
 
-COPY_EXISTING ~STAF08.ITM~ ~override/STAF08.ITM~
+COPY_EXISTING ~staf08.itm~ ~override/staf08.itm~
   SAY NAME2 @2327 //23977
   SAY IDENTIFIED_DESC @2328 //23978
 
-COPY_EXISTING ~SW1H03.ITM~ ~override/SW1H03.ITM~
+COPY_EXISTING ~sw1h03.itm~ ~override/sw1h03.itm~
   WRITE_BYTE 0x26 10 //Minimum strength
   READ_STRREF UNIDENTIFIED_DESC temp_strref
   INNER_PATCH_SAVE new_strref "%temp_strref%" BEGIN
@@ -4916,7 +4684,7 @@ COPY_EXISTING ~SW1H03.ITM~ ~override/SW1H03.ITM~
   END
   SAY_EVALUATED IDENTIFIED_DESC "%new_strref%"
 
-COPY_EXISTING ~SW1H06.ITM~ ~override/SW1H06.ITM~
+COPY_EXISTING ~sw1h06.itm~ ~override/sw1h06.itm~
   WRITE_BYTE 0x26 5 //Minimum strength
   READ_STRREF UNIDENTIFIED_DESC temp_strref
   INNER_PATCH_SAVE new_strref "%temp_strref%" BEGIN
@@ -4929,11 +4697,11 @@ COPY_EXISTING ~SW1H06.ITM~ ~override/SW1H06.ITM~
   END
   SAY_EVALUATED IDENTIFIED_DESC "%new_strref%"
 
-COPY_EXISTING ~SW1H09.ITM~ ~override/SW1H09.ITM~
+COPY_EXISTING ~sw1h09.itm~ ~override/sw1h09.itm~
   SAY IDENTIFIED_DESC @2329 //7347
   WRITE_BYTE 0x26 4 //Minimum strength
 
-COPY_EXISTING ~SW1H10.ITM~ ~override/SW1H10.ITM~
+COPY_EXISTING ~sw1h10.itm~ ~override/sw1h10.itm~
   WRITE_BYTE 0x26 4 //Minimum strength
   READ_STRREF UNIDENTIFIED_DESC temp_strref
   INNER_PATCH_SAVE new_strref "%temp_strref%" BEGIN
@@ -4946,29 +4714,31 @@ COPY_EXISTING ~SW1H10.ITM~ ~override/SW1H10.ITM~
   END
   SAY_EVALUATED IDENTIFIED_DESC "%new_strref%"
 
-COPY_EXISTING ~SW1H14.ITM~ ~override/SW1H14.ITM~
+COPY_EXISTING ~sw1h14.itm~ ~override/sw1h14.itm~
   SAY IDENTIFIED_DESC @2330 //18976
 
-COPY_EXISTING ~SW1H20.ITM~ ~override/SW1H20.ITM~
+//These are apparently bugs in BG1, so skipped
+/*
+COPY_EXISTING ~sw1h20.itm~ ~override/sw1h20.itm~
   READ_BYTE 0x20 flags
   WRITE_BYTE 0x20 (%flags% BOR 0b01001000) //Add Mage-Thief and Thief unusability flags
 
-COPY_EXISTING ~SW1H22.ITM~ ~override/SW1H22.ITM~
+COPY_EXISTING ~sw1h22.itm~ ~override/sw1h22.itm~
   READ_BYTE 0x20 flags
   WRITE_BYTE 0x20 (%flags% BOR 0b01001000) //Add Mage-Thief and Thief unusability flags
 
-COPY_EXISTING ~SW1H23.ITM~ ~override/SW1H23.ITM~
+COPY_EXISTING ~sw1h23.itm~ ~override/sw1h23.itm~
   READ_BYTE 0x20 flags
   WRITE_BYTE 0x20 (%flags% BOR 0b01001000) //Add Mage-Thief and Thief unusability flags
-
-COPY_EXISTING ~SW1H24.ITM~ ~override/SW1H24.ITM~
+*/
+COPY_EXISTING ~sw1h24.itm~ ~override/sw1h24.itm~
   SAY IDENTIFIED_DESC @2331 //23970
   WRITE_BYTE 0x26 5 //Minimum strength
 
   READ_BYTE 0x19 flags
   WRITE_BYTE 0x19 (%flags% BOR 0b00000010) //Add Cold iron flag
 
-COPY_EXISTING ~SW2H02.ITM~ ~override/SW2H02.ITM~
+COPY_EXISTING ~sw2h02.itm~ ~override/sw2h02.itm~
   WRITE_BYTE 0x26 13 //Minimum strength
   READ_STRREF UNIDENTIFIED_DESC temp_strref
   INNER_PATCH_SAVE new_strref "%temp_strref%" BEGIN
@@ -4981,7 +4751,7 @@ COPY_EXISTING ~SW2H02.ITM~ ~override/SW2H02.ITM~
   END
   SAY_EVALUATED IDENTIFIED_DESC "%new_strref%"
 
-COPY_EXISTING ~SW2H06.ITM~ ~override/SW2H06.ITM~
+COPY_EXISTING ~sw2h06.itm~ ~override/sw2h06.itm~
   WRITE_BYTE 0x26 13 //Minimum strength
   READ_STRREF UNIDENTIFIED_DESC temp_strref
   INNER_PATCH_SAVE new_strref "%temp_strref%" BEGIN
@@ -4995,9 +4765,9 @@ COPY_EXISTING ~SW2H06.ITM~ ~override/SW2H06.ITM~
   SAY_EVALUATED IDENTIFIED_DESC "%new_strref%"
 
 //BG2 has a different SW2H07 and uses it; need to prefix with BG
-//COPY_EXISTING ~SW2H07.ITM~ ~override/SW2H07.ITM~
+//COPY_EXISTING ~sw2h07.itm~ ~override/sw2h07.itm~
 
-COPY_EXISTING ~WAND03.ITM~ ~override/WAND03.ITM~
+COPY_EXISTING ~wand03.itm~ ~override/wand03.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -5020,7 +4790,7 @@ COPY_EXISTING ~WAND03.ITM~ ~override/WAND03.ITM~
     END
   END
 
-COPY_EXISTING ~WAND05.ITM~ ~override/WAND05.ITM~
+COPY_EXISTING ~wand05.itm~ ~override/wand05.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -5049,7 +4819,7 @@ COPY_EXISTING ~WAND05.ITM~ ~override/WAND05.ITM~
   END
 
 //ProjectileType difference
-COPY_EXISTING ~WAND06.ITM~ ~override/WAND06.ITM~
+COPY_EXISTING ~wand06.itm~ ~override/wand06.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -5069,7 +4839,7 @@ COPY_EXISTING ~WAND06.ITM~ ~override/WAND06.ITM~
     END
   END
 
-COPY_EXISTING ~WAND07.ITM~ ~override/WAND07.ITM~
+COPY_EXISTING ~wand07.itm~ ~override/wand07.itm~
   SAY IDENTIFIED_DESC @2332 //17656
 
   READ_LONG 0x64 abil_off
@@ -5107,7 +4877,7 @@ COPY_EXISTING ~WAND07.ITM~ ~override/WAND07.ITM~
     END
   END
 
-COPY_EXISTING ~WAND08.ITM~ ~override/WAND08.ITM~
+COPY_EXISTING ~wand08.itm~ ~override/wand08.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
   READ_LONG 0x6a fx_off
@@ -5135,7 +4905,7 @@ COPY_EXISTING ~WAND08.ITM~ ~override/WAND08.ITM~
   END
 
 //ProjectileType difference
-COPY_EXISTING ~WAND09.ITM~ ~override/WAND09.ITM~
+COPY_EXISTING ~wand09.itm~ ~override/wand09.itm~
   SAY IDENTIFIED_DESC @2333 //17658
 
   READ_LONG 0x64 abil_off
@@ -5150,7 +4920,7 @@ COPY_EXISTING ~WAND09.ITM~ ~override/WAND09.ITM~
     END
   END
 
-COPY_EXISTING ~WAND10.ITM~ ~override/WAND10.ITM~
+COPY_EXISTING ~wand10.itm~ ~override/wand10.itm~
   READ_LONG 0x64 abil_off
   READ_SHORT 0x68 abil_num
 
@@ -5163,9 +4933,9 @@ COPY_EXISTING ~WAND10.ITM~ ~override/WAND10.ITM~
   END
 
 //BG2 has a different WAND12 and uses it; need to prefix with BG
-//COPY_EXISTING ~WAND12.ITM~ ~override/WAND12.ITM~
+//COPY_EXISTING ~wand12.itm~ ~override/wand12.itm~
 
-COPY_EXISTING ~XBOW02.ITM~ ~override/XBOW02.ITM~
+COPY_EXISTING ~xbow02.itm~ ~override/xbow02.itm~
   WRITE_BYTE 0x26 11 //Minimum strength
   READ_STRREF UNIDENTIFIED_DESC temp_strref
   INNER_PATCH_SAVE new_strref "%temp_strref%" BEGIN
@@ -5178,7 +4948,7 @@ COPY_EXISTING ~XBOW02.ITM~ ~override/XBOW02.ITM~
   END
   SAY_EVALUATED IDENTIFIED_DESC "%new_strref%"
 
-COPY_EXISTING ~XBOW03.ITM~ ~override/XBOW03.ITM~
+COPY_EXISTING ~xbow03.itm~ ~override/xbow03.itm~
   WRITE_BYTE 0x26 11 //Minimum strength
   READ_STRREF UNIDENTIFIED_DESC temp_strref
   INNER_PATCH_SAVE new_strref "%temp_strref%" BEGIN
@@ -5200,7 +4970,7 @@ DESIGNATED 2300
 
 COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
                           ~^.+\.spl$~ ~override~
-  PATCH_IF ("%SOURCE_RES%" STRING_COMPARE_CASE "SPWI939") != 0 AND
+  PATCH_IF ("%SOURCE_RES%" STRING_COMPARE_CASE "spwi939") != 0 AND
            ("%SOURCE_SIZE%" > 0x71) BEGIN
     READ_LONG  0x64 abil_off
     READ_SHORT 0x68 abil_num
@@ -5249,11 +5019,11 @@ BUT_ONLY_IF_IT_CHANGES
 
 //#24 Enemy items shatter////////////////////////////////////
 BEGIN @2400
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 2400
 FORBID_COMPONENT ~Setup-BGTTweak.tp2~ 1501 @7
 
-COPY ~BGTTweak/24/CREExcl.txt~ ~BGTTweak/24/CREExcl.txt~
+COPY ~bgttweak/24/creexcl.txt~ ~bgttweak/24/creexcl.txt~
   READ_2DA_ENTRIES_NOW ~_#_#_#read_CREExcl~ 1
   FOR (i = 1; i < _#_#_#read_CREExcl; i+=1) BEGIN
     READ_2DA_ENTRY_FORMER ~_#_#_#read_CREExcl~ i 0 CRE
@@ -5317,14 +5087,14 @@ PRINT ~Doing iteration #%iterate_num%...~
 SILENT
 
 ACTION_PHP_EACH prioritylist AS idx => file BEGIN
-  ACTION_IF FILE_EXISTS_IN_GAME ~%file%.CRE~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~%file%.cre~ BEGIN
     ACTION_IF VARIABLE_IS_SET $script5list(EVALUATE_BUFFER "%file%") BEGIN
       OUTER_SET numscripts = 5 //$script5list(EVALUATE_BUFFER "%file%")
     END ELSE BEGIN
       OUTER_SET numscripts = $scriptLT5list(EVALUATE_BUFFER "%file%")
     END
 
-    COPY_EXISTING ~%file%.CRE~ ~override~
+    COPY_EXISTING ~%file%.cre~ ~override~
       LAUNCH_PATCH_MACRO ~__24__parseCRE~
     BUT_ONLY_IF_IT_CHANGES
   END
@@ -5339,7 +5109,7 @@ ACTION_PHP_EACH script5list AS file => numscripts BEGIN
       END
     END
     ACTION_IF (!isPriority) BEGIN
-      COPY_EXISTING ~%file%.CRE~ ~override~
+      COPY_EXISTING ~%file%.cre~ ~override~
         LAUNCH_PATCH_MACRO ~__24__parseCRE~
       BUT_ONLY_IF_IT_CHANGES
     END
@@ -5356,7 +5126,7 @@ ACTION_IF (!problem) BEGIN
         END
       END
       ACTION_IF (!isPriority) BEGIN
-        COPY_EXISTING ~%file%.CRE~ ~override~
+        COPY_EXISTING ~%file%.cre~ ~override~
           LAUNCH_PATCH_MACRO ~__24__parseCRE~
         BUT_ONLY_IF_IT_CHANGES
       END
@@ -5366,7 +5136,7 @@ ACTION_IF (!problem) BEGIN
   VERBOSE
 
   //consistency check
-  COPY_EXISTING_REGEXP GLOB ~^.+\.CRE$~ ~override~
+  COPY_EXISTING_REGEXP GLOB ~^.+\.cre$~ ~override~
     PATCH_IF NOT VARIABLE_IS_SET $excludeCRElist(EVALUATE_BUFFER "%SOURCE_RES%") BEGIN
 
       LAUNCH_PATCH_MACRO ~__24__readCRE~
@@ -5451,10 +5221,10 @@ ACTION_PHP_EACH extendlist AS script => val BEGIN
   //extend these scripts
   ACTION_IF VARIABLE_IS_SET $extendlist(EVALUATE_BUFFER "%script%") AND
             ($extendlist(EVALUATE_BUFFER "%script%") = 1) BEGIN
-    ACTION_IF MOD_IS_INSTALLED ~SETUP-BGTTWEAK.TP2~ 1502 BEGIN
-      EXTEND_TOP ~%script%.bcs~ ~BGTTweak/24/A6SHATT2.BAF~
+    ACTION_IF MOD_IS_INSTALLED ~setup-bgttweak.tp2~ 1502 BEGIN
+      EXTEND_TOP ~%script%.bcs~ ~bgttweak/24/a6shatt2.baf~
     END
-    EXTEND_TOP ~%script%.bcs~ ~BGTTweak/24/A6SHATTE.BAF~
+    EXTEND_TOP ~%script%.bcs~ ~bgttweak/24/a6shatte.baf~
   END
 END
 
@@ -5491,9 +5261,9 @@ ACTION_PHP_EACH createlist AS file => val BEGIN
 END
 VERBOSE
 
-COMPILE ~BGTTweak/24/A6SHATTE.BAF~
-ACTION_IF MOD_IS_INSTALLED ~SETUP-BGTTWEAK.TP2~ 1502 BEGIN
-  EXTEND_BOTTOM ~A6SHATTE.BCS~ ~BGTTweak/24/A6SHATT2.BAF~
+COMPILE ~bgttweak/24/a6shatte.baf~
+ACTION_IF MOD_IS_INSTALLED ~setup-bgttweak.tp2~ 1502 BEGIN
+  EXTEND_BOTTOM ~a6shatte.bcs~ ~bgttweak/24/a6shatt2.baf~
 END
 /////////////////////////////////////////////////////////////
 
@@ -5501,13 +5271,13 @@ END
 
 //#25 Access Ulgoth's Beard west of Wyrm's Crossing only////
 BEGIN @2500
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~BGPOTN14.ITM~) @10
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~bgpotn14.itm~) @10
 DESIGNATED 2500
 //FORBID_COMPONENT ~Setup-BP-BGT-Worldmap.tp2~ ~0~ @11
 
-COPY ~BGTTweak/25/AR7900SR.BMP~ ~override/AR7900SR.BMP~
+COPY ~bgttweak/25/ar7900sr.bmp~ ~override/ar7900sr.bmp~
 
-COPY_EXISTING ~WORLDMAP.WMP~ ~override/WORLDMAP.WMP~
+COPY_EXISTING ~worldmap.wmp~ ~override/worldmap.wmp~
   READ_LONG 0x30 area_entry_num
   READ_LONG 0x34 area_entry_off
   READ_LONG 0x38 area_link_off
@@ -5644,11 +5414,11 @@ BUT_ONLY_IF_IT_CHANGES
 
 //#26 Prevent access to Durlag's Tower from adjacent areas///
 BEGIN @2600
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~BGPOTN14.ITM~) @10
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~bgpotn14.itm~) @10
 DESIGNATED 2600
 //FORBID_COMPONENT ~Setup-BP-BGT-Worldmap.tp2~ ~0~ @11
 
-COPY_EXISTING ~WORLDMAP.WMP~ ~override/WORLDMAP.WMP~
+COPY_EXISTING ~worldmap.wmp~ ~override/worldmap.wmp~
   READ_LONG 0x30 area_entry_num
   READ_LONG 0x34 area_entry_off
   READ_LONG 0x38 area_link_off
@@ -5667,11 +5437,11 @@ BUT_ONLY_IF_IT_CHANGES
 
 //#27 Put Sword of Chaos +2 in Sarevok's inventory///////////
 BEGIN @2700
-REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~AMNSCENE.BCS~) @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
 DESIGNATED 2700
 
 //check if Sarevok already has the sword
-COPY_EXISTING ~SAREVO.CRE~ ~override/SAREVO.CRE~
+COPY_EXISTING ~sarevo.cre~ ~override/sarevo.cre~
   READ_LONG 0x2b8 itemslot_off
   READ_LONG 0x2bc item_off
   READ_LONG 0x2c0 item_num
@@ -5692,4 +5462,24 @@ COPY_EXISTING ~SAREVO.CRE~ ~override/SAREVO.CRE~
   PATCH_IF item_found = 0 BEGIN
     ADD_CRE_ITEM ~SW2H16~ #0 #0 #0 ~NONE~ ~INV16~
   END
+/////////////////////////////////////////////////////////////
+
+//#28 Reset rep at beginning of BG2 (from BG2 Tweaks v9//////
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Reset rep at beginning of BG2 (BGT)              \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN @2800
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~amnscene.bcs~) @1
+DESIGNATED 2800
+
+ACTION_IF (NOT FILE_EXISTS_IN_GAME ~override/cdt01130.g3~) BEGIN
+  COPY_EXISTING ~sw1h01.itm~ ~override/cdt01130.g3~
+  EXTEND_BOTTOM ~ar0602.bcs~ ~bgttweak/28/ar0602.baf~
+END
+
 /////////////////////////////////////////////////////////////

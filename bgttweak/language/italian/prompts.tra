@@ -2,37 +2,70 @@
 //WeiDU Installation Prompts
 ////////////////////////////////////////////////////////////////////
 
-@-1000 = "Questo mod ha"
-@-1001 = "componenti aggiuntivi distinti.
-Per risparmiare tempo, puoi scegliere cosa fare di essi ad alto livello invece
-che venga richiesto di ciascuno singolarmente."
-@-1002 = "Cosa deve essere fatto con tutti i componenti che NON sono ANCORA installati?
-[I]nstall them, [S]kip them, [A]sk about each one? "
-@-1003 = "Cosa deve essere fatto con tutti i componenti che sono GIA' installati?
-[R]e-install them, [U]ninstall them, [S]kip them, [A]sk about each one? "
-@-1004 = "Prego inviare il file via email"
-@-1005 = "a"
+@-1000= "Il mod %TP2_FILE_NAME% ha"
+@-1001= "diversi componenti opzionali.
+Per far prima, si può scegliere di applicare una medesima azione a tutti i componenti piuttosto
+che trattarli singolarmente.
+"
+@-1002= "Che cosa vuoi fare con quei componenti NON ANCORA installati?
+[I] Installarli, [S] Saltarli, [A] Trattarli singolarmente? "
+@-1003= "Che cosa vuoi fare con quei componenti GIÀ installati?
+[R] Reinstallarli, [U] Rimuoverli, [S] Saltarli, [A] Trattarli singolarmente? "
 
-@-1006 = "Installazione Componente ["
-@-1007 = "]
-[R]e-Install, [N]o Change or [U]ninstall or [Q]uit? "
-@-1008 = "]
-[Y]es or [N]o or [Q]uit? "
-@-1009 = "Inserire parte del nome del modulo: "
-@-1011 = "] componente "
-@-1013 = "Rimozione installazione obsoleta di ["
-@-1014 = "] prima ..."
-@-1015 = "RIMOZIONE (DELLA OBSOLETA) AVVENUTA CON SUCCESSO"
+//modified
+@-1004= "Si prega di spedire il file "
+@-1005= "a"
 
-@-1016 = "Installazione"
-@-1017 = "ERRORE di Installazione ["
-@-1018 = "], ritorno alla stato precedente"
-@-1019 = "INSTALLATO CON SUCCESSO"
-@-1020 = "Salto"
-@-1021 = "Rimozione ["
-@-1022 = "] (componente #"
-@-1023 = ")"
-@-1024 = "RIMOZIONE AVVENUTA CON SUCCESSO ["
+@-1006= "Installa Componente ["
+@-1007= "]?
+[R] Reinstallare, [N] Nessun cambiamento, [U] Rimuovere o [Q] Uscire? "
+@-1008= "]?
+[I] Installare, [N] Non installare o [Q] Uscire? "
+
+@-1009= "Inserire il nome di una parte del modulo: "
+
+@-1010= "Sto reinstallando il componente ["
+@-1011= "]"
+@-1012= "Sto reinstallando in Lingua"
+
+@-1013= "Elimino prima la vecchia installazione di ["
+@-1014= "] ..."
+@-1015= "VECCHIA INSTALLAZIONE ELIMINATA CON SUCCESSO"
+
+@-1016= "Sto installando"
+@-1017= "ERRORE nell'installazione di ["
+@-1018= "], ritorno allo stato precedente"
+@-1019= "INSTALLAZIONE RIUSCITA     "
+@-1020= "Salto"
+@-1021= "Rimuovo ["
+@-1022= "] (componente #"
+@-1023= ")"
+@-1024= "RIMOZIONE RIUSCITA ["
+
+@-1025= "]?
+[R] Reinstallare, [N] Nessun cambiamento, [U] Rimuovere, [Q] Uscire o scegliere tra:"
+@-1026= "]?
+[N] No, [Q] Uscire o scegliere tra:"
+@-1027= " (selezione corrente)"
+
+@-1028= "Vuoi vedere i componenti di ["
+@-1029= "]?
+[Y] Si, [N] No? "
+
+@-1030= "]?
+Scegli tra:"
+@-1031= "]?
+[R] Reinstallare, [N] Nessun cambiamento, [Q] Uscire o scegliere tra:"
+@-1032= "INSTALLAZIONE NON EFFETTUATA A CAUSA DI ERRORI"
+@-1033= "INSTALLAZIONE COMPLETATA CON AVVERTIMENTI    "
+@-1034= "vuoi vedere il file leggimi? [Y] Si, [N] No"
+@-1035= "in Lingua"
+  
+@-1036= "Sto saltando il GRUPPO ["
+@-1037= "] perchè non conforme ai requisiti richiesti."
+  
+@-1038= "[A] Trattare singoli componenti, [S] Saltare tutto, o scegliere una alternativa predefinita:"
+@-1039= "[A] Trattare singoli componenti, [R] Reinstallare la configurazione corrente, [U] Rimuovere tutto, [S] Saltare tutto, o scegliere una alternativa predefinita:"
 
 ////////
 //Errors
@@ -48,7 +81,7 @@ che venga richiesto di ciascuno singolarmente."
 @9 = ~Questo componente richiede Northern Tales of the Sword Coast.~
 @10 = ~Questo componente richiede Baldur's Gate Trilogy-WeiDU version 1.07 o successiva.~
 @11 = ~La modifica BP-BGT Worldmap e incompatibile con questo componente.~
-@12 = ~La modifica BGSpawn è in conflitto con questo componente.~
+@12 = ~La modifica BGSpawn e in conflitto con questo componente.~
 
 /////////////////
 //Component names
@@ -57,13 +90,13 @@ che venga richiesto di ciascuno singolarmente."
 @200 = ~Angelo riconosce di Shar-teel~
 @300 = ~Quest della carovana di Kagain completabile~
 @400 = ~Aggiungi il Mantello di Semaj e l'Anello di Protezione Potenziato di Koveras~ 
-@500 = ~Locazioni principali gi… esplorate quando visitate per la prima volta~
+@500 = ~Locazioni principali gia esplorate quando visitate per la prima volta~
 @600 = ~Orsi sensibili ai Druidi/Ranger in BG1~
-@700 = ~Patch della felicit…~
+@700 = ~Patch della felicita~
 @701 = ~Gli NPC non possono scegliere di abbandonare il gruppo~
 @702 = ~Solo NPCs buoni e malvagi lasciano il gruppo~
-@800 = ~Importa pi— oggetti in Shadows of Amn
-(ATTENZIONE: Questo pu• essere considerato un trucco)~
+@800 = ~Importa piu oggetti in Shadows of Amn
+(ATTENZIONE: Questo puo essere considerato un trucco)~
 @900 = ~Attivazione casuale delle trappole nella caverna dei pirati~
 @901 = ~Attivazione casuale a livello di installazione~
 @902 = ~Attivazione casuale a livello di gioco~
@@ -71,7 +104,7 @@ che venga richiesto di ciascuno singolarmente."
 @1100 = ~Spawns alternativi~
 @1101 = ~Spawns bilanciati in stile TuTu~
 @1102 = ~Disattiva gli spawns in BGT-WeiDU: gli spawns non avvengonor~
-@1103 = ~Spawns in stile EasyTuTu~
+//@1103 = ~Spawns in stile EasyTuTu~
 @1104 = ~Disattiva gli spawns in BGT-WeiDU: gli spawns avvengono una volta sola~
 @1200 = ~Arkion reagisce alla reputazione del giocatore~
 @1300 = ~Coran risponde alla morte di una viverna~
@@ -79,7 +112,7 @@ che venga richiesto di ciascuno singolarmente."
 @1500 = ~Frantumazione degli oggetti alterata~
 @1501 = ~Rimuovi la frantumazioni degli oggetti~
 @1502 = ~Rendi armatura e scudi frantumabili~
-@1600 = ~Cappuccio per maghi e ladri senza armatura~
+@1600 = ~Maghi incappucciati senza armatura~
 @1700 = ~Correzioni delle regole carta-e-penna di Salk~
 @1800 = ~Importa altri NPCs in Shadow of Amn: Alora~
 @1801 = ~Importa altri NPCs in Shadow of Amn: Branwen~
@@ -112,3 +145,4 @@ che venga richiesto di ciascuno singolarmente."
 @2500 = ~Accedi ad Ulgoth's Beard solo ad ovest di Wyrm's Crossing~
 @2600 = ~Impedisci l'accesso alla Torre di Durlag dalle aree adiacenti~
 @2700 = ~Metti la Spada del Caos +2 nell'inventario di Sarevok~
+@2800 = ~Azzeramento della reputazione all'inizio di BG2~

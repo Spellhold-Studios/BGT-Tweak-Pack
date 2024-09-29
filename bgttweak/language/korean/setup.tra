@@ -50,485 +50,482 @@
 ////////////////////
 
 //@16297
-@2301 = ~The flight arrow, as its name implies, is built for distance.  These are lightweight arrows and are often used for hunting.  Most of these arrows are made of ash or birch and are 30 to 40 inches long. 
+@2301 = ~비행 화살은 그 이름대로, 먼 거리를 날리기 위해 만들어졌다. 이것은 가벼운 화살이고 사냥용으로 자주 쓰인다. 대부분의 화살은 물푸레나무나 자작나무로 만들며 30에서 40인치 정도의 길이이다.
 
-STATISTICS:
+사양:
 
-Damage:  1D6 + 1
-THACO:  +1 bonus
-Damage Type:  missile (piercing)
-Weight: 0
-Launcher:  Bow
-Not Usable By:
- Cleric
- Druid
- Mage~
+피해: 1D6
+피해 유형: 발사 무기(찌르기)
+무게: 0
+발사 도구: 활
+사용 금지 클래스:
+ 성직자
+ 드루이드
+ 마법사~
 
 //@17536
-@2302 = ~This arrow is coated in acid so that when it strikes an enemy, it will not only pierce its flesh but also begin to eat away at the wound, enlarging and deepening its severity.
+@2302 = ~이 화살은 산이 발라져 있어 적에게 맞았을 때 단순히 살을 뚫고 들어가기만 하는 것이 아니라 상처 주변을 먹어 들어가 그 상처를 넓고 깊게 만듭니다.
 
-STATISTICS:
+사양:
 
-Damage:  1D6 + 1
-THACO:  +1
-Damage type:  missile (piercing)
-Special:  2D6 acid damage
-Weight: 0
-Launcher:  Bow
-Not usable by:
- Cleric
- Druid
- Mage~
+피해: 1D6 + 1
+THACO: +1
+피해 유형: 장거리 (찌르기)
+특수: 2D6 강산 피해
+무게: 0
+발사 도구: 활
+사용 금지 클래스:
+ 성직자
+ 드루이드
+ 마법사~
 
 //@17540
-@2303 = ~The arrow of fire is a magical arrow that will burst into flames as it is fired at an enemy.  The effect is similar to an arrow doused in oil and set to flame.
+@2303 = ~불 화살은 적에게 명중했을 때 화염으로 터지는 마법의 화살입니다. 그 효과는 기름에 담근 화살과 비슷하여 화염을 만들어 냅니다.
 
-STATISTICS:
+사양:
 
-Damage:  1D6
-Damage type:  missile (piercing)
-Special:  1D6 fire damage (save vs. spell for none)
-Weight: 0
-Launcher:  Bow
-Not usable by:
- Cleric
- Druid
- Mage~
+피해: 1D6
+특수: 1D6 화염 피해 (내성 굴림시 무효)
+무게: 0
+발사 도구: 활
+사용 금지 클래스:
+ 성직자
+ 드루이드
+ 마법사~
 
 //@17542
-@2304 = ~The arrow of ice is magically enhanced so as to burst into a rolling ball of ice and cold when fired.  When the arrow strikes its victim, a shock of cold will travel through its body, both burning and numbing to the very core.
+@2304 = ~얼음 화살은 명중하면 얼음과 냉기 덩어리로 터지도록 마법의 힘으로 강화된 화살입니다. 적에게 명중하면 냉기 충격이 온 몸을 타고 돌아 중심부까지 타들어가며 마비를 시킵니다.
 
-STATISTICS:
+사양:
 
-Damage:  1D6
-Damage type:  missile (piercing)
-Special:  1D6 cold damage (no save)
-Weight: 0
-Launcher:  Bow
-Not usable by:
- Cleric
- Druid
- Mage~
+피해: 1D6
+특수: 1D6 냉기 피해 (내성 굴림 안됨)
+무게: 0
+발사 도구: 활
+사용 금지 클래스:
+ 성직자
+ 드루이드
+ 마법사~
 
 //@17534
-@2305 = ~These arrows were enhanced through magical means when they were created.  They appear slightly straighter then the average arrow, almost alive as they effortlessly leave your bow and streak towards their target with deadly accuracy.
+@2305 = ~이 화살은 제조 후 마법으로 강화한 것들입니다. 이 화살은 보통 화살보다 조금 더 직진성이 좋으며 마치 살아있는 듯이 힘들이지 않고 활을 떠나 매우 높은 정확성으로 목표물을 향해 날아갑니다.
 
-STATISTICS:
+사양:
 
-Damage:  1D6 + 2
-THACO:  +2
-Damage type:  missile (piercing)
-Weight: 0
-Launcher:  Bow
-Not usable by:
- Cleric
- Druid
- Mage~
+피해: 1D6 + 2
+THACO: +2
+피해 유형: 장거리 (찌르기)
+무게: 0
+발사 도구: 활
+사용 금지 클래스:
+ 성직자
+ 드루이드
+ 마법사~
 
 //@19353
-@2306 = ~Quarrels or bolts are the ammunition fired by crossbows regardless of the weapon's size.  However this bolt has been imbued with a small amount of magical properties which enhances performance in flight, almost as if the bolt was guided towards its target.
+@2306 = ~쿼렐이나 볼트는 무기의 크기와는 상관없이 석궁에 의해서 발사되는 화살입니다. 어쨌든 이 볼트에는 약간의 마법적인 속성이 부여되어 있어 마치 목표물에 안내되는 것처럼 비행성이 향상되어 있습니다.
 
-STATISTICS:
 
-Damage:  1D8 +1
-THACO:  +1
-Damage type:  missile (piercing)
-Weight:  0
-Launcher:  Crossbow~
+
+사양:
+
+피해: 1D8 +1
+THACO: +1
+피해 유형: 장거리 (찌르기)
+무게: 0
+발사 도구: 석궁~
 
 //@19358
-@2307 = ~Quarrels or bolts are the ammunition fired by crossbows regardless of the weapon's size.  However this bolt has been imbued with magical properties which enhances performance in flight, almost as if the bolt was guided towards its target.
+@2307 = ~쿼렐이나 볼트는 무기의 크기와는 상관없이 석궁에 의해서 발사되는 화살입니다. 어쨌든 이 볼트에는 약간의 마법적인 속성이 부여되어 있어 마치 목표물에 안내되는 것처럼 비행성이 향상되어 있습니다.
 
-STATISTICS:
 
-Damage:  1D8 +2
-THACO:  +2
-Damage type:  missile (piercing)
-Weight:  0
-Launcher:  Crossbow~
+
+사양:
+
+피해: 1D8 +2
+THACO: +2
+피해 유형: 장거리 (찌르기)
+무게: 0
+발사 도구: 석궁~
 
 //@7376
-@2308 = ~Boots of stealth:  'Worn Whispers'
-In ages past, a king named Rhigaerd was renowned for the spies he kept.  So skillfull were they, that no nook or cranny escaped their eyes and maps were held for entire castles and towns.  Eventually betrayed from within, the tools of their trade were taken and dispersed, ensuring that none could amass such a band again.  
+@2308 = ~은신의 장화: '낡은 속삭임'
+여러 시대 전에 살았던 리개드라는 왕은 그가 거느리고 있던 첩자들로 유명했다. 이들의 솜씨가 얼마나 좋았는지 어떠한 작은 틈새나 구석도 그들의 눈을 피할 수는 없었고, 성과 마을들에 대한 자세한 전체도도 작성되었다. 궁극적으로는 내부의 배신에 의해 그들이 임무에 사용했던 도구들은 탈취되어 다시는 그러한 집단이 조직되지 못하도록 여러 곳으로 흩어지게 되었다.
 
-STATISTICS:
+사양:
 
-Stealth bonus:  +35%
-Weight:  4
-Not usable by:
- Fighter
- Mage
- Cleric 
- Druid~
+은신 보너스: +35%
+무게: 4
+사용 가능 클래스:
+ 도둑
+ 레인저~
 
 //@6858 - Bow Weapons -> Long Bow
-@2309 = ~Composite bows are long bows or short bows whose staves are made from more than one type of material.  This gives greater flexibility, and thus better range.  These were developed after the normal long bow.  
+@2309 = ~합성궁은 그 대가 한 가지 이상의 물질로 만들어진 장궁, 혹은 단궁이다. 이 덕분에 신축성이 더 좋아지고, 더 멀리 나간다. 이것은 일반적인 장궁이 만들어진 후에 발명되었다.
 
-STATISTICS:
+사양:
 
-Damage:  +2
-To Hit Bonus:  +1
-Weight: 10
-Speed Factor: 7
-Proficiency Type: Long Bow
-Type:  2-handed
-Not Usable By:
- Druid
- Cleric
- Mage 
- Thief
- Bard~
+피해: +2
+THAC0: +1
+무게: 10
+공격 속도: 7
+숙련도 종류: 롱 보우
+분류: 양손
+사용 금지 클래스:
+ 드루이드
+ 성직자
+ 마법사
+ 도둑
+ 음유시인~
 
 //@16288 - Bow Weapons -> Long Bow
-@2310 = ~Composite bows are long bows or short bows whose staves are made from more than one type of material.  This gives greater flexibility, and thus better range.  These were developed after the normal long bow.  
+@2310 = ~합성궁은 그 대가 한 가지 이상의 물질로 만들어진 장궁, 혹은 단궁이다. 이 덕분에 신축성이 더 좋아지고, 더 멀리 나간다. 이것은 일반적인 장궁이 만들어진 후에 발명되었다.
 
-STATISTICS:
+사양:
 
-THACO:  +2
-Damage:  +3
-Weight: 9
-Speed Factor: 6
-Proficiency Type: Long Bow
-Type:  2-handed
-Not Usable By:
- Druid
- Cleric
- Mage 
- Thief
- Bard~
+THACO: +2 
+피해: +3
+무게: 9
+공격 속도: 6
+숙련도 종류: 롱 보우
+분류: 양손
+사용 금지 클래스:
+ 드루이드
+ 성직자
+ 마법사
+ 도둑
+ 음유시인~
 
 //@17643 - Bow Weapons -> Long Bow
-@2311 = ~The long bow is similar to the short bow, except that the staff is about as high as the archer is, usually 6 to 6.5 feet.  Even though the longbow is slightly slower then the short bow, it has more range and is more accurate.  This one has been enhanced with magical properties, giving it an air of perfection.
+@2311 = ~장궁은 단궁과 유사하나 그 자루 길이가 보통 6에서 6.5피트로 궁수의 키 만합니다. 장궁이 단궁보다 다소 느리긴 하지만 사정 거리도 길고 더 정확합니다. 이것은 마법적인 속성이 더해져서 완벽한 외양을 가지고 있습니다.
 
-STATISTICS:
+사양:
 
 THACO: +2
-Damage:  +1
-Weight: 3
-Speed Factor: 6
-Proficiency Type: Long Bow
-Type:  2-handed
-Not Usable By:
- Druid
- Cleric
- Mage
- Thief~
+피해: +1
+무게: 3
+공격 속도: 6
+숙련도 종류: 롱 보우
+분류: 양손
+사용 금지 클래스:
+ 드루이드
+ 성직자
+ 마법사
+ 도둑~
 
 //@16272 - add Required: 8 Strength
-@2312 = ~Chain mail is made of interlocking metal rings.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.  
+@2312 = ~사슬 갑옷은 연결된 금속 고리로 만들어져 있다. 이것은 항상 덧댄 천이나 부드러운 가죽 위에 입는데, 그것은 타격의 충격에 피부가 까지는 것을 막기 위해서이다.
 
-STATISTICS:
+사양:
 
-Armor Class: 4
-Weight: 20
-Required: 8 Strength
-Not Usable By:
- Druid 
- Mage 
- Thief~
+방어도: 4
+무게: 20
+요구치: 힘 8 
+사용 금지 클래스:
+ 드루이드
+ 마법사
+ 도둑~
 
 //@6676 - add Required: 7 Strength
-@2313 = ~Chain mail +2:  'Mail of the Dead'
-A mage can make an extremely effective assassin, as Vorusta illustrated over 400 years ago.  He would create skeleton warriors equipped with this enchanted armor and a powerful blade, and give their circlet of power to the target as a friendly gift.  When the killing machine was through with its work, Vorusta retrieved the equipment and started the entire process over.  
+@2313 = ~사슬 갑옷 +2: '죽은 자의 갑옷'
+마법사는 엄청나게 효율적인 자객을 만들 수 있다. 보러스타가 400년 전에 보여주었던 대로. 그는 이 마법 갑옷과, 강력한 검을 지닌 스켈레톤 병사를 만들어서 그것을 목표물에게 다정한 선물처럼 주었다. 이 살인 기계가 일을 마치면 보러스타는 장비를 회수해서 작업을 다시 시작했다.
 
-STATISTICS:
+사양:
 
-Armor Class: 3
-Weight: 10
-Required: 7 Strength
-Not Usable By:
- Druid 
- Mage 
- Thief~
+방어도: 3
+무게: 10
+요구치: 힘 7
+사용 금지 클래스:
+ 드루이드
+ 마법사
+ 도둑~
 
 //@16273 - add Required: 8 Strength
-@2314 = ~Splint Mail is a variant of banded mail in which the metal strips are applied vertically to the backing of chain, leather, or cloth rather than horizontally as in banded mail.  Since the human body does not swivel in mid-torso as much as it flexes back to front, splint mail is more restrictive in battle. 
+@2314 = ~미늘 갑옷은 띠 갑옷의 일종으로 띠 갑옷은 금속 조각이 사슬이나 가죽 천 등에 수평으로 대어진 것에 반해 금속 조각을 수직으로 덧댄 갑옷이다. 인체는 가슴 중간에는 관절이 없으므로 미늘 갑옷은 전투 중에 좀 더 튼튼하다.
 
-STATISTICS:
+사양:
 
-Armor Class: 3
-Weight: 20
-Required: 8 Strength
-Not Usable By:
- Bard
- Druid
- Mage
- Thief~
+방어도: 3
+무게: 20
+요구치: 힘 8
+사용 금지 클래스:
+ 음유시인
+ 드루이드
+ 마법사
+ 도둑~
 
 //@11059 - add Required: 5 Strength
-@2315 = ~Mithril Chain mail +4.  This is the personal armor of Drizzt, the famous dark elf ranger.  It was forged for him by his friend Bruenor.
+@2315 = ~미스릴 사슬 갑옷 +4는 유명한 다크엘프 레인저인 드리즈트의 개인 갑옷이다. 그의 친구 브루에노가 그를 위해 두들겨 만들었다.
 
+사양:
 
-STATISTICS:
-
-Armor Class: 1
-Weight: 7
-Required: 5 Strength
-Not Usable By:
- Druid 
- Mage 
- Thief~
+방어도: 1
+무게: 7
+요구치: 힘 5
+사용 금지 클래스:
+ 드루이드
+ 마법사
+ 도둑~
 
 //@21303 - add Required: 6 Strength
-@2316 = ~Chain Mail +3:
-This perfectly crafted chain mail is the standard armor of deep dwarf elite fighters. It is comprised of a mithral alloy and offers protection from all but the most determined attackers.
+@2316 = ~사슬 갑옷 +3:
+이 완벽한 기교로 만들어진 사슬 갑옷은 디프 드워프 정예병들의 기본장비이다. 이 갑옷은 미스릴 합금으로 만들어졌으며, 가장 단호한 공격자들의 공격 이외의 것들로부터 착용자를 보호한다. 
 
-STATISTICS:
+사양:
 
-Armor Class: 2
-Weight: 9
-Required: 6 Strength
-Not Usable By:
- Druid 
- Mage 
- Thief~
+방어도: 2
+무게: 9
+요구치: 힘 6
+사용 금지 클래스: 
+ 드루이드
+ 마법사
+ 도둑~
 
 //@17243
-@2317 = ~The fabled Nymph Cloak is renowned for its ability to increase the Charisma of even the most surly dwarf. A Cormyrean noble hoping to make her politically convenient marriage more palatable apparently went to great expense to obtain one for herself and another for her husband. 
+@2317 = ~전설적인 님프의 망토는 심지어 가장 무뚝뚝한 드워프일지라도 그 카리스마를 증가시켜주는 능력으로 유명합니다. 한 코르미르 여인은 자신의 정략 결혼을 좀 더 그럴듯하게 보이기 위하여 자신이 쓸 망토와 남편에게 줄 또 다른 망토를 구입하느라 엄청난 지출을 했다고 합니다.
 
-STATISTICS:
+사양:
 
-Charisma:  +2 bonus
-Weight:  3
-Not usable by:~
+카리스마: +2 보너스
+무게:3
+사용 금지 클래스:~
 
 //@21408
-@2318 = ~Kiel's Helmet:
-This is the helmet worn by Kiel the Legion-Killer, first-born son of Durlag Trollkiller and Clan-prince of his father's ill-fated tower. It is said that anyone who wears it is granted immunity to all forms of fear and panic, be their origins natural or magical.
+@2318 = ~키엘의 투구:
 
-STATISTICS:
+이 투구는 둘락 트롤킬러의 맏아들이자 그의 아버지의 저주받은 탑의 주인인 대량-살인자 키엘이 사용하던 것이다. 이 투구를 착용하고 있는 사람은 마법적, 비마법적인 모든 공포와 공황에 대한 면역이 생긴다고 전해진다.
 
-Armor Class Bonus:  None
-Special:  Protects Against Critical Hits
-Special:  Protects Against all forms of panic and boosts morale
-Weight: 2
-Not Usable By:
-Mage
-Bard
-Thief~
+사양:
+
+방어도 보너스: 없음
+특수: 치명적인 공격으로부터 보호
+특수: 모든 종류의 공황과 사기 수정으로부터 보호
+무게: 2
+사용 금지 클래스:
+ 마법사
+ 음유시인
+ 도둑~
 
 //@16269 - add Required: 4 Strength
-@2319 = ~Leather armor, despite the popular misconception, is not soft and supple like the leather used to make a ranger's boots or a druid's robe.  That kind of leather offers no better protection than common clothing.  
+@2319 = ~사람들이 쉽게 잘못 알고 있는 것 과는 다르게, 가죽 갑옷은 레인저의 장화나 드루이드의 로브를 만드는 가죽 처럼 부드럽고 물렁물렁한 가죽으로 만드는 것이 아니다. 그런 가죽은 보통 옷 이상의 방어도를 줄 수 없다.
 
-STATISTICS:
+사양:
 
-Armor Class: 7
-Weight: 10
-Required: 4 Strength
-Not usable by:
- Mage~
+방어도: 7
+무게: 10
+요구치: 힘 4
+사용 금지 클래스:
+마법사~
 
 //@6682 - add Required: 11 Strength
-@2320 = ~Plate mail +1 : 'Fallorain's Plate'
-Captain Fallorain, leader of Calimshan's 12th cavalry brigade, wore this enchanted armor for the last time during the Battle of the Spider Swamp.  There he lost his life and army trying to rid an unrecorded evil from the area.  
+@2320 = ~금속 갑옷 +1 : '팔로레인의 갑옷'
+칼림샨의 제12 기병대의 대장인 팔로레인은 이 가벼운 마법의 갑옷을 거미 늪의 전투에서 마지막으로 입었다. 그 전투에서 그는 기록에 남아있지 않은 악의 세력을 그 지역에서 몰아내려다 그의 목숨과 부대를 잃었다.
 
-STATISTICS:
+사양:
 
-Armor Class: 2
-Weight: 20
-Required: 11 Strength
-Not Usable By:
- Bard 
- Druid
- Mage
- Thief~
+방어도: 2
+무게: 20
+요구치: 힘 11
+사용 금지 클래스:
+ 음유시인 
+ 드루이드
+ 마법사
+ 도둑~
 
 //@6685 - add Required: 14 Strength
-@2321 = ~Full plate armor +1 :  'Plate of the Dark'
+@2321 = ~전신 판금 갑옷 +1 : '어둠의 플레이트'
+베인의 언데드 전투 사령관이었던 어둠의 군주 허시어스가 이 갑옷을 500년 이상 입어왔다. 
+이 시기에 그는 어스패스트 산맥의 어딘가에 있는 성에서 살고 있었다고 한다. 어떻게 그의 갑옷이 그를 남겨두고 다른 나라로 옮겨졌는지는 확실하지 않지만, 둘이 서로 떨어진 것은 그다지 기분 좋은 일이 아니었을 것이다.
 
-Dark Lord Hertious, undead Warlord of Bane, wore this piece of armor for over 500 years.  During this time he was rumored to dwell in a castle somewhere within the Earthfast Mountains.  How his armor moved to other lands without him is not certain, though the separation of the two was surely unpleasant.  
+사양:
 
-STATISTICS:
-
-Armor Class: 0
-Weight: 35
-Required: 14 Strength
-Not Usable By:
- Bard
- Druid
- Mage
- Thief~
+방어도: 0
+무게: 35
+요구치: 힘 14
+사용 금지 클래스:
+ 음유시인
+ 드루이드
+ 마법사
+ 도둑~
 
 //@17489 - add Required: 8 Strength
-@2322 = ~This plate mail has been expertly crafted for you by Taerom Fuiruim of Beregost. Sheathed in the chitinous scales of the ankheg, it provides a greater degree of protection than traditional plate mail and is not succeptible to rust. As any world-weary adventurer will tell you, however, the best appreciated aspect of ankheg mail is its light weight and low encumbrance. Monsters come and go but fatigue is a constant enemy.
+@2322 = ~이 판금 갑옷은 베레고스트의 태롬 푸이루임이 당신을 위해 교묘하게 만든 특별한 것입니다. 이 갑옷은 앙크헤그의 딱딱한 비늘로 감싸여 있어, 전통적인 판금 갑옷보다 더 뛰어난 보호 능력을 가지고 있으며 녹이 슬지 않습니다. 어쨌거나, 세상에 지친 모험가들이 말하듯이 앙크헤그 갑옷의 진가는 일반적인 판금 갑옷의 절반에 불과한 가벼운 무게와 낮은 하중에 있습니다. 괴물들은 나타났다 사라지기 마련이지만 피로는 그렇지 않기 때문입니다.
 
-STATISTICS:
+사양:
 
-Armor Class: 1
-Weight: 25
-Required: 8 Strength
-Not Usable By:
- Bard
- Druid
- Mage 
- Thief~
+방어도: 1
+무게: 25
+요구치: 힘 8
+사용금지:
+ 음유시인
+ 드루이드
+ 마법사
+ 도둑~
 
 //@17659 - add Required: 14 Strength
-@2323 = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user.  It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times.  Naturally, this precludes use of the shield hand for anything but holding the body shield in place. 
+@2323 = ~카이트 쉴드, 타워 쉴드로도 알려져 있는 바디 쉴드는 둔중한 금속이나 나무로 만들어진 사용자의 발가락부터 볼까지 가릴 수 있는 방패이다. 이것은 팔뚝에 단단하게 고정되어야 하며, 방패를 든 손은 항상 단단하게 쥐고 있어야 한다. 당연하게도, 방패를 든 손은 바디 쉴드를 들고 있는 것 말고는 아무 일도 할 수 없다.
 
-STATISTICS:
+사양:
 
-Armor Class Bonus: 2
-Special:  +1 vs. Missile Weapons
-Weight: 12
-Required: 14 Strength
-Not Usable By:
- Bard
- Druid
- Mage
- Thief~
+방어도 보너스: 2
+특수: 발사 무기에 대해 +1
+무게: 12
+요구치: 힘 14
+사용 금지 클래스:
+ 음유시인
+ 드루이드
+ 마법사
+ 도둑~
 
 //@7358 - Required: 13 Strength
-@2324 = ~Large shield +1, +4 vs. missiles:  'Shield of the Falling Stars'
+@2324 = ~대형 방패 +1, +4 vs. 발사 무기: '유성의 방패'
+이 방패는 한 젊은 견습기사가 자신의 말의 안위를 위하여 헤아릴 수 없는 고통을 견딜 각오를 하는 것을 본 일마터 신에 의하여 직접 만들어졌다. 인간의 기병대와 홉고블린의 부대 사이의 치열한 전투에서 젊은 기사는 증원을 요청하기 위하여 보내지게 되었다. 그는 해를 가릴 듯한 위세로 빗발처럼 쏟아지는 화살의 공세를 받게되었고, 그는 자신이 화살을 피하더라도 말이 죽으면 그 역시 끝장이라는 사실을 알고 있었다. 그는 자신의 몸과 방패로 맹공을 정면으로 막아냈고, 그 때문에 치명상을 입었다. 덕분에 그의 말은 상처를 입지 않아 그들은 탈출할 수 있었고, 그의 시체는 가까운 마을로 운송되어 그곳에서 그는 죽음으로부터 부활할 수 있었다.
 
-Ilmater himself enchanted this shield upon seeing a young squire's willingness to endure untold agony for the wellbeing of his mount.  During a fierce battle between a human cavalry division and a hobgoblin horde, the young man was sent for reinforcements.  He was beset by a cascade of arrows that nearly blocked out the sun, and he knew that even if he avoided the arrows himself, should his horse fall he would surely be doomed.  With his shield and body he positioned himself to take the brunt of the onslaught, and was mortally wounded for it.  His horse remained unscathed allowing for their escape, and his body was carried back to the nearest town, where he was resurrected from death. 
+사양:
 
-STATISTICS:
-
-Armor Class: +2 bonus, +5 vs. Missile Weapons
-Weight: 12
-Required: 13 Strength
-Not Usable By:
- Bard
- Druid
- Mage
- Thief~
+방어도: +2 보너스, +5 vs. 발사 무기
+무게: 12
+요구치: 힘 13
+사용 금지 클래스:
+ 음유시인 
+ 드루이드
+ 마법사
+ 도둑~
 
 //@23963 - Missile Weapons -> Sling, add Required: 3 Strength
-@2325 = ~Sling +3 : 'Arla's Dragonbane'
-None know better than Halflings the value of a well-placed stone when confronting a larger foe. This particular weapon was the property of a young woman named Arla Surestep, one of the few small-folk that leave the hearth to seek adventure. Legend speaks of the diminutive Arla using this sling to place a well-sharpened pebble through the skull of a green dragon in mid-flight, though the same tale in another tavern places the stone squarely in the creature's hindquarters for more humorous than lethal effect. It would seem that Halflings prefer entertainment over accuracy when it comes to their history.
+@2325 = ~슬링 +3 : '알라의 용독'
+커다란 적을 상대할 때 잘 쟁여둔 돌이 얼마나 쓸모 있는지를 하플링들보다 잘 아는 사람은 없다. 이 무기는 그 작은 사람들 중에서 화덕을 뒤로하고 모험을 찾아 떠난 몇 되지 않는 사람들 중 하나인 알라 슈어스텝이라는 젊은 여성의 것이었다. 전설에 의하면 그 작은 알라는 이 슬링을 이용해서 잘 다듬은 조약돌을 하늘을 날고 있는 그린 드래곤의 두개골에 박아 넣었다고 한다. 다른 주점에서 들려오는 같은 이야기에서는 돌이 그 생물의 엉덩이에 들어갔다고 하는데 치명적인 상처를 입히지는 못했지만 용을 웃음거리로 만들었다고 한다. 하플링들은 자신들의 역사를 서술함에 있어 정확성보다는 오락성에 더 중점을 두는 것 같다.
 
-STATISTICS:
+사양:
 
-Damage:  +3 (missile damage)
-THACO:  +3
-Weight: 0
-Speed Factor: 3
-Proficiency Type: Sling
-Type:  1-handed
-Required: 3 Strength
-Not Usable By:~
+피해: +3 (발사 무기)
+THAC0: +3
+무게: 0
+공격 속도: 3
+숙련도 종류: 슬링
+분류: 한손
+요구치: 힘 3
+사용 금지 클래스:~
 
 //@22020 - Blunt Weapons -> Quarterstaff, add Type:  2-handed, add Required: 3 Strength
-@2326 = ~Staffs of Striking are made by the Gold Elves of Drelagara on Evermeet. The staffs have a life of their own and jump to attack in their bearer's hands. The elven craftsmen rarely sell them to other races but these powerful melee weapons do surface occasionally in Faerun.  However, each attack made with the staff uses a charge, hence causing it to consume itself when no charges remain.
+@2326 = ~공격의 지팡이는 에버미트에 있는 드렐라가라의 황금 엘프가 만들었다. 이 지팡이는 스스로의 생명을 가지고 있어서 그 주인의 손에서 튀어나가 공격한다. 엘프 장인은 다른 종족에게는 거의 이것을 팔지 않지만 이 강력한 난전 무기는 페이룬에서 가끔 눈에 뜨인다. 그러나, 이 지팡이로 공격할 때마다 충전량을 사용한다. 따라서 충전량을 다 쓰게 되면 자기 자신을 소모해 버린다.
 
-STATISTICS:
+사양:
 
-Damage:  1D6 + 9
-THACO:  +3 bonus
-Damage type:  crushing
-Weight: 4
-Speed Factor: 1
-Proficiency Type: Quarterstaff
-Type:  2-handed
-Required: 3 Strength
-Not Usable By:~
+피해: 1D6 + 9
+THAC0: +3
+피해 유형: 부수기
+무게: 4
+공격 속도: 1
+숙련도 종류: 지팡이
+분류: 양손
+요구치: 힘 3
+사용 금지 클래스:~
 
 //@23977
-@2327 = ~Quarter Staff +3~
+@2327 = ~지팡이 +3~
 
 //@23978 - Blunt Weapons -> Quarterstaff, add Required: 5 Strength
-@2328 = ~Staff +3 : 'Aule's Staff'
-This finely crafted stave was among the spoils taken from the invaders of Durlag's Tower. It is very deadly in combat, and was apparently the property of a spellcaster that enjoyed standing on the frontlines. It appears to have a core of iron, yet it is comparable in weight to a normal weapon of its type. Part of the enchantment seems to come from the hide that strengthens the grip; leather no doubt made from a battle-ready creature of some sort. With the tastes and inclinations of the attackers of the Tower well documented, the hide could be almost anything...or anyone.
+@2328 = ~지팡이 +3 : '아울의 지팡이'
+이 잘 만들어진 지팡이는 둘락의 탑을 노린 침입자들로부터 나온 전리품이다. 전투에서 매우 강력한 것을 보면, 전투 중에 전열에 서는 것을 좋아하는 마법사가 사용했음에 틀림없다. 보통의 지팡이와 비슷한 무게가 나가지만 내부에는 강철 심이 들어 있는 것 같다. 걸려 있는 마법의 일부는 손잡이를 강화하는 가죽에서 나오는 듯하다; 그 가죽은 호전적인 동물의 가죽이 틀림없다. 탑을 공격한 자들의 취향과 기호는 잘 정리되어 있으며, 그들의 흉악성을 감안할 때 그 가죽은 어떤 짐승... 아니 어떤 사람의 것이었을 수도 있다. 
 
-STATISTICS:
+사양:
 
-Damage:  1D6 + 3
-THACO:  +3
-Damage type:  crushing
-Weight: 3
-Speed Factor: 1
-Proficiency Type: Quarterstaff
-Type:  2-handed
-Required: 5 Strength
-Not Usable By:~
+피해: 1D6 +3
+THAC0: +3 보너스
+피해 유형: 부수기
+무게: 3
+공격 속도: 1
+숙련도 종류: 지팡이
+분류: 양손
+요구치: 힘 5
+사용 금지 클래스:~
 
 //@7347 - Small Sword -> Short Sword, add Required: 4 Strength
-@2329 = ~Short sword +2:  'The Whistling Sword'
-Amidst the plains of the Eastern Shaar there lived a small human blacksmith, whose nearly dwarven height did not do his soul justice.  Though a skilled weaponsmith, his true gift was his ability to whistle a heartfelt song that could cause a grown man to cry like a newborn.  Only a reclusive mage shared and enjoyed time with the diminutive man, however, as others could only see his small size as a source of amusement.  Deaf to the smith's song because of their own prejudices, their ridicule slowly grew into cruel torment which eventually persuaded the light-hearted man to leave his home forever.  Before he left he forged this weapon as a gift for his one friend, who also enchanted it during the making.  Thus the blade sweetly whistles to its wielder when unsheathed.  It was not long after that the mage also deserted the small town in disgust, taking the sword with him on his journeys.
+@2329 = ~단검 +2: '휘파람부는 칼'
+샤아르지방의 동부의 평원에는 키가 작은 인간의 대장장이가 살고 있었으나 그의 드워프 만큼이나 작은 키는 그가 자신의 가능성을 발휘할 수 없게 만들었다. 그는 솜씨가 좋은 대장장이였으나 그의 진정한 재능은 어른도 울음을 터트리게 할 정도로 감동적인 노래를 휘파람으로 부르는 것이었다. 대부분의 사람들은 그의 키를 놀림거리로 밖에 생각하지 않았기 때문에 이 작은 사람은 은둔하고 있는 한 마법사하고만 시간을 보냈다. 편견에 사로잡힌 사람들은 그의 노래에 귀를 기울이려 하지 않았고, 그들의 놀림은 천천히 고문에 가까운 수준이 되어 결국 명랑한 그조차도 고향을 떠나려는 결심을 하게 만들었다. 떠나기 전에 그는 자신의 유일한 친구에 대한 선물로 이 칼을 만들었고, 만드는 과정에서 그 친구는 칼에 마력을 불어넣었다. 따라서 칼을 칼집에서 뽑으면 칼은 소유주에게 달콤한 휘파람으로 노래한다. 대장장이가 떠난 지 얼마 되지 않아 마법사 역시 역겨움 속에서 마을을 떠났으며 그때 칼도 함께 가지고 갔다.
 
-STATISTICS:
+사양:
 
-Damage:  1D6 +2
-THACO:  +2 bonus
-Damage type:  piercing
-Weight: 2
-Speed Factor: 1
-Proficiency Type: Short Sword
-Type:  1-handed
-Required: 4 Strength
-Not Usable By:
- Druid
- Cleric 
- Mage~
+피해: 1D6 +2
+THACO: +2 보너스
+피해 유형: 베기
+무게: 2
+공격 속도: 1
+숙련도 종류: 숏소드
+분류: 한손
+요구치: 힘 4
+사용 금지 클래스:
+ 드루이드
+ 성직자
+ 마법사~
 
 //@18976 - Small Sword -> Short Sword, add Required: 5 Strength
-@2330 = ~The short sword is the first type of sword to come into existence.  In the simplest of terms, a short sword can be considered a dagger with a blade so long that it can no longer be called a dagger.  The term short sword does not exist in sword classifications.  However, it has come to be used to describe a double-edged blade about two feet in length.  The sword tip is usually pointed, ideal for thrusting.  
+@2330 = ~소형검은 최초의 검의 한 종류입니다. 간단히 말해서 소형검은 더 이상 단검이라 불릴 수 없을 정도로 긴 날을 가진 단검이라 할 수 있습니다. 소형검이라는 말은 검 분류에는 존재하지 않습니다. 하지만 2피트 정도 길이의 양날검을 말할 때 쓰이곤 합니다. 검 끝은 뾰족하여 찌르기에 이상적입니다.
 
-STATISTICS:
+사양:
 
-Damage:  1D6 +1
-THACO:  +1 bonus
-Damage type:  piercing
-Speed Factor: 2
-Weight:  3
-Proficiency Type: Short Sword
-Type:  1-handed
-Required: 5 Strength
-Not Usable By:
- Druid
- Cleric 
- Mage~
+피해: 1D6
+피해 유형: 찌르기
+무게: 3
+공격 속도: 3
+숙련도 종류: 숏소드
+분류: 한손
+요구치 : 힘 5
+사용 금지 클래스:
+ 드루이드
+ 성직자
+ 마법사~
 
 //@23970 - Large Sword -> Long Sword, add Required: 5 Strength
-@2331 = ~Flame Tongue Sword : 'The Burning Earth'
-There was a time before Neverwinter was warm and before the great Anauroch was dry...or so it is said. Few relics remain to prove such an age existed, and fewer still have an identifiable purpose. "The Burning Earth" seems straightforward enough -it burns a victim with magical fire, and a cryptic rune seems to suggest that the power comes from the ground itself- but whomever constructed it remains a mystery. It looks a perfectly serviceable weapon, but something in the balance or grip is...wrong. It strains the forearm a touch, and does not fit the hand just right. It doesn't seem to hurt a warrior's performance, aside from the nagging doubt that the blade was not made for him...or any other humanoid.
+@2331 = ~불꽃의 혀 : '불타는 대지'
+네버윈터마저도 따뜻하고 광대한 아나우록이 건조하지 않았을 때보다도 더 오래 전의 시대가 존재했다...혹은 그랬다는 얘기가 전해진다. 그런 시대가 존재했다는 것을 증명할 만한 유물은 거의 남아있지 않으며, 확인 가능한 것은 더욱 적다. 하지만 "불타는 대지"의 경우는 목적이 명확한 것 같다 - 이 검은 상대방을 마법의 불로 태우며, 신비한 룬 문자에 의하면 이 힘은 대지 자체로부터 나오는 것 같다 - 그렇지만 누가 이 검을 만들었는지는 베일에 가려 있다. 이 검은 사용하기에 완벽한 무기 같지만, 균형이나 손잡이의... 무언가가 잘못되었다. 팔뚝에 약간 무리를 주며, 손에 꼭 맞지를 않는다. 이것 때문에 검사가 사용할 때 제약을 받지는 않으나, 검이 그나...다른 인간 또는 아인을 위해서 만들어진 것이 아니라는 생각이 들곤 한다.
 
-STATISTICS:
+사양:
 
-Damage:  1D8 +1
-THACO:  +1 bonus
-Special:
-   +2 vs. Regenerating Creatures
-   +3 vs. Cold-Using Creatures
-   +4 vs. Undead
-Damage type:  slashing
-Weight: 4
-Speed Factor: 3
-Proficiency Type: Long Sword
-Type:  1-handed
-Required: 5 Strength
-Not Usable By:
- Druid
- Cleric
- Mage~
+피해: 1D8 +1
+THAC0: +1 보너스
+특수:
+  재생능력이 있는 적에게 +2
+  냉기를 사용하는 적에게 +3
+  언데드에게 +4
+피해 유형: 베기
+무게: 4
+공격 속도: 3
+숙련도 종류: 롱 소드
+분류: 한손
+요구치: 힘 5
+사용 금지 클래스:
+ 드루이드
+ 성직자
+ 마법사~
 
 //@17656
-@2332 = ~The possessor of the wand can discharge a bolt of lightning.  As it passes through a creature, it does 6d6 points of damage (treating 1s rolled as 2s), with a save vs. wand for half damage.  The bolt will continue through the target and proceed  to 'rebound' until expended.
+@2332 = ~이 요술봉을 소유한 자는 번개를 쏘아낼 수 있습니다. 번개에 맞은 생명체는 6d6의 손상 (주사위 굴림에서 모든 1은 2로 계산) 을 입게 되며, 대 요술봉 내성 굴림을 쓰면 손상을 반으로 줄일 수 있습니다. 번개는 목표물을 통과하여 계속 진행해 나갈 것이며 벽에 닿으면 소멸될 때까지 반사됩니다.
 
-STATISTICS:
+사양:
 
-Effect:  Lightning bolt
-Damage:  6D6 (save vs. wands for half)
-Range:  100ft
-Area:  Path of bolt
-Not usable by:
-Fighter
-Cleric
-Druid
-Thief~
+효과: 전광
+피해: 6D6 (내성 굴림시 절반)
+사정거리: 100피트
+영역: 번개의 궤적
+사용 금지 클래스:
+전사
+성직자
+드루이드
+도둑~
 
 //@17658
-@2333 = ~This wand emits a thin, green beam that darts forth to a maximum distance of 60'.  Any creature touched by this beam must make a save vs. wands or be polymorphed into a squirrel.
+@2333 = ~이 요술봉은 최대 60 피트에 이르는 가는 녹색 광선을 쏠 것입니다. 이 광선에 맞은 자는 대 요술봉 세이브를 쓰지 않으면 다람쥐로 변하게 될 것입니다.
 
-STATISTICS:
+사양:
 
-Effects:  Polymorph target into squirrel unless save vs. wands
-Range:  100 ft
-Area:  1 creature
-Duration:  permanent until dispelled
-Not usable by:
-Fighter
-Cleric
-Druid
-Thief~
+효과: 내성 굴림 없으면 다람쥐로 변신
+사정거리: 100 피트
+영역: 1 생물
+지속시간: 마법 해제까지 계속
+사용 금지 클래스:
+전사
+성직자
+드루이드
+도둑~

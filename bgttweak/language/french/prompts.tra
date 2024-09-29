@@ -12,14 +12,15 @@ Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
 @-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
 Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
 
-@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
-@-1005= "a"
+//modified
+@-1004= "S'IL VOUS PLAIT, postez le fichier "
+@-1005= "sur"
 
 @-1006= "Installer le composant ["
 @-1007= "] ?
-[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+[R]einstaller, co[N]server ou s[U]pprimer ou [Q]uitter ? "
 @-1008= "] ?
-[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+[I]nstaller, ou [N]e pas installer ou [Q]uitter ? "
 
 @-1009= "Entrez une partie du nom du module : "
 
@@ -40,6 +41,31 @@ Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
 @-1022= "] (composant #"
 @-1023= ")"
 @-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
 
 ////////
 //Errors
@@ -63,7 +89,7 @@ Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
 @100 = ~Eldoth rappelle d'aller recuperer la rancon de Skie~
 @200 = ~Angelo remarque la presence de Shar-Teel~
 @300 = ~Quete de la caravane de Kagain terminable~
-@400 = ~Ajout de la cape de Semaj et anneau de proection de Korevas ameliore~
+@400 = ~Ajout de la cape de Semaj et anneau de protection de Korevas ameliore~
 @500 = ~Exploration automatique des villes~
 @600 = ~Reaction amicale des ours envers druides/rodeurs dans BG1~
 @700 = ~Patch du bonheur~
@@ -78,7 +104,7 @@ Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
 @1100 = ~Modifier la creation d'ennemis aleatoires~
 @1101 = ~Creer des ennemis aleatoires en fonction du niveau (style Tutu)~
 @1102 = ~Desactiver la creation d'ennemis aleatoires BGT-WeiDU : les ennemis n'apparaissent jamais~
-@1103 = ~Creer les ennemis aleatoires style EasyTutu~
+//@1103 = ~Creer les ennemis aleatoires style EasyTutu~
 @1104 = ~Desactiver la creation d'ennemis aleatoires BGT-WeiDU : les ennemis n'apparaissent qu'une fois~
 @1200 = ~Arkion reagit en fonction de la reputation du PJ~
 @1300 = ~Coran reagit a la mort d'une wyverne~
@@ -86,7 +112,7 @@ Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
 @1500 = ~Modifier les effets de la penurie de fer~
 @1501 = ~Desactiver la destruction des objets~
 @1502 = ~Les armures et boucliers peuvent se briser~
-@1600 = ~Capuches pour les mages et voleurs sans armure~
+@1600 = ~Capuches pour les mages sans armure~
 @1700 = ~Corrections P&P de Salk~
 @1800 = ~Importer plus de PNJs dans Shadows of Amn : Alora~
 @1801 = ~Importer plus de PNJs dans Shadows of Amn : Branwen~
@@ -119,3 +145,4 @@ Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
 @2500 = ~Acces a Barbe d'Ulgoth uniquement par l'ouest du Travers du Ver~
 @2600 = ~Empecher l'acces a la Tour de Durlag par les zones adjacentes~
 @2700 = ~Mettre l'Epee du chaos +2 dans l'inventaire de Sarevok~
+@2800 = ~Reinitialisation de la reputation dans BG2~

@@ -2,37 +2,70 @@
 //WeiDU Installation Prompts
 ////////////////////////////////////////////////////////////////////
 
-@-1000 = ~Dieser Mod hat~ 
-@-1001 = ~einzelne optionale Komponenten.
-Um Zeit zu sparen, koennt Ihr waehlen, was Ihr mit denen machen wollt,
-anstatt ueber jede einzelne gefragt zu werden.~
-@-1002 = ~Was soll mit den Komponenten geschehen, die NOCH NICHT installiert sind?
-Installiere sie [I], ueberspringe sie [S], frage jede einzelne ab [A]? ~ 
-@-1003 = ~Was soll mit den Komponenten geschehen, die BEREITS installiert sind?
-Reinstalliere sie [R], deinstalliere sie [U], ueberspringe sie [S], frage jede einzelne ab [A]? ~
-@-1004 = ~BITTE schickt diese Datei per E-Mail~ 
-@-1005 = ~an~
+@-1000= "Der %TP2_FILE_NAME% Mod hat"
+@-1001= "einzelne, auswaehlbare Komponenten.
+Um Zeit zu sparen, koennt Ihr eine Wahl fuer alle Komponenten treffen,
+statt zu jeder Komponente einzeln gefragt zu werden.
+"
+@-1002= "Was soll mit allen Komponenten geschehen, die NOCH NICHT installiert sind?
+[I]: Installieren, [S]: Ueberspringen, [A]: Einzeln abfragen. "
+@-1003= "Was soll mit allen Komponenten geschehen, die BEREITS installiert sind?
+[R]: Neu installieren, [U]: Deinstallieren, [S]: Ueberspringen, [A]: Einzeln abfragen. "
 
-@-1006 = ~Installiere Komponente [~
-@-1007 = ~]
-Reinstallieren [R), nicht aendern [N], deinstallieren [U] oder beenden [Q]? ~ 
-@-1008 = ~]
-Ja [Y], Nein [N] oder Beenden [Q]? ~
-@-1009 = ~Gebt den Teil eines Modulnamens ein: ~ 
-@-1011 = ~] Komponente ~
-@-1013 = ~Entferne zuerst alte Installation von [~
-@-1014 = ~] ...~ 
-@-1015 = ~ERFOLGREICH ALTE ENTFERNT~
+//modified
+@-1004= "BITTE postet die Datei "
+@-1005= "bei"
 
-@-1016 = ~Installiere~ 
-@-1017 = ~ERROR beim Installieren [~
-@-1018 = ~], stelle den Ursprung wieder her~
-@-1019 = ~ERFOLGREICH INSTALLIERT~
-@-1020 = ~Ueberspringe~ 
-@-1021 = ~Entferne [~
-@-1022 = ~] (Komponente #~ 
-@-1023 = ~)~ 
-@-1024 = ~ERFOLGREICH ENTFERNT [~
+@-1006= "Komponente ["
+@-1007= "] installieren?
+[R]: Neu installieren, [N]: Nichts aendern, [U]: Deinstallieren, [Q]: Beenden. "
+@-1008= "] installieren?
+[I]: Installieren, [N]: Nicht installieren, [Q]: Beenden. "
+
+@-1009= "Gebt den Teil eines Modulnamens ein: "
+
+@-1010= "Neuinstallation von ["
+@-1011= "], Komponente "
+@-1012= "Neuinstallation mit folgender Sprache:"
+
+@-1013= "Zuerst wird die alte Installation von ["
+@-1014= "] entfernt ..."
+@-1015= "ALTE INSTALLATION ERFOLGREICH ENTFERNT:"
+
+@-1016= "Installiere"
+@-1017= "FEHLER beim Installieren von ["
+@-1018= "], Ausgangszustand wird wiederhergestellt"
+@-1019= "ERFOLGREICH INSTALLIERT:     "
+@-1020= "Ueberspringe"
+@-1021= "Entferne ["
+@-1022= "] (Komponente #"
+@-1023= ")"
+@-1024= "ERFOLGREICH ENTFERNT: ["
+
+@-1025= "] installieren?
+[R]: Neu installieren, [N]: Nichts aendern, [U]: Deinstallieren, [Q]: Beenden. Oder waehlt eins aus:"
+@-1026= "] installieren?
+[N]: Nein, [Q]: Beenden. Oder waehlt eins aus:"
+@-1027= " (momentan installiert)"
+
+@-1028= "Wollt Ihr Euch die Komponenten von ["
+@-1029= "] anzeigen lassen?
+[Y]: Ja, [N]: Nein. "
+
+@-1030= "]?
+Bitte waehlt eins aus:"
+@-1031= "]?
+[R]: Neu installieren, [N]: Nichts aendern, [Q]: Beenden. Oder waehlt eins aus:"
+@-1032= "NICHT INSTALLIERT AUFGRUND VON FEHLERN:"
+@-1033= "MIT WARNUNGEN INSTALLIERT:    "
+@-1034= "Wollt Ihr Euch die Readme anzeigen lassen? [Y]: Ja, [N]: Nein."
+@-1035= "Benutze folgende Sprache:"
+  
+@-1036= "Die GRUPPE ["
+@-1037= "] wird uebersprungen, da ihre Voraussetzungen nicht erfuellt sind."
+  
+@-1038= "[A]: Jede Komponente einzeln abfragen, [S]: Alle ueberspringen. Oder waehlt eine vorgefertigte Auswahl:"
+@-1039= "[A]: Jede Komponente einzeln abfragen, [R]: Die aktuelle Konfiguration neu installieren, [U]: Alle deinstallieren, [S]: Alle ueberspringen. Oder waehlt eine vorgefertigte Auswahl:"
 
 ////////
 //Errors
@@ -71,7 +104,7 @@ Ja [Y], Nein [N] oder Beenden [Q]? ~
 @1100  = ~Geaenderte Hervorrufungen~
 @1101  = ~TuTu-artige stufenbasierende Hervorrufungen~
 @1102  = ~Deaktiviere BGT-WeiDU Hervorrufungen: Keinerlei Hervorrufungen~
-@1103  = ~EasyTutu-artige Hervorrufungen~
+//@1103  = ~EasyTutu-artige Hervorrufungen~
 @1104  = ~Deaktiviere BGT-WeiDU Hervorrufungen: Einmalige Hervorrufungen~
 @1200  = ~Arkion reagiert auf den Ruf des Spielers~
 @1300  = ~Coran reagiert auf den Tod eines Lindwurms~
@@ -79,7 +112,7 @@ Ja [Y], Nein [N] oder Beenden [Q]? ~
 @1500  = ~Geaendertes Zerbrechen von Gegenstaenden~
 @1501  = ~Entferne das Zerbrechen von Gegenstaenden~
 @1502  = ~Ruestungen und Schilde sollen zerbrechen~
-@1600  = ~Ungeruestete Magier und Diebe sind mt einer Kapuze bekleidet~
+@1600  = ~Kapuzen fuer Magier ohne Ruestung~
 @1700  = ~Salks Pen-and-Paper Regelkorrekturen~
 @1800  = ~Importiere mehr NSCs nach Schatten von Amn: Alora~
 @1801  = ~Importiere mehr NSCs nach Schatten von Amn: Branwen~
@@ -112,3 +145,4 @@ Ja [Y], Nein [N] oder Beenden [Q]? ~
 @2500  = ~Zugang nach Ulgoths Bart nur westlich der Bruecke von Baldurs Tor~
 @2600  = ~Verhindere den Zugang zu Durlags Turm ueber benachberte Gebiete~
 @2700  = ~Lege das "Schwert des Chaos +2" in Sarevoks Inventar~
+@2800  = ~Ruf zu Beginn von BG2 zuruecksetzen~

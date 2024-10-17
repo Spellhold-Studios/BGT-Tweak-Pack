@@ -21,7 +21,7 @@ IETF language tags: https://spellhold-studios.github.io/readmes/template-basic/i
 Why some badges update slowly: https://github.com/pujux/badge-it/issues/78
 -->
 
-# Baldur's Gate Trilogy Tweak Pack
+# BGT Tweak Pack
 
 *A Spellhold Studios mod for Baldur's Gate Trilogy*
 

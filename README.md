@@ -36,7 +36,7 @@ Why some badges update slowly: https://github.com/pujux/badge-it/issues/78
 
 ## Introduction
 
-This modification is the offspring of several patches existing in the early versions of Baldur’s Gate Trilogy-WeiDU. It was decided that tweaks should be separated from fixes in order to keep BGT-WeiDU more faithful to the original Baldur’s Gate and Tales of the Sword Coast. Therefore, this package was created to address the issues in the original Baldur’s Gate and Tales of the Sword Coast that were thought to be lacking.
+This modification is the offspring of several patches existing in the early versions of Baldur’s Gate Trilogy-WeiDU. It was decided that tweaks should be separated from fixes in order to keep BGT-WeiDU more faithful to the original Baldur’s Gate and Tales of the Sword Coast. Therefore, this package was created to address the issues in the original BG1 and TotSC that were thought to be lacking.
 
 *Please check the complete [Readme](https://spellhold-studios.github.io/readmes/bgt-tweak-pack/readme.htm) to learn more about this mod before installation.*
 

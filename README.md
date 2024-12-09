@@ -75,17 +75,17 @@ This modification is the offspring of several patches existing in the early vers
 
 - Ascension64
 
-**Translations**  
-
-- French &nbsp;&ndash;&nbsp; Anomaly, Isaya
-- German &nbsp;&ndash;&nbsp; Jarl2, RubberDuck, weigo
-- Italian &nbsp;&ndash;&nbsp; al17, Gemini82, melkor_morgoth75, Salk
-- Korean &nbsp;&ndash;&nbsp; Inesius, longbiatch, Shi woo, web2air, Whiteraven
-- Polish &nbsp;&ndash;&nbsp; Folmi, Promilus, yarpen
-- Russian &nbsp;&ndash;&nbsp; iopden, King Diamond, prowler
-- Spanish &nbsp;&ndash;&nbsp; Ghildrean, Immortality, Lisandro, Memnoch, Saemon
-- Simplified/Traditional Chinese &nbsp;&ndash;&nbsp; barkingdog, distance20, fc666, good0593, hindo's doom, Kinkairy, moon_cloud, roclord, 猫猫伸懒腰
-
 **Maintainer**  
 
 - skellytz
+
+**Translators**  
+
+- **Chinese (Simplified/Traditional)**:&nbsp; barkingdog, distance20, fc666, good0593, hindo's doom, Kinkairy, moon_cloud, roclord, 猫猫伸懒腰
+- **French**:&nbsp; Anomaly, Isaya
+- **German**:&nbsp; Jarl2, RubberDuck, weigo
+- **Italian**:&nbsp; al17, Gemini82, melkor_morgoth75, Salk
+- **Korean**:&nbsp; Inesius, longbiatch, Shi woo, web2air, Whiteraven
+- **Polish**:&nbsp; Folmi, Promilus, yarpen
+- **Russian**:&nbsp; iopden, King Diamond, prowler
+- **Spanish**:&nbsp; Ghildrean, Immortality, Lisandro, Memnoch, Saemon

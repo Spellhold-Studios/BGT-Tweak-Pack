@@ -1,5 +1,5 @@
 [![Release](https://img.shields.io/github/v/release/Spellhold-Studios/BGT-Tweak-Pack?include_prereleases&color=%2392403a)](https://github.com/Spellhold-Studios/BGT-Tweak-Pack/releases/latest)
-[![Published](https://img.shields.io/github/release-date/Spellhold-Studios/BGT-Tweak-Pack?display_date=published_at&label=published&color=%2392403a)](https://github.com/Spellhold-Studios/BGT-Tweak-Pack/releases/latest)
+[![Published](https://img.shields.io/github/release-date-pre/Spellhold-Studios/BGT-Tweak-Pack?display_date=published_at&label=published&color=%2392403a)](https://github.com/Spellhold-Studios/BGT-Tweak-Pack/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Spellhold-Studios/BGT-Tweak-Pack/total?color=%2392403a)](https://github.com/Spellhold-Studios/BGT-Tweak-Pack/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%a0%20macOS%20%a0%20Linux%20%a0%20Project%20Infinity-%2392403a)](https://github.com/Spellhold-Studios/BGT-Tweak-Pack/releases)
 [![Games](https://img.shields.io/badge/games-BGT-%2392403a)](https://github.com/Spellhold-Studios/BGT-Tweak-Pack/releases)
